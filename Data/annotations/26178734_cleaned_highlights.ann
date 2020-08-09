@@ -1,0 +1,80 @@
+T1	Protein 812 819	ANAC005
+T2	Methodology 820 823	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 812 823	ANAC005‐GFP
+T4	Protein 1159 1166	ANAC005
+T5	Methodology 1167 1170	GFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 1159 1170	ANAC005‐GFP
+T7	Subcellular_Location 1209 1224	plasma membrane
+R3	Located_In Arg1:T4 Arg2:T7	
+T8	Protein 1768 1775	ANAC005
+T9	Methodology 1776 1779	GFP
+R4	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Subcellular_Location 1813 1828	plasma membrane
+T11	Tagged_Protein 1768 1779	ANAC005‐GFP
+R5	Located_In Arg1:T8 Arg2:T10	
+T12	Protein_variant 1857 1871	ANAC005(1‐272)
+T13	Methodology 1872 1875	GFP
+R6	Subcellular_methodology Arg1:T12 Arg2:T13	
+T14	Tagged_Protein 1857 1875	ANAC005(1‐272)‐GFP
+T15	Protein_variant 1922 1936	ANAC005(1‐302)
+T16	Methodology 1937 1940	GFP
+R7	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Tagged_Protein 1922 1940	ANAC005(1‐302)‐GFP
+T18	Protein_variant 1987 2001	ANAC005(1‐332)
+T19	Methodology 2002 2005	GFP
+R8	Subcellular_methodology Arg1:T18 Arg2:T19	
+T20	Tagged_Protein 1987 2005	ANAC005(1‐332)‐GFP
+T21	Protein_variant 2056 2070	ANAC005(1‐342)
+T22	Methodology 2071 2074	GFP
+R9	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Tagged_Protein 2056 2074	ANAC005(1‐342)‐GFP
+T24	Subcellular_Location 2146 2153	nucleus
+R10	Located_In Arg1:T12 Arg2:T24	
+R11	Located_In Arg1:T15 Arg2:T24	
+R12	Located_In Arg1:T18 Arg2:T24	
+R13	Located_In Arg1:T21 Arg2:T24	
+T25	Protein 2530 2537	ANAC005
+T26	Methodology 2538 2563	green fluorescent protein
+R14	Subcellular_methodology Arg1:T25 Arg2:T26	
+T27	Tagged_Protein 2530 2563	ANAC005‐green fluorescent protein
+T28	Protein 2596 2603	ANAC005
+T29	Methodology 2616 2619	GFP
+R15	Subcellular_methodology Arg1:T28 Arg2:T29	
+T30	Protein 2862 2869	ANAC005
+T31	Methodology 2870 2873	GFP
+R16	Subcellular_methodology Arg1:T30 Arg2:T31	
+T32	Tagged_Protein 2862 2873	ANAC005‐GFP
+T33	Protein_variant 2887 2901	ANAC005(1‐272)
+T34	Methodology 2902 2905	GFP
+R17	Subcellular_methodology Arg1:T33 Arg2:T34	
+T35	Tagged_Protein 2887 2905	ANAC005(1‐272)‐GFP
+T36	Protein_variant 2919 2933	ANAC005(1‐302)
+T37	Methodology 2934 2937	GFP
+R18	Subcellular_methodology Arg1:T36 Arg2:T37	
+T38	Tagged_Protein 2919 2937	ANAC005(1‐302)‐GFP
+T39	Protein 3542 3549	ANAC005
+T40	Methodology 3550 3553	GFP
+R19	Subcellular_methodology Arg1:T39 Arg2:T40	
+T41	Tagged_Protein 3542 3553	ANAC005‐GFP
+T42	Protein_variant 3559 3573	ANAC005(1‐272)
+T43	Methodology 3574 3577	GFP
+R20	Subcellular_methodology Arg1:T42 Arg2:T43	
+T44	Tagged_Protein 3559 3577	ANAC005(1‐272)‐GFP
+T45	Protein_variant 3583 3597	ANAC005(1‐302)
+T46	Methodology 3598 3601	GFP
+R21	Subcellular_methodology Arg1:T45 Arg2:T46	
+T47	Tagged_Protein 3583 3601	ANAC005(1‐302)‐GFP
+T48	Protein_variant 3607 3621	ANAC005(1‐332)
+T49	Methodology 3622 3625	GFP
+R22	Subcellular_methodology Arg1:T48 Arg2:T49	
+T50	Tagged_Protein 3607 3625	ANAC005(1‐332)‐GFP
+T51	Protein_variant 3631 3645	ANAC005(1‐342)
+T52	Methodology 3646 3649	GFP
+R23	Subcellular_methodology Arg1:T51 Arg2:T52	
+T53	Tagged_Protein 3631 3649	ANAC005(1‐342)‐GFP
+T54	Protein_variant 3659 3673	ANAC005(1‐352)
+T55	Methodology 3674 3677	GFP
+R24	Subcellular_methodology Arg1:T54 Arg2:T55	
+T56	Tagged_Protein 3659 3677	ANAC005(1‐352)‐GFP

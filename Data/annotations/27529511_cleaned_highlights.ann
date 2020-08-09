@@ -1,0 +1,44 @@
+T1	Protein 862 869	ANAC078
+T2	Methodology 858 861	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 858 869	GFP-ANAC078
+T4	Subcellular_Location 885 900	plasma membrane
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Methodology 1784 1787	RFP
+T6	Protein 1788 1794	PI4Kγ5
+R3	Subcellular_methodology Arg1:T6 Arg2:T5	
+T7	Tagged_Protein 1784 1794	RFP-PI4Kγ5
+T8	Protein 1803 1810	ANAC078
+T9	Methodology 1799 1802	GFP
+R4	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Tagged_Protein 1799 1810	GFP-ANAC078
+T11	Subcellular_Location 1870 1877	nucleus
+R5	Located_In Arg1:T8 Arg2:T11	
+T12	Protein 2964 2971	ANAC078
+T13	Methodology 2960 2963	GFP
+R6	Subcellular_methodology Arg1:T12 Arg2:T13	
+T14	Tagged_Protein 2960 2971	GFP-ANAC078
+T15	Subcellular_Location 3044 3059	plasma membrane
+T16	Subcellular_Location 3064 3071	nucleus
+R7	Located_In Arg1:T12 Arg2:T15	
+R8	Located_In Arg1:T12 Arg2:T16	
+T17	Protein 3773 3780	ANAC078
+T18	Methodology 3769 3772	GFP
+R9	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 3769 3780	GFP-ANAC078
+T20	Protein 3822 3829	ANAC078
+T21	Methodology 3933 3936	GFP
+R10	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Protein 5217 5224	ANAC078
+T23	Methodology 5213 5216	GFP
+R11	Subcellular_methodology Arg1:T22 Arg2:T23	
+T24	Tagged_Protein 5213 5224	GFP-ANAC078
+T25	Protein 5229 5235	PI4Kγ5
+T26	Methodology 5236 5239	RFP
+R12	Subcellular_methodology Arg1:T25 Arg2:T26	
+T27	Tagged_Protein 5229 5239	PI4Kγ5-RFP
+T28	Protein 5011 5018	ANAC078
+T29	Protein 5059 5065	PI4Kγ5
+T30	Methodology 5168 5171	GFP
+R13	Subcellular_methodology Arg1:T28 Arg2:T30	
+R14	Subcellular_methodology Arg1:T29 Arg2:T30	

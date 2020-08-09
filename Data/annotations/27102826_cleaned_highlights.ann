@@ -1,0 +1,28 @@
+T1	Protein 329 337	AtSWEET4
+T2	Methodology 318 321	YFP
+T3	Subcellular_Location 366 381	plasma membrane
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+R2	Located_In Arg1:T1 Arg2:T3	
+T4	Protein 812 820	AtSWEET4
+T5	Methodology 821 824	YFP
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 812 824	AtSWEET4-YFP
+T7	Protein 912 920	AtSWEET4
+T8	Methodology 921 924	YFP
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 912 924	AtSWEET4-YFP
+T10	Protein 955 963	AtSWEET4
+T11	Subcellular_Location 982 997	plasma membrane
+R5	Located_In Arg1:T7 Arg2:T11	
+R6	Located_In Arg1:T10 Arg2:T11	
+T12	Protein 1956 1964	AtSWEET4
+T13	Methodology 1965 1968	YFP
+R7	Subcellular_methodology Arg1:T12 Arg2:T13	
+T14	Tagged_Protein 1956 1968	AtSWEET4-YFP
+T15	Protein 2001 2009	AtSWEET4
+T16	Methodology 2155 2158	YFP
+R8	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Protein 2259 2267	AtSWEET4
+T18	Methodology 2268 2271	YFP
+R9	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 2259 2271	AtSWEET4-YFP

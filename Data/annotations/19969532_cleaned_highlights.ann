@@ -1,0 +1,40 @@
+T1	Protein 288 294	AtPMT5
+T2	Gene_Locus 319 328	At3g18830
+T3	Protein 311 317	AtPLT5
+R1	Locus_link Arg1:T3 Arg2:T2	
+R2	Locus_link Arg1:T1 Arg2:T2	
+T4	Subcellular_Location 376 391	plasma membrane
+R3	Located_In Arg1:T1 Arg2:T4	
+R4	Located_In Arg1:T3 Arg2:T4	
+T5	Protein 475 481	AtPMT1
+T6	Gene_Locus 483 492	At2g16120
+T7	Protein 498 504	AtPMT2
+T8	Gene_Locus 506 515	At2g16130
+R5	Locus_link Arg1:T5 Arg2:T6	
+R6	Locus_link Arg1:T7 Arg2:T8	
+T9	Protein 814 820	AtPMT1
+T10	Protein 824 830	AtPMT2
+T11	Methodology 840 865	green fluorescent protein
+T12	Subcellular_Location 899 915	plasma membranes
+R7	Subcellular_methodology Arg1:T10 Arg2:T11	
+R8	Subcellular_methodology Arg1:T9 Arg2:T11	
+R9	Located_In Arg1:T9 Arg2:T12	
+R10	Located_In Arg1:T10 Arg2:T12	
+T13	Protein 1286 1292	AtPMT1
+T14	Methodology 1293 1296	GFP
+T15	Tagged_Protein 1286 1296	AtPMT1-GFP
+R11	Subcellular_methodology Arg1:T13 Arg2:T14	
+T16	Protein 1303 1309	AtPMT2
+T17	Methodology 1310 1313	GFP
+R12	Subcellular_methodology Arg1:T16 Arg2:T17	
+T18	Tagged_Protein 1303 1313	AtPMT2-GFP
+T19	Protein 1828 1834	AtPMT2
+T20	Methodology 1835 1838	GFP
+T21	Tagged_Protein 1828 1838	AtPMT2-GFP
+R13	Subcellular_methodology Arg1:T19 Arg2:T20	
+T22	Subcellular_Location 2063 2078	plasma membrane
+R14	Located_In Arg1:T19 Arg2:T22	
+T23	Protein 4157 4163	AtPMT2
+T24	Methodology 4164 4167	GFP
+R15	Subcellular_methodology Arg1:T23 Arg2:T24	
+T25	Tagged_Protein 4157 4167	AtPMT2-GFP

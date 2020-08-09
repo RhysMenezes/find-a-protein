@@ -1,0 +1,104 @@
+T1	Protein 340 346	AtWEE1
+T2	Methodology 347 372	green fluorescent protein
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 340 372	AtWEE1–green fluorescent protein
+T4	Protein 756 762	AtWEE1
+T5	Methodology 763 766	GFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 756 766	AtWEE1–GFP
+T7	Protein 831 837	AtWEE1
+T8	Methodology 838 841	GFP
+R3	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 831 841	AtWEE1–GFP
+T10	Subcellular_Location 872 878	nuclei
+R4	Located_In Arg1:T7 Arg2:T10	
+T11	Protein 1307 1313	AtWEE1
+T12	Methodology 1314 1317	GFP
+R5	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 1307 1317	AtWEE1–GFP
+T14	Subcellular_Location 1228 1235	Nuclear
+R6	Located_In Arg1:T11 Arg2:T14	
+T15	Protein 1995 2001	AtWEE1
+T16	Methodology 2002 2005	GFP
+R7	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Tagged_Protein 1995 2005	AtWEE1–GFP
+T18	Subcellular_Location 1916 1923	nuclear
+R8	Located_In Arg1:T15 Arg2:T18	
+T19	Protein 2391 2397	AtSUN1
+T20	Methodology 2398 2402	mRFP
+R9	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Tagged_Protein 2391 2402	AtSUN1–mRFP
+T22	Subcellular_Location 2366 2382	nuclear envelope
+R10	Located_In Arg1:T19 Arg2:T22	
+T23	Protein 2623 2629	AtWEE1
+T24	Methodology 2630 2633	GFP
+T25	Subcellular_Location 2609 2622	nucleoplasmic
+R11	Located_In Arg1:T23 Arg2:T25	
+T26	Tagged_Protein 2623 2633	AtWEE1–GFP
+T27	Subcellular_Location 2667 2683	nuclear envelope
+T28	Protein 2697 2703	AtSUN1
+T29	Methodology 2704 2708	mRFP
+R12	Subcellular_methodology Arg1:T28 Arg2:T29	
+T30	Tagged_Protein 2697 2708	AtSUN1–mRFP
+R13	Located_In Arg1:T28 Arg2:T27	
+T31	Protein 2790 2796	AtSUN1
+T32	Methodology 2797 2801	mRFP
+R14	Subcellular_methodology Arg1:T31 Arg2:T32	
+T33	Tagged_Protein 2790 2801	AtSUN1–mRFP
+T34	Subcellular_Location 2828 2853	mitotic spindle membranes
+R15	Located_In Arg1:T31 Arg2:T34	
+T35	Protein 2940 2946	AtSUN1
+T36	Methodology 2947 2951	mRFP
+R16	Subcellular_methodology Arg1:T35 Arg2:T36	
+T37	Tagged_Protein 2940 2951	AtSUN1–mRFP
+T38	Subcellular_Location 2980 2996	nuclear envelope
+R17	Located_In Arg1:T35 Arg2:T38	
+T39	Protein 3382 3388	AtWEE1
+T40	Methodology 3389 3392	GFP
+R18	Subcellular_methodology Arg1:T39 Arg2:T40	
+T41	Tagged_Protein 3382 3392	AtWEE1–GFP
+T42	Subcellular_Location 3489 3495	nuclei
+R19	Located_In Arg1:T39 Arg2:T42	
+T43	Protein 3994 4000	AtWEE1
+T44	Methodology 4001 4004	YFP
+T45	Protein 4012 4020	AtBZIP63
+T46	Methodology 4021 4024	YFP
+R20	Subcellular_methodology Arg1:T45 Arg2:T46	
+T47	Tagged_Protein 4012 4024	AtBZIP63–YFP
+R21	Subcellular_methodology Arg1:T43 Arg2:T44	
+T48	Tagged_Protein 3994 4004	AtWEE1–YFP
+T49	Protein 4351 4357	AtWEE1
+T50	Methodology 4358 4361	GFP
+R22	Subcellular_methodology Arg1:T49 Arg2:T50	
+T51	Tagged_Protein 4351 4361	AtWEE1–GFP
+T52	Subcellular_Location 4228 4235	nuclear
+T53	Protein 4386 4392	AtWEE1
+T54	Methodology 4393 4396	YFP
+T55	Protein 4400 4407	AtSKIP1
+T56	Methodology 4408 4411	YFP
+R23	Subcellular_methodology Arg1:T55 Arg2:T56	
+R24	Subcellular_methodology Arg1:T53 Arg2:T54	
+T57	Tagged_Protein 4386 4396	AtWEE1–YFP
+T58	Tagged_Protein 4400 4411	AtSKIP1–YFP
+R25	Located_In Arg1:T49 Arg2:T52	
+R26	Located_In Arg1:T53 Arg2:T52	
+R27	Located_In Arg1:T55 Arg2:T52	
+T59	Protein 540 546	AtWEE1
+T60	Methodology 547 550	YFP
+R28	Subcellular_methodology Arg1:T59 Arg2:T60	
+T61	Tagged_Protein 540 550	AtWEE1–YFP
+T62	Protein 5132 5138	AtWEE1
+T63	Methodology 5255 5258	YFP
+R29	Subcellular_methodology Arg1:T62 Arg2:T63	
+T64	Protein 5357 5364	AtSKIP1
+T65	Methodology 5578 5581	YFP
+T66	Protein 5527 5532	SKIP1
+R30	Subcellular_methodology Arg1:T66 Arg2:T65	
+R31	Subcellular_methodology Arg1:T62 Arg2:T65	
+T67	Protein 5965 5971	AtWEE1
+T68	Methodology 5972 5975	GFP
+R32	Subcellular_methodology Arg1:T67 Arg2:T68	
+T69	Tagged_Protein 5965 5975	AtWEE1–GFP
+T70	Protein 6226 6232	AtWEE1
+T71	Methodology 6165 6168	GFP
+R33	Subcellular_methodology Arg1:T70 Arg2:T71	

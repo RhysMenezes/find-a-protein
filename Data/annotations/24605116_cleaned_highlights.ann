@@ -1,0 +1,24 @@
+T4	Methodology 890 894	EGFP
+T5	Protein 895 901	AtCEP1
+R2	Subcellular_methodology Arg1:T5 Arg2:T4	
+T6	Tagged_Protein 890 901	EGFP-AtCEP1
+T7	Subcellular_Location 909 930	endoplasmic reticulum
+R3	Located_In Arg1:T5 Arg2:T7	
+T1	Protein 1320 1326	AtCEP1
+T2	Methodology 1305 1309	EGFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Methodology 1340 1344	EGFP
+T8	Protein 1345 1351	AtCEP1
+R4	Subcellular_methodology Arg1:T8 Arg2:T3	
+T9	Subcellular_Location 1408 1431	endoplasmatic reticulum
+T10	Tagged_Protein 1340 1351	EGFP-AtCEP1
+R5	Located_In Arg1:T8 Arg2:T9	
+T11	Protein 1798 1804	AtCEP1
+T12	Methodology 1793 1797	EGFP
+R6	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Subcellular_Location 1812 1833	endoplasmic reticulum
+T14	Tagged_Protein 1793 1804	EGFP-AtCEP1
+R7	Located_In Arg1:T11 Arg2:T13	
+T15	Methodology 2978 2982	EGFP
+T16	Protein 3046 3052	AtCEP1
+R8	Subcellular_methodology Arg1:T16 Arg2:T15	

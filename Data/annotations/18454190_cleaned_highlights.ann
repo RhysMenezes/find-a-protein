@@ -1,0 +1,16 @@
+T1	Protein 2730 2734	MOT1
+T2	Methodology 2736 2739	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 2730 2739	MOT1::GFP
+T4	Protein 6009 6013	MOT1
+T5	Methodology 6015 6018	GFP
+T6	Tagged_Protein 6009 6018	MOT1::GFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T7	Subcellular_Location 6039 6051	mitochondria
+R3	Located_In Arg1:T4 Arg2:T7	
+T8	Subcellular_Location 6350 6362	mitochondria
+T9	Protein 6400 6404	MOT1
+T10	Methodology 6406 6409	GFP
+T11	Tagged_Protein 6400 6409	MOT1::GFP
+R4	Subcellular_methodology Arg1:T9 Arg2:T10	
+R5	Located_In Arg1:T9 Arg2:T8	

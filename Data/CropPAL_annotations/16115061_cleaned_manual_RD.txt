@@ -1,0 +1,7 @@
+ABSTRACT:
+NRR:GFP (green fluorescent protein) protein was localized to the nucleus, indicating that NRR may act directly to suppress the activation of defense genes.
+RESULTS:
+We generated a construct to fuse green fluorescent protein (GFP) to NRR.
+The NRR:GFP fusion protein is solely localized to the nucleus (marked by a red arrowhead).
+MATERIALS AND METHODS:
+The pGFP‐PL plasmid contains GFP under the control of the CaMV 35S promoter and a Nos terminator for gene expression in plants. NRR was amplified by PCR with primers PNI1‐1 (GCTCTAGACT CGAGACCATG GACGCCACCA CC) and PNI1‐5 (CATGCCATGG GGATCCTTTG CCGGGGCGCG CGCCGA) to create in‐frame cloning into plasmid pGFP‐PL.

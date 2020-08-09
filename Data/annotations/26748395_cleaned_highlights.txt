@@ -1,0 +1,6 @@
+ABSTRACT:
+RESULTS:
+in the total membrane fraction. Microsomal fractions (M) from Arabidopsis protoplasts or purified vacuoles were analyzed by SDS–PAGE and protein blot followed by incubation with concanavalin A conjugated to peroxidase. Numbers on the left indicate the positions of molecular mass markers, in kDa. Fig. 4. The cgly serum does not detect polypeptides in
+using anti-cgly (A, B), anti-PIP (C), or anti-γTIP (D) sera. Numbers at the top indicate the fraction density. In each panel, numbers on the left indicate the positions of molecular mass markers, in kDa. Fig. 6. The majority of membrane proteins with complex glycans are in the
+MATERIALS AND METHODS:
+1mM MgCl 2  for 16h at 20 °C, according to the manufacturer’s protocols. Peroxidase activity can be detected using Super West Pico (Pierce) according to the manufacturer’s protocol. Protein molecular weight markers (Fermentas) were used as SDS–PAGE molecular mass markers. Analysis of total leaf proteins For total protein extraction from wild-type or XylT/FucT knockout plants, Arabidopsis leaves (3–6 weeks old) were homogenized in ice-cold homogenization buffer (200mM NaCl, 1mM EDTA, 0.2% Triton X-100, 2% 2-mercaptoethanol, 100mM TRIS-Cl pH

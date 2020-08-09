@@ -1,0 +1,67 @@
+T1	Protein 144 154	AtLTP4 . 4
+T2	Methodology 157 160	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 144 160	AtLTP4 . 4 : GFP
+T4	Subcellular_Location 211 213	ER
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 230 240	AtLTP4 . 4
+T6	Methodology 243 246	GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Tagged_Protein 230 246	AtLTP4 . 4 : GFP
+T8	Subcellular_Location 269 281	chloroplasts
+R4	Located_In Arg1:T5 Arg2:T8	
+T9	Protein 509 519	AtLTP4 . 4
+T10	Methodology 522 525	GFP
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Protein 532 542	AtLTP4 . 5
+T12	Methodology 545 548	GFP
+R6	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 532 548	AtLTP4 . 5 : GFP
+T14	Tagged_Protein 509 525	AtLTP4 . 4 : GFP
+T15	Protein 726 734	AtLTP4.4
+T16	Methodology 735 738	GFP
+T17	Protein 743 751	AtLTP4.5
+T18	Methodology 752 755	GFP
+R7	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 743 755	AtLTP4.5:GFP
+R8	Subcellular_methodology Arg1:T15 Arg2:T16	
+T20	Tagged_Protein 726 738	AtLTP4.4:GFP
+T21	Subcellular_Location 807 816	cell wall
+R9	Located_In Arg1:T17 Arg2:T21	
+R10	Located_In Arg1:T15 Arg2:T21	
+T22	Protein 913 921	AtLTP4.4
+T23	Methodology 922 925	GFP
+R11	Subcellular_methodology Arg1:T22 Arg2:T23	
+T24	Tagged_Protein 913 925	AtLTP4.4:GFP
+T25	Subcellular_Location 942 954	chloroplasts
+R12	Located_In Arg1:T22 Arg2:T25	
+T26	Protein 1041 1049	AtLTP4.4
+T27	Methodology 1050 1053	GFP
+R13	Subcellular_methodology Arg1:T26 Arg2:T27	
+T28	Tagged_Protein 1041 1053	AtLTP4.4:GFP
+T29	Subcellular_Location 1074 1083	cell wall
+T30	Subcellular_Location 1084 1092	apoplast
+R14	Located_In Arg1:T26 Arg2:T29	
+R15	Located_In Arg1:T26 Arg2:T30	
+T31	Protein 1191 1199	AtLTP4.4
+T32	Methodology 1200 1203	GFP
+R16	Subcellular_methodology Arg1:T31 Arg2:T32	
+T33	Tagged_Protein 1191 1203	AtLTP4.4:GFP
+T34	Subcellular_Location 1230 1239	cell wall
+T35	Subcellular_Location 1240 1248	apoplast
+R17	Located_In Arg1:T31 Arg2:T34	
+R18	Located_In Arg1:T31 Arg2:T35	
+T36	Protein 2567 2575	AtLTP4.4
+T37	Methodology 2576 2579	GFP
+T38	Protein 2584 2592	AtLTP4.5
+T39	Methodology 2593 2596	GFP
+R19	Subcellular_methodology Arg1:T36 Arg2:T37	
+R20	Subcellular_methodology Arg1:T38 Arg2:T39	
+T40	Tagged_Protein 2584 2596	AtLTP4.5:GFP
+T41	Tagged_Protein 2567 2579	AtLTP4.4:GFP
+T42	Protein 1689 1699	AtLTP4 . 4
+T43	Protein 1706 1716	AtLTP4 . 5
+T44	Methodology 1809 1812	GFP
+R21	Subcellular_methodology Arg1:T42 Arg2:T44	
+R22	Subcellular_methodology Arg1:T43 Arg2:T44	
+T45	Methodology 2598 2601	GFP

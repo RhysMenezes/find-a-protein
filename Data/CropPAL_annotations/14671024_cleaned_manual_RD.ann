@@ -1,0 +1,34 @@
+T1	Protein 50 58	ZmPIP1;2
+T2	Methodology 59 84	green fluorescent protein
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Protein 153 161	ZmPIP1;2
+T4	Methodology 162 165	GFP
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T5	Subcellular_Location 181 196	plasma membrane
+T6	Tagged_Protein 153 165	ZmPIP1;2-GFP
+T7	Tagged_Protein 50 84	ZmPIP1;2–green fluorescent protein
+R3	Located_In Arg1:T3 Arg2:T5	
+T8	Protein 444 452	ZmPIP1;2
+T9	Methodology 453 478	green fluorescent protein
+R4	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Tagged_Protein 444 478	ZmPIP1;2–green fluorescent protein
+T11	Methodology 560 563	GFP
+T12	Protein 594 602	ZmPIP1;2
+R5	Subcellular_methodology Arg1:T12 Arg2:T11	
+T13	Protein 928 936	ZmPIP1;2
+T14	Methodology 937 940	GFP
+R6	Subcellular_methodology Arg1:T13 Arg2:T14	
+T15	Methodology 928 940	ZmPIP1;2-GFP
+T16	Subcellular_Location 955 970	plasma membrane
+R7	Located_In Arg1:T13 Arg2:T16	
+T17	Protein 1054 1062	ZmPIP1;2
+T18	Methodology 1063 1066	GFP
+R8	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 1054 1066	ZmPIP1;2-GFP
+T20	Protein 1240 1248	ZmPIP1;2
+T21	Methodology 1331 1334	GFP
+R9	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Protein 1628 1636	ZmPIP1;2
+T23	Methodology 1637 1640	GFP
+R10	Subcellular_methodology Arg1:T22 Arg2:T23	
+T24	Tagged_Protein 1628 1640	ZmPIP1;2-GFP

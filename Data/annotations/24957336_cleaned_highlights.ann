@@ -1,0 +1,10 @@
+T1	Protein 1950 1954	LYS1
+T2	Methodology 1955 1958	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 1950 1958	LYS1-GFP
+T4	Methodology 3344 3361	mass spectrometry
+T5	Methodology 3373 3375	MS
+T6	Protein 3571 3575	LYS1
+T7	Methodology 3576 3579	GFP
+R2	Subcellular_methodology Arg1:T6 Arg2:T7	
+T8	Tagged_Protein 3571 3579	LYS1-GFP

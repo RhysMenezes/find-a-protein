@@ -1,0 +1,3 @@
+Input,Output
+_METHOD_ spectra of only peptide sequence . examples are _BLANKP_ protein and _PROTEIN_ protein each multiple times identified with peptides iewinsvltvpl and edlispr respectively . applying these two simple filters resulted in _LOCATION_ encoded,Y
+_METHOD_ spectra of only peptide sequence . examples are _PROTEIN_ protein and _BLANKP_ protein each multiple times identified with peptides iewinsvltvpl and edlispr respectively . applying these two simple filters resulted in _LOCATION_ encoded,Y

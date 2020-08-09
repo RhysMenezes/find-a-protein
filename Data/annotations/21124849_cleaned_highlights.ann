@@ -1,0 +1,63 @@
+T1	Protein 1280 1284	ROP7
+T2	Protein 1286 1290	RIC2
+T3	Protein 1292 1296	RIC4
+T4	Methodology 1320 1338	fluorescent fusion
+T5	Subcellular_Location 1376 1391	plasma membrane
+R1	Subcellular_methodology Arg1:T1 Arg2:T4	
+R2	Subcellular_methodology Arg1:T2 Arg2:T4	
+R3	Subcellular_methodology Arg1:T3 Arg2:T4	
+R4	Located_In Arg1:T1 Arg2:T5	
+R5	Located_In Arg1:T2 Arg2:T5	
+R6	Located_In Arg1:T3 Arg2:T5	
+T6	Protein 1694 1698	bHLH
+T7	Gene_Locus 1708 1717	AT5G48560
+T8	Protein 1736 1740	SND1
+T9	Gene_Locus 1742 1751	AT1G32770
+R7	Locus_link Arg1:T8 Arg2:T9	
+R8	Locus_link Arg1:T6 Arg2:T7	
+T10	Methodology 1777 1780	YFP
+R9	Subcellular_methodology Arg1:T6 Arg2:T10	
+R10	Subcellular_methodology Arg1:T8 Arg2:T10	
+T11	Subcellular_Location 1791 1798	nucleus
+R11	Located_In Arg1:T6 Arg2:T11	
+R12	Located_In Arg1:T8 Arg2:T11	
+T12	Protein 1811 1817	PGSIP1
+T13	Protein 1844 1850	PGSIP3
+T14	Protein 1877 1883	DUF231
+T15	Protein 1922 1928	DUF231
+T16	Gene_Locus 1800 1809	AT3G18660
+T17	Gene_Locus 1833 1842	AT4G33330
+T18	Gene_Locus 1866 1875	AT5G01360
+T19	Gene_Locus 1911 1920	AT2G38320
+T20	Methodology 1962 1965	YFP
+T21	Subcellular_Location 2044 2049	Golgi
+R13	Locus_link Arg1:T13 Arg2:T17	
+R14	Locus_link Arg1:T14 Arg2:T18	
+R15	Locus_link Arg1:T15 Arg2:T19	
+R16	Subcellular_methodology Arg1:T13 Arg2:T20	
+R17	Subcellular_methodology Arg1:T14 Arg2:T20	
+R18	Subcellular_methodology Arg1:T15 Arg2:T20	
+R19	Locus_link Arg1:T12 Arg2:T16	
+R20	Subcellular_methodology Arg1:T12 Arg2:T20	
+R21	Located_In Arg1:T12 Arg2:T21	
+R22	Located_In Arg1:T13 Arg2:T21	
+R23	Located_In Arg1:T14 Arg2:T21	
+R24	Located_In Arg1:T15 Arg2:T21	
+T22	Gene_Locus 2755 2764	AT1G27380
+T23	Protein 2766 2770	RIC2
+T24	Gene_Locus 2786 2795	AT5G16490
+T25	Protein 2797 2801	RIC4
+T26	Gene_Locus 2817 2826	AT5G45970
+T27	Protein 2828 2832	ROP7
+T28	Methodology 2858 2861	YFP
+T29	Subcellular_Location 2952 2967	plasma membrane
+R25	Locus_link Arg1:T23 Arg2:T22	
+R26	Locus_link Arg1:T25 Arg2:T24	
+R27	Locus_link Arg1:T27 Arg2:T26	
+R28	Subcellular_methodology Arg1:T23 Arg2:T28	
+R29	Subcellular_methodology Arg1:T25 Arg2:T28	
+R30	Subcellular_methodology Arg1:T27 Arg2:T28	
+R31	Located_In Arg1:T23 Arg2:T29	
+R32	Located_In Arg1:T25 Arg2:T29	
+R33	Located_In Arg1:T27 Arg2:T29	
+T30	Methodology 3657 3660	YFP

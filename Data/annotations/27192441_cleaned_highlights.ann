@@ -1,0 +1,40 @@
+T1	Methodology 53 56	GFP
+T2	Protein 57 61	GEF1
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+T3	Tagged_Protein 53 61	GFP-GEF1
+T4	Methodology 112 115	GFP
+T5	Protein 116 120	GEF1
+R2	Subcellular_methodology Arg1:T5 Arg2:T4	
+T6	Tagged_Protein 112 120	GFP-GEF1
+T7	Subcellular_Location 578 601	prevacuolar compartment
+R3	Located_In Arg1:T5 Arg2:T7	
+T8	Methodology 1413 1416	GFP
+T9	Protein 1417 1421	GEF1
+R4	Subcellular_methodology Arg1:T9 Arg2:T8	
+T10	Tagged_Protein 1413 1421	GFP-GEF1
+T11	Subcellular_Location 1452 1475	prevacuolar compartment
+R5	Located_In Arg1:T9 Arg2:T11	
+T12	Methodology 1916 1919	GFP
+T13	Protein 1920 1924	GEF1
+R6	Subcellular_methodology Arg1:T13 Arg2:T12	
+T14	Tagged_Protein 1916 1924	GFP-GEF1
+T15	Subcellular_Location 1967 1975	vacuolar
+R7	Located_In Arg1:T13 Arg2:T15	
+T16	Methodology 2048 2051	GFP
+T17	Protein 2052 2056	GEF1
+R8	Subcellular_methodology Arg1:T17 Arg2:T16	
+T18	Tagged_Protein 2048 2056	GFP-GEF1
+T19	Subcellular_Location 2075 2083	vacuoles
+R9	Located_In Arg1:T17 Arg2:T19	
+T20	Protein 2949 2953	GEF1
+T21	Methodology 2945 2948	GFP
+R10	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 2945 2953	GFP-GEF1
+T23	Subcellular_Location 3010 3021	perinuclear
+R11	Located_In Arg1:T20 Arg2:T23	
+T24	Methodology 3936 3939	GFP
+T25	Protein 3940 3944	GEF1
+R12	Subcellular_methodology Arg1:T25 Arg2:T24	
+T26	Tagged_Protein 3936 3944	GFP-GEF1
+T27	Methodology 4245 4248	GFP
+T28	Methodology 4293 4296	YFP

@@ -1,0 +1,32 @@
+T1	Protein 1983 1987	CBL2
+T2	Methodology 1988 1991	RFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 1983 1991	CBL2-RFP
+T4	Protein 2045 2049	CBL2
+T5	Subcellular_Location 2063 2072	cytosolic
+R2	Located_In Arg1:T4 Arg2:T5	
+R3	Located_In Arg1:T1 Arg2:T5	
+T6	Protein 2156 2160	CBL2
+T7	Subcellular_Location 2170 2179	tonoplast
+T8	Subcellular_Location 2187 2196	cytoplasm
+R4	Located_In Arg1:T6 Arg2:T7	
+R5	Located_In Arg1:T6 Arg2:T8	
+T9	Methodology 2472 2475	RFP
+T10	Protein 2467 2471	CBL2
+R6	Subcellular_methodology Arg1:T10 Arg2:T9	
+T11	Tagged_Protein 2467 2475	CBL2-RFP
+T12	Subcellular_Location 2496 2505	tonoplast
+T13	Subcellular_Location 2515 2524	cytoplasm
+R7	Located_In Arg1:T10 Arg2:T12	
+R8	Located_In Arg1:T10 Arg2:T13	
+T14	Protein 3926 3932	RabA4b
+T15	Methodology 3922 3925	RFP
+R9	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 3922 3932	RFP-RabA4b
+T17	Subcellular_Location 3975 3984	cytoplasm
+R10	Located_In Arg1:T14 Arg2:T17	
+T18	Protein 6515 6519	CBL2
+T19	Protein 6944 6948	ROP2
+T20	Methodology 6940 6943	GFP
+R11	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Tagged_Protein 6940 6948	GFP-ROP2

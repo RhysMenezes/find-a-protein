@@ -1,0 +1,20 @@
+T1	Protein 1140 1144	FRK1
+T2	Methodology 1145 1148	YFP
+T3	Subcellular_Location 1169 1176	cytosol
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Tagged_Protein 1140 1148	FRK1-YFP
+R2	Located_In Arg1:T1 Arg2:T3	
+T5	Protein 1335 1339	FRK2
+T6	Methodology 1340 1343	YFP
+T7	Protein 1349 1355	FRK4–7
+T8	Methodology 1356 1359	YFP
+R3	Subcellular_methodology Arg1:T7 Arg2:T8	
+R4	Subcellular_methodology Arg1:T5 Arg2:T6	
+T9	Tagged_Protein 1335 1343	FRK2-YFP
+T10	Tagged_Protein 1349 1359	FRK4–7-YFP
+R5	Located_In Arg1:T5 Arg2:T3	
+R6	Located_In Arg1:T7 Arg2:T3	
+T11	Protein 253 257	FRK3
+T12	Subcellular_Location 243 252	plastidic
+R7	Located_In Arg1:T11 Arg2:T12	
+T13	Methodology 2274 2277	YFP

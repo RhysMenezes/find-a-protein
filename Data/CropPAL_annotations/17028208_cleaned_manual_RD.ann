@@ -1,0 +1,47 @@
+T1	Protein 105 109	NPP1
+T2	Methodology 121 146	green fluorescent protein
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Protein 167 171	NPP1
+T4	Methodology 172 175	GFP
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T5	Subcellular_Location 190 200	plastidial
+T6	Tagged_Protein 167 175	NPP1-GFP
+R3	Located_In Arg1:T3 Arg2:T5	
+T7	Protein 270 274	NPP1
+T8	Methodology 275 278	GFP
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 270 278	NPP1-GFP
+T10	Subcellular_Location 286 297	chloroplast
+R5	Located_In Arg1:T7 Arg2:T10	
+T11	Protein 433 437	NPP1
+T12	Methodology 438 441	GFP
+R6	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 433 441	NPP1-GFP
+T14	Protein 623 627	NPP1
+T15	Methodology 628 631	GFP
+R7	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 623 631	NPP1-GFP
+T17	Protein 577 581	NPP1
+T18	Methodology 582 585	GFP
+R8	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 577 585	NPP1-GFP
+T20	Protein 742 746	NPP1
+T21	Methodology 747 750	GFP
+R9	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 742 750	NPP1-GFP
+T23	Subcellular_Location 765 776	chloroplast
+R10	Located_In Arg1:T20 Arg2:T23	
+T24	Protein 805 809	NPP1
+T25	Methodology 857 860	GFP
+R11	Subcellular_methodology Arg1:T24 Arg2:T25	
+T26	Protein 974 980	OsNPP1
+T27	Methodology 981 984	GFP
+R12	Subcellular_methodology Arg1:T26 Arg2:T27	
+T28	Tagged_Protein 974 984	OsNPP1-GFP
+T29	Protein 985 989	NPP1
+T30	Methodology 1224 1227	GFP
+R13	Subcellular_methodology Arg1:T29 Arg2:T30	
+T31	Protein 1262 1266	NPP1
+T32	Methodology 1267 1270	GFP
+R14	Subcellular_methodology Arg1:T31 Arg2:T32	
+T33	Tagged_Protein 1262 1270	NPP1-GFP

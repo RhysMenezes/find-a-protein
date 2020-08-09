@@ -1,0 +1,26 @@
+T1	Protein 1178 1185	AtPum18
+T2	Methodology 1186 1189	RFP
+T3	Tagged_Protein 1178 1189	AtPum18-RFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Subcellular_Location 1219 1226	nucleus
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 1506 1513	AtPum23
+T6	Methodology 1514 1517	GFP
+T7	Protein 1522 1529	AtPum24
+T8	Methodology 1530 1533	GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 1506 1517	AtPum23-GFP
+T10	Tagged_Protein 1522 1533	AtPum24-GFP
+T11	Subcellular_Location 1639 1647	nucleoli
+R5	Located_In Arg1:T5 Arg2:T11	
+R6	Located_In Arg1:T7 Arg2:T11	
+T12	Protein 1730 1737	AtPum14
+T13	Protein 1796 1803	AtPum18
+T14	Protein 1867 1874	AtPum23
+T15	Protein 1938 1945	AtPum24
+T16	Methodology 2132 2135	GFP
+R7	Subcellular_methodology Arg1:T15 Arg2:T16	
+R8	Subcellular_methodology Arg1:T14 Arg2:T16	
+R9	Subcellular_methodology Arg1:T13 Arg2:T16	
+R10	Subcellular_methodology Arg1:T12 Arg2:T16	

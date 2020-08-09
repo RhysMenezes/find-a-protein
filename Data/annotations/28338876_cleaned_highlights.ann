@@ -1,0 +1,174 @@
+T1	Protein 121 125	ADT6
+T2	Subcellular_Location 190 197	cytosol
+R1	Located_In Arg1:T1 Arg2:T2	
+T3	Protein 374 378	ADT1
+T4	Protein 379 383	ADT5
+T5	Subcellular_Location 397 403	stroma
+R2	Located_In Arg1:T3 Arg2:T5	
+R3	Located_In Arg1:T4 Arg2:T5	
+T6	Protein 592 596	ADT2
+T7	Protein 641 645	ADT4
+R4	Located_In Arg1:T6 Arg2:T5	
+R5	Located_In Arg1:T7 Arg2:T5	
+T8	Protein 652 656	ADT6
+T9	Methodology 657 660	CFP
+R6	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Tagged_Protein 652 660	ADT6–CFP
+T11	Subcellular_Location 704 713	cytosolic
+R7	Located_In Arg1:T8 Arg2:T11	
+T12	Protein 1123 1127	ADT5
+T13	Protein 1118 1122	ADT1
+T14	Subcellular_Location 1162 1173	chloroplast
+T15	Subcellular_Location 1181 1190	stromules
+R8	Located_In Arg1:T12 Arg2:T15	
+R9	Located_In Arg1:T12 Arg2:T14	
+R10	Located_In Arg1:T13 Arg2:T15	
+R11	Located_In Arg1:T13 Arg2:T14	
+T16	Protein 1198 1202	ADT6
+T17	Subcellular_Location 1223 1230	cytosol
+R12	Located_In Arg1:T16 Arg2:T17	
+T18	Protein 1639 1643	ADT6
+T19	Methodology 1644 1647	CFP
+R13	Subcellular_methodology Arg1:T18 Arg2:T19	
+T20	Protein 1709 1713	ADT6
+T21	Subcellular_Location 1741 1748	cytosol
+T22	Tagged_Protein 1639 1647	ADT6–CFP
+R14	Located_In Arg1:T18 Arg2:T21	
+R15	Located_In Arg1:T20 Arg2:T21	
+T23	Protein_variant 1907 1914	TP-ADT2
+T24	Methodology 1915 1918	CFP
+R16	Subcellular_methodology Arg1:T23 Arg2:T24	
+T25	Tagged_Protein 1907 1918	TP-ADT2–CFP
+T26	Subcellular_Location 1954 1966	chloroplasts
+T27	Subcellular_Location 1971 1980	stromules
+R17	Located_In Arg1:T23 Arg2:T26	
+R18	Located_In Arg1:T23 Arg2:T27	
+T28	Protein 2159 2163	ADT5
+T29	Subcellular_Location 2180 2187	nucleus
+T30	Subcellular_Location 2207 2218	chloroplast
+R19	Located_In Arg1:T28 Arg2:T29	
+R20	Located_In Arg1:T28 Arg2:T30	
+T31	Protein 2238 2242	ADT5
+T32	Methodology 2243 2246	CFP
+R21	Subcellular_methodology Arg1:T31 Arg2:T32	
+T33	Tagged_Protein 2238 2246	ADT5–CFP
+T34	Subcellular_Location 2268 2274	nuclei
+R22	Located_In Arg1:T31 Arg2:T34	
+T35	Protein 2399 2403	NUP1
+T36	Methodology 2366 2369	YFP
+R23	Subcellular_methodology Arg1:T35 Arg2:T36	
+T37	Subcellular_Location 2424 2444	nuclear pore complex
+R24	Located_In Arg1:T35 Arg2:T37	
+T38	Protein 2631 2635	NUP1
+T39	Methodology 2636 2639	YFP
+R25	Subcellular_methodology Arg1:T38 Arg2:T39	
+T40	Tagged_Protein 2631 2639	NUP1–YFP
+T41	Subcellular_Location 2657 2673	nuclear membrane
+R26	Located_In Arg1:T38 Arg2:T41	
+T42	Protein 2701 2705	ADT5
+T43	Methodology 2706 2709	CFP
+R27	Subcellular_methodology Arg1:T42 Arg2:T43	
+T44	Tagged_Protein 2701 2709	ADT5–CFP
+T45	Subcellular_Location 2734 2741	nucleus
+T46	Subcellular_Location 2781 2792	nucleoplasm
+R28	Located_In Arg1:T42 Arg2:T45	
+R29	Located_In Arg1:T42 Arg2:T46	
+T47	Protein 2911 2915	ADT5
+T48	Methodology 2916 2919	CFP
+R30	Subcellular_methodology Arg1:T47 Arg2:T48	
+T49	Tagged_Protein 2911 2919	ADT5–CFP
+T50	Subcellular_Location 2987 2994	nuclear
+R31	Located_In Arg1:T47 Arg2:T50	
+T51	Protein 3374 3378	ADT5
+T52	Methodology 3379 3382	CFP
+R32	Subcellular_methodology Arg1:T51 Arg2:T52	
+T53	Tagged_Protein 3374 3382	ADT5–CFP
+T54	Subcellular_Location 3497 3504	nuclear
+R33	Located_In Arg1:T51 Arg2:T54	
+T55	Subcellular_Location 3574 3581	nuclear
+T56	Protein 3620 3624	ADT5
+R34	Located_In Arg1:T56 Arg2:T55	
+T57	Protein 3798 3802	ADT5
+T58	Subcellular_Location 3819 3826	nucleus
+R35	Located_In Arg1:T57 Arg2:T58	
+T59	Protein 3828 3832	ADT5
+T60	Methodology 3833 3836	CFP
+R36	Subcellular_methodology Arg1:T59 Arg2:T60	
+T61	Methodology 3828 3836	ADT5–CFP
+T62	Subcellular_Location 3926 3933	nucleus
+R37	Located_In Arg1:T59 Arg2:T62	
+T63	Protein 4056 4060	ADT5
+T64	Methodology 4061 4064	CFP
+T65	Subcellular_Location 4072 4078	nuclei
+R38	Subcellular_methodology Arg1:T63 Arg2:T64	
+T66	Tagged_Protein 4056 4064	ADT5–CFP
+R39	Located_In Arg1:T63 Arg2:T65	
+T67	Protein 4402 4406	NUP1
+T68	Methodology 4407 4410	YFP
+R40	Subcellular_methodology Arg1:T67 Arg2:T68	
+T69	Tagged_Protein 4402 4410	NUP1–YFP
+T70	Subcellular_Location 4428 4444	nuclear membrane
+R41	Located_In Arg1:T67 Arg2:T70	
+T71	Protein 4459 4463	ADT5
+T72	Methodology 4464 4467	CFP
+R42	Subcellular_methodology Arg1:T71 Arg2:T72	
+T73	Tagged_Protein 4459 4467	ADT5–CFP
+T74	Subcellular_Location 4505 4512	nucleus
+R43	Located_In Arg1:T71 Arg2:T74	
+T75	Protein 5239 5243	ADT5
+T76	Subcellular_Location 5244 5251	nuclear
+R44	Located_In Arg1:T75 Arg2:T76	
+T77	Protein 5371 5375	ADT5
+T78	Subcellular_Location 5347 5354	nuclear
+R45	Located_In Arg1:T77 Arg2:T78	
+T79	Protein 5453 5457	ADT5
+T80	Subcellular_Location 5465 5472	nucleus
+R46	Located_In Arg1:T79 Arg2:T80	
+T81	Protein 6082 6086	ADT5
+T82	Methodology 6087 6090	CFP
+R47	Subcellular_methodology Arg1:T81 Arg2:T82	
+T83	Subcellular_Location 6058 6065	Nuclear
+T84	Tagged_Protein 6082 6090	ADT5–CFP
+R48	Located_In Arg1:T81 Arg2:T83	
+T85	Subcellular_Location 6620 6627	nuclear
+T86	Protein 6644 6648	ADT5
+R49	Located_In Arg1:T86 Arg2:T85	
+T87	Protein 7690 7694	ADT6
+T88	Methodology 7695 7698	CFP
+R50	Subcellular_methodology Arg1:T87 Arg2:T88	
+T89	Tagged_Protein 7690 7698	ADT6–CFP
+T90	Subcellular_Location 7722 7729	cytosol
+T91	Subcellular_Location 7741 7747	stroma
+R51	Located_In Arg1:T87 Arg2:T90	
+R52	Located_In Arg1:T87 Arg2:T91	
+T92	Protein 7835 7839	ADT2
+T93	Methodology 7840 7843	CFP
+T94	Protein 7848 7852	ADT5
+T95	Methodology 7853 7856	CFP
+R53	Subcellular_methodology Arg1:T94 Arg2:T95	
+R54	Subcellular_methodology Arg1:T92 Arg2:T93	
+T96	Tagged_Protein 7835 7843	ADT2–CFP
+T97	Tagged_Protein 7848 7856	ADT5–CFP
+T98	Subcellular_Location 7937 7949	chloroplasts
+R55	Located_In Arg1:T92 Arg2:T98	
+R56	Located_In Arg1:T94 Arg2:T98	
+T99	Protein 8312 8316	ADT1
+T100	Gene_Locus 8320 8329	At1g11790
+R57	Locus_link Arg1:T99 Arg2:T100	
+T101	Protein 8333 8337	ADT2
+T102	Gene_Locus 8341 8350	At3g07630
+R58	Locus_link Arg1:T101 Arg2:T102	
+T103	Protein 8354 8358	ADT3
+T104	Gene_Locus 8362 8371	At2g27820
+R59	Locus_link Arg1:T103 Arg2:T104	
+T105	Methodology 9020 9023	CFP
+T106	Methodology 9085 9088	CFP
+T107	Methodology 9821 9824	YFP
+T108	Protein 10248 10253	FtsZ2
+T109	Methodology 10254 10257	YFP
+R60	Subcellular_methodology Arg1:T108 Arg2:T109	
+T110	Tagged_Protein 10248 10257	FtsZ2–YFP
+T111	Protein 11049 11053	NUP1
+T112	Methodology 11054 11057	YFP
+R61	Subcellular_methodology Arg1:T111 Arg2:T112	
+T113	Tagged_Protein 11049 11057	NUP1–YFP

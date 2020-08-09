@@ -1,0 +1,18 @@
+T1	Protein 10 16	OsIRT1
+T2	Protein 22 28	OsIRT2
+T3	Methodology 29 54	green fluorescent protein
+R1	Subcellular_methodology Arg1:T2 Arg2:T3	
+T4	Tagged_Protein 22 54	OsIRT2–green fluorescent protein
+T5	Subcellular_Location 88 103	plasma membrane
+R2	Located_In Arg1:T2 Arg2:T5	
+R3	Located_In Arg1:T1 Arg2:T5	
+T6	Methodology 232 257	green fluorescent protein
+T7	Protein 291 297	OsIRT1
+T8	Protein 302 308	OsIRT2
+R4	Subcellular_methodology Arg1:T7 Arg2:T6	
+R5	Subcellular_methodology Arg1:T8 Arg2:T6	
+T9	Protein 429 435	OsIRT1
+T10	Protein 544 550	OsIRT2
+T11	Methodology 718 721	GFP
+R6	Subcellular_methodology Arg1:T9 Arg2:T11	
+R7	Subcellular_methodology Arg1:T10 Arg2:T11	

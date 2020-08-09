@@ -1,0 +1,31 @@
+T1	Protein 64 69	SCL15
+T2	Subcellular_Location 93 100	nuclear
+R1	Located_In Arg1:T1 Arg2:T2	
+T3	Protein 331 336	SCL15
+T4	Methodology 337 345	smRS-GFP
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T5	Tagged_Protein 331 345	SCL15-smRS-GFP
+T6	Subcellular_Location 372 378	nuclei
+R3	Located_In Arg1:T3 Arg2:T6	
+T7	Protein 421 426	SCL15
+T8	Subcellular_Location 432 439	nuclear
+R4	Located_In Arg1:T7 Arg2:T8	
+T9	Protein 610 615	HDA19
+T10	Methodology 644 647	YFP
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Protein 1149 1154	SCL15
+T12	Protein 1181 1186	HDA19
+T13	Subcellular_Location 1194 1200	nuclei
+R6	Located_In Arg1:T12 Arg2:T13	
+R7	Located_In Arg1:T11 Arg2:T13	
+T14	Methodology 2759 2762	YFP
+T15	Methodology 2796 2799	YFP
+T16	Protein 3498 3503	SCL15
+T17	Methodology 3506 3509	YFP
+R8	Subcellular_methodology Arg1:T16 Arg2:T17	
+T18	Tagged_Protein 3498 3509	SCL15-N-YFP
+T19	Methodology 5227 5235	smRS-GFP
+T20	Protein 5433 5438	SCL15
+T21	Methodology 5439 5447	smRS-GFP
+R9	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 5433 5447	SCL15-smRS-GFP

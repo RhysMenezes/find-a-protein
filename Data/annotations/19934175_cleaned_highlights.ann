@@ -1,0 +1,19 @@
+T1	Methodology 418 443	green fluorescent protein
+T2	Protein 376 381	rpl10
+T3	Subcellular_Location 498 510	mitochondria
+T4	Subcellular_Location 515 527	chloroplasts
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+R2	Located_In Arg1:T2 Arg2:T3	
+R3	Located_In Arg1:T2 Arg2:T4	
+T5	Protein 971 976	RPL10
+T6	Methodology 878 881	GFP
+T7	Subcellular_Location 999 1011	mitochondria
+T8	Subcellular_Location 1016 1028	chloroplasts
+R4	Subcellular_methodology Arg1:T5 Arg2:T6	
+R5	Located_In Arg1:T5 Arg2:T7	
+R6	Located_In Arg1:T5 Arg2:T8	
+T9	Protein 1413 1418	RPL10
+T10	Gene_Locus 1437 1446	At3g12370
+R7	Locus_link Arg1:T9 Arg2:T10	
+T11	Methodology 1635 1638	GFP
+R8	Subcellular_methodology Arg1:T9 Arg2:T11	

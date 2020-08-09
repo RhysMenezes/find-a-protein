@@ -1,0 +1,8 @@
+T1	Protein 1279 1286	AtVDAC1
+T2	Methodology 1287 1290	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Methodology 796 821	green fluorescent protein
+T4	Protein 910 915	VDAC1
+R2	Subcellular_methodology Arg1:T4 Arg2:T3	
+T5	Protein 918 923	VDAC4
+R3	Subcellular_methodology Arg1:T5 Arg2:T3	

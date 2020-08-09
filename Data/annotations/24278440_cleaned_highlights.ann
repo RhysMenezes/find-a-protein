@@ -1,0 +1,87 @@
+T1	Protein 169 176	AtsKEA1
+T2	Protein 182 189	AtsKEA2
+T3	Protein 198 204	AtKEA6
+T4	Methodology 177 180	GFP
+T5	Methodology 190 193	GFP
+T6	Methodology 205 208	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T4	
+R2	Subcellular_methodology Arg1:T2 Arg2:T5	
+R3	Subcellular_methodology Arg1:T3 Arg2:T6	
+T7	Tagged_Protein 169 180	AtsKEA1-GFP
+T8	Tagged_Protein 182 193	AtsKEA2-GFP
+T9	Tagged_Protein 198 208	AtKEA6-GFP
+T10	Subcellular_Location 307 322	plasma membrane
+R4	Located_In Arg1:T1 Arg2:T10	
+R5	Located_In Arg1:T2 Arg2:T10	
+R6	Located_In Arg1:T3 Arg2:T10	
+T11	Protein 457 464	AtsKEA1
+T12	Methodology 465 468	GFP
+T13	Protein 470 477	AtsKEA2
+T14	Methodology 478 481	GFP
+T15	Protein 486 492	AtKEA6
+T16	Methodology 493 496	GFP
+R7	Subcellular_methodology Arg1:T11 Arg2:T12	
+R8	Subcellular_methodology Arg1:T13 Arg2:T14	
+R9	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Tagged_Protein 457 468	AtsKEA1-GFP
+T18	Tagged_Protein 470 481	AtsKEA2-GFP
+T19	Tagged_Protein 486 496	AtKEA6-GFP
+T20	Protein 663 669	ScKHA1
+T21	Subcellular_Location 709 714	Golgi
+R10	Located_In Arg1:T20 Arg2:T21	
+T22	Protein 747 753	AtKEA3
+T23	Methodology 754 757	GFP
+R11	Subcellular_methodology Arg1:T22 Arg2:T23	
+T24	Tagged_Protein 747 757	AtKEA3-GFP
+T25	Subcellular_Location 774 779	Golgi
+R12	Located_In Arg1:T22 Arg2:T25	
+T26	Protein 800 806	AtKEA4
+T27	Methodology 807 810	GFP
+R13	Subcellular_methodology Arg1:T26 Arg2:T27	
+T28	Tagged_Protein 800 810	AtKEA4-GFP
+T29	Protein 1210 1216	AtKEA3
+T30	Subcellular_Location 1233 1238	Golgi
+R14	Located_In Arg1:T29 Arg2:T30	
+T31	Protein 1377 1383	AtKEA3
+T32	Methodology 1373 1376	RFP
+R15	Subcellular_methodology Arg1:T31 Arg2:T32	
+T33	Tagged_Protein 1373 1383	RFP-AtKEA3
+T34	Methodology 1484 1487	RFP
+T35	Protein 1488 1494	AtKEA3
+R16	Subcellular_methodology Arg1:T35 Arg2:T34	
+T36	Tagged_Protein 1484 1494	RFP-AtKEA3
+T37	Subcellular_Location 1554 1559	Golgi
+T38	Methodology 1567 1570	GFP
+T39	Protein 1571 1578	AtSYP31
+R17	Subcellular_methodology Arg1:T39 Arg2:T38	
+T40	Tagged_Protein 1567 1578	GFP-AtSYP31
+T41	Protein 1596 1602	AtKEA3
+T42	Subcellular_Location 1619 1624	Golgi
+R18	Located_In Arg1:T41 Arg2:T42	
+R19	Located_In Arg1:T35 Arg2:T37	
+R20	Located_In Arg1:T39 Arg2:T37	
+T43	Subcellular_Location 1826 1831	Golgi
+T44	Methodology 1839 1842	GFP
+T45	Protein 1843 1850	AtSYP31
+R21	Subcellular_methodology Arg1:T45 Arg2:T44	
+T46	Tagged_Protein 1839 1850	GFP-AtSYP31
+R22	Located_In Arg1:T45 Arg2:T43	
+T49	Methodology 2633 2636	GFP
+T47	Protein 2659 2665	ScNHX1
+T48	Protein 2670 2676	ScKHA1
+R23	Subcellular_methodology Arg1:T48 Arg2:T49	
+R24	Subcellular_methodology Arg1:T47 Arg2:T49	
+T50	Methodology 3407 3410	RFP
+T51	Protein 3411 3417	AtKEA3
+R25	Subcellular_methodology Arg1:T51 Arg2:T50	
+T52	Tagged_Protein 3407 3417	RFP-AtKEA3
+T53	Protein 3625 3631	AtKEA3
+T54	Methodology 3594 3597	RFP
+R26	Subcellular_methodology Arg1:T53 Arg2:T54	
+T55	Protein 4179 4185	AtKEA3
+T56	Methodology 4186 4189	GFP
+R27	Subcellular_methodology Arg1:T55 Arg2:T56	
+T57	Tagged_Protein 4179 4189	AtKEA3-GFP
+T58	Methodology 4321 4324	GFP
+T59	Protein 4352 4358	AtKEA3
+R28	Subcellular_methodology Arg1:T59 Arg2:T58	

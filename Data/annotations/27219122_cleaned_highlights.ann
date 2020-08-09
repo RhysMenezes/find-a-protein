@@ -1,0 +1,29 @@
+T1	Protein 1804 1808	EDS1
+T2	Methodology 1809 1812	YFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 1804 1812	EDS1-YFP
+T4	Protein 276 280	EDS1
+T5	Subcellular_Location 308 315	nuclear
+T6	Subcellular_Location 320 331	cytoplasmic
+R2	Located_In Arg1:T4 Arg2:T5	
+R3	Located_In Arg1:T4 Arg2:T6	
+T7	Protein 481 485	EDS1
+T8	Methodology 486 489	YFP
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 481 489	EDS1-YFP
+T10	Subcellular_Location 535 544	cytoplasm
+T11	Subcellular_Location 552 559	nucleus
+R5	Located_In Arg1:T7 Arg2:T10	
+R6	Located_In Arg1:T7 Arg2:T11	
+T12	Protein 2985 2989	EDS1
+T13	Methodology 2990 2993	YFP
+R7	Subcellular_methodology Arg1:T12 Arg2:T13	
+T14	Tagged_Protein 2985 2993	EDS1-YFP
+T15	Subcellular_Location 3011 3020	cytoplasm
+T16	Subcellular_Location 3029 3036	nucleus
+R8	Located_In Arg1:T12 Arg2:T15	
+R9	Located_In Arg1:T12 Arg2:T16	
+T17	Protein 4457 4461	EDS1
+T18	Methodology 4462 4465	YFP
+R10	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 4457 4465	EDS1-YFP

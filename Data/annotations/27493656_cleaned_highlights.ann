@@ -1,0 +1,36 @@
+T1	Protein 211 215	LSM5
+T2	Methodology 201 204	GFP
+T3	Protein 216 220	SAD1
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+R2	Subcellular_methodology Arg1:T3 Arg2:T2	
+T4	Subcellular_Location 242 249	nucleus
+R3	Located_In Arg1:T1 Arg2:T4	
+R4	Located_In Arg1:T3 Arg2:T4	
+T5	Subcellular_Location 911 918	nucleus
+T6	Protein 852 856	LSM5
+T7	Protein 857 861	SAD1
+R5	Located_In Arg1:T7 Arg2:T5	
+R6	Located_In Arg1:T6 Arg2:T5	
+T8	Protein 1014 1018	SAD1
+T9	Methodology 862 865	GFP
+R7	Subcellular_methodology Arg1:T7 Arg2:T9	
+R8	Subcellular_methodology Arg1:T6 Arg2:T9	
+T10	Tagged_Protein 857 865	SAD1-GFP
+T11	Protein 1009 1013	LSM5
+T12	Methodology 1019 1022	GFP
+R9	Subcellular_methodology Arg1:T8 Arg2:T12	
+T13	Tagged_Protein 1014 1022	SAD1-GFP
+R10	Subcellular_methodology Arg1:T11 Arg2:T12	
+T14	Subcellular_Location 985 992	nuclear
+R11	Located_In Arg1:T8 Arg2:T14	
+R12	Located_In Arg1:T11 Arg2:T14	
+T15	Protein 1774 1778	SAD1
+T16	Gene_Locus 1782 1791	At5g48870
+T17	Protein 1769 1773	LSM5
+R13	Locus_link Arg1:T15 Arg2:T16	
+R14	Locus_link Arg1:T17 Arg2:T16	
+T18	Methodology 1675 1678	GFP
+T19	Protein 1686 1690	LSM5
+T20	Protein 1691 1695	SAD1
+R15	Subcellular_methodology Arg1:T19 Arg2:T18	
+R16	Subcellular_methodology Arg1:T20 Arg2:T18	

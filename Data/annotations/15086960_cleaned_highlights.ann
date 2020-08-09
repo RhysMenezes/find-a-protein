@@ -1,0 +1,20 @@
+T1	Protein 466 469	CAO
+T2	Methodology 470 473	GFP
+T3	Subcellular_Location 570 582	chloroplasts
+T4	Subcellular_Location 590 609	thylakoid membranes
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+R2	Located_In Arg1:T1 Arg2:T3	
+R3	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 1353 1356	CAO
+T6	Subcellular_Location 1374 1394	chloroplast envelope
+T7	Subcellular_Location 1399 1418	thylakoid membranes
+R4	Located_In Arg1:T5 Arg2:T6	
+R5	Located_In Arg1:T5 Arg2:T7	
+T8	Protein 1875 1878	CAO
+T9	Subcellular_Location 1907 1926	thylakoid membranes
+T10	Subcellular_Location 1940 1952	chloroplasts
+R6	Located_In Arg1:T8 Arg2:T9	
+R7	Located_In Arg1:T8 Arg2:T10	
+T11	Protein 2755 2760	AtCAO
+T12	Methodology 2761 2764	GFP
+R8	Subcellular_methodology Arg1:T11 Arg2:T12	

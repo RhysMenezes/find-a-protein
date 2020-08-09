@@ -1,0 +1,61 @@
+T1	Methodology 239 242	CFP
+T2	Protein 247 252	FtsZ1
+T3	Methodology 253 256	GFP
+R1	Subcellular_methodology Arg1:T2 Arg2:T3	
+T4	Tagged_Protein 247 256	FtsZ1–GFP
+R2	Subcellular_methodology Arg1:T2 Arg2:T1	
+T5	Subcellular_Location 399 407	plastids
+T6	Protein 487 492	FtsZ1
+T7	Methodology 493 496	GFP
+R3	Subcellular_methodology Arg1:T6 Arg2:T7	
+T8	Tagged_Protein 487 496	FtsZ1–GFP
+R4	Located_In Arg1:T6 Arg2:T5	
+T9	Protein 4263 4270	AtMinE1
+T10	Methodology 4271 4274	YFP
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Tagged_Protein 4263 4274	AtMinE1-YFP
+T12	Protein 5682 5689	AtMinE1
+T13	Methodology 5690 5693	YFP
+R6	Subcellular_methodology Arg1:T12 Arg2:T13	
+T14	Tagged_Protein 5682 5693	AtMinE1-YFP
+T15	Subcellular_Location 5720 5728	plastids
+R7	Located_In Arg1:T12 Arg2:T15	
+T16	Protein 4569 4576	AtMinE1
+T17	Methodology 4577 4580	YFP
+R8	Subcellular_methodology Arg1:T16 Arg2:T17	
+T18	Tagged_Protein 4569 4580	AtMinE1-YFP
+T19	Protein 6074 6081	AtMinE1
+T20	Methodology 6082 6085	YFP
+R9	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Tagged_Protein 6074 6085	AtMinE1-YFP
+T22	Subcellular_Location 6195 6203	plastids
+R10	Located_In Arg1:T19 Arg2:T22	
+T23	Protein 6364 6371	AtMinE1
+T24	Methodology 6372 6375	YFP
+R11	Subcellular_methodology Arg1:T23 Arg2:T24	
+T25	Tagged_Protein 6364 6375	AtMinE1-YFP
+T26	Subcellular_Location 6409 6417	plastids
+R12	Located_In Arg1:T23 Arg2:T26	
+T27	Protein 7183 7188	FtsZ1
+T28	Protein 6755 6760	FtsZ1
+T29	Methodology 6761 6764	GFP
+R13	Subcellular_methodology Arg1:T28 Arg2:T29	
+T30	Tagged_Protein 6755 6764	FtsZ1–GFP
+T31	Subcellular_Location 7205 7214	stromules
+T32	Subcellular_Location 7219 7226	plastid
+R14	Located_In Arg1:T27 Arg2:T31	
+R15	Located_In Arg1:T27 Arg2:T32	
+T33	Protein 8767 8772	FtsZ1
+T34	Methodology 8773 8776	GFP
+R16	Subcellular_methodology Arg1:T33 Arg2:T34	
+T35	Subcellular_Location 8834 8841	plastid
+T36	Tagged_Protein 8767 8776	FtsZ1–GFP
+R17	Located_In Arg1:T33 Arg2:T35	
+T37	Protein 9318 9323	FtsZ1
+T38	Methodology 9324 9327	GFP
+R18	Subcellular_methodology Arg1:T37 Arg2:T38	
+T39	Tagged_Protein 9318 9327	FtsZ1–GFP
+T40	Protein 11216 11223	AtMinE1
+T41	Methodology 11224 11227	YFP
+R19	Subcellular_methodology Arg1:T40 Arg2:T41	
+T42	Tagged_Protein 11216 11227	AtMinE1-YFP

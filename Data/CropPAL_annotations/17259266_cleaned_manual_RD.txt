@@ -1,0 +1,7 @@
+ABSTRACT:
+EMP4 contains nine 35–amino acid PPR motifs and an N-terminal mitochondrion-targeted sequence peptide, which was confirmed by a translational EMP4–green fluorescent protein fusion that localized to mitochondria. 
+RESULTS:
+To experimentally determine the subcellular localization of EMP4, we generated a translational EMP4-GFP fusion construct, which was used for transient expression studies in tobacco (Nicotiana tabacum) leaf epidermal cells. 
+Contrary to the computer predictions, confocal laser scanning microscopy analysis of leaf samples showed in vivo colocalization of the green fluorescent signal of EMP4-GFP with Mito Tracker Orange in mitochondria
+MATERIALS AND METHODS:
+To generate a translational protein fusion between EMP4 and GFP, the full-length ORF of emp4 was amplified by PCR and introduced into the binary vector pGWB5 (a gift from Tsuyoshi Nakagawa, Shimane University) by GATEWAY in vitro site-specific recombination (Invitrogen).

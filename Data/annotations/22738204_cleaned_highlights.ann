@@ -1,0 +1,32 @@
+T1	Protein 214 221	SnRK2.4
+T2	Methodology 222 225	YFP
+T3	Tagged_Protein 214 225	SnRK2.4–YFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Subcellular_Location 245 252	cytosol
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 641 648	SnRK2.4
+T6	Methodology 649 652	YFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Tagged_Protein 641 652	SnRK2.4–YFP
+T8	Subcellular_Location 674 681	cytosol
+R4	Located_In Arg1:T5 Arg2:T8	
+T9	Protein 843 850	SnRK2.4
+T10	Methodology 851 854	YFP
+T11	Tagged_Protein 843 854	SnRK2.4–YFP
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T12	Subcellular_Location 879 888	cytosolic
+R6	Located_In Arg1:T9 Arg2:T12	
+T13	Protein 919 926	SnRK2.4
+T14	Methodology 927 930	YFP
+R7	Subcellular_methodology Arg1:T13 Arg2:T14	
+T15	Tagged_Protein 919 930	SnRK2.4–YFP
+T16	Subcellular_Location 950 957	cytosol
+R8	Located_In Arg1:T13 Arg2:T16	
+T17	Protein 2292 2299	SnRK2.4
+T18	Gene_Locus 2302 2311	At1g10940
+R9	Locus_link Arg1:T17 Arg2:T18	
+T19	Protein 2318 2326	SnRK2.10
+T20	Gene_Locus 2329 2338	At1g60940
+R10	Locus_link Arg1:T19 Arg2:T20	
+T21	Methodology 2129 2132	YFP
+R11	Subcellular_methodology Arg1:T17 Arg2:T21	

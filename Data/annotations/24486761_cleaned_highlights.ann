@@ -1,0 +1,91 @@
+T3	Protein 254 258	SGR6
+T4	Subcellular_Location 324 326	VM
+R1	Located_In Arg1:T3 Arg2:T4	
+T1	Protein 548 552	SGR6
+T2	Protein 526 546	SHOOT GRAVITROPISM 6
+T5	Subcellular_Location 581 598	vacuolar membrane
+T6	Subcellular_Location 600 602	VM
+R2	Located_In Arg1:T1 Arg2:T5	
+R3	Located_In Arg1:T1 Arg2:T6	
+R4	Located_In Arg1:T2 Arg2:T5	
+R5	Located_In Arg1:T2 Arg2:T6	
+T7	Methodology 798 801	GFP
+T8	Protein 802 806	SGR6
+R6	Subcellular_methodology Arg1:T8 Arg2:T7	
+T9	Tagged_Protein 798 806	GFP-SGR6
+T10	Methodology 821 825	mRFP
+T11	Protein 826 830	VAM3
+R7	Subcellular_methodology Arg1:T11 Arg2:T10	
+T12	Tagged_Protein 821 830	mRFP-VAM3
+T13	Methodology 868 893	green fluorescent protein
+T14	Methodology 895 898	GFP
+T15	Methodology 919 942	red fluorescent protein
+T16	Methodology 944 947	RFP
+T17	Protein 1973 1976	SCR
+T18	Methodology 1980 1984	mRFP
+T19	Tagged_Protein 1973 1987	SCRpro:mRFP-er
+R8	Subcellular_methodology Arg1:T17 Arg2:T18	
+T20	Subcellular_Location 1994 2015	endoplasmic reticulum
+R9	Located_In Arg1:T17 Arg2:T20	
+T21	Protein 2090 2094	ARA6
+T22	Methodology 2095 2099	mRFP
+R10	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Tagged_Protein 2090 2099	ARA6-mRFP
+T24	Subcellular_Location 2141 2149	endosome
+R11	Located_In Arg1:T21 Arg2:T24	
+T25	Methodology 2161 2165	mRFP
+T26	Protein 2166 2170	ARA7
+T27	Tagged_Protein 2161 2170	mRFP-ARA7
+R12	Subcellular_methodology Arg1:T26 Arg2:T25	
+T28	Subcellular_Location 2212 2220	endosome
+T29	Protein 2127 2131	ARA6
+T30	Protein 2198 2202	ARA7
+R13	Located_In Arg1:T29 Arg2:T24	
+R14	Located_In Arg1:T26 Arg2:T28	
+R15	Located_In Arg1:T30 Arg2:T28	
+T31	Methodology 2235 2239	mRFP
+T32	Protein 2240 2244	VAM3
+R16	Subcellular_methodology Arg1:T32 Arg2:T31	
+T33	Tagged_Protein 2235 2244	mRFP-VAM3
+T34	Subcellular_Location 2278 2285	vacuole
+R17	Located_In Arg1:T32 Arg2:T34	
+T35	Protein 3435 3464	tonoplast intrinsic protein-γ
+T36	Methodology 3431 3434	GFP
+R18	Subcellular_methodology Arg1:T35 Arg2:T36	
+T37	Tagged_Protein 3431 3464	GFP–tonoplast intrinsic protein-γ
+T38	Subcellular_Location 3487 3501	lytic vacuoles
+R19	Located_In Arg1:T35 Arg2:T38	
+T39	Protein 3466 3471	γ-TIP
+R20	Located_In Arg1:T39 Arg2:T38	
+T40	Methodology 3886 3911	green fluorescent protein
+T41	Protein 3912 3941	tonoplast intrinsic protein-γ
+T42	Tagged_Protein 3886 3941	green fluorescent protein–tonoplast intrinsic protein-γ
+T43	Protein 3947 3952	γ-TIP
+T44	Methodology 3943 3946	GFP
+R23	Subcellular_methodology Arg1:T43 Arg2:T44	
+T45	Tagged_Protein 3943 3952	GFP–γ-TIP
+T46	Subcellular_Location 3957 3970	lytic vacuole
+R24	Located_In Arg1:T43 Arg2:T46	
+R21	Subcellular_methodology Arg1:T41 Arg2:T40	
+R22	Located_In Arg1:T43 Arg2:T46	
+R25	Located_In Arg1:T41 Arg2:T46	
+T47	Methodology 4525 4550	green fluorescent protein
+T48	Protein 4551 4580	tonoplast intrinsic protein-γ
+R26	Subcellular_methodology Arg1:T48 Arg2:T47	
+T49	Tagged_Protein 4525 4580	green fluorescent protein–tonoplast intrinsic protein-γ
+T50	Methodology 4582 4585	GFP
+T51	Protein 4586 4591	γ-TIP
+R27	Subcellular_methodology Arg1:T51 Arg2:T50	
+T52	Tagged_Protein 4582 4591	GFP–γ-TIP
+T53	Subcellular_Location 4596 4609	lytic vacuole
+R28	Located_In Arg1:T51 Arg2:T53	
+R29	Located_In Arg1:T48 Arg2:T53	
+T54	Methodology 5073 5076	GFP
+T55	Protein 5109 5113	SGR6
+R30	Subcellular_methodology Arg1:T55 Arg2:T54	
+T56	Protein 5150 5154	SGR6
+T57	Methodology 5146 5149	GFP
+T58	Tagged_Protein 5146 5154	GFP-SGR6
+R31	Subcellular_methodology Arg1:T56 Arg2:T57	
+T59	Gene_Locus 5242 5251	At2g36810
+R32	Locus_link Arg1:T56 Arg2:T59	

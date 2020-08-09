@@ -1,0 +1,134 @@
+T1	Protein 265 275	SEPALLATA3
+T2	Subcellular_Location 328 339	cytoplasmic
+T3	Subcellular_Location 297 304	nuclear
+R1	Located_In Arg1:T1 Arg2:T3	
+R2	Located_In Arg1:T1 Arg2:T2	
+T4	Protein 727 731	SEP3
+T5	Methodology 732 735	GFP
+T6	Tagged_Protein 727 735	SEP3:GFP
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+T7	Subcellular_Location 832 839	nucleus
+R4	Located_In Arg1:T4 Arg2:T7	
+T8	Protein 1117 1121	SEP3
+T9	Methodology 1122 1125	GFP
+T10	Tagged_Protein 1117 1125	SEP3:GFP
+R5	Subcellular_methodology Arg1:T8 Arg2:T9	
+T11	Subcellular_Location 1161 1168	nucleus
+R6	Located_In Arg1:T8 Arg2:T11	
+T12	Protein 2069 2073	SEP3
+T13	Methodology 2074 2077	GFP
+T14	Tagged_Protein 2069 2077	SEP3:GFP
+R7	Subcellular_methodology Arg1:T12 Arg2:T13	
+T15	Subcellular_Location 2029 2040	cytoplasmic
+T16	Subcellular_Location 2045 2052	nuclear
+R8	Located_In Arg1:T12 Arg2:T15	
+R9	Located_In Arg1:T12 Arg2:T16	
+T17	Protein 2312 2316	SEP3
+T18	Methodology 2317 2320	GFP
+T19	Tagged_Protein 2312 2320	SEP3:GFP
+T20	Subcellular_Location 2272 2283	cytoplasmic
+T21	Subcellular_Location 2288 2295	nuclear
+R10	Located_In Arg1:T17 Arg2:T21	
+R11	Located_In Arg1:T17 Arg2:T20	
+T22	Protein 2517 2521	SEP3
+T23	Methodology 2522 2525	GFP
+T24	Tagged_Protein 2517 2525	SEP3:GFP
+R12	Subcellular_methodology Arg1:T22 Arg2:T23	
+T25	Subcellular_Location 2554 2561	nuclear
+T26	Subcellular_Location 2641 2656	cytoplasmically
+T27	Subcellular_Location 2661 2668	nuclear
+R13	Located_In Arg1:T22 Arg2:T25	
+R14	Located_In Arg1:T22 Arg2:T26	
+R15	Located_In Arg1:T22 Arg2:T27	
+T28	Protein 3085 3089	SEP3
+T29	Methodology 3090 3093	GFP
+T30	Tagged_Protein 3085 3093	SEP3:GFP
+T31	Subcellular_Location 3152 3167	cytoplasmically
+T32	Subcellular_Location 3172 3179	nuclear
+R16	Subcellular_methodology Arg1:T28 Arg2:T29	
+R17	Located_In Arg1:T28 Arg2:T31	
+R18	Located_In Arg1:T28 Arg2:T32	
+T33	Subcellular_Location 3332 3343	cytoplasmic
+T34	Protein 3344 3348	SEP3
+T35	Methodology 3349 3352	GFP
+T36	Tagged_Protein 3344 3352	SEP3:GFP
+R19	Subcellular_methodology Arg1:T34 Arg2:T35	
+R20	Located_In Arg1:T34 Arg2:T33	
+T37	Subcellular_Location 4025 4032	nuclear
+T38	Protein 4033 4037	SEP3
+T39	Methodology 4038 4041	GFP
+R21	Subcellular_methodology Arg1:T38 Arg2:T39	
+T40	Tagged_Protein 4033 4041	SEP3:GFP
+R22	Located_In Arg1:T38 Arg2:T37	
+T41	Protein 4103 4107	SEP3
+T42	Methodology 4108 4111	GFP
+T43	Tagged_Protein 4103 4111	SEP3:GFP
+R23	Subcellular_methodology Arg1:T41 Arg2:T42	
+T44	Subcellular_Location 4125 4140	cytoplasmically
+T45	Subcellular_Location 4145 4152	nuclear
+R24	Located_In Arg1:T41 Arg2:T44	
+R25	Located_In Arg1:T41 Arg2:T45	
+T46	Protein 4311 4315	SEP3
+T47	Methodology 4316 4319	GFP
+T48	Tagged_Protein 4311 4319	SEP3:GFP
+R26	Subcellular_methodology Arg1:T46 Arg2:T47	
+T49	Subcellular_Location 4358 4365	nuclear
+R27	Located_In Arg1:T46 Arg2:T49	
+T50	Protein 4733 4735	AG
+T51	Methodology 4736 4739	GFP
+T52	Tagged_Protein 4733 4739	AG:GFP
+R28	Subcellular_methodology Arg1:T50 Arg2:T51	
+T53	Subcellular_Location 4788 4795	nucleus
+T54	Subcellular_Location 4860 4869	cytoplasm
+R29	Located_In Arg1:T50 Arg2:T53	
+R30	Located_In Arg1:T50 Arg2:T54	
+T55	Protein 5457 5459	AG
+T56	Methodology 5460 5463	GFP
+T57	Tagged_Protein 5457 5463	AG:GFP
+R31	Subcellular_methodology Arg1:T55 Arg2:T56	
+T58	Subcellular_Location 5487 5496	cytoplasm
+T59	Subcellular_Location 5505 5511	nuclei
+R32	Located_In Arg1:T55 Arg2:T58	
+R33	Located_In Arg1:T55 Arg2:T59	
+T60	Protein 5852 5855	FUL
+T61	Methodology 5856 5859	GFP
+T62	Tagged_Protein 5852 5859	FUL:GFP
+R34	Subcellular_methodology Arg1:T60 Arg2:T61	
+T63	Subcellular_Location 5989 5996	nucleus
+T64	Subcellular_Location 6014 6023	cytoplasm
+R35	Located_In Arg1:T60 Arg2:T63	
+R36	Located_In Arg1:T60 Arg2:T64	
+T65	Protein 7198 7201	AP1
+T66	Methodology 7202 7205	GFP
+T67	Tagged_Protein 7198 7205	AP1:GFP
+R37	Subcellular_methodology Arg1:T65 Arg2:T66	
+T68	Subcellular_Location 7216 7222	nuclei
+R38	Located_In Arg1:T65 Arg2:T68	
+T69	Protein 9334 9336	AG
+T70	Protein 9345 9348	FUL
+T71	Protein 9360 9364	SEP3
+T72	Methodology 9337 9340	GFP
+T73	Methodology 9349 9352	GFP
+T74	Methodology 9365 9368	GFP
+T75	Tagged_Protein 9334 9340	AG:GFP
+T76	Tagged_Protein 9345 9352	FUL:GFP
+T77	Tagged_Protein 9360 9368	SEP3:GFP
+R39	Subcellular_methodology Arg1:T69 Arg2:T72	
+R40	Subcellular_methodology Arg1:T70 Arg2:T73	
+R41	Subcellular_methodology Arg1:T71 Arg2:T74	
+T78	Protein 9675 9678	AP1
+T79	Methodology 9681 9684	GFP
+T80	Tagged_Protein 9675 9684	AP1 : GFP
+R42	Subcellular_methodology Arg1:T78 Arg2:T79	
+T81	Protein 10241 10243	AG
+T82	Methodology 10244 10247	GFP
+T83	Tagged_Protein 10241 10247	AG:GFP
+R43	Subcellular_methodology Arg1:T81 Arg2:T82	
+T84	Protein 10255 10258	FUL
+T85	Methodology 10259 10262	GFP
+R44	Subcellular_methodology Arg1:T84 Arg2:T85	
+T86	Tagged_Protein 10255 10262	FUL:GFP
+T87	Protein 10417 10420	AP1
+T88	Methodology 10421 10424	GFP
+T89	Tagged_Protein 10417 10424	AP1:GFP
+R45	Subcellular_methodology Arg1:T87 Arg2:T88	

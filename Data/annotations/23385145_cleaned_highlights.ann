@@ -1,0 +1,70 @@
+T1	Protein 695 701	CNGC20
+T2	Subcellular_Location 722 737	plasma membrane
+R1	Located_In Arg1:T1 Arg2:T2	
+T3	Methodology 803 806	GFP
+T4	Methodology 812 819	mCherry
+T5	Protein 886 892	CNGC20
+T6	Protein 897 901	CaM2
+R2	Subcellular_methodology Arg1:T5 Arg2:T3	
+T7	Protein 1064 1070	CNGC20
+T8	Methodology 1071 1074	GFP
+R3	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 1064 1073	CNGC20–GF
+T10	Subcellular_Location 963 978	plasma membrane
+R4	Located_In Arg1:T7 Arg2:T10	
+T11	Methodology 1188 1191	GFP
+T12	Protein 1192 1198	CNGC20
+R5	Subcellular_methodology Arg1:T12 Arg2:T11	
+T13	Subcellular_Location 1156 1171	plasma membrane
+T14	Tagged_Protein 1188 1198	GFP–CNGC20
+R6	Located_In Arg1:T12 Arg2:T13	
+R7	Subcellular_methodology Arg1:T6 Arg2:T4	
+T15	Protein 1609 1615	CNGC20
+T16	Methodology 1616 1619	GFP
+T17	Protein 1674 1680	CNGC20
+T18	Methodology 1681 1684	GFP
+R8	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 1674 1684	CNGC20–GFP
+R9	Subcellular_methodology Arg1:T15 Arg2:T16	
+T20	Protein 1735 1739	CaM2
+T21	Methodology 1740 1747	mCherry
+R10	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 1735 1747	CaM2–mCherry
+T23	Protein 1709 1715	CNGC20
+T24	Methodology 1716 1719	GFP
+R11	Subcellular_methodology Arg1:T23 Arg2:T24	
+T25	Tagged_Protein 1709 1719	CNGC20–GFP
+T26	Subcellular_Location 2105 2120	Plasma membrane
+T27	Protein 2159 2165	CNGC20
+T28	Methodology 2165 2168	GFP
+R12	Subcellular_methodology Arg1:T27 Arg2:T28	
+T29	Tagged_Protein 2159 2168	CNGC20GFP
+R13	Located_In Arg1:T27 Arg2:T26	
+T30	Protein 2509 2515	CNGC20
+T31	Methodology 2516 2519	GFP
+T32	Protein 2524 2528	CaM2
+T33	Methodology 2529 2536	mCherry
+R14	Subcellular_methodology Arg1:T32 Arg2:T33	
+T34	Tagged_Protein 2524 2536	CaM2–mCherry
+T35	Tagged_Protein 2509 2519	CNGC20–GFP
+T36	Subcellular_Location 2633 2640	cytosol
+T37	Subcellular_Location 2649 2656	nucleus
+R15	Located_In Arg1:T32 Arg2:T36	
+R16	Located_In Arg1:T32 Arg2:T37	
+T38	Protein 3032 3038	CNGC20
+T39	Methodology 3041 3044	GFP
+T40	Subcellular_Location 3064 3071	nucleus
+T41	Protein 2864 2870	CNGC20
+T42	Subcellular_Location 2787 2794	nuclear
+R17	Located_In Arg1:T41 Arg2:T42	
+T43	Protein 2964 2970	CNGC20
+T44	Methodology 3012 3015	GFP
+R18	Subcellular_methodology Arg1:T43 Arg2:T44	
+T45	Protein 3017 3023	CNGC20
+T46	Methodology 3026 3029	GFP
+R19	Subcellular_methodology Arg1:T45 Arg2:T46	
+R20	Subcellular_methodology Arg1:T38 Arg2:T39	
+T47	Tagged_Protein 3032 3044	CNGC20-C–GFP
+R21	Located_In Arg1:T38 Arg2:T40	
+T48	Methodology 5012 5015	GFP
+T49	Methodology 5114 5121	mCherry

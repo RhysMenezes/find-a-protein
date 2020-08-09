@@ -1,0 +1,54 @@
+T1	Protein 277 281	OCT2
+T2	Protein 282 286	OCT6
+T3	Methodology 292 295	GFP
+R1	Subcellular_methodology Arg1:T2 Arg2:T3	
+R2	Subcellular_methodology Arg1:T1 Arg2:T3	
+T4	Protein 667 673	AtOCT1
+T5	Methodology 594 597	GFP
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Subcellular_Location 707 722	plasma membrane
+R4	Located_In Arg1:T4 Arg2:T6	
+T7	Protein 1068 1074	AtOCT2
+T8	Subcellular_Location 1115 1124	tonoplast
+T9	Methodology 1077 1080	GFP
+R5	Subcellular_methodology Arg1:T7 Arg2:T9	
+R6	Located_In Arg1:T7 Arg2:T8	
+T10	Protein 1553 1559	AtOCT1
+T11	Methodology 1560 1563	GFP
+T12	Tagged_Protein 1553 1563	AtOCT1-GFP
+T13	Subcellular_Location 1597 1612	plasma membrane
+R7	Located_In Arg1:T10 Arg2:T13	
+T14	Protein 1655 1661	AtOCT2
+T15	Protein 1662 1668	AtOCT6
+T16	Methodology 1669 1672	GFP
+R8	Subcellular_methodology Arg1:T15 Arg2:T16	
+R9	Subcellular_methodology Arg1:T14 Arg2:T16	
+T17	Tagged_Protein 1662 1672	AtOCT6-GFP
+T18	Subcellular_Location 1742 1751	tonoplast
+R10	Located_In Arg1:T15 Arg2:T18	
+R11	Located_In Arg1:T14 Arg2:T18	
+T19	Protein 2546 2552	AtOCT1
+T20	Gene_Locus 2553 2562	At1g73220
+T21	Protein 2565 2571	AtOCT2
+T22	Gene_Locus 2572 2581	At1g79360
+T23	Protein 2586 2592	AtOCT5
+T24	Gene_Locus 2593 2602	At1g79410
+T25	Protein 2624 2630	AtOCT6
+T26	Gene_Locus 2631 2640	At1g16370
+T27	Protein 2645 2651	AtOCT3
+T28	Gene_Locus 2652 2661	At1g16390
+T29	Protein 2683 2690	AtOCAT4
+T30	Gene_Locus 2692 2701	At3g20660
+T31	Methodology 2752 2755	GFP
+R12	Locus_link Arg1:T19 Arg2:T20	
+R13	Locus_link Arg1:T21 Arg2:T22	
+R14	Locus_link Arg1:T23 Arg2:T24	
+R15	Locus_link Arg1:T25 Arg2:T26	
+R16	Locus_link Arg1:T27 Arg2:T28	
+R17	Locus_link Arg1:T29 Arg2:T30	
+R18	Subcellular_methodology Arg1:T19 Arg2:T31	
+R19	Subcellular_methodology Arg1:T21 Arg2:T31	
+R20	Subcellular_methodology Arg1:T23 Arg2:T31	
+R21	Subcellular_methodology Arg1:T25 Arg2:T31	
+R22	Subcellular_methodology Arg1:T27 Arg2:T31	
+R23	Subcellular_methodology Arg1:T29 Arg2:T31	

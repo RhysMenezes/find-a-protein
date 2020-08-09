@@ -1,0 +1,35 @@
+T1	Protein 37 41	PYD1
+T2	Protein 43 47	PYD2
+T3	Protein 53 57	PYD3
+T4	Methodology 58 61	GFP
+R1	Subcellular_methodology Arg1:T3 Arg2:T4	
+R2	Subcellular_methodology Arg1:T2 Arg2:T4	
+T5	Protein 623 627	PYD1
+T6	Protein 631 635	PYD2
+T7	Protein 641 645	PYD3
+T8	Methodology 563 566	GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T8	
+R4	Subcellular_methodology Arg1:T6 Arg2:T8	
+R5	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Protein 754 758	PYD1
+T10	Methodology 759 762	GFP
+T11	Tagged_Protein 754 762	PYD1-GFP
+R6	Subcellular_methodology Arg1:T9 Arg2:T10	
+T12	Subcellular_Location 726 733	plastid
+R7	Located_In Arg1:T9 Arg2:T12	
+T13	Protein 925 929	PYD3
+T14	Methodology 930 933	GFP
+T15	Tagged_Protein 925 933	PYD3-GFP
+R8	Subcellular_methodology Arg1:T13 Arg2:T14	
+T16	Subcellular_Location 941 948	cytosol
+R9	Located_In Arg1:T13 Arg2:T16	
+T17	Protein 1524 1528	AMK2
+T18	Methodology 1529 1532	GFP
+T19	Subcellular_Location 1534 1541	plastid
+T20	Tagged_Protein 1524 1532	AMK2-GFP
+R10	Subcellular_methodology Arg1:T17 Arg2:T18	
+R11	Located_In Arg1:T17 Arg2:T19	
+T21	Protein 3698 3702	AMK2
+T22	Methodology 3703 3706	GFP
+R12	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Tagged_Protein 3698 3706	AMK2-GFP

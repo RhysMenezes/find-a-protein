@@ -1,0 +1,92 @@
+T1	Protein 210 216	SCAMP1
+T2	Methodology 217 220	YFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Protein 200 206	SCAMP1
+T4	Methodology 195 198	YFP
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T5	Tagged_Protein 194 206	(YFP)–SCAMP1
+T6	Tagged_Protein 210 220	SCAMP1-YFP
+T7	Methodology 320 323	YFP
+T8	Protein 324 330	SCAMP1
+T9	Tagged_Protein 320 330	YFP-SCAMP1
+R3	Subcellular_methodology Arg1:T8 Arg2:T7	
+T10	Subcellular_Location 373 388	plasma membrane
+R4	Located_In Arg1:T8 Arg2:T10	
+T11	Protein 578 583	SCAMP
+T12	Methodology 574 577	YFP
+R5	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 574 584	YFP-SCAMP1
+T14	Subcellular_Location 618 633	Golgi apparatus
+R6	Not_Located_In Arg1:T11 Arg2:T14	
+T16	Protein 857 863	SCAMP1
+T17	Methodology 867 870	YFP
+R8	Subcellular_methodology Arg1:T16 Arg2:T17	
+T18	Protein 993 999	SCAMP1
+T19	Methodology 1000 1003	YFP
+T20	Methodology 1008 1011	YFP
+T21	Protein 1012 1018	SCAMP1
+R9	Subcellular_methodology Arg1:T21 Arg2:T20	
+T22	Tagged_Protein 1008 1018	YFP-SCAMP1
+R10	Subcellular_methodology Arg1:T18 Arg2:T19	
+T23	Tagged_Protein 993 1003	SCAMP1-YFP
+T24	Protein 1227 1233	SCAMP1
+T25	Methodology 1234 1237	YFP
+T26	Methodology 1242 1245	YFP
+T27	Protein 1246 1252	SCAMP1
+R11	Subcellular_methodology Arg1:T27 Arg2:T26	
+R12	Subcellular_methodology Arg1:T24 Arg2:T25	
+T28	Tagged_Protein 1227 1237	SCAMP1-YFP
+T29	Tagged_Protein 1242 1252	YFP-SCAMP1
+T30	Protein 1325 1331	SCAMP1
+T31	Protein 1336 1342	SCAMP1
+T32	Methodology 1343 1346	YFP
+T33	Methodology 1321 1324	YFP
+R13	Subcellular_methodology Arg1:T30 Arg2:T33	
+T34	Tagged_Protein 1321 1331	YFP-SCAMP1
+R14	Subcellular_methodology Arg1:T31 Arg2:T32	
+T35	Tagged_Protein 1336 1346	SCAMP1-YFP
+T36	Subcellular_Location 1372 1374	PM
+R15	Located_In Arg1:T31 Arg2:T36	
+R16	Located_In Arg1:T30 Arg2:T36	
+T37	Protein 1740 1746	SCAMP1
+T38	Methodology 1747 1750	YFP
+T39	Methodology 1754 1757	YFP
+T40	Protein 1758 1764	SCAMP1
+R17	Subcellular_methodology Arg1:T40 Arg2:T39	
+T41	Tagged_Protein 1754 1764	YFP-SCAMP1
+T42	Tagged_Protein 1740 1750	SCAMP1-YFP
+R18	Subcellular_methodology Arg1:T37 Arg2:T38	
+T43	Subcellular_Location 1778 1783	Golgi
+T44	Subcellular_Location 1788 1791	PVC
+T15	Subcellular_Location 638 641	PVC
+R7	Not_Located_In Arg1:T11 Arg2:T15	
+R19	Not_Located_In Arg1:T37 Arg2:T43	
+R20	Not_Located_In Arg1:T40 Arg2:T43	
+R21	Not_Located_In Arg1:T40 Arg2:T44	
+R22	Not_Located_In Arg1:T37 Arg2:T44	
+T46	Protein 1849 1853	Man1
+T47	Methodology 1854 1857	GFP
+R23	Subcellular_methodology Arg1:T46 Arg2:T47	
+T48	Tagged_Protein 1849 1857	Man1-GFP
+T45	Subcellular_Location 1832 1841	cis-Golgi
+R24	Located_In Arg1:T46 Arg2:T45	
+T49	Subcellular_Location 1874 1892	trans-Golgi marker
+T50	Protein 1893 1899	GONST1
+T51	Methodology 1900 1903	YFP
+R25	Subcellular_methodology Arg1:T50 Arg2:T51	
+T52	Tagged_Protein 1893 1903	GONST1-YFP
+R26	Located_In Arg1:T50 Arg2:T49	
+T53	Subcellular_Location 1934 1937	PVC
+T54	Methodology 1945 1948	GFP
+T55	Protein 1949 1954	BP-80
+R27	Subcellular_methodology Arg1:T55 Arg2:T54	
+T56	Tagged_Protein 1945 1954	GFP-BP-80
+R28	Located_In Arg1:T55 Arg2:T53	
+T57	Protein 2585 2591	SCAMP1
+T58	Methodology 2591 2594	YFP
+R29	Subcellular_methodology Arg1:T57 Arg2:T58	
+T59	Tagged_Protein 2585 2595	SCAMP1YFPK
+T61	Protein 2651 2657	GONST1
+T62	Methodology 2658 2661	YFP
+R30	Subcellular_methodology Arg1:T61 Arg2:T62	
+T63	Tagged_Protein 2651 2661	GONST1-YFP

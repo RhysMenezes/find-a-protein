@@ -1,0 +1,5 @@
+ABSTRACT:
+RESULTS:
+be generated through the phosphorylation of phosphatidylinositol-4-phosphate (PI4P) by phosphatidylinositol-4-phosphate 5-kinases (PIP5K) 35 36 . In  pip5k4  mutant, the production of PI-4,5P 2  and the membrane recycling was decreased in pollen tubes 37 38 .  pLAT52:SEC3A-GFP  was introduced into the  pip5k4  homozygous mutant (SALK_001138,  Supplementary Fig. S6 ), and its localization was examined. Interestingly, SEC3A proteins still accumulated at the
+MATERIALS AND METHODS:
+plants using the Agrobacterium (strain EHA105)-mediated infiltration method 54 , followed by hygromycin selection. Confocal microscopy Confocal images of pollen grains or pollen tubes were collected by UltraView spinning-disc confocal scanner unit (Perkin Elmer). The wavelength was 488 nm for GFP excitation and 505–530 nm for detection. The excitation and detection wavelengths for DAPI and Calcofluor white were 359 nm and 385–405 nm for excitation, 461 nm and 437–445 nm for detection, PIP strip overlay binding assay For the PIP strip binding assays, phospholipid membranes

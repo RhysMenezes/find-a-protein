@@ -1,0 +1,30 @@
+T1	Protein 504 513	LecRK-I.9
+T2	Subcellular_Location 537 552	plasma membrane
+R1	Located_In Arg1:T1 Arg2:T2	
+T3	Protein 845 854	LecRK-I.9
+T4	Subcellular_Location 875 890	plasma membrane
+R2	Located_In Arg1:T3 Arg2:T4	
+T5	Protein 1098 1107	LecRK-I.9
+T6	Methodology 1108 1111	GFP
+T7	Tagged_Protein 1098 1111	LecRK-I.9-GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T8	Protein 1552 1561	LecRK-I.9
+T9	Methodology 1562 1565	GFP
+T10	Tagged_Protein 1552 1565	LecRK-I.9-GFP
+R4	Subcellular_methodology Arg1:T8 Arg2:T9	
+T11	Subcellular_Location 1585 1600	plasma membrane
+R5	Located_In Arg1:T8 Arg2:T11	
+T12	Protein 1630 1639	LecRK-I.9
+T13	Subcellular_Location 1649 1664	plasma membrane
+R6	Located_In Arg1:T12 Arg2:T13	
+T14	Protein 1709 1718	LecRK-I.9
+T15	Subcellular_Location 1739 1754	plasma membrane
+R7	Located_In Arg1:T14 Arg2:T15	
+T16	Protein 1832 1841	LecRK-I.9
+T17	Methodology 1842 1845	GFP
+R8	Subcellular_methodology Arg1:T16 Arg2:T17	
+T18	Tagged_Protein 1832 1845	LecRK-I.9-GFP
+T19	Protein 2366 2375	LecRK-I.9
+T20	Methodology 2376 2379	GFP
+R9	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Tagged_Protein 2366 2379	LecRK-I.9-GFP

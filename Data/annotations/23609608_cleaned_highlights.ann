@@ -1,0 +1,62 @@
+T1	Protein 335 341	AtCPK5
+T2	Methodology 283 286	GFP
+T3	Subcellular_Location 303 318	plasma membrane
+R1	Located_In Arg1:T1 Arg2:T3	
+R2	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Protein 448 454	AtCPK5
+T5	Methodology 464 489	green fluorescent protein
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Protein_variant 540 550	pCPK5-16aa
+T7	Methodology 551 554	GFP
+R4	Subcellular_methodology Arg1:T6 Arg2:T7	
+T8	Tagged_Protein 540 554	pCPK5-16aa-GFP
+T9	Protein_variant 870 879	CPK5-16aa
+T10	Methodology 880 883	GFP
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Subcellular_Location 934 949	plasma membrane
+T12	Protein 960 966	AtCPK5
+R6	Located_In Arg1:T12 Arg2:T11	
+T13	Tagged_Protein 870 883	CPK5-16aa-GFP
+R7	Located_In Arg1:T9 Arg2:T11	
+T14	Protein_variant 1117 1126	CPK5-16aa
+T15	Methodology 1127 1130	GFP
+R8	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 1117 1130	CPK5-16aa-GFP
+T17	Subcellular_Location 1064 1071	cytosol
+T18	Subcellular_Location 1076 1083	nucleus
+R9	Located_In Arg1:T14 Arg2:T18	
+R10	Located_In Arg1:T14 Arg2:T17	
+T19	Protein_variant 1448 1456	CPK5-G2A
+T20	Methodology 1457 1460	GFP
+R11	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Tagged_Protein 1448 1460	CPK5-G2A-GFP
+T22	Subcellular_Location 1521 1528	cytosol
+T23	Subcellular_Location 1533 1540	nucleus
+R12	Located_In Arg1:T19 Arg2:T22	
+R13	Located_In Arg1:T19 Arg2:T23	
+T24	Protein 1658 1664	AtCPK5
+T25	Subcellular_Location 1685 1700	plasma membrane
+R14	Located_In Arg1:T24 Arg2:T25	
+T26	Protein 1818 1824	AtCPK5
+T27	Subcellular_Location 1786 1801	Plasma membrane
+R15	Located_In Arg1:T26 Arg2:T27	
+T28	Protein_variant 2318 2327	CPK5-16aa
+T29	Methodology 2328 2331	GFP
+T30	Protein_variant 2337 2345	CPK5-G2A
+T31	Methodology 2346 2349	GFP
+R16	Subcellular_methodology Arg1:T30 Arg2:T31	
+R17	Subcellular_methodology Arg1:T28 Arg2:T29	
+T32	Tagged_Protein 2317 2331	pCPK5-16aa-GFP
+T33	Tagged_Protein 2336 2349	pCPK5-G2A-GFP
+T34	Protein 2885 2891	AtCPK5
+T35	Methodology 2892 2895	GFP
+R18	Subcellular_methodology Arg1:T34 Arg2:T35	
+T36	Tagged_Protein 2885 2895	AtCPK5-GFP
+T37	Protein_variant 2956 2965	CPK5-16aa
+T38	Methodology 2966 2969	GFP
+R19	Subcellular_methodology Arg1:T37 Arg2:T38	
+T39	Tagged_Protein 2956 2969	CPK5-16aa-GFP
+T40	Protein_variant 2975 2983	CPK5-G2A
+T41	Methodology 2984 2987	GFP
+R20	Subcellular_methodology Arg1:T40 Arg2:T41	
+T42	Tagged_Protein 2975 2987	CPK5-G2A-GFP

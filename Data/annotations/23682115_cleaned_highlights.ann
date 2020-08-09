@@ -1,0 +1,169 @@
+T1	Methodology 773 776	GFP
+T2	Protein 787 791	ARA7
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+T3	Protein_variant 272 282	ARA7(Q69L)
+T4	Methodology 268 271	GFP
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T5	Tagged_Protein 268 282	GFP–ARA7(Q69L)
+T6	Methodology 863 866	GFP
+T7	Protein_variant 867 877	ARA7(Q69L)
+R3	Subcellular_methodology Arg1:T7 Arg2:T6	
+T8	Tagged_Protein 863 877	GFP–ARA7(Q69L)
+T9	Subcellular_Location 1044 1047	MVB
+T10	Protein 1056 1060	VSR2
+T11	Protein 1078 1083	SYP61
+T12	Subcellular_Location 1092 1097	Golgi
+T13	Protein 1106 1110	ManI
+R6	Located_In Arg1:T10 Arg2:T9	
+R7	Located_In Arg1:T11 Arg2:T9	
+R8	Located_In Arg1:T13 Arg2:T12	
+T15	Methodology 1170 1174	mRFP
+T14	Methodology 1032 1036	mRFP
+R4	Subcellular_methodology Arg1:T10 Arg2:T14	
+R5	Subcellular_methodology Arg1:T11 Arg2:T14	
+T16	Methodology 979 982	GFP
+T17	Protein_variant 983 993	ARA7(Q69L)
+R9	Subcellular_methodology Arg1:T17 Arg2:T16	
+T18	Tagged_Protein 979 993	GFP–ARA7(Q69L)
+T19	Protein 1175 1179	VSR2
+R10	Subcellular_methodology Arg1:T19 Arg2:T15	
+T20	Tagged_Protein 1170 1179	mRFP–VSR2
+T21	Protein_variant 1202 1212	ARA7(Q69L)
+T22	Methodology 1198 1201	GFP
+R11	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Tagged_Protein 1198 1212	GFP–ARA7(Q69L)
+T24	Subcellular_Location 1270 1273	MVB
+R12	Located_In Arg1:T21 Arg2:T24	
+R13	Located_In Arg1:T19 Arg2:T24	
+T25	Protein 1420 1425	SYP61
+T26	Methodology 1415 1419	mRFP
+R14	Subcellular_methodology Arg1:T25 Arg2:T26	
+T27	Tagged_Protein 1415 1425	mRFP–SYP61
+T28	Methodology 1429 1433	mRFP
+T29	Protein 1434 1438	Manl
+R15	Subcellular_methodology Arg1:T29 Arg2:T28	
+T30	Tagged_Protein 1429 1438	mRFP–Manl
+T31	Protein_variant 1553 1563	ARA7(Q69L)
+T32	Methodology 1549 1552	GFP
+R16	Subcellular_methodology Arg1:T31 Arg2:T32	
+T33	Tagged_Protein 1549 1563	GFP–ARA7(Q69L)
+T34	Subcellular_Location 1613 1616	MVB
+R17	Located_In Arg1:T31 Arg2:T34	
+T35	Protein 1723 1727	ARA7
+T36	Methodology 1719 1722	GFP
+R18	Subcellular_methodology Arg1:T35 Arg2:T36	
+T37	Tagged_Protein 1719 1727	GFP–ARA7
+T38	Methodology 1752 1755	GFP
+T39	Protein_variant 1756 1766	ARA7(Q69L)
+R19	Subcellular_methodology Arg1:T39 Arg2:T38	
+T40	Tagged_Protein 1752 1766	GFP–ARA7(Q69L)
+T41	Protein_variant 1863 1873	ARA7(Q69L)
+T42	Methodology 1859 1862	GFP
+R20	Subcellular_methodology Arg1:T41 Arg2:T42	
+T43	Tagged_Protein 1859 1873	GFP–ARA7(Q69L)
+T44	Methodology 1936 1940	mRFP
+T45	Protein 1941 1945	VSR2
+R21	Subcellular_methodology Arg1:T45 Arg2:T44	
+T46	Tagged_Protein 1936 1945	mRFP–VSR2
+T47	Methodology 1963 1967	mRFP
+T48	Protein 1968 1973	SYP61
+R22	Subcellular_methodology Arg1:T48 Arg2:T47	
+T49	Tagged_Protein 1963 1973	mRFP–SYP61
+T50	Protein 1996 2000	ManI
+T51	Methodology 2001 2005	mRFP
+R23	Subcellular_methodology Arg1:T50 Arg2:T51	
+T52	Tagged_Protein 1996 2005	ManI–mRFP
+T53	Subcellular_Location 1982 1987	Golgi
+T54	Subcellular_Location 1951 1954	TGN
+T55	Subcellular_Location 1924 1927	MVB
+R24	Located_In Arg1:T45 Arg2:T55	
+R25	Located_In Arg1:T48 Arg2:T54	
+R26	Located_In Arg1:T50 Arg2:T53	
+T56	Methodology 2227 2230	GFP
+T57	Protein_variant 2231 2241	ARA7(Q69L)
+R27	Subcellular_methodology Arg1:T57 Arg2:T56	
+T58	Tagged_Protein 2227 2241	GFP–ARA7(Q69L)
+T59	Methodology 3323 3326	GFP
+T60	Protein_variant 3327 3337	ARA7(Q69L)
+R28	Subcellular_methodology Arg1:T60 Arg2:T59	
+T61	Tagged_Protein 3323 3337	GFP–ARA7(Q69L)
+T62	Subcellular_Location 3369 3378	tonoplast
+R29	Located_In Arg1:T60 Arg2:T62	
+T63	Protein_variant 3717 3727	ARA7(Q69L)
+T64	Methodology 3713 3716	GFP
+R30	Subcellular_methodology Arg1:T63 Arg2:T64	
+T65	Tagged_Protein 3713 3727	GFP–ARA7(Q69L)
+T66	Subcellular_Location 3754 3757	MVB
+R31	Located_In Arg1:T63 Arg2:T66	
+T67	Protein 6447 6451	VIT1
+T68	Subcellular_Location 6509 6518	tonoplast
+R32	Located_In Arg1:T67 Arg2:T68	
+T69	Protein 6565 6573	aleurain
+T70	Methodology 6574 6577	GFP
+R33	Subcellular_methodology Arg1:T69 Arg2:T70	
+T71	Protein 6582 6587	EMP12
+T72	Methodology 6588 6591	GFP
+R34	Subcellular_methodology Arg1:T71 Arg2:T72	
+T73	Tagged_Protein 6582 6591	EMP12–GFP
+T74	Tagged_Protein 6565 6577	aleurain–GFP
+T75	Subcellular_Location 6634 6638	MVBs
+T76	Protein 6710 6717	VAMP727
+T77	Protein 6719 6724	VTI11
+T78	Protein 6730 6734	VIT1
+T79	Subcellular_Location 6787 6791	MVBs
+R35	Located_In Arg1:T78 Arg2:T79	
+R36	Located_In Arg1:T77 Arg2:T79	
+R37	Located_In Arg1:T76 Arg2:T79	
+T80	Protein 7129 7137	aleurain
+T81	Methodology 7138 7141	GFP
+T82	Protein 7147 7152	EMP12
+T83	Methodology 7153 7156	GFP
+R38	Subcellular_methodology Arg1:T82 Arg2:T83	
+R39	Subcellular_methodology Arg1:T80 Arg2:T81	
+T84	Tagged_Protein 7129 7141	aleurain–GFP
+T85	Tagged_Protein 7147 7156	EMP12–GFP
+T86	Protein 7162 7169	VAMP727
+T87	Methodology 7170 7173	GFP
+T88	Protein 7179 7184	VTI11
+T89	Methodology 7185 7188	GFP
+T90	Protein 7197 7201	VIT1
+T91	Methodology 7202 7205	GFP
+R40	Subcellular_methodology Arg1:T86 Arg2:T87	
+R41	Subcellular_methodology Arg1:T88 Arg2:T89	
+R42	Subcellular_methodology Arg1:T90 Arg2:T91	
+T92	Tagged_Protein 7198 7205	IT1–GFP
+T93	Tagged_Protein 7179 7188	VTI11–GFP
+T94	Tagged_Protein 7162 7173	VAMP727–GFP
+T95	Methodology 7369 7373	mRFP
+T96	Protein_variant 7374 7384	ARA7(Q69L)
+T97	Tagged_Protein 7369 7384	mRFP–ARA7(Q69L)
+R43	Subcellular_methodology Arg1:T96 Arg2:T95	
+T98	Subcellular_Location 7353 7356	MVB
+R44	Located_In Arg1:T96 Arg2:T98	
+T99	Methodology 7483 7487	mRFP
+T100	Protein_variant 7488 7498	ARA7(Q69L)
+R45	Subcellular_methodology Arg1:T100 Arg2:T99	
+T101	Tagged_Protein 7483 7498	mRFP–ARA7(Q69L)
+T102	Subcellular_Location 7536 7539	MVB
+R46	Located_In Arg1:T100 Arg2:T102	
+T103	Protein 7723 7731	aleurain
+T104	Methodology 7732 7735	GFP
+T105	Protein 7740 7745	EMP12
+T106	Methodology 7746 7749	GFP
+T107	Subcellular_Location 7793 7796	MVB
+T108	Protein_variant 7825 7835	ARA7(Q69L)
+R47	Subcellular_methodology Arg1:T103 Arg2:T104	
+R48	Subcellular_methodology Arg1:T105 Arg2:T106	
+T109	Tagged_Protein 7740 7749	EMP12–GFP
+T110	Tagged_Protein 7723 7735	aleurain–GFP
+R49	Located_In Arg1:T105 Arg2:T107	
+R50	Located_In Arg1:T103 Arg2:T107	
+R51	Located_In Arg1:T108 Arg2:T107	
+T111	Methodology 8135 8138	GFP
+T112	Protein_variant 8139 8149	ARA7(Q69L)
+R52	Subcellular_methodology Arg1:T112 Arg2:T111	
+T113	Tagged_Protein 8135 8149	GFP–ARA7(Q69L)
+T114	Methodology 9138 9141	GFP
+T115	Protein_variant 9142 9152	ARA7(Q69L)
+R53	Subcellular_methodology Arg1:T115 Arg2:T114	
+T116	Tagged_Protein 9138 9152	GFP–ARA7(Q69L)

@@ -1,0 +1,4 @@
+ABSTRACT:
+ Lepidium virginicum  WSCP (LvWSCP) are highly expressed in leaves and stems, while  Arabidopsis thaliana  WSCP (AtWSCP) and  Raphanus sativus  WSCP (RshWSCP) are highly transcribed in floral organs. BoWSCP and LvWSCP exist in the endoplasmic reticulum (ER) body. However, the subcellular localization of AtWSCP and RshWSCP is still unclear. To determine the subcellular localization of these WSCPs, we constructed transgenic plants expressing Venus-fused AtWSCP or RshWSCP. Results Open reading frames corresponding to full-length AtWSCP and RshWSCP
+RESULTS:
+MATERIALS AND METHODS:

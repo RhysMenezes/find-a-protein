@@ -1,0 +1,40 @@
+T1	Protein 158 167	AtFtsZ1-1
+T2	Methodology 168 171	GFP
+T3	Protein 210 219	AtFtsZ1-1
+T4	Methodology 220 223	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T5	Protein 857 866	AtFtsZ1-1
+T6	Methodology 867 870	GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Subcellular_Location 1022 1029	plastid
+R4	Located_In Arg1:T5 Arg2:T7	
+T8	Protein 1061 1070	AtFtsZ1-1
+T9	Methodology 1071 1074	GFP
+R5	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Protein 1155 1160	FtsZ2
+T11	Protein 1145 1150	FtsZ1
+T12	Subcellular_Location 1182 1194	Chloroplasts
+R6	Located_In Arg1:T10 Arg2:T12	
+R7	Located_In Arg1:T11 Arg2:T12	
+T13	Protein 1530 1539	AtFtsZ1-1
+T14	Methodology 1540 1543	GFP
+R8	Subcellular_methodology Arg1:T13 Arg2:T14	
+T15	Protein 2566 2575	AtFtsZ1-1
+T16	Protein 2591 2600	AtFtsZ1-1
+T17	Methodology 2631 2634	GFP
+R9	Subcellular_methodology Arg1:T15 Arg2:T17	
+R10	Subcellular_methodology Arg1:T16 Arg2:T17	
+T18	Tagged_Protein 158 171	AtFtsZ1-1–GFP
+T19	Tagged_Protein 857 870	AtFtsZ1-1–GFP
+T20	Tagged_Protein 1061 1074	AtFtsZ1-1–GFP
+T21	Tagged_Protein 1530 1543	AtFtsZ1-1–GFP
+T22	Irrelevant 487 762	of sections from individuals with severe plastid division defects and high AtFtsZ1-1 levels ( Fig. 4  A, lane 7) revealed that AtFtsZ1-1 is also detected in disorganized filament networks in these plants ( Fig. 4  C, right). AtFtsZ1-1–GFP was often localized similarly in the
+T23	Irrelevant 1312 1513	4 wk in a growth chamber as described previously ( Osteryoung et al. 1998 ). Pea ( Pisum sativum ) cv. ‘Little Marvel’ seeds were germinated in vermiculite and grown for 10 d under the same conditions.
+T24	Irrelevant 1831 2466	digestion with BamHI, contained ∼1.67 kb of the 5′ region and the entire coding sequence of  AtFtsZ1-1 , excluding the ultimate phenylalanine and stop codons. This fragment was inserted into the BamHI site in front of a soluble-modified GFP (EMBL/GenBank/DDBJ accession number U70495) ( Davis and Vierstra 1996 ) cassette, psmGFP (stock number CD3-326;  Arabidopsis  Biological Resource Center) containing GFP and a  nos  terminator, in the pBJ97 shuttle vector (empty vector obtained from Bart Janssen, The Horticulture and Food Research Institute, Auckland, New Zealand via John Bowman, University of California at Davis, Davis, CA).
+T25	Protein 2866 2875	AtFtsZ1-1
+T26	Methodology 2877 2880	GFP
+T27	Tagged_Protein 2866 2880	AtFtsZ1-1 –GFP
+R11	Subcellular_methodology Arg1:T25 Arg2:T26	
+T28	Irrelevant 2718 2860	AtFtsZ1-1 was changed to tryptophan (underlined) and a linker region before the starting methionine of GFP encoded the sequence  W IGGSIQGDIT.
+T29	Irrelevant 3164 3467	(Deneba Software) software. For in vivo GFP fluorescence microscopy, fresh leaf tissue was mounted in water and viewed with an FITC filter set and images were recorded on TMAX 400 film (Eastman Kodak Co.). Immunoblotting Preparation of leaf extracts, PAGE, and immunoblotting were performed as described

@@ -1,0 +1,18 @@
+T1	Protein 707 714	AtNUP62
+T2	Methodology 715 718	GFP
+T3	Subcellular_Location 757 774	nuclear periphery
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Tagged_Protein 707 718	AtNUP62-GFP
+R2	Located_In Arg1:T1 Arg2:T3	
+T5	Protein 874 881	AtNUP62
+T6	Methodology 882 885	GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Tagged_Protein 874 885	AtNUP62-GFP
+T8	Subcellular_Location 943 950	cytosol
+R4	Located_In Arg1:T5 Arg2:T8	
+T9	Protein 1463 1470	AtNUP62
+T10	Gene_Locus 1478 1487	At2g45000
+R5	Locus_link Arg1:T9 Arg2:T10	
+T11	Protein 1752 1759	AtNUP62
+T12	Gene_Locus 1762 1771	At2g45000
+R6	Locus_link Arg1:T11 Arg2:T12	

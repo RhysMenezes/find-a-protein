@@ -1,0 +1,60 @@
+T1	Protein 1012 1017	ACIP1
+T2	Methodology 1008 1011	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 1008 1017	GFP-ACIP1
+T4	Subcellular_Location 1036 1048	microtubules
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 2008 2012	ACIP
+T6	Subcellular_Location 2034 2046	microtubules
+R3	Located_In Arg1:T5 Arg2:T6	
+T7	Methodology 2083 2086	GFP
+T8	Protein 2087 2092	ACIP1
+R4	Subcellular_methodology Arg1:T8 Arg2:T7	
+T9	Tagged_Protein 2083 2092	GFP-ACIP1
+T10	Protein 2122 2126	TUA5
+T11	Methodology 2114 2121	mCHERRY
+R5	Subcellular_methodology Arg1:T10 Arg2:T11	
+T12	Tagged_Protein 2114 2126	mCHERRY-TUA5
+T13	Methodology 2197 2200	GFP
+T14	Protein 2201 2206	ACIP1
+R6	Subcellular_methodology Arg1:T14 Arg2:T13	
+T15	Tagged_Protein 2197 2206	GFP-ACIP1
+T16	Protein 2241 2245	TUA5
+T17	Methodology 2233 2240	mCHERRY
+R7	Subcellular_methodology Arg1:T16 Arg2:T17	
+T18	Tagged_Protein 2233 2245	mCHERRY-TUA5
+T19	Subcellular_Location 2246 2258	microtubules
+R8	Located_In Arg1:T14 Arg2:T19	
+R9	Located_In Arg1:T16 Arg2:T19	
+T20	Protein 3290 3295	ACIP1
+T21	Methodology 3286 3289	GFP
+R10	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 3286 3295	GFP-ACIP1
+T23	Methodology 3455 3458	GFP
+T24	Protein 3459 3464	ACIP1
+R11	Subcellular_methodology Arg1:T24 Arg2:T23	
+T25	Tagged_Protein 3455 3464	GFP-ACIP1
+T26	Methodology 3507 3514	mCHERRY
+T27	Protein 3518 3522	TUA5
+R12	Subcellular_methodology Arg1:T27 Arg2:T26	
+T28	Tagged_Protein 3507 3522	mCHERRY-HA-TUA5
+T29	Methodology 3716 3719	GFP
+T30	Protein 3720 3725	ACIP1
+R13	Subcellular_methodology Arg1:T30 Arg2:T29	
+T31	Tagged_Protein 3716 3725	GFP-ACIP1
+T32	Methodology 3730 3737	mCHERRY
+T33	Protein 3738 3742	TUA5
+R14	Subcellular_methodology Arg1:T33 Arg2:T32	
+T34	Tagged_Protein 3730 3742	mCHERRY-TUA5
+T35	Protein 4586 4591	ACIP1
+T36	Gene_Locus 4575 4584	At3G09980
+R15	Locus_link Arg1:T35 Arg2:T36	
+T37	Protein 4605 4612	ACIP-L1
+T38	Gene_Locus 4594 4603	At5G03660
+R16	Locus_link Arg1:T37 Arg2:T38	
+T39	Gene_Locus 4615 4624	At2G36410
+T40	Protein 4626 4633	ACIP-L2
+T41	Gene_Locus 4636 4645	At3G52920
+T42	Protein 4647 4654	ACIP-L3
+R17	Locus_link Arg1:T42 Arg2:T41	
+R18	Locus_link Arg1:T40 Arg2:T39	

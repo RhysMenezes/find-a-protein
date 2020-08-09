@@ -1,0 +1,31 @@
+T1	Methodology 198 201	GFP
+T2	Methodology 233 236	RFP
+T3	Protein 257 266	AtExo70E2
+T4	Subcellular_Location 303 318	plasma membrane
+T5	Subcellular_Location 330 339	cytoplasm
+R1	Subcellular_methodology Arg1:T3 Arg2:T2	
+R2	Subcellular_methodology Arg1:T3 Arg2:T1	
+R3	Located_In Arg1:T3 Arg2:T5	
+R4	Located_In Arg1:T3 Arg2:T4	
+T6	Methodology 1602 1605	GFP
+T7	Protein 1613 1620	Exo70A1
+T8	Protein 1625 1632	Exo70B1
+R5	Subcellular_methodology Arg1:T7 Arg2:T6	
+R6	Subcellular_methodology Arg1:T8 Arg2:T6	
+T9	Subcellular_Location 1688 1697	cytosolic
+R7	Located_In Arg1:T7 Arg2:T9	
+R8	Located_In Arg1:T8 Arg2:T9	
+T10	Protein 2436 2443	Exo70E2
+T11	Methodology 2444 2448	mRFP
+R9	Subcellular_methodology Arg1:T10 Arg2:T11	
+T12	Tagged_Protein 2436 2448	Exo70E2-mRFP
+T13	Subcellular_Location 2538 2547	cytosolic
+R10	Located_In Arg1:T10 Arg2:T13	
+T14	Protein 6302 6309	Exo70E2
+T15	Methodology 6310 6313	GFP
+R11	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 6302 6313	Exo70E2-GFP
+T17	Methodology 6597 6600	GFP
+T18	Protein 6589 6596	Exo70E2
+R12	Subcellular_methodology Arg1:T18 Arg2:T17	
+T19	Tagged_Protein 6589 6600	Exo70E2-GFP

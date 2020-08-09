@@ -1,0 +1,24 @@
+T2	Methodology 204 208	eGFP
+T3	Tagged_Protein 199 208	TSPO:eGFP
+T4	Subcellular_Location 241 262	endoplasmic reticulum
+T1	Protein 196 203	At TSPO
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 368 375	At TSPO
+T6	Methodology 376 380	eGFP
+T7	Tagged_Protein 368 380	At TSPO:eGFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T8	Subcellular_Location 394 406	chloroplasts
+R4	Located_In Arg1:T5 Arg2:T8	
+T9	Protein 1889 1895	AtTSPO
+T10	Methodology 1929 1932	GFP
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Protein 2273 2280	At TSPO
+T12	Methodology 2281 2285	eGFP
+R6	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 2273 2285	At TSPO:eGFP
+T14	Subcellular_Location 2319 2340	endoplasmic reticulum
+R7	Located_In Arg1:T11 Arg2:T14	
+T15	Protein 5592 5598	AtTSPO
+T16	Methodology 5623 5626	GFP
+R8	Subcellular_methodology Arg1:T15 Arg2:T16	

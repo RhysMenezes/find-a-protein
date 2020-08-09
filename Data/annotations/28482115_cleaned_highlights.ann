@@ -1,0 +1,34 @@
+T1	Protein 188 193	FLA 4
+T2	Subcellular_Location 240 255	plasma membrane
+T3	Subcellular_Location 270 279	endosomes
+R1	Located_In Arg1:T1 Arg2:T2	
+R2	Located_In Arg1:T1 Arg2:T3	
+T4	Protein 507 511	FLA4
+T5	Methodology 512 518	citrin
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 507 518	FLA4‐citrin
+T7	Subcellular_Location 546 561	plasma membrane
+R4	Located_In Arg1:T4 Arg2:T7	
+T8	Subcellular_Location 299 307	apoplast
+R5	Located_In Arg1:T1 Arg2:T8	
+T9	Protein 635 639	FLA4
+T10	Methodology 715 721	citrin
+R6	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Protein 1063 1067	SKU5
+T12	Methodology 1068 1071	GFP
+R7	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 1063 1071	SKU5‐GFP
+T14	Subcellular_Location 985 995	apoplastic
+T15	Subcellular_Location 1000 1015	plasma membrane
+R8	Located_In Arg1:T11 Arg2:T15	
+R9	Located_In Arg1:T11 Arg2:T14	
+T16	Protein 1799 1804	FLA 4
+T17	Methodology 1805 1811	citrin
+T18	Subcellular_Location 1837 1852	plasma membrane
+T19	Subcellular_Location 1864 1872	apoplast
+R10	Subcellular_methodology Arg1:T16 Arg2:T17	
+T20	Tagged_Protein 1799 1811	FLA 4‐citrin
+R11	Located_In Arg1:T16 Arg2:T18	
+R12	Located_In Arg1:T16 Arg2:T19	
+T21	Methodology 4805 4811	citrin
+T22	Methodology 5997 6002	MS/MS

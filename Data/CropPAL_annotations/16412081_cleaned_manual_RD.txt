@@ -1,0 +1,6 @@
+ABSTRACT:
+OsIRT1– and OsIRT2–green fluorescent protein fusion proteins localized to the plasma membrane when transiently expressed in onion (Allium cepa L.) epidermal cells.
+RESULTS:
+For transient expression, we fused the synthetic green fluorescent protein (sGFP) to the carboxy termini of OsIRT1 and OsIRT2.
+MATERIALS AND METHODS:
+The amplified fragment was digested with SalI and KpnI, and the excised fragment containing the OsIRT1 coding sequence was fused into the CaMV35S–SalI–KpnI–sGFP(S65T)–NOS3′ gene digested with SalI and KpnI. The OsIRT2 ORF was amplified using the primers 5′‐CACGCGGTACCCCACTTGGCCATGACGGAC and 5′‐GCTGGTACCTAACATCGAAGCTTTGTA. The amplified fragment was subcloned into CaMV35S–SalI–KpnI–sGFP(S65T)–NOS3′ in the same manner.  

@@ -1,0 +1,4 @@
+ABSTRACT:
+RESULTS:
+ The fractions of mixed envelope of  A. thaliana  and  M. sativa  as well as the outer (OE) and inner envelope (IE) membrane of  P. sativum  were subjected to SDS-PAGE analysis followed by Coomassie Blue staining. The migration of the molecular weight standard is indicated on the left.  (C)  The purity of the fractions in  (B) 
+amino acid sequence only, whereas white indicates the portion of peptides, which were assigned to various proteins, black indicates the portion of peptides, which were not assigned at all. The proteomes of all envelope membranes were analyzed by MALDI nLC-MS/MS (Table S14 in Supplementary Material) yielding in total 110 proteins in  A. thaliana  (Figure  1 D,  Arabidopsis  EM, three independent isolations; Table S1 in Supplementary Material). In parallel, we

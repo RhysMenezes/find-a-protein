@@ -1,0 +1,8 @@
+ABSTRACT:
+The UDT1:green fluorescent protein fusion protein was localized to the nucleus.
+RESULTS:
+To confirm this nuclear localization, we made a fusion between the green fluorescent protein (GFP) gene and Udt1; this construct was transiently expressed under the control of the 35S promoter and the nos terminator
+As a positive control, the previously characterized nuclear localization signal (NLS) of the B42 protein was fused to red fluorescent protein (RFP), and the fusion protein was expressed using the same regulatory elements
+When chimeric molecules were introduced into Arabidopsis protoplasts prepared from whole seedlings, we found that the UDT1:GFP was indeed localized to the nucleus (Figure 3B)
+The GFP signal coincided with an RFP signal driven by the NLS:RFP protein, indicating that UDT1 is a nuclear protein and can function as a transcriptional regulator.
+MATERIALS AND METHODS:

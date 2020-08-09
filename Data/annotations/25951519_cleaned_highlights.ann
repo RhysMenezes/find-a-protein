@@ -1,0 +1,23 @@
+T1	Protein 285 292	AtNAA70
+T2	Gene_Locus 274 283	AT2G39000
+R1	Locus_link Arg1:T1 Arg2:T2	
+T3	Protein 446 453	AtNAA70
+T4	Methodology 454 457	YFP
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T5	Tagged_Protein 446 457	AtNAA70:YFP
+T6	Protein 394 401	AtNAA70
+T7	Subcellular_Location 364 377	chloroplastic
+R3	Located_In Arg1:T6 Arg2:T7	
+R4	Located_In Arg1:T3 Arg2:T7	
+T8	Protein 935 942	AtNAA70
+T10	Methodology 954 958	EYFP
+R5	Subcellular_methodology Arg1:T8 Arg2:T10	
+T9	Methodology 1639 1642	YFP
+T11	Protein 1344 1351	AtNAA70
+T12	Methodology 1352 1356	EYFP
+R6	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 1344 1356	AtNAA70:EYFP
+T14	Protein 1385 1392	AtNAA70
+T15	Methodology 1393 1397	EYFP
+R7	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 1385 1397	AtNAA70:EYFP

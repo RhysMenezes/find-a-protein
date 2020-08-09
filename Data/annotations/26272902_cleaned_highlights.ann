@@ -1,0 +1,24 @@
+T1	Protein 235 243	AtLSG1-2
+T2	Protein 248 256	AtLSG1-1
+T3	Methodology 262 265	YFP
+R1	Subcellular_methodology Arg1:T2 Arg2:T3	
+R2	Subcellular_methodology Arg1:T1 Arg2:T3	
+T4	Subcellular_Location 293 300	cytosol
+R3	Located_In Arg1:T2 Arg2:T4	
+R4	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 417 425	AtLSG1-1
+T6	Protein 436 444	AtLSG1-2
+T7	Methodology 445 448	YFP
+T8	Methodology 413 416	YFP
+R5	Subcellular_methodology Arg1:T5 Arg2:T8	
+R6	Subcellular_methodology Arg1:T6 Arg2:T7	
+T9	Tagged_Protein 436 448	AtLSG1-2-YFP
+T10	Tagged_Protein 413 425	YFP-AtLSG1-1
+T11	Protein 967 975	AtLSG1-2
+T12	Methodology 976 979	YFP
+R7	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 967 979	AtLSG1-2–YFP
+T14	Protein 1322 1330	AtLSG1-1
+T15	Methodology 1318 1321	YFP
+R8	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 1318 1330	YFP-AtLSG1-1

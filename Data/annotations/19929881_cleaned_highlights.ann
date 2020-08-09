@@ -1,0 +1,50 @@
+T1	Protein 752 757	Dim1A
+T2	Protein 762 767	Dim1B
+T3	Methodology 810 835	green fluorescent protein
+T4	Protein 909 914	Dim1A
+T5	Protein 920 925	Dim1B
+T6	Methodology 926 929	GFP
+T7	Tagged_Protein 920 929	Dim1B–GFP
+R1	Subcellular_methodology Arg1:T5 Arg2:T6	
+R2	Subcellular_methodology Arg1:T4 Arg2:T6	
+R3	Subcellular_methodology Arg1:T1 Arg2:T3	
+R4	Subcellular_methodology Arg1:T2 Arg2:T3	
+T8	Protein 1234 1239	Dim1B
+T9	Methodology 1240 1243	GFP
+R5	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Tagged_Protein 1234 1243	Dim1B–GFP
+T11	Subcellular_Location 1320 1332	mitochondria
+T12	Protein 1361 1365	Cox4
+T13	Methodology 1366 1369	GFP
+T14	Tagged_Protein 1361 1369	Cox4–GFP
+R6	Subcellular_methodology Arg1:T12 Arg2:T13	
+R7	Located_In Arg1:T12 Arg2:T11	
+R8	Located_In Arg1:T8 Arg2:T11	
+T15	Protein 1438 1443	Dim1A
+T16	Methodology 1444 1447	GFP
+T17	Tagged_Protein 1438 1447	Dim1A–GFP
+R9	Subcellular_methodology Arg1:T15 Arg2:T16	
+T18	Subcellular_Location 1510 1517	nucleus
+T19	Subcellular_Location 1618 1627	nucleolus
+R10	Located_In Arg1:T15 Arg2:T18	
+R11	Located_In Arg1:T15 Arg2:T19	
+T20	Protein 1975 1980	Dim1A
+T21	Protein 1993 1998	Dim1B
+T22	Methodology 1981 1984	GFP
+T23	Methodology 1999 2002	GFP
+R12	Subcellular_methodology Arg1:T20 Arg2:T22	
+R13	Subcellular_methodology Arg1:T21 Arg2:T23	
+T24	Tagged_Protein 1975 1984	Dim1A–GFP
+T25	Tagged_Protein 1993 2002	Dim1B–GFP
+T26	Subcellular_Location 2015 2022	nuclear
+T27	Subcellular_Location 2031 2044	mitochondrial
+R14	Located_In Arg1:T20 Arg2:T26	
+R15	Located_In Arg1:T21 Arg2:T27	
+T28	Protein 3454 3459	Dim1B
+T29	Protein 3468 3473	Dim1A
+T30	Methodology 3474 3477	GFP
+T31	Methodology 3460 3463	GFP
+R16	Subcellular_methodology Arg1:T28 Arg2:T31	
+R17	Subcellular_methodology Arg1:T29 Arg2:T30	
+T32	Tagged_Protein 3454 3463	Dim1B–GFP
+T33	Tagged_Protein 3468 3477	Dim1A–GFP

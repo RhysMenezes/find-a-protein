@@ -1,0 +1,35 @@
+T1	Methodology 532 557	Green fluorescent protein
+T2	Methodology 559 562	GFP
+T3	Protein 634 639	GSNOR
+T4	Methodology 640 643	GFP
+T5	Subcellular_Location 871 880	cytosolic
+T6	Subcellular_Location 885 892	nuclear
+R1	Subcellular_methodology Arg1:T3 Arg2:T4	
+T7	Tagged_Protein 634 643	GSNOR-GFP
+R2	Located_In Arg1:T3 Arg2:T5	
+R3	Located_In Arg1:T3 Arg2:T6	
+T8	Methodology 1905 1908	GFP
+T9	Protein 1899 1904	GSNOR
+R4	Subcellular_methodology Arg1:T9 Arg2:T8	
+T10	Tagged_Protein 1899 1908	GSNOR-GFP
+T11	Subcellular_Location 1690 1699	cytosolic
+T12	Subcellular_Location 1704 1711	nuclear
+R5	Located_In Arg1:T9 Arg2:T11	
+R6	Located_In Arg1:T9 Arg2:T12	
+T13	Protein 2242 2247	GSNOR
+T14	Methodology 2248 2251	GFP
+R7	Subcellular_methodology Arg1:T13 Arg2:T14	
+T15	Tagged_Protein 2242 2251	GSNOR-GFP
+T16	Methodology 2297 2300	GFP
+T17	Protein 2344 2349	GSNOR
+R8	Subcellular_methodology Arg1:T17 Arg2:T16	
+T18	Methodology 2603 2606	GFP
+T19	Protein 2611 2616	GSNOR
+R9	Subcellular_methodology Arg1:T19 Arg2:T18	
+T20	Methodology 2715 2718	GFP
+T21	Protein 2857 2862	GSNOR
+R10	Subcellular_methodology Arg1:T21 Arg2:T20	
+T22	Protein 2946 2951	GSNOR
+T23	Methodology 2952 2955	GFP
+R11	Subcellular_methodology Arg1:T22 Arg2:T23	
+T24	Tagged_Protein 2946 2955	GSNOR-GFP

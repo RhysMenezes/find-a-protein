@@ -1,0 +1,6 @@
+ABSTRACT:
+RESULTS:
+and identified by MALDI-TOF mass spectrometry (MS). The identified proteins were analyzed with several bioinformatic programs and classified as: (i) outside (proteins predicted to be secreted since they contain a signal peptide and no other targeting sequence), (ii) having trans-membrane domain(s), or (iii)
+–  Number of proteins identified in each extract after separation by 2D-GE and MALDI-TOF MS analysis. After bioinformatic analysis, proteins were classified as outside (proteins containing a signal peptide and no other targeting sequences), having at least one trans-membrane domain and intracellular (predicted to be located in any intracellular compartment). Proteins for which
+MATERIALS AND METHODS:
+the Bradford method [ 27 ] with the Coomassie™ protein assay reagent kit (Pierce) using bovine serum albumin (BSA) as standard. Gels were stained with Coomassie™ Brilliant Blue-based method [ 28 ]. Colored bands were digested with trypsin and MALDI-TOF MS or LC-MS/MS analyses were performed as previously reported [ 12 , 13 ]. The sequences of the identified proteins were subsequently analyzed with several bioinformatic programs to predict their sub-cellular localization [ 29 - 31 ]. In some

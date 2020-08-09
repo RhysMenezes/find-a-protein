@@ -1,0 +1,76 @@
+T1	Protein 199 204	GAPC1
+T2	Methodology 205 208	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 199 208	GAPC1-GFP
+T4	Protein 255 260	GAPC1
+T5	Methodology 261 264	GFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 255 264	GAPC1-GFP
+T7	Subcellular_Location 278 294	Hechtian strands
+R3	Located_In Arg1:T4 Arg2:T7	
+T8	Subcellular_Location 315 330	plasma membrane
+R4	Located_In Arg1:T4 Arg2:T8	
+T9	Protein 978 983	GAPC1
+T10	Methodology 984 987	GFP
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Subcellular_Location 1004 1020	Hechtian strands
+R6	Located_In Arg1:T9 Arg2:T11	
+T12	Subcellular_Location 1044 1059	plasma membrane
+R7	Located_In Arg1:T9 Arg2:T12	
+T13	Subcellular_Location 2844 2851	nuclear
+T14	Protein 2862 2867	GAPC1
+T15	Methodology 2868 2871	GFP
+R8	Subcellular_methodology Arg1:T14 Arg2:T15	
+R9	Located_In Arg1:T14 Arg2:T13	
+T16	Tagged_Protein 2862 2871	GAPC1-GFP
+T17	Protein 3023 3028	GAPC1
+T18	Methodology 3029 3032	GFP
+T19	Subcellular_Location 3040 3047	nucleus
+R10	Subcellular_methodology Arg1:T17 Arg2:T18	
+T20	Tagged_Protein 3023 3032	GAPC1-GFP
+R11	Located_In Arg1:T17 Arg2:T19	
+T21	Protein 3141 3146	GAPC1
+T22	Methodology 3147 3150	GFP
+R12	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Subcellular_Location 3158 3170	endomembrane
+T24	Subcellular_Location 3182 3189	nucleus
+T25	Tagged_Protein 3141 3150	GAPC1-GFP
+R13	Located_In Arg1:T21 Arg2:T23	
+R14	Located_In Arg1:T21 Arg2:T24	
+T26	Protein 3354 3359	GAPC1
+T27	Methodology 3360 3363	GFP
+R15	Subcellular_methodology Arg1:T26 Arg2:T27	
+T28	Tagged_Protein 3354 3363	GAPC1-GFP
+T29	Subcellular_Location 3364 3371	nuclear
+R16	Located_In Arg1:T26 Arg2:T29	
+T30	Protein 3862 3867	GAPC1
+T31	Methodology 3868 3871	GFP
+T32	Subcellular_Location 3838 3845	Nuclear
+R17	Subcellular_methodology Arg1:T30 Arg2:T31	
+T33	Tagged_Protein 3862 3871	GAPC1-GFP
+R18	Located_In Arg1:T30 Arg2:T32	
+T34	Protein 4012 4017	GAPC1
+T35	Methodology 4018 4021	GFP
+R19	Subcellular_methodology Arg1:T34 Arg2:T35	
+T36	Tagged_Protein 4012 4021	GAPC1-GFP
+T37	Subcellular_Location 4022 4029	nuclear
+R20	Located_In Arg1:T34 Arg2:T37	
+T38	Protein 4235 4240	GAPC1
+T39	Methodology 4241 4244	GFP
+R21	Subcellular_methodology Arg1:T38 Arg2:T39	
+T40	Tagged_Protein 4235 4244	GAPC1-GFP
+T41	Subcellular_Location 4205 4212	Nuclear
+R22	Located_In Arg1:T38 Arg2:T41	
+T42	Protein 4312 4317	GAPC1
+T43	Methodology 4318 4321	GFP
+R23	Subcellular_methodology Arg1:T42 Arg2:T43	
+T44	Tagged_Protein 4312 4321	GAPC1-GFP
+T45	Subcellular_Location 4329 4335	nuclei
+R24	Located_In Arg1:T42 Arg2:T45	
+T46	Methodology 6312 6315	GFP
+T47	Protein 6306 6311	GAPC1
+R25	Subcellular_methodology Arg1:T47 Arg2:T46	
+T48	Tagged_Protein 6306 6315	GAPC1-GFP
+T49	Protein 6573 6578	GAPC1
+T50	Methodology 6685 6688	GFP
+R26	Subcellular_methodology Arg1:T49 Arg2:T50	

@@ -1,0 +1,56 @@
+T1	Methodology 323 326	GFP
+T2	Protein 338 343	GSTT1
+T3	Protein 345 350	GSTT2
+T4	Protein 352 357	GSTT3
+T5	Protein 376 382	GSTT3L
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+R2	Subcellular_methodology Arg1:T3 Arg2:T1	
+R3	Subcellular_methodology Arg1:T4 Arg2:T1	
+R4	Subcellular_methodology Arg1:T5 Arg2:T1	
+T6	Protein 582 587	GSTT3
+T7	Methodology 578 581	GFP
+T8	Tagged_Protein 578 587	GFP–GSTT3
+R5	Subcellular_methodology Arg1:T6 Arg2:T7	
+T9	Subcellular_Location 787 798	peroxisomes
+R6	Located_In Arg1:T6 Arg2:T9	
+T10	Protein 978 984	GSTT3L
+T11	Methodology 974 977	GFP
+T12	Tagged_Protein 974 984	GFP–GSTT3L
+R7	Subcellular_methodology Arg1:T10 Arg2:T11	
+T13	Subcellular_Location 1009 1016	nucleus
+R8	Located_In Arg1:T10 Arg2:T13	
+T14	Protein 1940 1946	GSTU12
+T15	Methodology 1936 1939	GFP
+T16	Tagged_Protein 1936 1946	GFP–GSTU12
+R9	Subcellular_methodology Arg1:T14 Arg2:T15	
+T17	Subcellular_Location 1973 1980	nucleus
+R10	Located_In Arg1:T14 Arg2:T17	
+T18	Protein 2500 2505	GSTL2
+T19	Methodology 2496 2499	GFP
+T20	Tagged_Protein 2496 2505	GFP–GSTL2
+R11	Subcellular_methodology Arg1:T18 Arg2:T19	
+T21	Subcellular_Location 2540 2547	cytosol
+T22	Subcellular_Location 2552 2563	peroxisomes
+R12	Located_In Arg1:T18 Arg2:T21	
+R13	Located_In Arg1:T18 Arg2:T22	
+T23	Protein 2699 2704	TCHQD
+T24	Methodology 2695 2698	GFP
+R14	Subcellular_methodology Arg1:T23 Arg2:T24	
+T25	Subcellular_Location 2722 2737	plasma membrane
+T26	Tagged_Protein 2695 2704	GFP–TCHQD
+R15	Located_In Arg1:T23 Arg2:T25	
+T27	Gene_Locus 2867 2876	At5g41210
+T28	Gene_Locus 2949 2958	At3g55040
+T29	Protein 2859 2865	GSTU12
+R16	Locus_link Arg1:T29 Arg2:T27	
+T30	Protein 2942 2947	GSTL2
+R17	Locus_link Arg1:T30 Arg2:T28	
+T31	Protein 3023 3028	DHAR3
+T32	Gene_Locus 3030 3039	At5g16710
+R18	Locus_link Arg1:T31 Arg2:T32	
+T33	Protein 3082 3087	TCHQD
+T34	Gene_Locus 3089 3098	At1g77290
+R19	Locus_link Arg1:T33 Arg2:T34	
+T35	Protein 6785 6792	AtPIP2a
+T36	Subcellular_Location 6759 6774	plasma membrane
+R20	Located_In Arg1:T35 Arg2:T36	

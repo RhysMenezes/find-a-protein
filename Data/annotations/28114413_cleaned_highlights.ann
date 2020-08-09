@@ -1,0 +1,64 @@
+T1	Protein 38 43	SERK3
+T2	Protein 29 33	BRI1
+T3	Subcellular_Location 59 74	plasma membrane
+R1	Located_In Arg1:T1 Arg2:T3	
+R2	Located_In Arg1:T2 Arg2:T3	
+T4	Protein 123 127	BRI1
+T5	Methodology 128 131	GFP
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 123 131	BRI1-GFP
+T7	Protein 142 146	BAK1
+T8	Methodology 147 154	mCherry
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 142 154	BAK1-mCherry
+T10	Protein 136 141	SERK3
+R5	Subcellular_methodology Arg1:T10 Arg2:T8	
+T11	Subcellular_Location 162 164	PM
+R6	Located_In Arg1:T4 Arg2:T11	
+R7	Located_In Arg1:T7 Arg2:T11	
+R8	Located_In Arg1:T10 Arg2:T11	
+T12	Protein 1281 1285	BRI1
+T13	Methodology 1286 1289	GFP
+T14	Protein 1294 1299	SERK3
+T15	Methodology 1300 1307	mCherry
+T16	Subcellular_Location 1315 1317	PM
+R9	Located_In Arg1:T14 Arg2:T16	
+R10	Located_In Arg1:T12 Arg2:T16	
+T17	Tagged_Protein 1281 1289	BRI1-GFP
+R11	Subcellular_methodology Arg1:T12 Arg2:T13	
+T18	Tagged_Protein 1294 1307	SERK3-mCherry
+T19	Subcellular_Location 1643 1661	Endosomal vesicles
+T20	Protein 1726 1730	BRI1
+T21	Protein 1735 1740	SERK3
+T22	Protein 1741 1745	BAK1
+R12	Located_In Arg1:T20 Arg2:T19	
+R13	Located_In Arg1:T21 Arg2:T19	
+R14	Located_In Arg1:T22 Arg2:T19	
+T23	Protein 5987 5991	BRI1
+T24	Protein 5996 6001	SERK3
+T25	Protein 6002 6006	BAK1
+T26	Subcellular_Location 6036 6051	PM nanoclusters
+R15	Located_In Arg1:T23 Arg2:T26	
+R16	Located_In Arg1:T24 Arg2:T26	
+R17	Located_In Arg1:T25 Arg2:T26	
+T27	Protein 11107 11111	BRI1
+T28	Gene_Locus 11113 11122	AT4G39400
+R18	Locus_link Arg1:T27 Arg2:T28	
+T29	Methodology 11133 11136	GFP
+R19	Subcellular_methodology Arg1:T27 Arg2:T29	
+T30	Protein 11184 11188	BRI1
+T31	Methodology 11189 11192	GFP
+R20	Subcellular_methodology Arg1:T30 Arg2:T31	
+T32	Tagged_Protein 11184 11192	BRI1-GFP
+T33	Protein 11388 11392	BAK1
+T34	Methodology 11393 11400	mCherry
+R21	Subcellular_methodology Arg1:T33 Arg2:T34	
+T35	Tagged_Protein 11388 11400	BAK1-mCherry
+T36	Protein 11382 11387	SERK3
+R22	Subcellular_methodology Arg1:T36 Arg2:T34	
+T37	Protein 11410 11414	BAK1
+T38	Methodology 11415 11418	GFP
+T39	Protein 11404 11409	SERK3
+T40	Tagged_Protein 11410 11418	BAK1-GFP
+R23	Subcellular_methodology Arg1:T37 Arg2:T38	
+R24	Subcellular_methodology Arg1:T39 Arg2:T38	

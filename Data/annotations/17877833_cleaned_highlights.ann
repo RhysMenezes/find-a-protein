@@ -1,0 +1,43 @@
+T1	Protein 535 543	AtCNGC10
+T2	Methodology 544 547	GFP
+T3	Tagged_Protein 535 547	AtCNGC10-GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Subcellular_Location 916 931	plasma membrane
+T5	Protein 875 883	AtCNGC10
+T6	Methodology 884 888	EGFP
+R2	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Tagged_Protein 875 888	AtCNGC10-EGFP
+R3	Located_In Arg1:T5 Arg2:T4	
+T8	Protein 2592 2600	AtCNGC10
+T9	Methodology 2601 2604	GFP
+T10	Tagged_Protein 2592 2604	AtCNGC10-GFP
+R4	Subcellular_methodology Arg1:T8 Arg2:T9	
+T11	Protein 2698 2706	AtCNGC10
+T12	Methodology 2725 2728	GFP
+T13	Subcellular_Location 2736 2751	plasma membrane
+R5	Subcellular_methodology Arg1:T11 Arg2:T12	
+R6	Located_In Arg1:T11 Arg2:T13	
+T14	Protein 3007 3015	AtCNGC10
+T15	Methodology 3044 3047	GFP
+T16	Subcellular_Location 3085 3100	plasma membrane
+R7	Subcellular_methodology Arg1:T14 Arg2:T15	
+R8	Located_In Arg1:T14 Arg2:T16	
+T17	Protein 3240 3248	AtCNGC10
+T18	Methodology 3249 3252	GFP
+T19	Tagged_Protein 3240 3252	AtCNGC10-GFP
+R9	Subcellular_methodology Arg1:T17 Arg2:T18	
+T20	Subcellular_Location 3272 3287	plasma membrane
+R10	Located_In Arg1:T17 Arg2:T20	
+T21	Protein 4757 4765	AtCNGC10
+T22	Methodology 4766 4769	GFP
+T23	Tagged_Protein 4757 4769	AtCNGC10-GFP
+T24	Subcellular_Location 4981 4996	plasma membrane
+R11	Subcellular_methodology Arg1:T21 Arg2:T22	
+R12	Located_In Arg1:T21 Arg2:T24	
+T25	Protein 6173 6179	CNGC10
+T26	Methodology 6180 6184	EGFP
+R13	Subcellular_methodology Arg1:T25 Arg2:T26	
+T27	Tagged_Protein 6173 6184	CNGC10-EGFP
+T28	Protein 8776 8784	AtCNGC10
+T29	Methodology 8803 8807	EGFP
+R14	Subcellular_methodology Arg1:T28 Arg2:T29	

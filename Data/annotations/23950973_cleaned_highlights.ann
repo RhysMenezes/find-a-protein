@@ -1,0 +1,31 @@
+T1	Protein 576 581	SLAC1
+T2	Methodology 582 585	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 576 585	SLAC1-GFP
+T4	Subcellular_Location 622 637	plasma membrane
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 1650 1655	SLAC1
+T6	Methodology 1609 1612	GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Protein 1871 1876	SLAC1
+T8	Methodology 1877 1880	GFP
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 1871 1880	SLAC1-GFP
+T10	Subcellular_Location 1929 1944	plasma membrane
+T11	Protein 1968 1973	SLAC1
+T12	Methodology 1974 1977	GFP
+R5	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 1968 1977	SLAC1-GFP
+R6	Located_In Arg1:T7 Arg2:T10	
+T14	Protein 2088 2093	SLAC1
+T15	Subcellular_Location 2111 2126	plasma membrane
+R7	Located_In Arg1:T14 Arg2:T15	
+T16	Protein 2355 2360	SLAC1
+T17	Methodology 2361 2364	GFP
+R8	Subcellular_methodology Arg1:T16 Arg2:T17	
+T18	Tagged_Protein 2355 2364	SLAC1-GFP
+T19	Methodology 2798 2801	GFP
+T20	Methodology 2822 2848	green fluorescence protein
+T21	Protein 2933 2938	SLAC1
+R9	Subcellular_methodology Arg1:T21 Arg2:T19	
+R10	Subcellular_methodology Arg1:T21 Arg2:T20	

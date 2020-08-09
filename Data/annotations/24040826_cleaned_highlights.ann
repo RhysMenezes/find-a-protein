@@ -1,0 +1,35 @@
+T1	Protein 287 293	AtTCTP
+T2	Methodology 294 297	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Subcellular_Location 261 270	cytosolic
+R2	Located_In Arg1:T1 Arg2:T3	
+T4	Tagged_Protein 287 297	AtTCTP-GFP
+T5	Protein 1845 1851	AtTCTP
+T6	Methodology 1853 1856	GFP
+T7	Tagged_Protein 1845 1856	AtTCTP::GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T8	Protein 2011 2017	AtTCTP
+T9	Methodology 2018 2021	GFP
+R4	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Tagged_Protein 2011 2021	AtTCTP-GFP
+T11	Subcellular_Location 1985 1994	cytosolic
+R5	Located_In Arg1:T8 Arg2:T11	
+T12	Protein 2065 2071	AtTCTP
+T13	Methodology 2072 2075	GFP
+R6	Subcellular_methodology Arg1:T12 Arg2:T13	
+T14	Tagged_Protein 2065 2075	AtTCTP-GFP
+T15	Protein 2224 2230	AtTCTP
+T16	Methodology 2231 2234	GFP
+R7	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Tagged_Protein 2224 2234	AtTCTP-GFP
+T18	Protein 2324 2330	AtTCTP
+T19	Gene_Locus 2332 2341	At3g16640
+R8	Locus_link Arg1:T18 Arg2:T19	
+T20	Protein 2368 2374	AtTCTP
+T21	Methodology 2375 2378	GFP
+R9	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 2368 2378	AtTCTP-GFP
+T23	Protein 2412 2418	AtTCTP
+T24	Methodology 2420 2423	GFP
+T25	Tagged_Protein 2412 2423	AtTCTP::GFP
+R10	Subcellular_methodology Arg1:T23 Arg2:T24	

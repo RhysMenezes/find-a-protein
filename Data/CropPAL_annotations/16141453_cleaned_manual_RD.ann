@@ -1,0 +1,23 @@
+T1	Protein 14 18	UDT1
+T2	Methodology 19 44	green fluorescent protein
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 14 44	UDT1:green fluorescent protein
+T4	Subcellular_Location 81 88	nucleus
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Methodology 166 191	green fluorescent protein
+T6	Protein 207 211	Udt1
+R3	Subcellular_methodology Arg1:T6 Arg2:T5	
+T7	Protein 408 411	B42
+T8	Methodology 433 456	red fluorescent protein
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Subcellular_Location 367 374	nuclear
+R5	Located_In Arg1:T7 Arg2:T9	
+T10	Protein 654 658	UDT1
+T11	Methodology 659 662	GFP
+R6	Subcellular_methodology Arg1:T10 Arg2:T11	
+T12	Tagged_Protein 654 662	UDT1:GFP
+T13	Subcellular_Location 691 698	nucleus
+R7	Located_In Arg1:T10 Arg2:T13	
+T14	Protein 802 806	UDT1
+T15	Subcellular_Location 812 819	nuclear
+R8	Located_In Arg1:T14 Arg2:T15	

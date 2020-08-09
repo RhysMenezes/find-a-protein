@@ -1,0 +1,78 @@
+T1	Protein 210 214	BOR1
+T2	Subcellular_Location 258 273	plasma membrane
+R1	Located_In Arg1:T1 Arg2:T2	
+T3	Protein 698 702	BOR1
+T4	Methodology 703 710	GFP-HPT
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T5	Protein_variant 715 726	BOR1(K590A)
+T6	Methodology 727 734	GFP-HPT
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Tagged_Protein 715 734	BOR1(K590A)-GFP-HPT
+T8	Tagged_Protein 698 710	BOR1-GFP-HPT
+T9	Subcellular_Location 751 766	plasma membrane
+R4	Located_In Arg1:T5 Arg2:T9	
+R5	Located_In Arg1:T3 Arg2:T9	
+T10	Protein 1236 1240	BOR1
+T11	Methodology 1241 1248	GFP-HPT
+R6	Subcellular_methodology Arg1:T10 Arg2:T11	
+T12	Tagged_Protein 1236 1248	BOR1-GFP-HPT
+T13	Subcellular_Location 1282 1297	plasma membrane
+R7	Located_In Arg1:T10 Arg2:T13	
+T14	Protein 1380 1384	BOR1
+T15	Methodology 1385 1388	GFP
+R8	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 1380 1388	BOR1-GFP
+R9	Located_In Arg1:T14 Arg2:T13	
+T17	Protein 2629 2637	BOR1-GFP
+T18	Methodology 2638 2641	HPT
+R10	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 2629 2641	BOR1-GFP-HPT
+T20	Subcellular_Location 2664 2673	endosomes
+T21	Subcellular_Location 2683 2698	plasma membrane
+R11	Located_In Arg1:T17 Arg2:T20	
+R12	Located_In Arg1:T17 Arg2:T21	
+T22	Protein 2765 2769	BOR1
+T23	Methodology 2770 2773	GFP
+R13	Subcellular_methodology Arg1:T22 Arg2:T23	
+T24	Tagged_Protein 2765 2773	BOR1-GFP
+R14	Located_In Arg1:T22 Arg2:T20	
+R15	Located_In Arg1:T22 Arg2:T21	
+T25	Protein_variant 3047 3058	BOR1(K590A)
+T26	Methodology 3059 3066	GFP-HPT
+R16	Subcellular_methodology Arg1:T25 Arg2:T26	
+T27	Tagged_Protein 3047 3066	BOR1(K590A)-GFP-HPT
+T28	Subcellular_Location 3097 3112	plasma membrane
+R17	Located_In Arg1:T25 Arg2:T28	
+T29	Protein 3568 3572	BOR1
+T30	Methodology 3573 3580	GFP-HPT
+R18	Subcellular_methodology Arg1:T29 Arg2:T30	
+T31	Tagged_Protein 3568 3580	BOR1-GFP-HPT
+T32	Protein_variant 3585 3596	BOR1(K590A)
+T33	Methodology 3597 3604	GFP-HPT
+R19	Subcellular_methodology Arg1:T32 Arg2:T33	
+T34	Tagged_Protein 3585 3604	BOR1(K590A)-GFP-HPT
+T35	Subcellular_Location 3612 3627	plasma membrane
+R20	Located_In Arg1:T32 Arg2:T35	
+R21	Located_In Arg1:T29 Arg2:T35	
+T36	Protein_variant 4067 4078	BOR1(K590A)
+T37	Methodology 4079 4086	GFP-HPT
+R22	Subcellular_methodology Arg1:T36 Arg2:T37	
+T38	Tagged_Protein 4067 4086	BOR1(K590A)-GFP-HPT
+T39	Subcellular_Location 4094 4109	plasma membrane
+R23	Located_In Arg1:T36 Arg2:T39	
+T40	Protein 4679 4683	BOR1
+T41	Methodology 4684 4687	GFP
+R24	Subcellular_methodology Arg1:T40 Arg2:T41	
+T42	Tagged_Protein 4679 4687	BOR1-GFP
+T43	Protein_variant 4689 4700	BOR1(K590A)
+T44	Methodology 4701 4704	GFP
+R25	Subcellular_methodology Arg1:T43 Arg2:T44	
+T45	Tagged_Protein 4689 4704	BOR1(K590A)-GFP
+T46	Protein 5848 5852	BOR1
+T47	Methodology 5853 5860	GFP-HPT
+R26	Subcellular_methodology Arg1:T46 Arg2:T47	
+T48	Tagged_Protein 5848 5860	BOR1-GFP-HPT
+T49	Protein_variant 5865 5876	BOR1(K590A)
+T50	Methodology 5877 5884	GFP-HPT
+R27	Subcellular_methodology Arg1:T49 Arg2:T50	
+T51	Tagged_Protein 5865 5884	BOR1(K590A)-GFP-HPT

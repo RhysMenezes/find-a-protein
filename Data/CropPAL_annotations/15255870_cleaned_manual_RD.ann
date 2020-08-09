@@ -1,0 +1,6 @@
+T1	Protein 10 16	OsYSL2
+T2	Methodology 17 42	green fluorescent protein
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 10 42	OsYSL2:green fluorescent protein
+T4	Subcellular_Location 70 85	plasma membrane
+R2	Located_In Arg1:T1 Arg2:T4	

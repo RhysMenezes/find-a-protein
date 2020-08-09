@@ -1,0 +1,5 @@
+T1	Protein 395 404	AtRIBA1-3
+T2	Methodology 433 436	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Subcellular_Location 637 644	plastid
+R2	Located_In Arg1:T1 Arg2:T3	

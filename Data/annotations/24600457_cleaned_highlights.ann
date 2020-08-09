@@ -1,0 +1,55 @@
+T1	Subcellular_Location 179 194	plasma membrane
+T2	Protein 210 217	AtPUB43
+R1	Located_In Arg1:T2 Arg2:T1	
+T3	Protein_variant 448 463	AtPUB43ΔARM 1−6
+T4	Methodology 465 468	GFP
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T5	Tagged_Protein 448 468	AtPUB43ΔARM 1−6 -GFP
+T6	Subcellular_Location 508 523	plasma membrane
+R3	Located_In Arg1:T3 Arg2:T6	
+T7	Protein_variant 821 837	AtPUB43ΔARM 7−12
+T8	Methodology 839 842	GFP
+T9	Protein_variant 847 864	AtPUB43ΔARM 10−12
+T10	Methodology 866 869	GFP
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T11	Tagged_Protein 821 842	AtPUB43ΔARM 7−12 -GFP
+T12	Tagged_Protein 847 869	AtPUB43ΔARM 10−12 -GFP
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T13	Subcellular_Location 893 902	cytoplasm
+R6	Located_In Arg1:T7 Arg2:T13	
+R7	Located_In Arg1:T9 Arg2:T13	
+T14	Protein_variant 2590 2606	AtPUB43ΔARM 7−12
+T15	Methodology 2608 2611	GFP
+R8	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 2590 2611	AtPUB43ΔARM 7−12 -GFP
+T17	Subcellular_Location 2684 2691	cytosol
+R9	Located_In Arg1:T14 Arg2:T17	
+T18	Protein_variant 2852 2869	AtPUB43ΔARM 10−12
+T19	Methodology 2871 2874	GFP
+R10	Subcellular_methodology Arg1:T18 Arg2:T19	
+T20	Subcellular_Location 2947 2954	cytosol
+T21	Tagged_Protein 2852 2874	AtPUB43ΔARM 10−12 -GFP
+R11	Located_In Arg1:T18 Arg2:T20	
+T22	Protein 3731 3737	AtINT4
+T23	Methodology 3738 3741	RFP
+R12	Subcellular_methodology Arg1:T22 Arg2:T23	
+T24	Tagged_Protein 3731 3741	AtINT4-RFP
+T25	Subcellular_Location 3765 3780	plasma membrane
+R13	Located_In Arg1:T22 Arg2:T25	
+T26	Protein 3842 3848	AtINT4
+T27	Methodology 3849 3852	RFP
+T28	Tagged_Protein 3842 3852	AtINT4-RFP
+R14	Subcellular_methodology Arg1:T26 Arg2:T27	
+T29	Subcellular_Location 3885 3900	plasma membrane
+R15	Located_In Arg1:T26 Arg2:T29	
+T30	Protein 5539 5545	AtINT4
+T31	Subcellular_Location 5594 5609	plasma membrane
+R16	Located_In Arg1:T30 Arg2:T31	
+T32	Methodology 5741 5744	RFP
+T33	Protein 5734 5740	AtINT4
+R17	Subcellular_methodology Arg1:T33 Arg2:T32	
+T34	Tagged_Protein 5734 5744	AtINT4-RFP
+T35	Subcellular_Location 5809 5824	plasma membrane
+R18	Located_In Arg1:T33 Arg2:T35	
+T36	Methodology 9209 9212	GFP
+T37	Methodology 9290 9293	GFP

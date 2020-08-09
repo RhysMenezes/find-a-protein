@@ -1,0 +1,4 @@
+ABSTRACT:
+RESULTS:
+prediction hinted at the existence of an  N -terminal RIBA transit peptide and either a plastidic or mitochondrial localizations. We examined  in situ  targeting of the three RIBA homologs by CLSM-mediated visualization of transiently expressed green fluorescent protein (GFP) fusion proteins after transformation of  Nicotiana benthamiana  leaves. Based on predictions by
+AtRIBA1-3 were fused to 5′-end of the GFP-encoding sequence ( Figure 4A ). The co-localization of chlorophyll and GFP fluorescence observed for all three RIBA-GFP fusions ( Figure 4B ) clearly demonstrates that all AtRIBA  N -termini contain plastid

@@ -1,0 +1,8 @@
+T1	Protein 260 265	PCA22
+T2	Methodology 266 291	green fluorescent protein
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 260 291	PCA22–green fluorescent protein
+T4	Protein 923 928	PCA22
+T5	Methodology 929 932	GFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 923 932	PCA22–GFP

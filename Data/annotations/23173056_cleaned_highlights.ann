@@ -1,0 +1,15 @@
+T1	Protein 47 54	AtGH9C1
+T2	Methodology 55 58	GFP
+T3	Subcellular_Location 21 30	Cell Wall
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Tagged_Protein 47 58	AtGH9C1-GFP
+R2	Located_In Arg1:T1 Arg2:T3	
+T5	Protein 485 492	AtGH9C1
+T6	Methodology 477 480	GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Protein 2790 2797	AtGH9C1
+T8	Methodology 2834 2837	GFP
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Methodology 3079 3082	GFP
+T10	Protein 3138 3145	AtGH9C1
+R5	Subcellular_methodology Arg1:T10 Arg2:T9	

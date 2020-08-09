@@ -1,0 +1,9 @@
+ABSTRACT:
+Confocal analysis of oocytes expressing ZmPIP1;2–green fluorescent protein (GFP) alone or ZmPIP1;2-GFP plus ZmPIP2;5 showed that the amount of ZmPIP1;2-GFP present in the plasma membrane was significantly greater in coexpressing cells.
+RESULTS:
+Because experiments on the detection of in vivo labeled proteins in purified oocyte plasma membranes (CITATION) did not give clear results, we studied the plasma membrane localization of a ZmPIP1;2–green fluorescent protein (GFP) fusion protein (CITATION).
+We first determined whether the presence of the GFP reporter at the C terminus of ZmPIP1;2 affected the positive cooperative effect observed previously.
+The data showed a significant increase (threefold to fourfold) in the amount of ZmPIP1;2-GFP in the membranes of oocytes coexpressing ZmPIP1;2-GFP and ZmPIP2;5 compared with controls, indicating that ZmPIP2;5 interacts with ZmPIP1;2-GFP to increase the amount of ZmPIP1;2-GFP in the oocyte plasma membrane.
+MATERIALS AND METHODS:
+To generate the two GFP vectors, pXZmPIP1;2-GFP and pXGFP, ZmPIP1;2-GFP and GFP cDNAs were amplified by PCR using the 35SC4PPDK-ZmPIP1;2sGFP(S65T) and 35SC4PPDK-sGFP(S65T) plasmids, respectively, as templates (CITATION) and the specific primers ZmPIP1;2-12 (5′-CGCGGATCCATGGAGGGGAAAG-3′), GFP1 (5′-CGCGGATCCTGCAGCCCGGGCGGCCGCT-3′), and GFP2 (5′-CGCGGATCCATGGTGAGCAAG-3′), thus incorporating a BamHI site at both ends.
+All PCR-amplified fragments containing BamHI and/or BglII sites at both ends were subcloned into the BglII site of a pSP64T-derived BS vector (CITATION), generating plasmids pXZmPIP2;1, pX2ZmPIP1;2, pXZmPIP2;5GW, pXZmPIP1;2-GFP, pXGFP, and pXGFP2. To construct pXGFP-ZmPIP2;4, ZmPIP2;4 cDNA

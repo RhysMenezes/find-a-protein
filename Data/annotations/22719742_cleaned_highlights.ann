@@ -1,0 +1,107 @@
+T1	Protein 468 475	PLA 2 α
+T2	Methodology 476 479	RFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 468 479	PLA 2 α-RFP
+T4	Protein 508 515	PLA 2 α
+T6	Subcellular_Location 620 629	apoplasts
+R3	Located_In Arg1:T4 Arg2:T6	
+T7	Protein 304 311	PLA 2 α
+T8	Subcellular_Location 374 383	apoplasts
+R4	Located_In Arg1:T7 Arg2:T8	
+T9	Methodology 965 968	RFP
+T10	Protein 957 964	PLA 2 α
+R5	Subcellular_methodology Arg1:T10 Arg2:T9	
+T11	Tagged_Protein 957 968	PLA 2 α-RFP
+T12	Subcellular_Location 992 1012	extracellular spaces
+R6	Located_In Arg1:T10 Arg2:T12	
+T13	Protein 1532 1539	PLA 2 α
+T14	Methodology 1540 1543	RFP
+T15	Tagged_Protein 1532 1543	PLA 2 α-RFP
+R7	Subcellular_methodology Arg1:T13 Arg2:T14	
+T17	Protein 1952 1954	ST
+T19	Protein 2047 2049	ST
+T20	Methodology 2050 2053	GFP
+R10	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Tagged_Protein 2047 2053	ST-GFP
+T22	Protein 2031 2038	PLA 2 α
+T23	Methodology 2039 2042	RFP
+R11	Subcellular_methodology Arg1:T22 Arg2:T23	
+T24	Tagged_Protein 2031 2042	PLA 2 α-RFP
+T25	Protein 2149 2156	PLA 2 α
+T26	Methodology 2157 2160	RFP
+T27	Tagged_Protein 2149 2160	PLA 2 α-RFP
+R12	Subcellular_methodology Arg1:T25 Arg2:T26	
+T29	Protein 2230 2232	ST
+T30	Methodology 2233 2236	GFP
+R13	Subcellular_methodology Arg1:T29 Arg2:T30	
+T31	Tagged_Protein 2230 2236	ST-GFP
+T32	Protein 2255 2262	PLA 2 α
+T5	Subcellular_Location 540 552	Golgi bodies
+R2	Located_In Arg1:T4 Arg2:T5	
+T16	Subcellular_Location 1580 1592	Golgi bodies
+R8	Located_In Arg1:T13 Arg2:T16	
+T18	Subcellular_Location 1914 1924	Golgi body
+R9	Located_In Arg1:T17 Arg2:T18	
+T28	Subcellular_Location 2211 2221	Golgi body
+R14	Located_In Arg1:T25 Arg2:T28	
+R15	Located_In Arg1:T29 Arg2:T28	
+T33	Subcellular_Location 2279 2294	Golgi apparatus
+R16	Located_In Arg1:T32 Arg2:T33	
+T34	Protein 2582 2589	PLA 2 α
+T35	Methodology 2590 2593	RFP
+R17	Subcellular_methodology Arg1:T34 Arg2:T35	
+T36	Tagged_Protein 2582 2593	PLA 2 α-RFP
+T37	Protein 2599 2601	ST
+T38	Methodology 2602 2605	GFP
+T39	Tagged_Protein 2599 2605	ST-GFP
+R18	Subcellular_methodology Arg1:T37 Arg2:T38	
+T40	Subcellular_Location 2609 2619	Golgi body
+R19	Located_In Arg1:T37 Arg2:T40	
+R20	Located_In Arg1:T34 Arg2:T40	
+T41	Protein 2783 2790	PLA 2 α
+T42	Methodology 2791 2794	RFP
+T43	Protein 2830 2832	ST
+T44	Methodology 2833 2836	GFP
+R21	Subcellular_methodology Arg1:T41 Arg2:T42	
+T45	Tagged_Protein 2783 2794	PLA 2 α-RFP
+R22	Subcellular_methodology Arg1:T43 Arg2:T44	
+T46	Tagged_Protein 2830 2836	ST-GFP
+T47	Subcellular_Location 2840 2850	Golgi body
+R23	Located_In Arg1:T41 Arg2:T47	
+R24	Located_In Arg1:T43 Arg2:T47	
+T48	Protein 3226 3233	PLA 2 α
+T49	Subcellular_Location 3269 3281	Golgi bodies
+R25	Located_In Arg1:T48 Arg2:T49	
+T50	Protein 3416 3421	PLA 2
+T51	Subcellular_Location 3427 3436	apoplasts
+R26	Located_In Arg1:T50 Arg2:T51	
+T52	Protein 3744 3751	PLA 2 α
+T53	Methodology 3752 3755	RFP
+R27	Subcellular_methodology Arg1:T52 Arg2:T53	
+T54	Tagged_Protein 3744 3755	PLA 2 α-RFP
+T55	Protein 4334 4341	PLA 2 α
+T56	Methodology 4342 4345	RFP
+T57	Protein 4350 4352	ST
+T58	Methodology 4353 4356	GFP
+R28	Subcellular_methodology Arg1:T57 Arg2:T58	
+T59	Tagged_Protein 4350 4356	ST-GFP
+R29	Subcellular_methodology Arg1:T55 Arg2:T56	
+T60	Tagged_Protein 4334 4345	PLA 2 α-RFP
+T61	Subcellular_Location 4425 4430	Golgi
+T62	Protein 4438 4440	ST
+T63	Methodology 4441 4444	GFP
+R30	Subcellular_methodology Arg1:T62 Arg2:T63	
+T64	Tagged_Protein 4438 4444	ST-GFP
+R31	Located_In Arg1:T62 Arg2:T61	
+T65	Protein 4380 4387	PLA 2 α
+T66	Methodology 4388 4391	RFP
+R32	Subcellular_methodology Arg1:T65 Arg2:T66	
+T67	Tagged_Protein 4380 4391	PLA 2 α-RFP
+T68	Protein 4494 4501	PLA 2 α
+T69	Methodology 4502 4505	RFP
+T70	Protein 4510 4512	ST
+T71	Methodology 4513 4516	GFP
+R33	Subcellular_methodology Arg1:T70 Arg2:T71	
+R34	Subcellular_methodology Arg1:T68 Arg2:T69	
+T72	Tagged_Protein 4494 4505	PLA 2 α-RFP
+T73	Tagged_Protein 4510 4516	ST-GFP

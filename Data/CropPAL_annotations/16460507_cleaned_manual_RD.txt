@@ -1,0 +1,10 @@
+ABSTRACT:
+GFP fused with CPX1 localized to the plastids. In contrast, the GFP fusion with CPX2 did not target plastids and appeared to localize to mitochondria.
+RESULTS:
+The CPX1–GFP fusion contains 230 bp of the 5′ UTR and the codons for the N‐terminal 118 amino acids of CPX1. The CPX2–GFP construct starts from the homologous 5′ position as the cpx1 construct and includes both potential initiation codons from CPX2, so that the first possible 139 amino acids of the CPX2 are fused in frame to the GFP sequence.
+A plasmid carrying a CoxIV–GFP fusion was used as a positive control for mitochondrial localization
+Confocal micrographs of maize leaf cells transformed with CPX1–GFP (a) and CPX2–GFP (b). CPX1–GFP transformed maize leaf cell viewed by fluorescence (c) and differential interference contrast microscopy (d), showing localization of GFP to plastids.
+The fluorescent foci in the CPX1–GFP transformed cells were shown to correspond to plastids by examining the cells with transmitted light (compare Figure 3c,d).
+The size and distribution of the CPX2–GFP foci is consistent with that of mitochondria, as visualized in the COXIV–GFP transformants (Figure 3f)
+MATERIALS AND METHODS:
+Translational fusions were created between the open‐reading frames of each cpx gene and gfp, and the resulting CPX1–GFP and CPX2–GFP constructs were verified by sequencing.

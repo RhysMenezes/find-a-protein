@@ -1,0 +1,130 @@
+T1	Protein 249 256	PATROL1
+T2	Methodology 245 248	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 245 256	GFP–PATROL1
+T4	Subcellular_Location 355 364	endosomes
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Methodology 602 605	GFP
+T6	Protein 606 613	PATROL1
+R3	Subcellular_methodology Arg1:T6 Arg2:T5	
+T7	Tagged_Protein 602 613	GFP–PATROL1
+T8	Methodology 666 681	plasma membrane
+T9	Methodology 886 889	GFP
+T10	Protein 890 897	PATROL1
+R4	Subcellular_methodology Arg1:T10 Arg2:T9	
+T11	Tagged_Protein 886 897	GFP–PATROL1
+T12	Subcellular_Location 927 936	cytoplasm
+T13	Subcellular_Location 945 960	plasma membrane
+R5	Located_In Arg1:T10 Arg2:T12	
+R6	Located_In Arg1:T10 Arg2:T13	
+T14	Protein 1238 1242	AHA1
+T15	Methodology 1234 1237	GFP
+R7	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 1234 1242	GFP–AHA1
+T17	Protein 1342 1346	AHA1
+T18	Methodology 1338 1341	GFP
+R8	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 1338 1346	GFP–AHA1
+T20	Subcellular_Location 1375 1390	plasma membrane
+R9	Located_In Arg1:T17 Arg2:T20	
+T21	Protein 1732 1736	AHA1
+T22	Subcellular_Location 1757 1772	plasma membrane
+R10	Located_In Arg1:T21 Arg2:T22	
+T23	Protein 1954 1959	SLAC1
+T24	Methodology 1960 1963	GFP
+T25	Tagged_Protein 1954 1963	SLAC1–GFP
+R11	Subcellular_methodology Arg1:T23 Arg2:T24	
+T26	Protein 2228 2233	PIP1a
+T27	Subcellular_Location 2261 2276	plasma membrane
+R12	Located_In Arg1:T26 Arg2:T27	
+R13	Located_In Arg1:T23 Arg2:T22	
+T28	Methodology 2297 2300	GFP
+T29	Protein 2301 2306	PIP2a
+T30	Tagged_Protein 2297 2306	GFP–PIP2a
+R14	Subcellular_methodology Arg1:T29 Arg2:T28	
+T31	Subcellular_Location 2326 2341	plasma membrane
+R15	Located_In Arg1:T29 Arg2:T31	
+T32	Protein 2708 2712	AHA1
+T33	Subcellular_Location 2720 2735	plasma membrane
+R16	Located_In Arg1:T32 Arg2:T33	
+T34	Protein 2894 2898	KAT1
+T35	Methodology 2899 2902	GFP
+R17	Subcellular_methodology Arg1:T34 Arg2:T35	
+T36	Tagged_Protein 2894 2902	KAT1–GFP
+T37	Protein 2978 2982	KAT1
+T38	Subcellular_Location 3003 3018	plasma membrane
+R18	Located_In Arg1:T37 Arg2:T38	
+T39	Protein 3105 3109	KAT1
+T40	Methodology 3110 3113	GFP
+R19	Subcellular_methodology Arg1:T39 Arg2:T40	
+T41	Tagged_Protein 3105 3113	KAT1–GFP
+T42	Subcellular_Location 3132 3153	chloroplast envelopes
+R20	Located_In Arg1:T39 Arg2:T42	
+T43	Methodology 3392 3395	GFP
+T44	Protein 3396 3400	AHA1
+T45	Tagged_Protein 3392 3400	GFP–AHA1
+R21	Subcellular_methodology Arg1:T44 Arg2:T43	
+T46	Subcellular_Location 3301 3316	plasma membrane
+R22	Located_In Arg1:T44 Arg2:T46	
+T47	Protein 4577 4584	PATROL1
+T48	Methodology 4573 4576	GFP
+T49	Tagged_Protein 4573 4584	GFP–PATROL1
+R23	Subcellular_methodology Arg1:T47 Arg2:T48	
+T50	Protein 4659 4662	AHA
+T51	Subcellular_Location 4676 4691	plasma membrane
+R24	Located_In Arg1:T50 Arg2:T51	
+T52	Methodology 4825 4828	GFP
+T53	Protein 4829 4836	PATROL1
+T54	Methodology 4841 4844	RFP
+T55	Protein 4845 4849	AHA1
+R25	Subcellular_methodology Arg1:T55 Arg2:T54	
+R26	Subcellular_methodology Arg1:T53 Arg2:T52	
+T56	Tagged_Protein 4825 4836	GFP–PATROL1
+T57	Tagged_Protein 4841 4849	RFP–AHA1
+T58	Methodology 4908 4911	RFP
+T59	Protein 4912 4916	AHA1
+R27	Subcellular_methodology Arg1:T59 Arg2:T58	
+T60	Tagged_Protein 4908 4916	RFP–AHA1
+T61	Subcellular_Location 4936 4951	plasma membrane
+R28	Located_In Arg1:T59 Arg2:T61	
+T62	Methodology 4959 4962	GFP
+T63	Protein 4963 4970	PATROL1
+R29	Subcellular_methodology Arg1:T63 Arg2:T62	
+T64	Tagged_Protein 4959 4970	GFP–PATROL1
+T65	Methodology 5069 5072	RFP
+T66	Protein 5073 5077	AHA1
+R30	Subcellular_methodology Arg1:T66 Arg2:T65	
+T67	Subcellular_Location 5104 5119	plasma membrane
+T68	Tagged_Protein 5069 5077	RFP–AHA1
+T69	Methodology 5124 5127	GFP
+T70	Protein 5128 5135	PATROL1
+R31	Subcellular_methodology Arg1:T70 Arg2:T69	
+T71	Tagged_Protein 5124 5135	GFP–PATROL1
+R32	Located_In Arg1:T70 Arg2:T67	
+R33	Located_In Arg1:T66 Arg2:T67	
+T72	Subcellular_Location 5243 5259	Hechtian strands
+R34	Located_In Arg1:T66 Arg2:T72	
+R35	Located_In Arg1:T70 Arg2:T72	
+T73	Protein 5523 5528	SLAC1
+T74	Methodology 5529 5532	GFP
+R36	Subcellular_methodology Arg1:T73 Arg2:T74	
+T75	Tagged_Protein 5523 5532	SLAC1–GFP
+T76	Methodology 5938 5941	GFP
+T77	Protein 5942 5949	PATROL1
+R37	Subcellular_methodology Arg1:T77 Arg2:T76	
+T78	Tagged_Protein 5938 5949	GFP–PATROL1
+T79	Protein 6799 6803	AHA1
+T80	Methodology 6795 6798	GFP
+R38	Subcellular_methodology Arg1:T79 Arg2:T80	
+T81	Tagged_Protein 6795 6803	GFP–AHA1
+T82	Methodology 7556 7559	RFP
+T83	Protein 7560 7564	AHA1
+R39	Subcellular_methodology Arg1:T83 Arg2:T82	
+T84	Tagged_Protein 7556 7564	RFP–AHA1
+T85	Protein 7700 7704	AHA1
+T86	Methodology 7692 7695	RFP
+R40	Subcellular_methodology Arg1:T85 Arg2:T86	
+T87	Methodology 7800 7803	RFP
+T88	Protein 7804 7808	AHA1
+R41	Subcellular_methodology Arg1:T88 Arg2:T87	
+T89	Tagged_Protein 7800 7808	RFP–AHA1

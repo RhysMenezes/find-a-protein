@@ -1,0 +1,11 @@
+T1	Protein 317 323	AtPGL3
+T2	Methodology 324 327	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 317 327	AtPGL3-GFP
+T4	Protein 385 391	AtPGL3
+T5	Methodology 659 662	GFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Protein 1366 1372	AtPGL3
+T7	Methodology 1373 1376	GFP
+R3	Subcellular_methodology Arg1:T6 Arg2:T7	
+T8	Tagged_Protein 1366 1376	AtPGL3-GFP

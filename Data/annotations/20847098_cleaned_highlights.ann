@@ -1,0 +1,16 @@
+T1	Methodology 654 673	fluorescent protein
+T2	Protein 681 687	AtTSPO
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+T3	Subcellular_Location 891 893	ER
+T4	Subcellular_Location 932 951	Trans-Golgi Network
+T5	Protein 847 853	AtTSPO
+R2	Located_In Arg1:T5 Arg2:T3	
+R3	Located_In Arg1:T5 Arg2:T4	
+T6	Methodology 3447 3450	YFP
+T7	Protein 3451 3457	AtTSPO
+T8	Tagged_Protein 3447 3457	YFP-AtTSPO
+R4	Subcellular_methodology Arg1:T7 Arg2:T6	
+T9	Methodology 5243 5248	MS/MS
+T10	Protein 2571 2577	AtTSPO
+T11	Methodology 2599 2604	MS/MS
+R5	Subcellular_methodology Arg1:T10 Arg2:T11	

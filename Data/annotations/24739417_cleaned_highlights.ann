@@ -1,0 +1,17 @@
+T1	Protein 302 306	CFM4
+T2	Gene_Locus 279 288	At4g39040
+R1	Locus_link Arg1:T1 Arg2:T2	
+T3	Subcellular_Location 228 239	chloroplast
+R2	Located_In Arg1:T1 Arg2:T3	
+T4	Protein 355 359	CFM4
+T5	Methodology 360 363	GFP
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 355 363	CFM4-GFP
+T7	Protein 394 398	CFM4
+T8	Subcellular_Location 415 427	chloroplasts
+R4	Located_In Arg1:T7 Arg2:T8	
+R5	Located_In Arg1:T4 Arg2:T8	
+T9	Protein 846 850	CFM4
+T10	Methodology 851 854	GFP
+R6	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Tagged_Protein 846 854	CFM4-GFP

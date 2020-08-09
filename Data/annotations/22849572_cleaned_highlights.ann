@@ -1,0 +1,75 @@
+T1	Protein 1658 1664	AtAPY1
+T2	Methodology 1665 1668	GFP
+T3	Tagged_Protein 1658 1668	AtAPY1-GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Subcellular_Location 1860 1872	Golgi stacks
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 4100 4106	AtAPY1
+T6	Subcellular_Location 4130 4135	Golgi
+R3	Located_In Arg1:T5 Arg2:T6	
+T7	Protein 4998 5004	MEMB12
+T8	Protein 5022 5027	SYP32
+T9	Protein 5056 5061	SNARE
+T10	Subcellular_Location 5088 5103	Golgi apparatus
+R4	Located_In Arg1:T7 Arg2:T10	
+R5	Located_In Arg1:T8 Arg2:T10	
+R6	Located_In Arg1:T9 Arg2:T10	
+T11	Protein 5604 5610	AtAPY1
+T12	Methodology 5611 5614	GFP
+T13	Tagged_Protein 5604 5614	AtAPY1-GFP
+R7	Subcellular_methodology Arg1:T11 Arg2:T12	
+T14	Subcellular_Location 5622 5637	Golgi apparatus
+T15	Methodology 5360 5363	RFP
+T16	Protein 5364 5370	MEMB12
+T17	Methodology 5392 5395	YFP
+T18	Protein 5396 5401	SYP32
+R9	Subcellular_methodology Arg1:T16 Arg2:T15	
+R10	Subcellular_methodology Arg1:T18 Arg2:T17	
+T22	Tagged_Protein 5360 5370	RFP-MEMB12
+T23	Tagged_Protein 5392 5401	YFP-SYP32
+T24	Subcellular_Location 5346 5351	Golgi
+R11	Located_In Arg1:T16 Arg2:T24	
+R12	Located_In Arg1:T18 Arg2:T24	
+T25	Protein 5939 5945	AtAPY1
+T26	Methodology 5946 5949	GFP
+R14	Subcellular_methodology Arg1:T25 Arg2:T26	
+T27	Tagged_Protein 5939 5949	AtAPY1-GFP
+T28	Subcellular_Location 6162 6174	Golgi stacks
+R15	Located_In Arg1:T25 Arg2:T28	
+T29	Protein 6769 6775	AtAPY1
+T30	Methodology 6776 6779	GFP
+T31	Tagged_Protein 6769 6779	AtAPY1-GFP
+R16	Subcellular_methodology Arg1:T29 Arg2:T30	
+T32	Subcellular_Location 6814 6819	Golgi
+R17	Located_In Arg1:T29 Arg2:T32	
+T33	Subcellular_Location 6904 6909	Golgi
+T34	Protein 6926 6932	AtAPY1
+R18	Located_In Arg1:T34 Arg2:T33	
+T36	Methodology 11979 11982	GFP
+T37	Protein 12006 12012	AtAPY1
+R19	Subcellular_methodology Arg1:T37 Arg2:T36	
+T35	Protein 12131 12137	AtAPY1
+T38	Methodology 12138 12141	GFP
+R20	Subcellular_methodology Arg1:T35 Arg2:T38	
+T39	Tagged_Protein 12131 12141	AtAPY1-GFP
+T40	Protein 18839 18845	AtAPY1
+T41	Methodology 18846 18849	GFP
+T42	Methodology 18863 18866	RFP
+T43	Protein 18867 18873	MEMB12
+T44	Methodology 18877 18880	YFP
+T45	Protein 18881 18886	SYP32
+T49	Tagged_Protein 18877 18886	YFP-SYP32
+T50	Tagged_Protein 18863 18873	RFP-MEMB12
+T51	Tagged_Protein 18839 18849	AtAPY1-GFP
+R21	Subcellular_methodology Arg1:T40 Arg2:T41	
+R22	Subcellular_methodology Arg1:T43 Arg2:T42	
+R23	Subcellular_methodology Arg1:T45 Arg2:T44	
+T52	Methodology 18913 18916	YFP
+T53	Protein 18917 18924	Rab E1d
+T19	Protein 4346 4353	Rab E1d
+T20	Subcellular_Location 4431 4436	Golgi
+T21	Subcellular_Location 4444 4446	PM
+R8	Located_In Arg1:T19 Arg2:T20	
+R13	Located_In Arg1:T19 Arg2:T21	
+R24	Subcellular_methodology Arg1:T53 Arg2:T52	
+T46	Tagged_Protein 18913 18924	YFP-Rab E1d

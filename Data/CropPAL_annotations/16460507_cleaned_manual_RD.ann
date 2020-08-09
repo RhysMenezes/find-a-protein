@@ -1,0 +1,66 @@
+T1	Methodology 10 13	GFP
+T2	Protein 25 29	CPX1
+T3	Subcellular_Location 47 55	plastids
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+R2	Located_In Arg1:T2 Arg2:T3	
+T4	Methodology 74 77	GFP
+T5	Protein 90 94	CPX2
+R3	Subcellular_methodology Arg1:T5 Arg2:T4	
+T6	Subcellular_Location 110 117	plastid
+T7	Subcellular_Location 147 159	mitochondria
+R4	Not_Located_In Arg1:T5 Arg2:T6	
+R5	Located_In Arg1:T5 Arg2:T7	
+T8	Protein 174 178	CPX1
+T9	Methodology 179 182	GFP
+R6	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Tagged_Protein 174 182	CPX1–GFP
+T11	Protein 470 474	CPX2
+T12	Methodology 501 504	GFP
+R7	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Protein 283 287	CPX2
+T14	Methodology 288 291	GFP
+R8	Subcellular_methodology Arg1:T13 Arg2:T14	
+T15	Tagged_Protein 283 291	CPX2–GFP
+T16	Protein 536 541	CoxIV
+T17	Methodology 542 545	GFP
+R9	Subcellular_methodology Arg1:T16 Arg2:T17	
+T18	Tagged_Protein 536 545	CoxIV–GFP
+T19	Subcellular_Location 588 601	mitochondrial
+R10	Located_In Arg1:T16 Arg2:T19	
+T20	Protein 673 677	CPX1
+T21	Methodology 678 681	GFP
+R11	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 673 681	CPX1–GFP
+T23	Protein 690 694	CPX2
+T24	Methodology 695 698	GFP
+R12	Subcellular_methodology Arg1:T23 Arg2:T24	
+T25	Tagged_Protein 690 698	CPX2–GFP
+T26	Protein 704 708	CPX1
+T27	Methodology 709 712	GFP
+R13	Subcellular_methodology Arg1:T26 Arg2:T27	
+T28	Subcellular_Location 854 862	plastids
+R14	Located_In Arg1:T26 Arg2:T28	
+T29	Protein 892 896	CPX1
+T30	Methodology 897 900	GFP
+R15	Subcellular_methodology Arg1:T29 Arg2:T30	
+T31	Subcellular_Location 947 955	plastids
+R16	Located_In Arg1:T29 Arg2:T31	
+T32	Protein 1058 1062	CPX2
+T33	Methodology 1063 1066	GFP
+R17	Subcellular_methodology Arg1:T32 Arg2:T33	
+T34	Tagged_Protein 1058 1066	CPX2–GFP
+T35	Subcellular_Location 1099 1111	mitochondria
+T36	Protein 1134 1139	COXIV
+T37	Methodology 1140 1143	GFP
+R18	Subcellular_methodology Arg1:T36 Arg2:T37	
+T38	Tagged_Protein 1134 1143	COXIV–GFP
+R19	Located_In Arg1:T32 Arg2:T35	
+R20	Located_In Arg1:T36 Arg2:T35	
+T39	Protein 1304 1308	CPX1
+T40	Methodology 1309 1312	GFP
+T41	Protein 1317 1321	CPX2
+T42	Methodology 1322 1325	GFP
+T43	Tagged_Protein 1317 1325	CPX2–GFP
+T44	Tagged_Protein 1304 1312	CPX1–GFP
+R21	Subcellular_methodology Arg1:T39 Arg2:T40	
+R22	Subcellular_methodology Arg1:T41 Arg2:T42	

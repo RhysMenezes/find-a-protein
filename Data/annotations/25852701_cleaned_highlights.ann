@@ -1,0 +1,5 @@
+T1	Protein 286 290	GGT1
+T2	Subcellular_Location 305 314	cell wall
+R1	Located_In Arg1:T1 Arg2:T2	
+T3	Methodology 1343 1348	MS/MS
+T4	Methodology 1659 1664	MS/MS

@@ -1,0 +1,23 @@
+T1	Methodology 882 899	mass spectrometry
+T2	Protein 953 957	AHA9
+T3	Protein 962 967	AHA11
+T4	Subcellular_Location 683 698	plasma membrane
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+R2	Subcellular_methodology Arg1:T3 Arg2:T1	
+R3	Located_In Arg1:T2 Arg2:T4	
+R4	Located_In Arg1:T3 Arg2:T4	
+T5	Methodology 2584 2586	MS
+T6	Protein 2373 2377	AHA1
+R5	Subcellular_methodology Arg1:T6 Arg2:T5	
+T7	Methodology 2672 2674	MS
+T8	Protein 2782 2787	AHA11
+R6	Subcellular_methodology Arg1:T8 Arg2:T7	
+T9	Protein 2834 2838	GRF1
+T10	Protein 2840 2844	GRF2
+T11	Protein 2850 2854	GRF3
+R7	Subcellular_methodology Arg1:T9 Arg2:T7	
+R8	Subcellular_methodology Arg1:T10 Arg2:T7	
+R9	Subcellular_methodology Arg1:T11 Arg2:T7	
+T12	Methodology 3229 3246	Mass Spectrometry
+T13	Methodology 4088 4093	MS/MS
+T14	Methodology 5010 5015	MS/MS

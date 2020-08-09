@@ -1,0 +1,86 @@
+T1	Protein 496 501	VTI13
+T2	Subcellular_Location 519 535	vacuole membrane
+R1	Located_In Arg1:T1 Arg2:T2	
+T3	Methodology 645 648	GFP
+T4	Protein 649 654	VTI13
+R2	Subcellular_methodology Arg1:T4 Arg2:T3	
+T5	Tagged_Protein 645 654	GFP–VTI13
+T6	Protein 1158 1163	VTI13
+T7	Methodology 1154 1157	GFP
+R3	Subcellular_methodology Arg1:T6 Arg2:T7	
+T8	Tagged_Protein 1154 1163	GFP–VTI13
+T9	Subcellular_Location 1180 1188	vacuolar
+R4	Located_In Arg1:T6 Arg2:T9	
+T10	Protein 1319 1324	VTI11
+T11	Subcellular_Location 1332 1350	vacuolar membranes
+R5	Located_In Arg1:T10 Arg2:T11	
+T12	Protein 1979 1984	VTI13
+T13	Methodology 1975 1978	GFP
+R6	Subcellular_methodology Arg1:T12 Arg2:T13	
+T15	Protein 2039 2043	γTIP
+T16	Methodology 2035 2038	YFP
+R7	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Tagged_Protein 2035 2043	YFP-γTIP
+T18	Subcellular_Location 2051 2067	vacuole membrane
+R8	Located_In Arg1:T15 Arg2:T18	
+T14	Tagged_Protein 1975 1984	GFP–VTI13
+R9	Located_In Arg1:T12 Arg2:T18	
+T19	Protein 3879 3884	VTI13
+T20	Methodology 3875 3878	GFP
+R10	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Tagged_Protein 3875 3884	GFP–VTI13
+T22	Subcellular_Location 3894 3910	vacuole membrane
+R11	Located_In Arg1:T19 Arg2:T22	
+T23	Protein 4173 4178	VTI13
+T24	Subcellular_Location 4188 4205	vacuolar membrane
+R12	Located_In Arg1:T23 Arg2:T24	
+T25	Protein 5006 5011	SYP61
+T26	Methodology 5012 5015	GFP
+R13	Subcellular_methodology Arg1:T25 Arg2:T26	
+T27	Tagged_Protein 5006 5015	SYP61–GFP
+T28	Subcellular_Location 4991 4994	TGN
+R14	Located_In Arg1:T25 Arg2:T28	
+T29	Protein 5515 5520	VTI13
+T30	Methodology 5511 5514	GFP
+R15	Subcellular_methodology Arg1:T29 Arg2:T30	
+T31	Tagged_Protein 5511 5520	GFP–VTI13
+T32	Protein 5561 5566	VTI13
+T33	Subcellular_Location 5578 5583	Golgi
+T34	Subcellular_Location 5610 5619	endosomes
+T35	Subcellular_Location 5627 5630	TGN
+R16	Located_In Arg1:T32 Arg2:T33	
+R17	Located_In Arg1:T32 Arg2:T34	
+R18	Located_In Arg1:T32 Arg2:T35	
+R19	Located_In Arg1:T29 Arg2:T33	
+R20	Located_In Arg1:T29 Arg2:T34	
+R21	Located_In Arg1:T29 Arg2:T35	
+T36	Protein 5672 5677	VTI13
+T37	Subcellular_Location 5695 5705	post-Golgi
+T38	Subcellular_Location 5741 5750	endosomes
+R22	Located_In Arg1:T36 Arg2:T37	
+R23	Located_In Arg1:T36 Arg2:T38	
+T39	Subcellular_Location 5711 5731	trans -Golgi network
+R24	Located_In Arg1:T36 Arg2:T39	
+T40	Protein 5975 5980	VTI13
+T41	Methodology 5971 5974	GFP
+R25	Subcellular_methodology Arg1:T40 Arg2:T41	
+T42	Tagged_Protein 5971 5980	GFP–VTI13
+T43	Protein 5986 5991	VTI13
+T44	Subcellular_Location 6036 6059	post-Golgi compartments
+R26	Located_In Arg1:T43 Arg2:T44	
+T45	Subcellular_Location 6026 6031	Golgi
+R27	Located_In Arg1:T43 Arg2:T45	
+R28	Located_In Arg1:T40 Arg2:T45	
+R29	Located_In Arg1:T40 Arg2:T44	
+T46	Protein 7023 7028	VTI13
+T47	Methodology 7019 7022	GFP
+R30	Subcellular_methodology Arg1:T46 Arg2:T47	
+T48	Tagged_Protein 7019 7028	GFP–VTI13
+T49	Methodology 7044 7047	GFP
+T50	Protein 7048 7053	VTI13
+R31	Subcellular_methodology Arg1:T50 Arg2:T49	
+T51	Tagged_Protein 7044 7053	GFP–VTI13
+T52	Methodology 8324 8327	GFP
+T53	Protein 8328 8333	VTI13
+R32	Subcellular_methodology Arg1:T53 Arg2:T52	
+T54	Tagged_Protein 8324 8333	GFP–VTI13

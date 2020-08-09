@@ -1,0 +1,72 @@
+T1	Methodology 638 641	GFP
+T2	Protein 679 687	AtVPS2.2
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+T3	Protein 3307 3315	AtVPS2.2
+T4	Methodology 3316 3319	GFP
+T5	Tagged_Protein 3307 3319	AtVPS2.2-GFP
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T6	Subcellular_Location 3337 3344	Nucleus
+R3	Located_In Arg1:T3 Arg2:T6	
+T7	Protein 3631 3639	AtVPS2.2
+T8	Methodology 3640 3643	GFP
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 3631 3643	AtVPS2.2-GFP
+T10	Subcellular_Location 3726 3741	plasma membrane
+R5	Located_In Arg1:T7 Arg2:T10	
+T11	Subcellular_Location 3850 3856	nuclei
+R6	Located_In Arg1:T7 Arg2:T11	
+T12	Protein 4350 4358	AtVPS2.2
+T13	Methodology 4359 4362	GFP
+T14	Tagged_Protein 4350 4362	AtVPS2.2-GFP
+R7	Subcellular_methodology Arg1:T12 Arg2:T13	
+T15	Subcellular_Location 4399 4414	plasma membrane
+T16	Subcellular_Location 4458 4477	trans-Golgi network
+T17	Subcellular_Location 4504 4510	nuclei
+R8	Located_In Arg1:T12 Arg2:T15	
+R9	Located_In Arg1:T12 Arg2:T16	
+R10	Located_In Arg1:T12 Arg2:T17	
+T18	Protein 4568 4576	AtVPS2.2
+T19	Methodology 4577 4580	GFP
+T20	Tagged_Protein 4568 4580	AtVPS2.2-GFP
+R11	Subcellular_methodology Arg1:T18 Arg2:T19	
+T21	Protein 4625 4633	AtVPS2.2
+T22	Methodology 4634 4637	GFP
+R12	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Tagged_Protein 4625 4637	AtVPS2.2-GFP
+T24	Protein 4725 4733	AtVPS2.2
+T25	Methodology 4734 4737	GFP
+R13	Subcellular_methodology Arg1:T24 Arg2:T25	
+T26	Tagged_Protein 4725 4737	AtVPS2.2-GFP
+T27	Subcellular_Location 4858 4865	nucleus
+R14	Located_In Arg1:T24 Arg2:T27	
+T28	Subcellular_Location 4927 4934	nuclear
+T29	Protein 4935 4943	AtVPS2.2
+T30	Methodology 4944 4947	GFP
+R15	Subcellular_methodology Arg1:T29 Arg2:T30	
+T31	Tagged_Protein 4935 4947	AtVPS2.2-GFP
+R16	Located_In Arg1:T29 Arg2:T28	
+T32	Protein 5103 5111	AtVPS2.2
+T33	Methodology 5112 5115	GFP
+R17	Subcellular_methodology Arg1:T32 Arg2:T33	
+T34	Tagged_Protein 5103 5115	AtVPS2.2-GFP
+T35	Protein 7485 7493	AtVPS2.2
+T36	Methodology 7494 7497	GFP
+R18	Subcellular_methodology Arg1:T35 Arg2:T36	
+T37	Tagged_Protein 7485 7497	AtVPS2.2-GFP
+T38	Gene_Locus 7661 7670	At5g44560
+R19	Locus_link Arg1:T35 Arg2:T38	
+T39	Methodology 12072 12077	MS/MS
+T40	Methodology 12157 12162	MS/MS
+T41	Methodology 12428 12433	MS/MS
+T42	Protein 8339 8347	AtVPS2.2
+T43	Methodology 8348 8351	GFP
+R20	Subcellular_methodology Arg1:T42 Arg2:T43	
+T44	Tagged_Protein 8339 8351	AtVPS2.2-GFP
+T45	Protein 8783 8791	AtVPS2.2
+T46	Methodology 8792 8795	GFP
+R21	Subcellular_methodology Arg1:T45 Arg2:T46	
+T47	Tagged_Protein 8783 8795	AtVPS2.2-GFP
+T48	Protein 8830 8838	AtVPS2.2
+T49	Methodology 8839 8842	GFP
+R22	Subcellular_methodology Arg1:T48 Arg2:T49	
+T50	Tagged_Protein 8830 8842	AtVPS2.2-GFP

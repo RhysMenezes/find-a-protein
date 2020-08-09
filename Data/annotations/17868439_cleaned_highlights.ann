@@ -1,0 +1,23 @@
+T1	Protein 179 183	SEP3
+T2	Methodology 184 187	GFP
+T3	Tagged_Protein 179 187	SEP3:GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Subcellular_Location 242 248	nuclei
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 440 444	SEP3
+T6	Methodology 445 448	GFP
+T7	Protein 412 414	AG
+T8	Methodology 415 418	GFP
+T9	Tagged_Protein 412 418	AG:GFP
+T10	Tagged_Protein 440 448	SEP3:GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T11	Subcellular_Location 643 649	nuclei
+R5	Located_In Arg1:T5 Arg2:T11	
+R6	Located_In Arg1:T7 Arg2:T11	
+T12	Subcellular_Location 1154 1160	nuclei
+T13	Protein 1105 1107	AG
+R7	Located_In Arg1:T13 Arg2:T12	
+T14	Protein 1046 1048	AG
+T15	Methodology 1049 1052	GFP
+R8	Subcellular_methodology Arg1:T14 Arg2:T15	

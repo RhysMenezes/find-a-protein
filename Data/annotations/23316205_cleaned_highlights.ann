@@ -1,0 +1,130 @@
+T1	Protein 823 828	GapC1
+T2	Gene_Locus 830 839	At3g04120
+T3	Protein 841 846	GapC2
+T4	Gene_Locus 848 857	At1g13440
+T5	Protein 954 958	FBA6
+T6	Gene_Locus 960 969	At2g36460
+T7	Subcellular_Location 797 806	cytosolic
+R1	Located_In Arg1:T1 Arg2:T7	
+R2	Located_In Arg1:T3 Arg2:T7	
+R3	Locus_link Arg1:T1 Arg2:T2	
+R4	Locus_link Arg1:T1 Arg2:T4	
+R5	Locus_link Arg1:T5 Arg2:T6	
+T8	Subcellular_Location 976 989	mitochondrial
+T9	Protein 997 1002	VDAC3
+T10	Gene_Locus 1004 1013	At5g15090
+R6	Locus_link Arg1:T9 Arg2:T10	
+R7	Located_In Arg1:T9 Arg2:T8	
+T11	Protein 1445 1450	GapC1
+T12	Protein 1452 1457	GapC2
+T13	Methodology 1435 1438	GFP
+R8	Subcellular_methodology Arg1:T11 Arg2:T13	
+R9	Subcellular_methodology Arg1:T12 Arg2:T13	
+T14	Subcellular_Location 1365 1374	cytosolic
+T15	Subcellular_Location 1407 1414	nuclear
+R10	Located_In Arg1:T11 Arg2:T14	
+R11	Located_In Arg1:T11 Arg2:T15	
+R12	Located_In Arg1:T12 Arg2:T14	
+R13	Located_In Arg1:T12 Arg2:T15	
+T16	Protein 1645 1651	GapC2:
+T17	Methodology 1651 1654	GFP
+T18	Protein 1659 1664	GapC1
+T19	Methodology 1665 1668	GFP
+T20	Methodology 1669 1672	CFP
+R14	Subcellular_methodology Arg1:T18 Arg2:T19	
+R15	Subcellular_methodology Arg1:T18 Arg2:T20	
+T21	Tagged_Protein 1659 1668	GapC1:GFP
+R16	Subcellular_methodology Arg1:T16 Arg2:T17	
+T22	Tagged_Protein 1645 1654	GapC2:GFP
+T23	Subcellular_Location 1680 1687	cytosol
+R17	Located_In Arg1:T16 Arg2:T23	
+R18	Located_In Arg1:T18 Arg2:T23	
+T24	Protein 2103 2107	GapC
+T25	Methodology 2108 2111	GFP
+R19	Subcellular_methodology Arg1:T24 Arg2:T25	
+T26	Subcellular_Location 2079 2088	cytosolic
+R20	Located_In Arg1:T24 Arg2:T26	
+T27	Tagged_Protein 2103 2111	GapC:GFP
+T28	Protein 2329 2334	GapC2
+T29	Methodology 2335 2338	GFP
+R21	Subcellular_methodology Arg1:T28 Arg2:T29	
+T30	Tagged_Protein 2329 2338	GapC2:GFP
+T31	Protein 3231 3236	GapC1
+T32	Methodology 3237 3240	GFP
+R22	Subcellular_methodology Arg1:T31 Arg2:T32	
+T33	Tagged_Protein 3231 3240	GapC1:GFP
+T34	Subcellular_Location 3280 3298	actin cytoskeleton
+R23	Located_In Arg1:T31 Arg2:T34	
+T35	Methodology 3374 3377	GFP
+T36	Protein 3385 3389	GapC
+R24	Subcellular_methodology Arg1:T36 Arg2:T35	
+T37	Protein 3572 3577	GapC1
+T38	Methodology 3578 3581	GFP
+R25	Subcellular_methodology Arg1:T37 Arg2:T38	
+T39	Tagged_Protein 3572 3581	GapC1:GFP
+T40	Subcellular_Location 3613 3631	actin cytoskeleton
+R26	Located_In Arg1:T37 Arg2:T40	
+T41	Protein 3719 3724	GapC1
+T42	Methodology 3725 3728	GFP
+R27	Subcellular_methodology Arg1:T41 Arg2:T42	
+T43	Tagged_Protein 3719 3728	GapC1:GFP
+T44	Subcellular_Location 3753 3765	actin fibers
+R28	Located_In Arg1:T41 Arg2:T44	
+T45	Protein 3906 3911	GapC1
+T46	Methodology 3912 3915	GFP
+R29	Subcellular_methodology Arg1:T45 Arg2:T46	
+T47	Tagged_Protein 3906 3915	GapC1:GFP
+T48	Protein 4033 4038	GapC1
+T49	Protein 4040 4045	GapC2
+T50	Protein 4050 4054	FBA6
+T51	Methodology 4094 4097	YFP
+T52	Subcellular_Location 4175 4184	cytoplasm
+T53	Subcellular_Location 4210 4217	nucleus
+R30	Subcellular_methodology Arg1:T48 Arg2:T51	
+R31	Subcellular_methodology Arg1:T49 Arg2:T51	
+R32	Subcellular_methodology Arg1:T50 Arg2:T51	
+R33	Located_In Arg1:T48 Arg2:T52	
+R34	Located_In Arg1:T48 Arg2:T53	
+R35	Located_In Arg1:T49 Arg2:T52	
+R36	Located_In Arg1:T49 Arg2:T53	
+R37	Located_In Arg1:T50 Arg2:T52	
+R38	Located_In Arg1:T50 Arg2:T53	
+T54	Methodology 4380 4383	YFP
+T55	Protein 4390 4395	GapC1
+T56	Subcellular_Location 4281 4290	cytosolic
+T57	Protein 4403 4408	GapC2
+R39	Subcellular_methodology Arg1:T55 Arg2:T54	
+R40	Subcellular_methodology Arg1:T57 Arg2:T54	
+R41	Located_In Arg1:T55 Arg2:T56	
+R42	Located_In Arg1:T57 Arg2:T56	
+T58	Protein 4545 4549	FBA6
+T59	Protein 4554 4558	GapC
+T60	Subcellular_Location 4640 4652	mitochondria
+R43	Located_In Arg1:T58 Arg2:T60	
+R44	Located_In Arg1:T59 Arg2:T60	
+T61	Protein 4771 4775	GapC
+T62	Methodology 4776 4779	GFP
+R45	Subcellular_methodology Arg1:T61 Arg2:T62	
+T63	Tagged_Protein 4771 4779	GapC:GFP
+T64	Subcellular_Location 4742 4755	mitochondrial
+R46	Located_In Arg1:T61 Arg2:T64	
+T65	Methodology 5080 5083	GFP
+T66	Protein 5084 5089	GapC1
+T67	Methodology 5095 5098	GFP
+T68	Protein 5099 5104	GapC2
+R47	Subcellular_methodology Arg1:T66 Arg2:T65	
+R48	Subcellular_methodology Arg1:T68 Arg2:T67	
+T69	Methodology 5258 5261	CFP
+T70	Protein 5887 5891	FBA6
+T71	Gene_Locus 5893 5902	At2g36460
+T72	Protein 5905 5910	VDAC3
+T73	Gene_Locus 5912 5921	At5g15090
+T74	Protein 5927 5932	GapC1
+T75	Protein 5937 5942	GapC2
+T76	Methodology 5993 5996	YFP
+R49	Locus_link Arg1:T70 Arg2:T71	
+R50	Locus_link Arg1:T72 Arg2:T73	
+R51	Subcellular_methodology Arg1:T75 Arg2:T76	
+R52	Subcellular_methodology Arg1:T74 Arg2:T76	
+R53	Subcellular_methodology Arg1:T72 Arg2:T76	
+R54	Subcellular_methodology Arg1:T70 Arg2:T76	

@@ -1,0 +1,5 @@
+ABSTRACT:
+RESULTS:
+MATERIALS AND METHODS:
+flowers from an early inflorescence were emasculated and pollinated one day later with wild type pollen. F1 seeds were first sown in 0.5X MS plates containing 1% sucrose to maximize germination efficiency and then transplanted to soil. Cloning of CENH3 transgenes The  L .  oleracem  CENH3 coding region including introns was PCR amplified from genomic DNA with the addition of
+Gateway negative selection cassette [Cm R - ccd B] generating the final cassette vector, SM2 = CENH3 promoter-attL4-Cm R - ccd B-attL3-terminator in pEARLEYGATE302. The  B .  rapa  CENH3 genomic sequence was PCR amplified from the GFP-tagged  B .  rapa  CENH3 plasmid generated in Ravi et al (2010) [ 21 ]. A chimeric transgene combining the  A .  thaliana  N-terminal tail domain with  L .  oleraceum  HFD

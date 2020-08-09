@@ -1,0 +1,18 @@
+T1	Protein 479 488	AtDUF177A
+T2	Methodology 489 492	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 479 492	AtDUF177A–GFP
+T4	Protein 620 629	AtDUF177A
+T5	Methodology 630 633	GFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 620 633	AtDUF177A–GFP
+T7	Subcellular_Location 652 663	chlorophyll
+R3	Located_In Arg1:T4 Arg2:T7	
+T8	Protein 1354 1363	AtDUF177A
+T9	Methodology 1364 1367	GFP
+R4	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Tagged_Protein 1354 1367	AtDUF177A–GFP
+T11	Protein 1631 1640	AtDUF177A
+T12	Methodology 1641 1644	GFP
+R5	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 1631 1644	AtDUF177A–GFP

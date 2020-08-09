@@ -1,0 +1,48 @@
+T1	Protein 122 129	AtCslA2
+T2	Protein 175 182	AtCslA2
+T3	Methodology 183 186	GFP
+R1	Subcellular_methodology Arg1:T2 Arg2:T3	
+T4	Subcellular_Location 261 263	ER
+T5	Subcellular_Location 290 302	Golgi stacks
+T6	Tagged_Protein 175 186	AtCslA2-GFP
+R2	Located_In Arg1:T2 Arg2:T4	
+R3	Located_In Arg1:T2 Arg2:T5	
+R4	Located_In Arg1:T1 Arg2:T4	
+R5	Located_In Arg1:T1 Arg2:T5	
+T7	Protein 692 699	AtCslA2
+T8	Methodology 700 703	GFP
+R6	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 692 703	AtCslA2-GFP
+T10	Subcellular_Location 728 740	Golgi stacks
+R7	Located_In Arg1:T7 Arg2:T10	
+T11	Protein 817 821	ST52
+T12	Methodology 822 826	mRFP
+R8	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 817 826	ST52-mRFP
+T14	Subcellular_Location 831 849	trans -Golgi stack
+R9	Located_In Arg1:T11 Arg2:T14	
+T15	Protein 990 994	ST52
+T16	Methodology 995 999	mRFP
+R10	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Protein 1004 1011	AtCslA2
+T18	Tagged_Protein 990 999	ST52-mRFP
+T19	Subcellular_Location 1031 1043	Golgi stacks
+R11	Located_In Arg1:T15 Arg2:T19	
+R12	Located_In Arg1:T17 Arg2:T19	
+T20	Protein 1398 1405	AtCslA2
+T21	Methodology 1387 1390	GFP
+R13	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Subcellular_Location 1449 1451	ER
+T23	Subcellular_Location 1473 1488	Golgi apparatus
+R14	Located_In Arg1:T20 Arg2:T22	
+R15	Located_In Arg1:T20 Arg2:T23	
+T24	Protein 1537 1544	AtCslA2
+T25	Methodology 1545 1548	GFP
+R16	Subcellular_methodology Arg1:T24 Arg2:T25	
+T26	Tagged_Protein 1537 1548	AtCslA2-GFP
+T27	Subcellular_Location 1570 1585	Golgi Membranes
+R17	Located_In Arg1:T24 Arg2:T27	
+T28	Protein 3928 3935	AtCslA2
+T29	Methodology 3936 3939	GFP
+R18	Subcellular_methodology Arg1:T28 Arg2:T29	
+T30	Tagged_Protein 3928 3939	AtCslA2-GFP

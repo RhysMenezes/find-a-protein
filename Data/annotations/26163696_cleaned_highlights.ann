@@ -1,0 +1,16 @@
+T1	Protein 285 289	NSN1
+T2	Methodology 248 251	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Methodology 664 667	GFP
+T4	Protein 698 702	NSN1
+R2	Subcellular_methodology Arg1:T4 Arg2:T3	
+T5	Subcellular_Location 773 780	nucleus
+T6	Subcellular_Location 789 796	cytosol
+R3	Located_In Arg1:T4 Arg2:T5	
+R4	Located_In Arg1:T4 Arg2:T6	
+T7	Protein 1150 1154	NSN1
+T8	Methodology 1187 1190	GFP
+R5	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Methodology 3956 3959	GFP
+T10	Protein 3979 3983	NSN1
+R6	Subcellular_methodology Arg1:T10 Arg2:T9	

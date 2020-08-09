@@ -1,0 +1,3 @@
+T1	Subcellular_Location 717 727	cell plate
+T2	Protein 684 688	ADL1
+R1	Located_In Arg1:T2 Arg2:T1	

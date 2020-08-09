@@ -1,0 +1,9 @@
+T1	Protein 1146 1152	AtRGS1
+T2	Methodology 1153 1156	YFP
+T3	Subcellular_Location 1178 1193	plasma membrane
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Tagged_Protein 1146 1156	AtRGS1-YFP
+R2	Located_In Arg1:T1 Arg2:T3	
+T5	Protein 2573 2579	AtRGS1
+T6	Methodology 2789 2792	YFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	

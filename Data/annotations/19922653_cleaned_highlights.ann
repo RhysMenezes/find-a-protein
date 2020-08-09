@@ -1,0 +1,49 @@
+T1	Protein 33 39	TIP1;1
+T2	Methodology 40 43	YFP
+T3	Tagged_Protein 33 43	TIP1;1-YFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Protein 182 188	TIP1;1
+T5	Methodology 189 192	YFP
+T6	Tagged_Protein 182 192	TIP1;1-YFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T7	Subcellular_Location 268 275	vacuole
+R3	Located_In Arg1:T4 Arg2:T7	
+T8	Methodology 1087 1090	YFP
+T9	Protein 1091 1097	TIP1;2
+R4	Subcellular_methodology Arg1:T9 Arg2:T8	
+T10	Subcellular_Location 1105 1107	ER
+R5	Located_In Arg1:T9 Arg2:T10	
+T11	Methodology 1442 1445	YFP
+T12	Protein 1446 1452	TIP1;2
+R6	Subcellular_methodology Arg1:T12 Arg2:T11	
+T14	Subcellular_Location 1470 1491	endoplasmic reticulum
+R7	Located_In Arg1:T12 Arg2:T14	
+T13	Protein 1818 1824	TIP2;3
+T15	Methodology 1825 1828	RFP
+T16	Protein 1839 1845	TIP2;1
+T17	Methodology 1846 1849	YFP
+R8	Subcellular_methodology Arg1:T16 Arg2:T17	
+R9	Subcellular_methodology Arg1:T13 Arg2:T15	
+T18	Protein 2708 2714	TIP1;1
+T19	Methodology 2715 2718	YFP
+T20	Protein 2723 2729	TIP2;3
+T21	Methodology 2730 2733	RFP
+R10	Subcellular_methodology Arg1:T18 Arg2:T19	
+R11	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 1442 1452	YFP-TIP1;2
+T23	Tagged_Protein 1818 1828	TIP2;3-RFP
+T24	Tagged_Protein 1839 1849	TIP2;1-YFP
+T25	Tagged_Protein 1087 1097	YFP-TIP1;2
+T26	Tagged_Protein 2708 2718	TIP1;1-YFP
+T27	Tagged_Protein 2723 2733	TIP2;3-RFP
+T28	Subcellular_Location 2856 2865	tonoplast
+R12	Located_In Arg1:T18 Arg2:T28	
+R13	Located_In Arg1:T20 Arg2:T28	
+T29	Protein 3237 3243	TIP1;1
+T30	Methodology 3244 3247	YFP
+T31	Protein 3259 3265	TIP2;1
+T32	Methodology 3265 3268	YFP
+T33	Tagged_Protein 3259 3268	TIP2;1YFP
+T34	Tagged_Protein 3237 3247	TIP1;1-YFP
+R14	Subcellular_methodology Arg1:T29 Arg2:T30	
+R15	Subcellular_methodology Arg1:T31 Arg2:T32	

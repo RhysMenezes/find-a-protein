@@ -1,0 +1,2 @@
+ABSTRACT:
+to phenotype-causing mutations. Here we attempt to identify novel factors involved in the early event leading to plant MTI by comparing the nuclear proteomes of two Arabidopsis genotypes treated with chitosan. Our approach revealed that following chitosan treatment,  cerk1  plants had many nuclear accumulating proteins in common, but also some unique ones, when compared with Col-0 plants. Analysis of the identified proteins revealed a nuclear accumulation of DNA-modifying enzymes, RNA-binding proteins and ribosomal proteins. Our results demonstrate

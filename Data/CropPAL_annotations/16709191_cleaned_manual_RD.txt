@@ -1,0 +1,12 @@
+ABSTRACT:
+Subcellular localization of DIP1 showed that the protein fusion DIP1–Red Flourescent Protein (RFP) was mainly localized in the cytoplasm.
+However, after co‐transformation of DBF1–GFP and DIP1–RFP, both proteins co‐localized in the nucleus. Interestingly, when the N‐terminal DBF1–GFP was co‐expressed with DIP1–RFP, both proteins co‐localized predominantly in the cytoplasmic speckles observed for N‐terminal DBF1–GFP fusion protein.
+RESULTS:
+To investigate a possible interaction between DBF1 and DIP1 in living plant cells we analysed their subcellular localization as fusion proteins to Green Flourescent Protein (GFP) or RFP in living onion epidermal cells. 
+ As summarized in Figure 6, when onion epidermal cells were bombarded with the full‐length DBF1–GFP protein fusion (Figure 7h–k) or with the DBF1 C‐terminal part fused to GFP protein (C‐DBF1–GFP), green fluorescence was predominantly detected in the nucleus and no differences in nuclear staining between the entire and the C‐terminal fusion proteins were observed (Figure 7v–y)
+In addition, DBF1 was able to redirect the GFP to the nucleus when using the high molecular weight DBF1–GFP–GUS fusion protein (results not shown).
+When the N‐terminal part of DBF1 was fused to GFP, the green fluorescence was predominantly detected in the cytoplasm, forming characteristic cytoplasmic speckles or inclusion bodies 
+The analysis of the subcellular localization of DIP1–RFP showed that it is predominantly, although not exclusively, localized to the cytoplasm in onion epidermal cells 
+Co‐localization of N‐DBF1–GFP and DIP1–RFP in the cytoplasm (Figure 7s–u) supports the yeast two‐hybrid results, and suggests that the NES is responsible for the recruitment of DIP1 into the cytoplasmic speckles. 
+MATERIALS AND METHODS:
+DBF1 forward 5′‐AGCCATGGAGATGTTCATCC‐3′ and DBF1 reverse 5′‐GTCCATGGACTTGGAGAGCAGCG‐3′ for the amplification of DBF1 full‐length.  DBF1 N‐terminal forward 5′‐AGCCATGGAGATGCAGTTCATCC‐3′ and DBF1 N‐terminal reverse 5′‐CCATGGCCCTGGACTCCGCGTTG‐3′ for the amplification of DBF1 N‐terminal.  DBF1 C‐terminal forward 5′‐CCATGGCGGCGGAGTCCAGGGCG‐3′ and DBF1 C‐terminal reverse 5′‐GTCCATGGAGTTGGAGAGCAGCG‐3′ for the amplification of DBF1 C‐terminal.  The PCR product was then subcloned in‐frame with the GFP as an NcoI–NcoI fragment in the pPK100 vector (Busk et al., 1997a) derived from the pUC vector to give the pPK100–DBF1 plasmid.

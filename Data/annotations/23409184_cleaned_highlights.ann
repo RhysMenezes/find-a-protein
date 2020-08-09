@@ -1,0 +1,130 @@
+T1	Protein 63 69	DWARF5
+T2	Methodology 117 120	YFP
+T3	Subcellular_Location 269 290	endoplasmic reticulum
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+R2	Located_In Arg1:T1 Arg2:T3	
+T4	Protein 604 610	DWARF5
+T5	Methodology 611 614	YFP
+T6	Protein 623 626	DIM
+T7	Methodology 627 630	YFP
+T8	Protein 645 649	STE1
+T9	Methodology 650 653	YFP
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+R4	Subcellular_methodology Arg1:T6 Arg2:T7	
+R5	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Tagged_Protein 604 614	DWARF5-YFP
+T11	Tagged_Protein 623 630	DIM-YFP
+T12	Tagged_Protein 645 653	STE1-YFP
+T13	Protein 739 745	DWARF5
+T14	Methodology 746 749	YFP
+R6	Subcellular_methodology Arg1:T13 Arg2:T14	
+T15	Subcellular_Location 852 854	ER
+T16	Tagged_Protein 739 749	DWARF5-YFP
+R7	Located_In Arg1:T13 Arg2:T15	
+T17	Protein 1175 1178	DIM
+T18	Methodology 1179 1182	YFP
+R8	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 1175 1182	DIM-YFP
+T20	Subcellular_Location 1142 1144	ER
+R9	Located_In Arg1:T17 Arg2:T20	
+T21	Protein 1569 1575	DWARF5
+T22	Methodology 1576 1579	YFP
+R10	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Tagged_Protein 1569 1579	DWARF5-YFP
+T24	Protein 1524 1530	DWARF5
+T25	Methodology 1531 1534	YFP
+T26	Tagged_Protein 1524 1534	DWARF5-YFP
+R11	Subcellular_methodology Arg1:T24 Arg2:T25	
+T27	Subcellular_Location 1655 1657	ER
+R12	Located_In Arg1:T21 Arg2:T27	
+T28	Protein 1860 1866	DWARF5
+T29	Methodology 1867 1870	YFP
+R13	Subcellular_methodology Arg1:T28 Arg2:T29	
+T30	Tagged_Protein 1860 1870	DWARF5-YFP
+T31	Subcellular_Location 1897 1899	PM
+T32	Protein 1915 1921	DWARF5
+R14	Located_In Arg1:T32 Arg2:T31	
+R15	Located_In Arg1:T28 Arg2:T31	
+T33	Protein 2014 2017	DIM
+T34	Methodology 2018 2021	YFP
+R16	Subcellular_methodology Arg1:T33 Arg2:T34	
+T35	Tagged_Protein 2014 2021	DIM-YFP
+T36	Protein 2076 2079	DIM
+T37	Methodology 2080 2083	YFP
+T38	Subcellular_Location 2152 2154	ER
+R17	Subcellular_methodology Arg1:T36 Arg2:T37	
+R18	Located_In Arg1:T36 Arg2:T38	
+T39	Tagged_Protein 2076 2083	DIM-YFP
+T40	Protein 2964 2967	DIM
+T41	Methodology 2960 2963	GFP
+R19	Subcellular_methodology Arg1:T40 Arg2:T41	
+T42	Tagged_Protein 2960 2967	GFP-DIM
+T43	Subcellular_Location 3074 3076	ER
+R20	Located_In Arg1:T40 Arg2:T43	
+T44	Protein 3461 3467	DWARF5
+T45	Methodology 3468 3471	YFP
+T46	Protein 3476 3479	DIM
+T47	Methodology 3480 3483	YFP
+T48	Protein 3489 3493	STE1
+T49	Methodology 3494 3497	YFP
+R21	Subcellular_methodology Arg1:T44 Arg2:T45	
+T50	Tagged_Protein 3461 3471	DWARF5-YFP
+T51	Tagged_Protein 3476 3483	DIM-YFP
+T52	Tagged_Protein 3489 3497	STE1-YFP
+R22	Subcellular_methodology Arg1:T48 Arg2:T49	
+R23	Subcellular_methodology Arg1:T46 Arg2:T47	
+T53	Subcellular_Location 3564 3566	ER
+R24	Located_In Arg1:T48 Arg2:T53	
+R25	Located_In Arg1:T46 Arg2:T53	
+R26	Located_In Arg1:T44 Arg2:T53	
+T54	Protein 4009 4013	STE1
+T55	Methodology 4014 4017	YFP
+R27	Subcellular_methodology Arg1:T54 Arg2:T55	
+T56	Tagged_Protein 4009 4017	STE1-YFP
+T58	Subcellular_Location 4052 4054	ER
+R29	Located_In Arg1:T54 Arg2:T58	
+T59	Protein 4274 4278	STE1
+T60	Methodology 4279 4282	YFP
+R30	Subcellular_methodology Arg1:T59 Arg2:T60	
+T61	Tagged_Protein 4274 4282	STE1-YFP
+T62	Subcellular_Location 4321 4323	ER
+T63	Subcellular_Location 4342 4345	LPs
+T57	Subcellular_Location 4034 4037	LPs
+R28	Located_In Arg1:T54 Arg2:T57	
+T64	Subcellular_Location 4572 4574	ER
+T65	Protein 4605 4609	STE1
+T66	Methodology 4610 4613	YFP
+R31	Subcellular_methodology Arg1:T65 Arg2:T66	
+T67	Tagged_Protein 4605 4613	STE1-YFP
+R32	Located_In Arg1:T65 Arg2:T64	
+T68	Methodology 5319 5322	YFP
+T69	Protein 5342 5348	DWARF5
+T70	Protein 5350 5353	DIM
+T71	Protein 5358 5362	STE1
+T72	Subcellular_Location 5393 5414	endoplasmic reticulum
+R33	Subcellular_methodology Arg1:T69 Arg2:T68	
+R34	Subcellular_methodology Arg1:T70 Arg2:T68	
+R35	Subcellular_methodology Arg1:T71 Arg2:T68	
+R36	Located_In Arg1:T69 Arg2:T72	
+R37	Located_In Arg1:T70 Arg2:T72	
+R38	Located_In Arg1:T71 Arg2:T72	
+T73	Methodology 5831 5834	YFP
+T74	Protein 5865 5871	DWARF5
+T75	Gene_Locus 5873 5882	At1g50430
+T76	Protein 5885 5889	STE1
+T77	Gene_Locus 5891 5900	At3g02580
+T78	Protein 5906 5909	DIM
+T79	Gene_Locus 5911 5920	At3g19820
+R39	Locus_link Arg1:T78 Arg2:T79	
+R40	Locus_link Arg1:T76 Arg2:T77	
+R41	Locus_link Arg1:T74 Arg2:T75	
+R42	Subcellular_methodology Arg1:T74 Arg2:T73	
+R43	Subcellular_methodology Arg1:T76 Arg2:T73	
+R44	Subcellular_methodology Arg1:T78 Arg2:T73	
+T80	Protein 6028 6034	DWARF5
+T81	Protein 6038 6042	STE1
+T82	Protein 6049 6052	DIM
+T83	Methodology 6062 6065	YFP
+R45	Subcellular_methodology Arg1:T82 Arg2:T83	
+R46	Subcellular_methodology Arg1:T81 Arg2:T83	
+R47	Subcellular_methodology Arg1:T80 Arg2:T83	

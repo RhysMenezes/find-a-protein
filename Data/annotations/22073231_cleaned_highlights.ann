@@ -1,0 +1,28 @@
+T1	Methodology 570 595	green fluorescent protein
+T2	Subcellular_Location 604 611	nuclear
+T3	Protein 632 637	NFXL2
+R1	Located_In Arg1:T3 Arg2:T2	
+R2	Subcellular_methodology Arg1:T3 Arg2:T1	
+T4	Protein_variant 1340 1348	NFXL2-78
+T5	Methodology 1365 1368	GFP
+T6	Subcellular_Location 1376 1383	nucleus
+T7	Methodology 1422 1425	GFP
+T8	Protein_variant 1426 1434	NFXL2-97
+T9	Methodology 1444 1447	GFP
+T10	Protein_variant 1448 1457	NFXL2-100
+R3	Subcellular_methodology Arg1:T10 Arg2:T9	
+R4	Subcellular_methodology Arg1:T8 Arg2:T7	
+T11	Tagged_Protein 1422 1434	GFP:NFXL2-97
+T12	Tagged_Protein 1444 1457	GFP:NFXL2-100
+T13	Subcellular_Location 1539 1546	nuclear
+R5	Located_In Arg1:T10 Arg2:T13	
+R6	Located_In Arg1:T8 Arg2:T13	
+R7	Subcellular_methodology Arg1:T4 Arg2:T5	
+R8	Located_In Arg1:T4 Arg2:T6	
+T14	Protein_variant 2067 2075	NFXL2-78
+T15	Protein_variant 2079 2087	NFXL2-97
+T16	Protein_variant 2095 2104	NFXL2-100
+T17	Methodology 2007 2010	GFP
+R9	Subcellular_methodology Arg1:T16 Arg2:T17	
+R10	Subcellular_methodology Arg1:T15 Arg2:T17	
+R11	Subcellular_methodology Arg1:T14 Arg2:T17	

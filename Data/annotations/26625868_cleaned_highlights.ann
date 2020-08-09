@@ -1,0 +1,26 @@
+T1	Protein 193 200	bHLH129
+T2	Methodology 201 204	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 193 204	bHLH129-GFP
+T4	Protein 218 225	bHLH129
+T5	Subcellular_Location 247 254	nucleus
+R2	Located_In Arg1:T1 Arg2:T5	
+R3	Located_In Arg1:T4 Arg2:T5	
+T6	Protein 582 589	bHLH129
+T7	Methodology 590 593	GFP
+R4	Subcellular_methodology Arg1:T6 Arg2:T7	
+T8	Tagged_Protein 582 593	bHLH129-GFP
+T9	Protein 659 666	bHLH129
+T10	Methodology 667 670	GFP
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Tagged_Protein 659 670	bHLH129-GFP
+T12	Protein 723 730	bHLH129
+T13	Subcellular_Location 765 772	nucleus
+R6	Located_In Arg1:T9 Arg2:T13	
+R7	Located_In Arg1:T12 Arg2:T13	
+T14	Protein 1631 1638	bHLH129
+T15	Methodology 1569 1572	GFP
+R8	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Protein 1652 1659	bHLH129
+T17	Methodology 1713 1716	GFP
+R9	Subcellular_methodology Arg1:T16 Arg2:T17	

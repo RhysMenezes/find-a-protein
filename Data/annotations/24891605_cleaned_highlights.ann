@@ -1,0 +1,29 @@
+T1	Protein_variant 459 469	SINE2ΔLVPT
+T2	Protein_variant 475 485	SINE3ΔPLPT
+T3	Protein_variant 491 501	SINE4ΔLVPT
+T4	Protein_variant 511 521	SINE5ΔLVPT
+T5	Methodology 507 510	GFP
+T6	Methodology 487 490	GFP
+T7	Methodology 471 474	GFP
+T8	Methodology 455 458	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T8	
+R2	Subcellular_methodology Arg1:T2 Arg2:T7	
+R3	Subcellular_methodology Arg1:T3 Arg2:T6	
+R4	Subcellular_methodology Arg1:T4 Arg2:T5	
+T9	Tagged_Protein 455 469	GFP-SINE2ΔLVPT
+T10	Tagged_Protein 471 485	GFP-SINE3ΔPLPT
+T11	Tagged_Protein 487 501	GFP-SINE4ΔLVPT
+T12	Tagged_Protein 507 521	GFP-SINE5ΔLVPT
+T13	Subcellular_Location 694 711	nuclear periphery
+R5	Located_In Arg1:T4 Arg2:T13	
+R6	Located_In Arg1:T3 Arg2:T13	
+R7	Located_In Arg1:T2 Arg2:T13	
+R8	Located_In Arg1:T1 Arg2:T13	
+T14	Protein 959 964	SINE1
+T15	Methodology 955 958	GFP
+T16	Protein 973 978	SINE2
+T17	Methodology 969 972	GFP
+R9	Subcellular_methodology Arg1:T16 Arg2:T17	
+R10	Subcellular_methodology Arg1:T14 Arg2:T15	
+T18	Tagged_Protein 955 964	GFP-SINE1
+T19	Tagged_Protein 969 978	GFP-SINE2

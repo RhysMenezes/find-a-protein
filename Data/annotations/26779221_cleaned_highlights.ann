@@ -1,0 +1,79 @@
+T1	Protein 82 86	EB1c
+T2	Methodology 97 122	green fluorescent protein
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Protein 233 237	EB1c
+T4	Subcellular_Location 254 261	nuclear
+R2	Located_In Arg1:T3 Arg2:T4	
+T5	Subcellular_Location 346 353	nuclear
+T6	Protein 370 374	EB1c
+R3	Located_In Arg1:T6 Arg2:T5	
+T7	Protein 593 597	EB1c
+T8	Methodology 618 621	GFP
+T9	Subcellular_Location 571 578	nuclear
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+R5	Located_In Arg1:T7 Arg2:T9	
+T10	Protein 938 942	EB1c
+T11	Methodology 943 946	GFP
+R6	Subcellular_methodology Arg1:T10 Arg2:T11	
+T12	Tagged_Protein 938 946	EB1c-GFP
+T13	Protein 1129 1133	EB1c
+T14	Methodology 1134 1137	GFP
+R7	Subcellular_methodology Arg1:T13 Arg2:T14	
+T15	Tagged_Protein 1129 1137	EB1c-GFP
+T16	Subcellular_Location 1155 1161	nuclei
+R8	Located_In Arg1:T13 Arg2:T16	
+T17	Protein 1635 1639	EB1c
+T18	Methodology 1640 1643	GFP
+T19	Subcellular_Location 1611 1618	nuclear
+R9	Located_In Arg1:T17 Arg2:T19	
+T20	Protein 1785 1789	EB1c
+T21	Methodology 1790 1793	GFP
+R10	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Subcellular_Location 1818 1824	nuclei
+R11	Located_In Arg1:T20 Arg2:T22	
+T23	Subcellular_Location 1889 1901	phragmoplast
+R12	Located_In Arg1:T20 Arg2:T23	
+T24	Protein 2257 2261	EB1c
+T25	Methodology 2262 2265	GFP
+R13	Subcellular_methodology Arg1:T24 Arg2:T25	
+T26	Subcellular_Location 2283 2289	nuclei
+R14	Located_In Arg1:T24 Arg2:T26	
+T27	Tagged_Protein 2257 2265	EB1c-GFP
+T28	Tagged_Protein 1785 1793	EB1c-GFP
+T29	Tagged_Protein 1635 1643	EB1c-GFP
+T30	Subcellular_Location 2782 2789	nuclear
+T31	Protein 2806 2810	EB1c
+T32	Methodology 2811 2814	GFP
+R15	Subcellular_methodology Arg1:T31 Arg2:T32	
+R16	Located_In Arg1:T31 Arg2:T30	
+T33	Protein 2987 2991	EB1c
+T34	Methodology 2992 2995	GFP
+R17	Subcellular_methodology Arg1:T33 Arg2:T34	
+T35	Tagged_Protein 2987 2995	EB1c-GFP
+T36	Tagged_Protein 2806 2814	EB1c-GFP
+T37	Subcellular_Location 3020 3026	nuclei
+T38	Subcellular_Location 3030 3046	mitotic spindles
+T39	Subcellular_Location 3051 3076	cytokinetic phragmoplasts
+R18	Located_In Arg1:T33 Arg2:T37	
+R19	Located_In Arg1:T33 Arg2:T38	
+R20	Located_In Arg1:T33 Arg2:T39	
+T40	Protein 5268 5272	EB1c
+T41	Methodology 5273 5276	GFP
+R21	Subcellular_methodology Arg1:T40 Arg2:T41	
+T42	Tagged_Protein 5268 5276	EB1c-GFP
+T43	Subcellular_Location 5277 5284	nuclear
+R22	Located_In Arg1:T40 Arg2:T43	
+T44	Protein 9735 9739	EB1c
+T45	Methodology 9740 9743	GFP
+R23	Subcellular_methodology Arg1:T44 Arg2:T45	
+T46	Tagged_Protein 9735 9743	EB1c-GFP
+T47	Subcellular_Location 9758 9764	nuclei
+R24	Located_In Arg1:T44 Arg2:T47	
+T48	Protein 17203 17207	EB1c
+T49	Methodology 17208 17211	GFP
+R25	Subcellular_methodology Arg1:T48 Arg2:T49	
+T50	Tagged_Protein 17203 17211	EB1c:GFP
+T51	Protein 17897 17901	EB1c
+T52	Methodology 17902 17905	GFP
+R26	Subcellular_methodology Arg1:T51 Arg2:T52	
+T53	Tagged_Protein 17897 17905	EB1c-GFP

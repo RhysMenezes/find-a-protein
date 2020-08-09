@@ -1,0 +1,123 @@
+T1	Methodology 151 154	GFP
+T2	Protein 180 184	SEC6
+T3	Protein 186 190	SEC8
+T4	Protein 192 199	EXO70A1
+T5	Protein 205 211	EXO84b
+T6	Subcellular_Location 238 240	PM
+T7	Subcellular_Location 306 326	cell plate membranes
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+R2	Subcellular_methodology Arg1:T3 Arg2:T1	
+R3	Subcellular_methodology Arg1:T4 Arg2:T1	
+R4	Subcellular_methodology Arg1:T5 Arg2:T1	
+R5	Located_In Arg1:T2 Arg2:T6	
+R6	Located_In Arg1:T2 Arg2:T7	
+R7	Located_In Arg1:T3 Arg2:T6	
+R8	Located_In Arg1:T4 Arg2:T6	
+R9	Located_In Arg1:T5 Arg2:T6	
+R10	Located_In Arg1:T3 Arg2:T7	
+R11	Located_In Arg1:T4 Arg2:T7	
+R12	Located_In Arg1:T5 Arg2:T7	
+T8	Protein 636 642	EXO84b
+T9	Methodology 643 646	GFP
+R13	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Tagged_Protein 636 646	EXO84b-GFP
+T11	Subcellular_Location 685 687	PM
+R14	Located_In Arg1:T8 Arg2:T11	
+T12	Protein 2139 2146	VAMP721
+T13	Methodology 2135 2138	GFP
+T14	Protein 2054 2060	SYP132
+T15	Methodology 2061 2064	GFP
+R15	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 2054 2064	SYP132-GFP
+R16	Subcellular_methodology Arg1:T12 Arg2:T13	
+T17	Tagged_Protein 2135 2146	GFP-VAMP721
+T18	Subcellular_Location 2170 2172	PM
+R17	Located_In Arg1:T12 Arg2:T18	
+T19	Subcellular_Location 2177 2186	endosomes
+R18	Located_In Arg1:T12 Arg2:T19	
+T20	Protein 2191 2197	EXO84b
+T21	Methodology 2198 2201	GFP
+R19	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 2191 2201	EXO84b-GFP
+T23	Subcellular_Location 2245 2247	PM
+R20	Located_In Arg1:T20 Arg2:T23	
+T24	Protein 2257 2263	SYP132
+T25	Methodology 2264 2267	GFP
+R21	Subcellular_methodology Arg1:T24 Arg2:T25	
+T26	Tagged_Protein 2257 2267	SYP132-GFP
+T27	Subcellular_Location 2307 2309	PM
+R22	Located_In Arg1:T24 Arg2:T27	
+T28	Protein 3043 3047	SEC8
+T29	Methodology 3048 3051	GFP
+R23	Subcellular_methodology Arg1:T28 Arg2:T29	
+T30	Subcellular_Location 3152 3154	PM
+R24	Located_In Arg1:T28 Arg2:T30	
+T31	Protein 3598 3602	SEC6
+T32	Methodology 3603 3606	GFP
+R25	Subcellular_methodology Arg1:T31 Arg2:T32	
+T33	Tagged_Protein 3598 3606	SEC6-GFP
+T34	Methodology 3757 3760	GFP
+T35	Protein 3761 3768	VAMP721
+R26	Subcellular_methodology Arg1:T35 Arg2:T34	
+T36	Tagged_Protein 3757 3768	GFP-VAMP721
+T37	Subcellular_Location 3794 3796	PM
+T38	Subcellular_Location 3801 3814	endomembranes
+R27	Located_In Arg1:T35 Arg2:T37	
+R28	Located_In Arg1:T35 Arg2:T38	
+T39	Methodology 3918 3921	GFP
+T40	Protein 3922 3929	VAMP721
+R29	Subcellular_methodology Arg1:T40 Arg2:T39	
+T41	Tagged_Protein 3918 3929	GFP-VAMP721
+T42	Subcellular_Location 3958 3960	PM
+T43	Subcellular_Location 4000 4024	endomembrane compartment
+R30	Located_In Arg1:T40 Arg2:T42	
+R31	Located_In Arg1:T40 Arg2:T43	
+T44	Methodology 4399 4402	GFP
+T45	Protein 4410 4417	VAMP721
+R32	Subcellular_methodology Arg1:T45 Arg2:T44	
+T46	Subcellular_Location 4445 4447	PM
+T47	Subcellular_Location 4452 4477	endomembrane compartments
+R33	Located_In Arg1:T45 Arg2:T46	
+R34	Located_In Arg1:T45 Arg2:T47	
+T48	Methodology 4896 4899	GFP
+T49	Protein 4900 4907	VAMP721
+R35	Subcellular_methodology Arg1:T49 Arg2:T48	
+T50	Tagged_Protein 4896 4907	GFP-VAMP721
+T51	Subcellular_Location 5030 5039	cytoplasm
+T52	Subcellular_Location 5048 5061	endomembranes
+R36	Located_In Arg1:T49 Arg2:T51	
+R37	Located_In Arg1:T49 Arg2:T52	
+T53	Protein 5121 5128	VAMP721
+T54	Methodology 5117 5120	GFP
+R38	Subcellular_methodology Arg1:T53 Arg2:T54	
+T55	Tagged_Protein 5117 5128	GFP-VAMP721
+T56	Subcellular_Location 5269 5271	PM
+T57	Subcellular_Location 5334 5346	endomembrane
+R39	Located_In Arg1:T53 Arg2:T56	
+R40	Located_In Arg1:T53 Arg2:T57	
+T58	Protein 6288 6295	VAMP721
+T59	Methodology 6408 6411	GFP
+R41	Subcellular_methodology Arg1:T58 Arg2:T59	
+T60	Protein 6872 6879	VAMP721
+T61	Methodology 6868 6871	GFP
+T62	Tagged_Protein 6868 6879	GFP-VAMP721
+R42	Subcellular_methodology Arg1:T60 Arg2:T61	
+T63	Protein 6926 6932	EXO84b
+T64	Methodology 6933 6937	mRFP
+R43	Subcellular_methodology Arg1:T63 Arg2:T64	
+T65	Tagged_Protein 6926 6937	EXO84b-mRFP
+T66	Protein 7331 7337	SYP132
+T67	Methodology 7610 7613	GFP
+R44	Subcellular_methodology Arg1:T66 Arg2:T67	
+T68	Protein 7805 7809	SEC6
+T69	Methodology 7810 7813	GFP
+R45	Subcellular_methodology Arg1:T68 Arg2:T69	
+T70	Tagged_Protein 7805 7813	SEC6-GFP
+T71	Protein 7889 7893	SEC6
+T72	Methodology 7894 7897	GFP
+R46	Subcellular_methodology Arg1:T71 Arg2:T72	
+T73	Tagged_Protein 7889 7897	SEC6-GFP
+T74	Methodology 9360 9363	GFP
+T75	Protein 9364 9371	VAMP721
+R47	Subcellular_methodology Arg1:T75 Arg2:T74	
+T76	Tagged_Protein 9360 9371	GFP-VAMP721

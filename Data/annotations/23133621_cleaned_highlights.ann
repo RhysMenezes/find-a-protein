@@ -1,0 +1,12 @@
+T1	Methodology 11 14	GFP
+T2	Protein 22 26	ROF1
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+T3	Subcellular_Location 84 93	cytoplasm
+R2	Located_In Arg1:T2 Arg2:T3	
+T4	Protein 295 299	ROF1
+T5	Subcellular_Location 234 245	cytoplasmic
+R3	Located_In Arg1:T4 Arg2:T5	
+T6	Methodology 2319 2324	MS/MS
+T7	Protein 4936 4940	ROF1
+T8	Methodology 4925 4928	GFP
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	

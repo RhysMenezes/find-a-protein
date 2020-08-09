@@ -1,0 +1,47 @@
+T1	Protein 1157 1168	myosin XI-K
+T2	Methodology 1169 1172	YFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 1157 1172	myosin XI-K:YFP
+T4	Subcellular_Location 1197 1218	endomembrane vesicles
+T5	Subcellular_Location 1291 1298	cytosol
+R2	Located_In Arg1:T1 Arg2:T4	
+R3	Located_In Arg1:T1 Arg2:T5	
+T6	Methodology 109 128	fluorescent protein
+T7	Protein 137 148	myosin XI-K
+R4	Subcellular_methodology Arg1:T7 Arg2:T6	
+T8	Subcellular_Location 339 360	endomembrane vesicles
+R5	Located_In Arg1:T7 Arg2:T8	
+T9	Protein 2253 2257	XI-K
+T10	Methodology 2258 2261	YFP
+R6	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Tagged_Protein 2253 2261	XI-K:YFP
+T12	Subcellular_Location 2371 2383	Golgi stacks
+R7	Located_In Arg1:T9 Arg2:T12	
+T13	Protein 2495 2499	XI-K
+T14	Methodology 2500 2503	YFP
+R8	Subcellular_methodology Arg1:T13 Arg2:T14	
+T15	Subcellular_Location 2516 2521	Golgi
+R9	Located_In Arg1:T13 Arg2:T15	
+T16	Tagged_Protein 2495 2503	XI-K:YFP
+T17	Protein 2909 2913	XI-K
+T18	Methodology 2914 2917	YFP
+R10	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 2909 2917	XI-K:YFP
+T20	Subcellular_Location 2943 2945	ER
+T21	Protein 2946 2949	CFP
+R12	Located_In Arg1:T17 Arg2:T20	
+R11	Located_In Arg1:T17 Arg2:T20	
+T22	Protein 3170 3181	myosin XI-K
+T23	Methodology 3182 3185	YFP
+T24	Subcellular_Location 3204 3206	ER
+R13	Subcellular_methodology Arg1:T22 Arg2:T23	
+T25	Tagged_Protein 3170 3185	myosin XI-K:YFP
+R14	Located_In Arg1:T22 Arg2:T24	
+T26	Methodology 6142 6145	YFP
+T27	Protein 6153 6164	myosin XI-K
+R15	Subcellular_methodology Arg1:T27 Arg2:T26	
+T28	Protein 6237 6255	myosin  XI-K  gene
+T29	Gene_Locus 6257 6266	AT5G20490
+R16	Locus_link Arg1:T28 Arg2:T29	
+T30	Methodology 6295 6298	YFP
+R17	Subcellular_methodology Arg1:T28 Arg2:T30	

@@ -1,0 +1,58 @@
+T1	Subcellular_Location 225 237	mitochondria
+T2	Subcellular_Location 242 253	peroxisomes
+T3	Protein 185 191	AtNDA1
+T4	Protein 196 202	AtNDA2
+T5	Methodology 262 265	GFP
+R1	Located_In Arg1:T4 Arg2:T2	
+R2	Located_In Arg1:T4 Arg2:T1	
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+R4	Subcellular_methodology Arg1:T3 Arg2:T5	
+R5	Located_In Arg1:T3 Arg2:T1	
+R6	Located_In Arg1:T3 Arg2:T2	
+T6	Protein 1188 1192	NDA1
+T7	Protein 1197 1201	NDA2
+T8	Methodology 1153 1156	GFP
+R7	Subcellular_methodology Arg1:T6 Arg2:T8	
+R8	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Protein 2144 2150	AtNDB1
+T10	Protein 2152 2158	AtNDB2
+T11	Protein 2163 2169	AtNDB4
+T12	Subcellular_Location 2209 2222	mitochondrial
+R9	Located_In Arg1:T11 Arg2:T12	
+R10	Located_In Arg1:T10 Arg2:T12	
+R11	Located_In Arg1:T9 Arg2:T12	
+T13	Protein 2564 2570	AtNDB1
+T14	Subcellular_Location 2596 2608	mitochondria
+T15	Subcellular_Location 2613 2624	peroxisomes
+T16	Protein 2634 2640	AtNDB2
+T17	Protein 2645 2651	AtNDB4
+T18	Subcellular_Location 2676 2688	mitochondria
+R12	Located_In Arg1:T13 Arg2:T14	
+R13	Located_In Arg1:T13 Arg2:T15	
+R14	Located_In Arg1:T16 Arg2:T18	
+R15	Located_In Arg1:T17 Arg2:T18	
+T19	Protein 4840 4846	AtNDC1
+T20	Methodology 4861 4864	GFP
+T21	Subcellular_Location 4952 4961	plastidic
+T22	Subcellular_Location 5052 5064	mitochondria
+T23	Subcellular_Location 5069 5077	plastids
+R16	Located_In Arg1:T19 Arg2:T21	
+R17	Located_In Arg1:T19 Arg2:T22	
+R18	Located_In Arg1:T19 Arg2:T23	
+T24	Protein 5218 5224	AtNDC1
+T25	Subcellular_Location 5245 5257	mitochondria
+T26	Subcellular_Location 5262 5270	plastids
+R19	Located_In Arg1:T24 Arg2:T26	
+R20	Located_In Arg1:T24 Arg2:T25	
+T27	Protein 6134 6140	AtNDC1
+T28	Subcellular_Location 6149 6156	plastid
+T30	Subcellular_Location 6250 6258	plastids
+T29	Subcellular_Location 6233 6245	mitochondria
+R21	Located_In Arg1:T27 Arg2:T28	
+R22	Located_In Arg1:T27 Arg2:T29	
+R23	Located_In Arg1:T27 Arg2:T30	
+T31	Methodology 7383 7386	GFP
+T32	Methodology 7961 7964	GFP
+T33	Methodology 7969 7972	RFP
+T34	Methodology 8379 8382	GFP
+T35	Methodology 8387 8390	RFP

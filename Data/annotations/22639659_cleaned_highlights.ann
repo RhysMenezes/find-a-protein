@@ -1,0 +1,3 @@
+T1	Protein 728 733	MIOX2
+T2	Gene_Locus 735 744	At2g19800
+R1	Locus_link Arg1:T1 Arg2:T2	

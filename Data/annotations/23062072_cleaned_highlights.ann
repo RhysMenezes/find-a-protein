@@ -1,0 +1,28 @@
+T1	Protein 182 186	P5CR
+T2	Methodology 187 190	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 182 190	P5CR-GFP
+T4	Subcellular_Location 241 254	cytoplasmatic
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 43 47	P5CR
+T6	Methodology 48 51	GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Tagged_Protein 43 51	P5CR-GFP
+T8	Protein 732 736	P5CR
+T9	Methodology 737 740	GFP
+R4	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Subcellular_Location 809 818	cytosolic
+T11	Tagged_Protein 732 740	P5CR-GFP
+R5	Located_In Arg1:T8 Arg2:T10	
+T12	Protein 835 839	P5CR
+R6	Located_In Arg1:T12 Arg2:T10	
+T13	Subcellular_Location 1323 1336	cytoplasmatic
+T14	Protein 1353 1357	P5CR
+T15	Methodology 1358 1361	GFP
+T16	Tagged_Protein 1353 1361	P5CR-GFP
+R7	Subcellular_methodology Arg1:T14 Arg2:T15	
+R8	Located_In Arg1:T14 Arg2:T13	
+T17	Protein 1897 1901	P5CR
+T18	Methodology 1902 1905	GFP
+R9	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 1897 1905	P5CR-GFP

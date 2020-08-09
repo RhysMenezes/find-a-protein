@@ -1,0 +1,13 @@
+Input,Output
+using a fully functional fluorescent version of arabidopsis thaliana _PROTEIN_ we show that this protein is localized at the _LOCATION_ as well as in _BLANKL_ and soluble in the _BLANKL_ .,Y
+results functional _PROTEIN_ _METHOD_ is mainly localized at the _LOCATION_ we generated an fusion between the predicted _BLANKP_ signal peptide fused to the yellow fluorescent protein monomeric _BLANKM_ followed by the coding region including the predicted,Y
+a similar dual _BLANKL_ and _LOCATION_ localization was displayed by the _PROTEIN_ _METHOD_ while the integral membrane protein was exclusively membrane localized .,Y
+figure _PROTEIN_ _METHOD_ is localized both at the _LOCATION_ and in the _BLANKL_ .,Y
+figure _PROTEIN_ _METHOD_ is localized both at the _BLANKL_ and in the _LOCATION_ .,Y
+using a fully functional fluorescent version of arabidopsis thaliana _PROTEIN_ we show that this protein is localized at the _BLANKL_ as well as in _BLANKL_ and soluble in the _LOCATION_ .,Y
+results functional _BLANKP_ _BLANKM_ is mainly localized at the _BLANKL_ we generated an fusion between the predicted _PROTEIN_ signal peptide fused to the yellow fluorescent protein monomeric _METHOD_ followed by the coding region including the predicted,Y
+a similar dual _LOCATION_ and _BLANKL_ localization was displayed by the _PROTEIN_ _METHOD_ while the integral membrane protein was exclusively membrane localized .,Y
+using a fully functional fluorescent version of arabidopsis thaliana _PROTEIN_ we show that this protein is localized at the _BLANKL_ as well as in _LOCATION_ and soluble in the _BLANKL_ .,Y
+results functional _PROTEIN_ _BLANKM_ is mainly localized at the _LOCATION_ we generated an fusion between the predicted _BLANKP_ signal peptide fused to the yellow fluorescent protein monomeric _METHOD_ followed by the coding region including the predicted,N
+results functional _BLANKP_ _METHOD_ is mainly localized at the _LOCATION_ we generated an fusion between the predicted _PROTEIN_ signal peptide fused to the yellow fluorescent protein monomeric _BLANKM_ followed by the coding region including the predicted,N
+results functional _BLANKP_ _BLANKM_ is mainly localized at the _LOCATION_ we generated an fusion between the predicted _PROTEIN_ signal peptide fused to the yellow fluorescent protein monomeric _METHOD_ followed by the coding region including the predicted,N

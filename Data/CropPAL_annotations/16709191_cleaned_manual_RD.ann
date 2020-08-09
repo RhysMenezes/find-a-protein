@@ -1,0 +1,80 @@
+T1	Protein 74 78	DIP1
+T2	Methodology 79 102	Red Flourescent Protein
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 74 102	DIP1–Red Flourescent Protein
+T4	Subcellular_Location 137 146	cytoplasm
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 184 188	DBF1
+T6	Methodology 189 192	GFP
+T7	Protein 197 201	DIP1
+T8	Methodology 202 205	RFP
+R3	Subcellular_methodology Arg1:T7 Arg2:T8	
+R4	Subcellular_methodology Arg1:T5 Arg2:T6	
+T9	Tagged_Protein 184 192	DBF1–GFP
+T10	Tagged_Protein 197 205	DIP1–RFP
+T11	Subcellular_Location 241 248	nucleus
+R5	Located_In Arg1:T7 Arg2:T11	
+R6	Located_In Arg1:T5 Arg2:T11	
+T12	Protein_variant 274 289	N‐terminal DBF1
+T13	Methodology 290 293	GFP
+R7	Subcellular_methodology Arg1:T12 Arg2:T13	
+T14	Tagged_Protein 274 293	N‐terminal DBF1–GFP
+T15	Protein 316 320	DIP1
+T16	Methodology 321 324	RFP
+R8	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Tagged_Protein 316 324	DIP1–RFP
+T18	Subcellular_Location 374 394	cytoplasmic speckles
+R9	Located_In Arg1:T12 Arg2:T18	
+R10	Located_In Arg1:T15 Arg2:T18	
+T19	Protein 499 503	DBF1
+T20	Protein 508 512	DIP1
+T21	Methodology 600 625	Green Flourescent Protein
+T22	Methodology 635 638	RFP
+R11	Subcellular_methodology Arg1:T20 Arg2:T21	
+R12	Subcellular_methodology Arg1:T20 Arg2:T22	
+R13	Subcellular_methodology Arg1:T19 Arg2:T21	
+R14	Subcellular_methodology Arg1:T19 Arg2:T22	
+T23	Protein 764 768	DBF1
+T24	Methodology 769 772	GFP
+R15	Subcellular_methodology Arg1:T23 Arg2:T24	
+T25	Tagged_Protein 764 772	DBF1–GFP
+T26	Protein_variant 814 829	DBF1 C‐terminal
+T27	Methodology 844 847	GFP
+R16	Subcellular_methodology Arg1:T26 Arg2:T27	
+T28	Subcellular_Location 923 930	nucleus
+R17	Located_In Arg1:T23 Arg2:T28	
+R18	Located_In Arg1:T26 Arg2:T28	
+T29	Protein 1065 1069	DBF1
+T30	Methodology 1095 1098	GFP
+R19	Subcellular_methodology Arg1:T29 Arg2:T30	
+T31	Subcellular_Location 1106 1113	nucleus
+R20	Located_In Arg1:T29 Arg2:T31	
+T33	Methodology 1246 1249	GFP
+T32	Protein_variant 1209 1232	N‐terminal part of DBF1
+R21	Subcellular_methodology Arg1:T32 Arg2:T33	
+T34	Subcellular_Location 1308 1317	cytoplasm
+R22	Located_In Arg1:T32 Arg2:T34	
+T35	Subcellular_Location 1342 1362	cytoplasmic speckles
+R23	Located_In Arg1:T32 Arg2:T35	
+T36	Protein 1432 1436	DIP1
+T37	Methodology 1437 1440	RFP
+R24	Subcellular_methodology Arg1:T36 Arg2:T37	
+T38	Tagged_Protein 1432 1440	DIP1–RFP
+T39	Subcellular_Location 1517 1526	cytoplasm
+R25	Located_In Arg1:T36 Arg2:T39	
+T40	Protein_variant 1572 1578	N‐DBF1
+T41	Methodology 1579 1582	GFP
+R26	Subcellular_methodology Arg1:T40 Arg2:T41	
+T42	Protein 1587 1591	DIP1
+T43	Methodology 1592 1595	RFP
+R27	Subcellular_methodology Arg1:T42 Arg2:T43	
+T44	Tagged_Protein 1587 1595	DIP1–RFP
+T45	Tagged_Protein 1572 1582	N‐DBF1–GFP
+T46	Subcellular_Location 1603 1612	cytoplasm
+R28	Located_In Arg1:T42 Arg2:T46	
+R29	Located_In Arg1:T40 Arg2:T46	
+T47	Protein 1790 1794	DBF1
+T48	Protein_variant 1921 1936	DBF1 N‐terminal
+T49	Protein_variant 2076 2091	DBF1 C‐terminal
+T50	Methodology 2284 2287	GFP
+R30	Subcellular_methodology Arg1:T47 Arg2:T50	

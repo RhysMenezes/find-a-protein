@@ -1,0 +1,20 @@
+T1	Protein 191 196	CNGC7
+T2	Subcellular_Location 243 245	PM
+T3	Methodology 187 190	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T3	
+T4	Tagged_Protein 187 196	GFP-CNGC7
+R2	Located_In Arg1:T1 Arg2:T2	
+T5	Protein 585 590	CNGC7
+T6	Subcellular_Location 611 626	Plasma Membrane
+R3	Located_In Arg1:T5 Arg2:T6	
+T7	Methodology 753 756	GFP
+T8	Protein 757 762	CNGC7
+R4	Subcellular_methodology Arg1:T8 Arg2:T7	
+T9	Tagged_Protein 753 762	GFP-CNGC7
+T10	Methodology 412 415	GFP
+T11	Protein 416 421	CNGC7
+R5	Subcellular_methodology Arg1:T11 Arg2:T10	
+T12	Tagged_Protein 412 421	GFP-CNGC7
+T13	Methodology 1575 1578	GFP
+T14	Protein 1586 1591	CNGC7
+R6	Subcellular_methodology Arg1:T14 Arg2:T13	

@@ -1,0 +1,38 @@
+T1	Protein 271 275	phyB
+T2	Subcellular_Location 150 157	nuclear
+R1	Located_In Arg1:T1 Arg2:T2	
+T3	Protein 518 522	phyB
+T4	Methodology 523 526	GFP
+T5	Subcellular_Location 544 551	Nucleus
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+R3	Located_In Arg1:T3 Arg2:T5	
+T6	Protein 599 603	phyB
+T7	Methodology 604 607	GFP
+R4	Subcellular_methodology Arg1:T6 Arg2:T7	
+T8	Protein 1143 1147	phyB
+T9	Methodology 1148 1151	GFP
+T10	Subcellular_Location 1190 1197	nuclear
+R5	Subcellular_methodology Arg1:T8 Arg2:T9	
+R6	Located_In Arg1:T8 Arg2:T10	
+T11	Protein 1285 1289	phyB
+T12	Methodology 1290 1293	GFP
+T13	Subcellular_Location 1323 1330	nucleus
+R7	Subcellular_methodology Arg1:T11 Arg2:T12	
+R8	Located_In Arg1:T11 Arg2:T13	
+T14	Protein 1410 1414	phyB
+T15	Methodology 1415 1418	GFP
+T16	Subcellular_Location 1386 1393	Nuclear
+R9	Located_In Arg1:T14 Arg2:T16	
+R10	Subcellular_methodology Arg1:T14 Arg2:T15	
+T17	Protein 2401 2405	PHYB
+T18	Methodology 2412 2415	GFP
+T19	Protein 2480 2484	PHYB
+T20	Methodology 2487 2490	GFP
+R11	Subcellular_methodology Arg1:T19 Arg2:T20	
+R12	Subcellular_methodology Arg1:T17 Arg2:T18	
+T21	Protein 2595 2599	phyB
+T22	Methodology 2604 2607	GFP
+R13	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Protein 2650 2654	PHYB
+T24	Methodology 2657 2660	GFP
+R14	Subcellular_methodology Arg1:T23 Arg2:T24	

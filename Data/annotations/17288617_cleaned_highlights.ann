@@ -1,0 +1,142 @@
+T1	Protein 211 218	At MYA2
+T2	Subcellular_Location 239 250	peroxisomes
+R1	Located_In Arg1:T1 Arg2:T2	
+T3	Protein 704 711	At MYA2
+T4	Subcellular_Location 797 808	peroxisomes
+T5	Subcellular_Location 813 821	vesicles
+T6	Methodology 842 845	YFP
+R2	Located_In Arg1:T3 Arg2:T4	
+R3	Located_In Arg1:T3 Arg2:T5	
+R4	Subcellular_methodology Arg1:T3 Arg2:T6	
+T7	Protein 1238 1242	ERD2
+T8	Methodology 1244 1247	GFP
+T9	Subcellular_Location 1337 1349	Golgi stacks
+R5	Subcellular_methodology Arg1:T7 Arg2:T8	
+R6	Located_In Arg1:T7 Arg2:T9	
+T10	Methodology 1556 1559	YFP
+T11	Methodology 1563 1569	DsRed2
+T12	Protein 1588 1601	At catalase 2
+R7	Subcellular_methodology Arg1:T12 Arg2:T11	
+R8	Subcellular_methodology Arg1:T12 Arg2:T10	
+T13	Methodology 1637 1640	YFP
+T14	Protein 1642 1651	catalase2
+T15	Methodology 1658 1664	DsRed2
+T16	Protein 1666 1675	catalase2
+T17	Subcellular_Location 1698 1709	peroxisomes
+R9	Subcellular_methodology Arg1:T14 Arg2:T13	
+R10	Subcellular_methodology Arg1:T16 Arg2:T15	
+R11	Located_In Arg1:T16 Arg2:T17	
+R12	Located_In Arg1:T14 Arg2:T17	
+T18	Protein 1952 1956	PST1
+T19	Methodology 1973 1976	GFP
+T20	Subcellular_Location 1811 1822	peroxisomes
+R13	Located_In Arg1:T18 Arg2:T20	
+R14	Subcellular_methodology Arg1:T18 Arg2:T19	
+T21	Protein 2684 2689	coxIV
+T22	Methodology 2691 2694	GFP
+T23	Subcellular_Location 2706 2718	mitochondria
+T24	Protein 2725 2729	ERD2
+T25	Methodology 2731 2734	GFP
+R15	Subcellular_methodology Arg1:T21 Arg2:T22	
+R16	Located_In Arg1:T21 Arg2:T23	
+R17	Subcellular_methodology Arg1:T24 Arg2:T25	
+T26	Subcellular_Location 2747 2752	Golgi
+R18	Located_In Arg1:T24 Arg2:T26	
+T27	Irrelevant 11 127	related to animal and fungal myosin class V that are responsible for movement of particular vesicles and organelles.
+T28	Irrelevant 278 455	Little information is available concerning the remaining 12 class XI myosins. Results We investigated 6 of the 13 class XI  Arabidopsis  myosins. cDNAs corresponding to the tail
+T29	Irrelevant 457 690	domain, the fluorescently-labeled organelles were motile in most cells. Tail cropping experiments demonstrated that the coiled-coil region was required for specific localization and shorter tail regions were inadequate for targeting.
+T30	Irrelevant 1006 1181	proteins known to localize to these compartments. Previously we had shown that a yeast coxIV transit sequence fused to GFP resulted in specific labeling of mitochondria [ 2 ].
+T31	Irrelevant 1351 1462	In order to label perixosomes, we decided to make fusions of a peroxisomal resident enzyme, catalase, which has
+T32	Irrelevant 1464 1532	PTS1 (Peroxisomal Targeting Signal 1) at the C-terminus [ 23 , 24 ].
+T33	Methodology 1998 2001	YFP
+T34	Protein 2003 2011	catalase
+R19	Subcellular_methodology Arg1:T34 Arg2:T33	
+T35	Methodology 2016 2022	DsRed2
+T36	Protein 2024 2032	catalase
+R20	Subcellular_methodology Arg1:T36 Arg2:T35	
+T37	Subcellular_Location 2039 2050	peroxisomes
+T38	Methodology 2083 2086	YFP
+T39	Protein 2088 2096	catalase
+R21	Subcellular_methodology Arg1:T39 Arg2:T38	
+R22	Located_In Arg1:T34 Arg2:T37	
+R23	Located_In Arg1:T36 Arg2:T37	
+T40	Irrelevant 2146 2178	Maximum projection (cell depth =
+T41	Irrelevant 2180 2477	mesophyll cells, and it is evident that peroxisomes exhibit a greater speed and track length in the non-green epidermal vs. green leaf cells. The difference in average organelle track speed in mesophyll cells exhibited by structures labeled by YFP-myosin XI-6 vs. XI-15 and XI-17 suggests that the
+T42	Protein 2638 2646	catalase
+T43	Methodology 2648 2654	DsRed2
+R24	Subcellular_methodology Arg1:T42 Arg2:T43	
+T44	Subcellular_Location 2670 2681	peroxisomes
+R25	Located_In Arg1:T42 Arg2:T44	
+T45	Subcellular_Location 3170 3180	peroxisome
+T46	Methodology 3189 3195	DsRed2
+T47	Protein 3197 3205	catalase
+R26	Subcellular_methodology Arg1:T47 Arg2:T46	
+R27	Located_In Arg1:T47 Arg2:T45	
+T48	Protein 3233 3238	coxIV
+T49	Methodology 3240 3243	GFP
+T50	Subcellular_Location 3211 3224	mitochondrial
+R28	Subcellular_methodology Arg1:T48 Arg2:T49	
+R29	Located_In Arg1:T48 Arg2:T50	
+T51	Protein 3263 3267	ERD2
+T52	Methodology 3269 3272	GFP
+T53	Subcellular_Location 3249 3254	Golgi
+R30	Subcellular_methodology Arg1:T51 Arg2:T52	
+R31	Located_In Arg1:T51 Arg2:T53	
+T54	Subcellular_Location 3623 3633	peroxisome
+T55	Methodology 3642 3648	DsRed2
+T56	Protein 3650 3658	catalase
+T57	Subcellular_Location 3664 3677	mitochondrial
+T58	Protein 3686 3691	coxIV
+T59	Methodology 3693 3696	GFP
+T60	Subcellular_Location 3702 3707	Golgi
+T61	Protein 3716 3720	ERD2
+T62	Methodology 3722 3725	GFP
+R32	Subcellular_methodology Arg1:T61 Arg2:T62	
+R33	Located_In Arg1:T61 Arg2:T60	
+R34	Subcellular_methodology Arg1:T58 Arg2:T59	
+R35	Located_In Arg1:T58 Arg2:T57	
+R36	Subcellular_methodology Arg1:T56 Arg2:T55	
+R37	Located_In Arg1:T56 Arg2:T54	
+T63	Subcellular_Location 4078 4088	peroxisome
+T64	Methodology 4097 4103	DsRed2
+T65	Protein 4105 4113	catalase
+T67	Protein 4171 4175	ERD2
+T68	Methodology 4177 4180	GFP
+T69	Subcellular_Location 4157 4162	Golgi
+R38	Subcellular_methodology Arg1:T65 Arg2:T64	
+R39	Located_In Arg1:T65 Arg2:T63	
+R40	Located_In Arg1:T67 Arg2:T69	
+R41	Subcellular_methodology Arg1:T67 Arg2:T68	
+T66	Methodology 5076 5079	YPF
+T70	Protein_variant 5081 5099	myosin XI-6-nocoil
+R42	Subcellular_methodology Arg1:T70 Arg2:T66	
+T71	Subcellular_Location 5153 5164	peroxisomes
+R43	Located_In Arg1:T70 Arg2:T71	
+T72	Methodology 5457 5460	YFP
+T73	Protein_variant 5462 5479	myosin XI-16-tail
+T74	Subcellular_Location 5489 5494	Golgi
+T75	Subcellular_Location 5499 5512	mitochondrial
+R44	Subcellular_methodology Arg1:T73 Arg2:T72	
+R45	Located_In Arg1:T73 Arg2:T74	
+R46	Located_In Arg1:T73 Arg2:T75	
+T76	Irrelevant 6081 6580	product was cloned into a pCR2.1-TOPO T/A vector (Invitogen), and sequenced. The gene was then amplified with the following primers for allowing a directional cloning into the pENTR/D TOPO vector (Invitrogen): 5'CACCGATCCTTACAAGTATCGTC3' and 5'TTAGATGCTTGGTCTCACG3'. The gene was fused to YFP in the pEarleyGate104 [ 40 ] by LR reaction (Invitrogen). The catalase cDNA was also fused downstream of DsRed2 in the binary pGDR vector [ 41 ] by using the  Kpn I restriction site. Primers containing  Kpn
+T77	Irrelevant 6582 6895	GFP and YFP. For time lapse series YFP and chlorophyll were both excited at 488 nm and pictures were collected without frame averages. Organelle motility was measured with the ImarisTrack module from the Image Analyzing Software Imaris 5.0 (Bitplane AG, Zurich, Switzerland). Labeled organelles were detected with
+T78	Tagged_Protein 1238 1247	ERD2::GFP
+T79	Tagged_Protein 1637 1651	YFP::catalase2
+T80	Tagged_Protein 1658 1675	DsRed2::catalase2
+T81	Tagged_Protein 2016 2032	DsRed2::catalase
+T82	Tagged_Protein 1998 2011	YFP::catalase
+T83	Tagged_Protein 2083 2096	YFP::catalase
+T84	Tagged_Protein 2638 2654	catalase::DsRed2
+T85	Tagged_Protein 2684 2694	coxIV::GFP
+T86	Tagged_Protein 2725 2734	ERD2::GFP
+T87	Tagged_Protein 3189 3205	DsRed2::catalase
+T88	Tagged_Protein 3233 3243	coxIV::GFP
+T89	Tagged_Protein 3263 3272	ERD2::GFP
+T90	Tagged_Protein 3642 3658	DsRed2::catalase
+T91	Tagged_Protein 3686 3696	coxIV::GFP
+T92	Tagged_Protein 3716 3725	ERD2::GFP
+T93	Tagged_Protein 4097 4113	DsRed2::catalase
+T94	Tagged_Protein 4171 4180	ERD2::GFP
+T95	Tagged_Protein 5076 5099	YPF::myosin XI-6-nocoil
+T96	Tagged_Protein 5457 5479	YFP::myosin XI-16-tail

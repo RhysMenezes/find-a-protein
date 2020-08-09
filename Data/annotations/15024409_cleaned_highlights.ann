@@ -1,0 +1,37 @@
+T1	Protein 858 862	DCL3
+T2	Protein 868 872	HEN1
+T3	Protein 886 890	AGO4
+T4	Methodology 863 866	GFP
+T5	Methodology 873 876	GFP
+T6	Methodology 882 885	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T4	
+R2	Subcellular_methodology Arg1:T2 Arg2:T5	
+R3	Subcellular_methodology Arg1:T3 Arg2:T6	
+T7	Subcellular_Location 940 947	nucleus
+R4	Located_In Arg1:T1 Arg2:T7	
+R5	Located_In Arg1:T2 Arg2:T7	
+R6	Located_In Arg1:T3 Arg2:T7	
+T8	Subcellular_Location 797 804	nuclear
+T9	Protein 826 829	NIa
+T10	Methodology 831 834	GFP
+R7	Subcellular_methodology Arg1:T9 Arg2:T10	
+R8	Located_In Arg1:T9 Arg2:T8	
+T11	Protein 1654 1657	NIa
+T12	Methodology 1658 1661	GFP
+T13	Subcellular_Location 1693 1699	nuclei
+R9	Subcellular_methodology Arg1:T11 Arg2:T12	
+R10	Located_In Arg1:T11 Arg2:T13	
+T14	Protein 2103 2107	DCL2
+T15	Methodology 2108 2111	GFP
+T16	Subcellular_Location 2160 2167	nucleus
+R11	Subcellular_methodology Arg1:T14 Arg2:T15	
+R12	Located_In Arg1:T14 Arg2:T16	
+T17	Protein 2647 2651	DCL3
+T18	Subcellular_Location 2676 2679	GFP
+R13	Located_In Arg1:T17 Arg2:T18	
+T19	Protein 2612 2616	DCL3
+T20	Methodology 2617 2620	GFP
+R14	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Irrelevant 11 564	short interfering RNA (siRNA). They collectively function as sequence-specific guides to silence or regulate genes, transposons, and viruses and to modify chromatin and genome structure. Formation or activity of small RNAs requires factors belonging to gene families that encode DICER (or DICER-LIKE [DCL]) and ARGONAUTE proteins and, in the case of some siRNAs, RNA-dependent RNA polymerase (RDR) proteins. Unlike many animals, plants encode multiple DCL and RDR proteins. Using a series of insertion mutants of  Arabidopsis thaliana , unique functions
+T22	Irrelevant 576 670	in a heterologous plant,  Nicotiana benthamiana , using an  Agrobacterium  infiltration assay.
+T23	Irrelevant 1913 2098	weight of bolts) lower compared to infected wild-type plants ( Figure 6 A and  6 C). Therefore, DCL2 functions as a component of the antiviral silencing response in TCV-infected plants.

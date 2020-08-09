@@ -1,0 +1,176 @@
+T1	Methodology 459 462	RFP
+T2	Protein 464 469	p24δ5
+T3	Tagged_Protein 458 469	(RFP)–p24δ5
+T4	Subcellular_Location 487 508	endoplasmic reticulum
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+R2	Located_In Arg1:T2 Arg2:T4	
+T5	Methodology 1142 1145	RFP
+T6	Protein 1146 1151	p24δ5
+T7	Subcellular_Location 1203 1205	ER
+T8	Tagged_Protein 1142 1151	RFP–p24δ5
+R3	Subcellular_methodology Arg1:T6 Arg2:T5	
+R4	Located_In Arg1:T6 Arg2:T7	
+T9	Protein 1379 1384	p24δ5
+T10	Subcellular_Location 1403 1405	ER
+R5	Located_In Arg1:T9 Arg2:T10	
+T11	Methodology 1946 1949	RFP
+T12	Protein 1950 1955	p24δ5
+T13	Tagged_Protein 1946 1955	RFP–p24δ5
+T14	Subcellular_Location 1963 1965	ER
+R6	Subcellular_methodology Arg1:T12 Arg2:T11	
+R7	Located_In Arg1:T12 Arg2:T14	
+T15	Protein_variant 2167 2180	p24δ5 (TM-CT)
+T16	Methodology 2163 2166	RFP
+T17	Tagged_Protein 2163 2180	RFP–p24δ5 (TM-CT)
+R8	Subcellular_methodology Arg1:T15 Arg2:T16	
+T18	Subcellular_Location 2228 2230	ER
+R9	Located_In Arg1:T15 Arg2:T18	
+T19	Protein 3157 3161	Man1
+T20	Methodology 3162 3165	GFP
+R10	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Tagged_Protein 3157 3165	Man1–GFP
+T22	Subcellular_Location 3144 3149	Golgi
+R11	Located_In Arg1:T19 Arg2:T22	
+T23	Protein 4045 4049	Man1
+T24	Methodology 4050 4053	GFP
+T25	Tagged_Protein 4045 4053	Man1–GFP
+R12	Subcellular_methodology Arg1:T23 Arg2:T24	
+T26	Subcellular_Location 4057 4062	Golgi
+R13	Located_In Arg1:T23 Arg2:T26	
+T27	Protein 4285 4287	ST
+T28	Methodology 4288 4291	YFP
+T29	Subcellular_Location 4278 4283	Golgi
+T30	Tagged_Protein 4285 4291	ST–YFP
+T31	Protein 4311 4315	BP80
+T32	Methodology 4307 4310	GFP
+T33	Tagged_Protein 4307 4315	GFP–BP80
+R14	Subcellular_methodology Arg1:T31 Arg2:T32	
+T34	Subcellular_Location 4302 4305	PVC
+R15	Located_In Arg1:T31 Arg2:T34	
+R16	Subcellular_methodology Arg1:T27 Arg2:T28	
+R17	Located_In Arg1:T27 Arg2:T29	
+T35	Protein 5613 5615	ST
+T36	Methodology 5616 5619	YFP
+T37	Tagged_Protein 5613 5619	ST–YFP
+R18	Subcellular_methodology Arg1:T35 Arg2:T36	
+T38	Subcellular_Location 5573 5578	Golgi
+T39	Subcellular_Location 5626 5629	PVC
+T40	Methodology 5664 5667	GFP
+T41	Protein 5668 5672	BP80
+R19	Subcellular_methodology Arg1:T41 Arg2:T40	
+T42	Tagged_Protein 5664 5672	GFP–BP80
+R20	Located_In Arg1:T41 Arg2:T39	
+R21	Located_In Arg1:T35 Arg2:T38	
+T43	Protein_variant 5997 6012	p24δ5, TM-CT SS
+T44	Methodology 5993 5996	RFP
+R22	Subcellular_methodology Arg1:T43 Arg2:T44	
+T45	Tagged_Protein 5993 6012	RFP–p24δ5, TM-CT SS
+T46	Subcellular_Location 6125 6127	ER
+R23	Located_In Arg1:T43 Arg2:T46	
+T47	Subcellular_Location 6172 6174	ER
+T48	Protein 6186 6190	HDEL
+T49	Methodology 6182 6185	GFP
+R24	Subcellular_methodology Arg1:T48 Arg2:T49	
+R25	Located_In Arg1:T48 Arg2:T47	
+T50	Tagged_Protein 6182 6190	GFP–HDEL
+T51	Subcellular_Location 6232 6237	Golgi
+T52	Protein 6245 6249	Man1
+T53	Methodology 6250 6253	GFP
+R26	Subcellular_methodology Arg1:T52 Arg2:T53	
+T54	Tagged_Protein 6245 6253	Man1–GFP
+R27	Located_In Arg1:T52 Arg2:T51	
+T55	Methodology 6274 6277	GFP
+T56	Protein 6278 6282	BP80
+R28	Subcellular_methodology Arg1:T56 Arg2:T55	
+T57	Tagged_Protein 6274 6282	GFP–BP80
+R29	Located_In Arg1:T56 Arg2:T51	
+T58	Protein 6707 6712	p24β2
+T59	Methodology 6703 6706	GFP
+T60	Tagged_Protein 6703 6712	GFP–p24β2
+R30	Subcellular_methodology Arg1:T58 Arg2:T59	
+T61	Subcellular_Location 6836 6841	Golgi
+R31	Located_In Arg1:T58 Arg2:T61	
+T62	Protein 6849 6853	Man1
+T63	Methodology 6854 6857	RFP
+R32	Subcellular_methodology Arg1:T62 Arg2:T63	
+T64	Tagged_Protein 6849 6857	Man1–RFP
+R33	Located_In Arg1:T62 Arg2:T61	
+T65	Protein 6972 6976	ARA6
+T66	Methodology 6977 6980	RFP
+T67	Tagged_Protein 6972 6980	ARA6–RFP
+R34	Subcellular_methodology Arg1:T65 Arg2:T66	
+T68	Subcellular_Location 6961 6964	PVC
+R35	Located_In Arg1:T65 Arg2:T68	
+T69	Protein 7107 7112	p24β2
+T70	Methodology 7103 7106	GFP
+T71	Tagged_Protein 7103 7112	GFP–p24β2
+T72	Subcellular_Location 7149 7154	Golgi
+T73	Protein 7162 7166	Man1
+T74	Methodology 7167 7170	RFP
+T75	Tagged_Protein 7162 7170	Man1–RFP
+R36	Located_In Arg1:T73 Arg2:T72	
+R37	Subcellular_methodology Arg1:T73 Arg2:T74	
+R38	Subcellular_methodology Arg1:T69 Arg2:T70	
+R39	Located_In Arg1:T69 Arg2:T72	
+T76	Protein 7386 7391	p24β2
+T77	Methodology 7382 7385	GFP
+T78	Tagged_Protein 7382 7391	GFP–p24β2
+R40	Subcellular_methodology Arg1:T76 Arg2:T77	
+T79	Subcellular_Location 7428 7433	Golgi
+T80	Protein 7441 7445	Man1
+T81	Methodology 7446 7449	RFP
+T82	Tagged_Protein 7441 7449	Man1–RFP
+R41	Subcellular_methodology Arg1:T80 Arg2:T81	
+R42	Located_In Arg1:T80 Arg2:T79	
+R43	Located_In Arg1:T76 Arg2:T79	
+T83	Protein 7720 7725	p24δ5
+T84	Methodology 7716 7719	RFP
+R44	Subcellular_methodology Arg1:T83 Arg2:T84	
+T85	Tagged_Protein 7716 7725	RFP–p24δ5
+T86	Subcellular_Location 7752 7754	ER
+R45	Located_In Arg1:T83 Arg2:T86	
+T87	Methodology 7960 7963	RFP
+T88	Protein 7964 7969	p24δ5
+R46	Subcellular_methodology Arg1:T88 Arg2:T87	
+T89	Tagged_Protein 7960 7969	RFP–p24δ5
+T90	Subcellular_Location 7999 8001	ER
+R47	Located_In Arg1:T88 Arg2:T90	
+T91	Methodology 12617 12620	GFP
+T92	Protein 12622 12627	p24β2
+R48	Subcellular_methodology Arg1:T92 Arg2:T91	
+T93	Tagged_Protein 12616 12627	(GFP)–p24β2
+T94	Protein 12762 12767	p24β2
+T95	Gene_Locus 12751 12760	At3g07680
+R49	Locus_link Arg1:T94 Arg2:T95	
+T96	Methodology 12705 12708	GFP
+R50	Subcellular_methodology Arg1:T94 Arg2:T96	
+T97	Methodology 13066 13069	RFP
+T98	Protein 13070 13075	p24δ5
+R51	Subcellular_methodology Arg1:T98 Arg2:T97	
+T99	Tagged_Protein 13066 13075	RFP–p24δ5
+T100	Protein 13028 13033	p24δ5
+T101	Methodology 13023 13026	RFP
+R52	Subcellular_methodology Arg1:T100 Arg2:T101	
+T102	Tagged_Protein 13022 13033	(RFP)–p24δ5
+T103	Protein 13400 13402	ST
+T104	Methodology 13403 13429	yellow fluorescent protein
+R53	Subcellular_methodology Arg1:T103 Arg2:T104	
+T105	Tagged_Protein 13400 13429	ST–yellow fluorescent protein
+T106	Methodology 13431 13434	YFP
+R54	Subcellular_methodology Arg1:T103 Arg2:T106	
+T107	Protein 13466 13470	Man1
+T108	Methodology 13471 13474	RFP
+T109	Protein 13479 13483	Man1
+T110	Methodology 13484 13487	GFP
+T111	Tagged_Protein 13479 13487	Man1–GFP
+T112	Tagged_Protein 13466 13474	Man1–RFP
+R55	Subcellular_methodology Arg1:T107 Arg2:T108	
+R56	Subcellular_methodology Arg1:T109 Arg2:T110	
+T113	Methodology 13518 13521	GFP
+T114	Protein 13522 13526	HDEL
+R57	Subcellular_methodology Arg1:T114 Arg2:T113	
+T115	Tagged_Protein 13518 13526	GFP–HDEL
+T116	Protein 13557 13561	ARA6
+T117	Methodology 13562 13565	RFP
+T118	Tagged_Protein 13557 13565	ARA6–RFP
+R58	Subcellular_methodology Arg1:T116 Arg2:T117	

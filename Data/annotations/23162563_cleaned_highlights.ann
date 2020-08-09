@@ -1,0 +1,28 @@
+T1	Protein 171 177	AtKCO3
+T2	Methodology 179 182	GFP
+T3	Tagged_Protein 171 182	AtKCO3::GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Subcellular_Location 213 222	tonoplast
+T5	Subcellular_Location 270 291	endoplasmic reticulum
+R2	Located_In Arg1:T1 Arg2:T4	
+R3	Located_In Arg1:T1 Arg2:T5	
+T6	Protein 762 766	KCO3
+T7	Methodology 768 771	GFP
+T8	Tagged_Protein 762 771	KCO3::GFP
+T9	Subcellular_Location 787 796	tonoplast
+R4	Located_In Arg1:T6 Arg2:T9	
+T11	Methodology 3654 3657	GFP
+T10	Protein 3481 3488	At KCO3
+R5	Subcellular_methodology Arg1:T10 Arg2:T11	
+T12	Protein 3724 3728	KCO3
+T13	Methodology 3730 3733	GFP
+R6	Subcellular_methodology Arg1:T12 Arg2:T13	
+T14	Tagged_Protein 3724 3733	KCO3::GFP
+T15	Protein 3787 3791	KCO3
+T16	Methodology 3793 3796	GFP
+R7	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Tagged_Protein 3787 3796	KCO3::GFP
+T18	Protein 3934 3938	KCO3
+T19	Methodology 3940 3943	GFP
+R8	Subcellular_methodology Arg1:T18 Arg2:T19	
+T20	Tagged_Protein 3934 3943	KCO3::GFP

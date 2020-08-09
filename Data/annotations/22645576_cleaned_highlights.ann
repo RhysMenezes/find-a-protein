@@ -1,0 +1,8 @@
+T1	Protein 309 313	SFD1
+T2	Methodology 314 317	GFP
+T3	Protein_variant 322 329	SFD1Δ43
+T4	Methodology 330 333	GFP
+T5	Tagged_Protein 322 333	SFD1Δ43–GFP
+T6	Tagged_Protein 309 317	SFD1–GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	

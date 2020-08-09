@@ -1,0 +1,4 @@
+ABSTRACT:
+RESULTS:
+MATERIALS AND METHODS:
+these cultures was prepared and 5 μl of each dilution were spotted onto plates. The  hog1Δ  mutant was provided by Dr. K. Matsumoto. Fluorescence microscopy All techniques for microscopic analysis were described previously ( Nishihama et al. 2001 ). GFP-MKK6/ANQ was expressed using the pGWB6 vector ( Nakagawa et al. 2007 ). To stain DNA and cell plates in BY-2 cells, we added Hoechst 33342 (Dojin, Kumamoto, Japan), and FM4-64 (Invitrogen, Carlsbad, CA, USA) to cell cultures at final concentrations

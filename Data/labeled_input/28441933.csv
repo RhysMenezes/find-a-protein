@@ -1,0 +1,11 @@
+Input,Output
+_PROTEIN_ _METHOD_ was observed in the _LOCATION_ as the yfp signal was most abundant around the edges of cells with apparent cytosolic bridges connecting parts of the cell .,Y
+_BLANKP_ _BLANKM_ was observed in the _LOCATION_ as the yfp signal was most abundant around the edges of cells with apparent cytosolic bridges connecting parts of the cell . the same was true for _BLANKP_ _BLANKM_ and _PROTEIN_ _METHOD_ .,Y
+yfp tagged atfrks were cytosolic except _LOCATION_ _PROTEIN_ .,Y
+_BLANKP_ _BLANKM_ was observed in the _LOCATION_ as the yfp signal was most abundant around the edges of cells with apparent cytosolic bridges connecting parts of the cell . the same was true for _PROTEIN_ _METHOD_ and _BLANKP_ _BLANKM_ .,Y
+_PROTEIN_ _BLANKM_ was observed in the _LOCATION_ as the yfp signal was most abundant around the edges of cells with apparent cytosolic bridges connecting parts of the cell . the same was true for _BLANKP_ _METHOD_ and _BLANKP_ _BLANKM_ .,N
+_PROTEIN_ _BLANKM_ was observed in the _LOCATION_ as the yfp signal was most abundant around the edges of cells with apparent cytosolic bridges connecting parts of the cell . the same was true for _BLANKP_ _BLANKM_ and _BLANKP_ _METHOD_ .,N
+_BLANKP_ _METHOD_ was observed in the _LOCATION_ as the yfp signal was most abundant around the edges of cells with apparent cytosolic bridges connecting parts of the cell . the same was true for _PROTEIN_ _BLANKM_ and _BLANKP_ _BLANKM_ .,N
+_BLANKP_ _BLANKM_ was observed in the _LOCATION_ as the yfp signal was most abundant around the edges of cells with apparent cytosolic bridges connecting parts of the cell . the same was true for _PROTEIN_ _BLANKM_ and _BLANKP_ _METHOD_ .,N
+_BLANKP_ _METHOD_ was observed in the _LOCATION_ as the yfp signal was most abundant around the edges of cells with apparent cytosolic bridges connecting parts of the cell . the same was true for _BLANKP_ _BLANKM_ and _PROTEIN_ _BLANKM_ .,N
+_BLANKP_ _BLANKM_ was observed in the _LOCATION_ as the yfp signal was most abundant around the edges of cells with apparent cytosolic bridges connecting parts of the cell . the same was true for _BLANKP_ _METHOD_ and _PROTEIN_ _BLANKM_ .,N

@@ -1,0 +1,5 @@
+T1	Methodology 800 803	GFP
+T2	Protein 289 294	SEC3A
+T3	Methodology 295 298	GFP
+R1	Subcellular_methodology Arg1:T2 Arg2:T3	
+T4	Tagged_Protein 289 298	SEC3A-GFP

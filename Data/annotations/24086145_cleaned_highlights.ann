@@ -1,0 +1,44 @@
+T1	Protein 34 39	RAD51
+T2	Methodology 40 43	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 34 43	RAD51-GFP
+T4	Protein 142 147	RAD51
+T5	Methodology 148 151	GFP
+T6	Tagged_Protein 142 151	RAD51-GFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T7	Protein 475 480	RAD51
+T8	Methodology 481 484	GFP
+T9	Tagged_Protein 475 484	RAD51-GFP
+T10	Subcellular_Location 501 507	nuclei
+R5	Located_In Arg1:T7 Arg2:T10	
+T11	Protein 560 565	RAD51
+T12	Methodology 566 569	GFP
+R6	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 560 569	RAD51-GFP
+T14	Subcellular_Location 603 609	nuclei
+R7	Located_In Arg1:T11 Arg2:T14	
+T15	Protein 2017 2022	RAD51
+T16	Methodology 2023 2026	GFP
+R8	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Tagged_Protein 2017 2026	RAD51-GFP
+R9	Subcellular_methodology Arg1:T15 Arg2:T16	
+T18	Subcellular_Location 2030 2036	nuclei
+R10	Located_In Arg1:T15 Arg2:T18	
+T19	Protein 2153 2158	RAD51
+T20	Methodology 2159 2162	GFP
+T21	Tagged_Protein 2153 2162	RAD51-GFP
+T22	Subcellular_Location 2191 2197	nuclei
+R11	Subcellular_methodology Arg1:T19 Arg2:T20	
+R12	Located_In Arg1:T19 Arg2:T22	
+T23	Protein 3631 3636	RAD51
+T24	Methodology 3680 3683	GFP
+R13	Subcellular_methodology Arg1:T23 Arg2:T24	
+T25	Protein 4189 4194	RAD51
+T26	Methodology 4195 4198	GFP
+R14	Subcellular_methodology Arg1:T25 Arg2:T26	
+T27	Tagged_Protein 4189 4198	RAD51-GFP
+T28	Protein 4339 4344	RAD51
+T29	Methodology 4345 4348	GFP
+R15	Subcellular_methodology Arg1:T28 Arg2:T29	
+T30	Tagged_Protein 4339 4348	RAD51-GFP
+R3	Subcellular_methodology Arg1:T7 Arg2:T8	

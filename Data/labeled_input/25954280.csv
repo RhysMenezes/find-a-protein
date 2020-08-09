@@ -1,0 +1,9 @@
+Input,Output
+figure confocal fluorescence micrographs showing _METHOD_ _PROTEIN_ localizes to the pollen tube perimeter and _LOCATION_ structures .,Y
+growing pollen tubes expressing yfp as a marker for the cytosol and _PROTEIN_ _METHOD_ as a marker for the _LOCATION_ .,Y
+figure confocal fluorescence micrographs showing _METHOD_ _PROTEIN_ localizes to the pollen tube perimeter and _BLANKL_ structures . growing pollen tubes expressing yfp as a marker for the cytosol and _BLANKP_ _BLANKM_ as a marker for the _LOCATION_ .,N
+figure confocal fluorescence micrographs showing _BLANKM_ _PROTEIN_ localizes to the pollen tube perimeter and _LOCATION_ structures . growing pollen tubes expressing yfp as a marker for the cytosol and _BLANKP_ _METHOD_ as a marker for the _BLANKL_ .,N
+figure confocal fluorescence micrographs showing _BLANKM_ _PROTEIN_ localizes to the pollen tube perimeter and _BLANKL_ structures . growing pollen tubes expressing yfp as a marker for the cytosol and _BLANKP_ _METHOD_ as a marker for the _LOCATION_ .,N
+figure confocal fluorescence micrographs showing _METHOD_ _BLANKP_ localizes to the pollen tube perimeter and _LOCATION_ structures . growing pollen tubes expressing yfp as a marker for the cytosol and _PROTEIN_ _BLANKM_ as a marker for the _BLANKL_ .,N
+figure confocal fluorescence micrographs showing _METHOD_ _BLANKP_ localizes to the pollen tube perimeter and _BLANKL_ structures . growing pollen tubes expressing yfp as a marker for the cytosol and _PROTEIN_ _BLANKM_ as a marker for the _LOCATION_ .,N
+figure confocal fluorescence micrographs showing _BLANKM_ _BLANKP_ localizes to the pollen tube perimeter and _LOCATION_ structures . growing pollen tubes expressing yfp as a marker for the cytosol and _PROTEIN_ _METHOD_ as a marker for the _BLANKL_ .,N

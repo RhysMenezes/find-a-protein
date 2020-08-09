@@ -1,0 +1,40 @@
+T1	Protein 95 101	WRKY34
+T2	Protein 83 88	WRKY2
+T3	Methodology 174 177	YFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T3	
+R2	Subcellular_methodology Arg1:T2 Arg2:T3	
+T4	Protein 463 468	WRKY2
+T5	Methodology 469 472	YFP
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 463 472	WRKY2-YFP
+T7	Subcellular_Location 566 572	nuclei
+R4	Located_In Arg1:T4 Arg2:T7	
+T8	Subcellular_Location 236 242	nuclei
+R5	Located_In Arg1:T2 Arg2:T8	
+R6	Located_In Arg1:T1 Arg2:T8	
+T9	Protein 707 713	WRKY34
+T10	Methodology 714 717	YFP
+R7	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Tagged_Protein 707 717	WRKY34-YFP
+T12	Subcellular_Location 724 731	nucleus
+R8	Located_In Arg1:T9 Arg2:T12	
+T13	Protein 1385 1390	WRKY2
+T14	Methodology 1391 1394	YFP
+R9	Subcellular_methodology Arg1:T13 Arg2:T14	
+T15	Tagged_Protein 1385 1394	WRKY2:YFP
+T16	Subcellular_Location 1367 1374	nucleus
+R10	Located_In Arg1:T13 Arg2:T16	
+T17	Protein 1736 1742	WRKY34
+T18	Methodology 1743 1746	YFP
+T19	Subcellular_Location 1718 1725	nucleus
+R11	Subcellular_methodology Arg1:T17 Arg2:T18	
+T20	Tagged_Protein 1736 1746	WRKY34:YFP
+R12	Located_In Arg1:T17 Arg2:T19	
+T21	Protein 2434 2440	WRKY34
+T22	Methodology 2441 2444	YFP
+T23	Protein 2460 2465	WRKY2
+T24	Methodology 2466 2469	YFP
+R13	Subcellular_methodology Arg1:T23 Arg2:T24	
+T25	Tagged_Protein 2460 2469	WRKY2-YFP
+T26	Tagged_Protein 2434 2444	WRKY34-YFP
+R14	Subcellular_methodology Arg1:T21 Arg2:T22	

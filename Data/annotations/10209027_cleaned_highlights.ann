@@ -1,0 +1,23 @@
+T1	Protein 614 621	At-Rac2
+T2	Methodology 653 656	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Protein_variant 877 889	At-Rac2ΔCSIL
+T4	Methodology 864 867	GFP
+T5	Subcellular_Location 971 980	cytoplasm
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+R3	Located_In Arg1:T3 Arg2:T5	
+T6	Protein 1071 1078	At-Rac2
+T7	Subcellular_Location 1119 1134	plasma membrane
+R4	Located_In Arg1:T6 Arg2:T7	
+T8	Methodology 1985 1988	GFP
+T9	Protein 2049 2056	At-Rac2
+T10	Protein_variant 2058 2070	At-Rac2ΔCSIL
+T11	Protein_variant 2076 2090	G 15 V-At-Rac2
+R5	Subcellular_methodology Arg1:T9 Arg2:T8	
+R6	Subcellular_methodology Arg1:T10 Arg2:T8	
+R7	Subcellular_methodology Arg1:T11 Arg2:T8	
+T12	Irrelevant 21 430	of actin organization ( Hall, 1998 ). Therefore, effects of transient expression of mutant At-Rac2 on the tobacco pollen tube actin  cytoskeleton were examined. G 15 V-At-Rac2 or T 20 N-At-Rac2 were coexpressed in pollen tubes with a GFP-mouse  talin fusion protein, which we have shown to label plant  actin filaments in vivo in a specific and noninvasive manner ( Kost et al., 1998 ). The actin cytoskeleton
+T13	Irrelevant 1230 1454	membrane in the tube tip (Fig.  9 , e and i). Although GFP-PLC-δ 1 -PH appeared to label a somewhat  smaller area, its localization in tobacco pollen tubes was  strikingly similar to that of transiently expressed GFP-At-Rac2
+T14	Irrelevant 2210 2689;2690 3102;3103 3563	the PCR product was found to contain a point  mutation and was replaced by corresponding wild-type sequences from  “ARNO-PH in pEGFP-C1”; the final construct was free of sequence errors). The  GFP-PLC-δ 1 -PH  sequence in pLAT52MCS was altered by  QuikChange™ mutagenesis to sequences encoding GFP-PLC-δ 1 -PH-K 32 L and GFP-PLC-δ 1 -PH-K 32 E. Correct amplification of the regions encoding mutated versions of PLC-δ 1 -PH was confirmed by sequencing. A. thaliana Transformation
+ Axioscope microscope equipped with a 100-W mercury lamp. All images were obtained  by exposing 400 ASA 35 mm film (EliteII;  Eastman Kodak Co. ) for 10–15 s.  Confocal analysis of GFP expression was performed using an LSM410 inverted confocal microscope ( Carl Zeiss Inc. ) as outlined in  Kost et al.  (1998) . Methods used to determine pollen tube growth rates and techniques used for digital image processing
+ 100 mM NaCl, 5 mM MgCl 2 , 0.1 mM  EGTA, 1 mM DTT). After resuspension in buffer C during the last washing step, one-tenth of the total volume of each sample was analyzed by  SDS-PAGE and Coomassie brilliant blue staining to verify concentration  and quality of the recombinant proteins used. Washed beads were resuspended in 35 μl buffer C. Samples used to investigate effects of phosphatidic acid on At-Rac2–associated kinase activity were treated similarly,

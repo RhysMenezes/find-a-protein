@@ -1,0 +1,74 @@
+T1	Protein 41 47	AtCML5
+T2	Methodology 48 51	YFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 41 51	AtCML5-YFP
+T4	Protein 56 62	AtCML4
+T5	Methodology 63 66	YFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 56 66	AtCML4-YFP
+T7	Protein 112 118	AtCML4
+T8	Methodology 119 126	mCherry
+R3	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 112 126	AtCML4-mCherry
+T10	Protein 162 168	AtCML5
+T11	Subcellular_Location 195 207	mitochondria
+R4	Located_In Arg1:T10 Arg2:T11	
+T12	Protein 1243 1249	AtWAK2
+T13	Subcellular_Location 1215 1236	endoplasmic reticulum
+R5	Located_In Arg1:T12 Arg2:T13	
+T14	Protein 1092 1098	AtCML5
+T15	Methodology 1099 1102	YFP
+R6	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 1092 1102	AtCML5-YFP
+T17	Protein 1259 1265	GmMAN1
+T18	Subcellular_Location 1252 1257	Golgi
+R7	Located_In Arg1:T17 Arg2:T18	
+T19	Protein 1312 1316	ARA6
+T20	Subcellular_Location 1272 1293	multivesicular bodies
+T21	Subcellular_Location 1301 1310	endosomes
+R8	Located_In Arg1:T19 Arg2:T21	
+R9	Located_In Arg1:T19 Arg2:T20	
+T22	Protein 1554 1560	AtCML5
+T23	Subcellular_Location 1572 1581	vesicular
+R10	Located_In Arg1:T22 Arg2:T23	
+T24	Protein_variant 3834 3847	AtCML5 28–215
+T25	Methodology 3849 3852	YFP
+R11	Subcellular_methodology Arg1:T24 Arg2:T25	
+T26	Tagged_Protein 3834 3852	AtCML5 28–215 -YFP
+T27	Subcellular_Location 4041 4050	cytosolic
+R12	Located_In Arg1:T24 Arg2:T27	
+T28	Protein_variant 4236 4247	AtCML5 1–28
+T29	Methodology 4249 4252	YFP
+R13	Subcellular_methodology Arg1:T28 Arg2:T29	
+T30	Tagged_Protein 4236 4252	AtCML5 1–28 -YFP
+T31	Subcellular_Location 4484 4496	endomembrane
+R14	Located_In Arg1:T28 Arg2:T31	
+T32	Protein 5007 5013	AtCML5
+T33	Methodology 5014 5017	YFP
+R15	Subcellular_methodology Arg1:T32 Arg2:T33	
+T34	Tagged_Protein 5007 5017	AtCML5-YFP
+T35	Subcellular_Location 5081 5097	vesicle membrane
+R16	Located_In Arg1:T32 Arg2:T35	
+T36	Protein 8777 8783	AtCML5
+T37	Gene_Locus 8764 8773	AT2G43290
+T38	Protein 8801 8807	AtCML4
+T39	Gene_Locus 8788 8797	AT3G59440
+T40	Protein 8829 8835	AtCAM4
+T41	Gene_Locus 8816 8825	At1g66410
+R17	Locus_link Arg1:T36 Arg2:T37	
+R18	Locus_link Arg1:T38 Arg2:T39	
+R19	Locus_link Arg1:T40 Arg2:T41	
+T42	Methodology 8898 8901	YFP
+R20	Subcellular_methodology Arg1:T36 Arg2:T42	
+R21	Subcellular_methodology Arg1:T38 Arg2:T42	
+R22	Subcellular_methodology Arg1:T40 Arg2:T42	
+T43	Protein 9800 9806	AtCML4
+T44	Protein 9844 9850	AtCML5
+T45	Methodology 9914 9917	YFP
+R23	Subcellular_methodology Arg1:T44 Arg2:T45	
+R24	Subcellular_methodology Arg1:T43 Arg2:T45	
+T46	Protein 10355 10359	OEP7
+T47	Methodology 10377 10380	YFP
+T48	Subcellular_Location 10401 10408	cytosol
+R25	Subcellular_methodology Arg1:T46 Arg2:T47	
+R26	Located_In Arg1:T46 Arg2:T48	

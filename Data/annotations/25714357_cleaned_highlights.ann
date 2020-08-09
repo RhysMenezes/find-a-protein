@@ -1,0 +1,202 @@
+T1	Protein 22 28	PP2-A1
+T2	Methodology 29 32	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Subcellular_Location 96 108	mitochondria
+R2	Located_In Arg1:T1 Arg2:T3	
+T4	Protein 302 306	RTM1
+T5	Methodology 298 301	GFP
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 22 32	PP2-A1:GFP
+T7	Tagged_Protein 298 306	GFP:RTM1
+T8	Protein 1224 1230	PP2-A1
+T9	Methodology 1233 1236	GFP
+R4	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Tagged_Protein 1224 1236	PP2-A1 : GFP
+T11	Subcellular_Location 1279 1286	cytosol
+T12	Subcellular_Location 1291 1298	nucleus
+R5	Located_In Arg1:T8 Arg2:T11	
+R6	Located_In Arg1:T8 Arg2:T12	
+T13	Protein 1673 1679	PP2-A1
+T14	Methodology 1662 1665	GFP
+T15	Subcellular_Location 1696 1703	cytosol
+T16	Subcellular_Location 1708 1715	nucleus
+R7	Located_In Arg1:T13 Arg2:T15	
+R8	Located_In Arg1:T13 Arg2:T16	
+R9	Subcellular_methodology Arg1:T13 Arg2:T14	
+T17	Protein 2031 2037	PP2-A1
+T18	Methodology 2040 2043	GFP
+R10	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 2031 2043	PP2-A1 : GFP
+T20	Protein 2068 2071	H2B
+T21	Methodology 2074 2077	RFP
+R11	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 2068 2077	H2B : RFP
+T23	Subcellular_Location 2108 2115	nucleus
+R12	Located_In Arg1:T17 Arg2:T23	
+R13	Located_In Arg1:T20 Arg2:T23	
+T24	Protein 2158 2161	H2B
+T25	Methodology 2162 2165	RFP
+R14	Subcellular_methodology Arg1:T24 Arg2:T25	
+T26	Tagged_Protein 2158 2165	H2B:RFP
+T27	Protein 2170 2176	PP2-A1
+T28	Methodology 2177 2180	GFP
+R15	Subcellular_methodology Arg1:T27 Arg2:T28	
+T29	Tagged_Protein 2170 2180	PP2-A1:GFP
+R16	Located_In Arg1:T24 Arg2:T23	
+R17	Located_In Arg1:T27 Arg2:T23	
+T30	Protein 3978 3983	LTI6b
+T31	Methodology 3972 3975	GFP
+R18	Subcellular_methodology Arg1:T30 Arg2:T31	
+T32	Tagged_Protein 3972 3983	GFP : LTI6b
+T33	Subcellular_Location 4014 4029	plasma membrane
+R19	Located_In Arg1:T30 Arg2:T33	
+T34	Protein 4144 4147	H2B
+T35	Methodology 4150 4153	RFP
+R20	Subcellular_methodology Arg1:T34 Arg2:T35	
+T36	Tagged_Protein 4144 4153	H2B : RFP
+T37	Subcellular_Location 4210 4217	nuclear
+R21	Located_In Arg1:T34 Arg2:T37	
+T38	Protein 4684 4688	COX4
+T39	Methodology 4689 4692	YFP
+R22	Subcellular_methodology Arg1:T38 Arg2:T39	
+T40	Subcellular_Location 4662 4675	mitochondrial
+R23	Located_In Arg1:T38 Arg2:T40	
+T41	Subcellular_Location 4699 4707	vacuolar
+T42	Protein 4735 4739	γTIP
+T43	Methodology 4740 4743	YFP
+R24	Subcellular_methodology Arg1:T42 Arg2:T43	
+T44	Tagged_Protein 4735 4743	γTIP:YFP
+R25	Located_In Arg1:T42 Arg2:T41	
+T45	Protein 4895 4900	fABD2
+T46	Methodology 4901 4904	GFP
+R26	Subcellular_methodology Arg1:T45 Arg2:T46	
+T47	Tagged_Protein 4895 4904	fABD2:GFP
+T48	Subcellular_Location 4872 4886	actin filament
+R27	Located_In Arg1:T45 Arg2:T48	
+T49	Subcellular_Location 4920 4931	microtubule
+T50	Methodology 4940 4943	GFP
+T51	Protein 4944 4947	MBD
+R28	Subcellular_methodology Arg1:T51 Arg2:T50	
+R29	Located_In Arg1:T51 Arg2:T49	
+T52	Tagged_Protein 4940 4947	GFP:MBD
+T53	Protein 5252 5258	PP2-A1
+T54	Methodology 5261 5264	CFP
+R30	Subcellular_methodology Arg1:T53 Arg2:T54	
+T55	Tagged_Protein 5252 5264	PP2-A1 : CFP
+T56	Protein 5276 5279	H2B
+T57	Methodology 5282 5285	RFP
+R31	Subcellular_methodology Arg1:T56 Arg2:T57	
+T58	Tagged_Protein 5276 5285	H2B : RFP
+T59	Subcellular_Location 5208 5214	nuclei
+R32	Located_In Arg1:T53 Arg2:T59	
+R33	Located_In Arg1:T56 Arg2:T59	
+T60	Subcellular_Location 5358 5379	endoplasmic reticulum
+T61	Protein 5417 5423	PP2-A1
+T62	Methodology 5426 5429	CFP
+R34	Subcellular_methodology Arg1:T61 Arg2:T62	
+T63	Tagged_Protein 5417 5429	PP2-A1 : CFP
+R35	Located_In Arg1:T61 Arg2:T60	
+T64	Subcellular_Location 5682 5694	mitochondria
+T65	Protein 5732 5738	PP2-A1
+T66	Methodology 5741 5744	CFP
+R36	Subcellular_methodology Arg1:T65 Arg2:T66	
+T67	Tagged_Protein 5732 5744	PP2-A1 : CFP
+T68	Protein 5756 5760	COX4
+T69	Methodology 5763 5766	GFP
+R37	Subcellular_methodology Arg1:T68 Arg2:T69	
+T70	Tagged_Protein 5756 5766	COX4 : GFP
+R38	Located_In Arg1:T65 Arg2:T64	
+R39	Located_In Arg1:T68 Arg2:T64	
+T71	Subcellular_Location 5875 5883	vacuoles
+T72	Protein 5921 5927	PP2-A1
+T73	Methodology 5930 5933	CFP
+T74	Protein 5943 5947	yTIP
+T75	Methodology 5950 5953	YFP
+R40	Subcellular_methodology Arg1:T74 Arg2:T75	
+R41	Subcellular_methodology Arg1:T72 Arg2:T73	
+T76	Tagged_Protein 5921 5933	PP2-A1 : CFP
+T77	Tagged_Protein 5943 5953	yTIP : YFP
+R42	Located_In Arg1:T72 Arg2:T71	
+R43	Located_In Arg1:T74 Arg2:T71	
+T78	Protein 6311 6317	PP2-A1
+T79	Methodology 6320 6323	CFP
+R44	Subcellular_methodology Arg1:T78 Arg2:T79	
+T80	Tagged_Protein 6311 6323	PP2-A1 : CFP
+T81	Subcellular_Location 6232 6253	cortical microtubules
+T82	Protein 6341 6344	MBD
+T83	Methodology 6335 6338	GFP
+T84	Tagged_Protein 6335 6344	GFP : MBD
+R45	Subcellular_methodology Arg1:T82 Arg2:T83	
+R46	Located_In Arg1:T82 Arg2:T81	
+R47	Located_In Arg1:T78 Arg2:T81	
+T85	Subcellular_Location 6034 6047	actin network
+T86	Protein 6085 6091	PP2-A1
+T87	Methodology 6094 6097	CFP
+R48	Subcellular_methodology Arg1:T86 Arg2:T87	
+T88	Tagged_Protein 6085 6097	PP2-A1 : CFP
+R49	Located_In Arg1:T86 Arg2:T85	
+T89	Protein 6109 6114	FABD2
+T90	Methodology 6117 6120	GFP
+R50	Subcellular_methodology Arg1:T89 Arg2:T90	
+T91	Tagged_Protein 6109 6120	FABD2 : GFP
+R51	Located_In Arg1:T89 Arg2:T85	
+T92	Protein 6879 6883	COX4
+T93	Methodology 6884 6887	YFP
+R52	Subcellular_methodology Arg1:T92 Arg2:T93	
+T94	Tagged_Protein 6879 6887	COX4:YFP
+T95	Subcellular_Location 6857 6870	mitochondrial
+R53	Located_In Arg1:T92 Arg2:T95	
+T96	Protein 7124 7127	H2B
+T97	Methodology 7128 7131	RFP
+T98	Protein 7158 7162	γTIP
+T99	Methodology 7163 7166	YFP
+R54	Subcellular_methodology Arg1:T98 Arg2:T99	
+T100	Subcellular_Location 7140 7149	tonoplast
+T101	Tagged_Protein 7158 7166	γTIP:YFP
+R55	Located_In Arg1:T98 Arg2:T100	
+T102	Tagged_Protein 7124 7131	H2B:RFP
+T103	Subcellular_Location 7108 7115	nuclear
+R56	Located_In Arg1:T96 Arg2:T103	
+T104	Protein 7322 7327	fABD2
+T105	Methodology 7328 7331	GFP
+R57	Subcellular_methodology Arg1:T104 Arg2:T105	
+T106	Tagged_Protein 7322 7331	fABD2:GFP
+T107	Subcellular_Location 7308 7313	actin
+R58	Located_In Arg1:T104 Arg2:T107	
+T108	Protein 7362 7365	MBD
+T109	Methodology 7358 7361	GFP
+R59	Subcellular_methodology Arg1:T108 Arg2:T109	
+T110	Tagged_Protein 7358 7365	GFP:MBD
+T111	Subcellular_Location 7338 7349	microtubule
+R60	Located_In Arg1:T108 Arg2:T111	
+T112	Protein 7395 7399	RbcS
+T113	Methodology 7400 7403	YFP
+R61	Subcellular_methodology Arg1:T112 Arg2:T113	
+T114	Tagged_Protein 7395 7403	RbcS:YFP
+T115	Subcellular_Location 7375 7386	chloroplast
+R62	Located_In Arg1:T112 Arg2:T115	
+T116	Protein 9217 9221	RTM2
+T117	Methodology 9224 9227	GFP
+R63	Subcellular_methodology Arg1:T116 Arg2:T117	
+T118	Tagged_Protein 9217 9227	RTM2 : GFP
+T119	Subcellular_Location 9274 9289	plasma membrane
+R64	Located_In Arg1:T116 Arg2:T119	
+T120	Protein 10373 10379	PP2-A1
+T121	Methodology 10380 10383	GFP
+R65	Subcellular_methodology Arg1:T120 Arg2:T121	
+T122	Tagged_Protein 10373 10383	PP2-A1:GFP
+T123	Subcellular_Location 10389 10401	mitochondria
+R66	Located_In Arg1:T120 Arg2:T123	
+T124	Protein 11340 11346	PP2-A1
+T125	Methodology 11347 11350	GFP
+R67	Subcellular_methodology Arg1:T124 Arg2:T125	
+T126	Tagged_Protein 11340 11350	PP2-A1-GFP
+T127	Subcellular_Location 11428 11440	mitochondria
+R68	Located_In Arg1:T124 Arg2:T127	
+T128	Protein 11671 11677	PP2-A1
+T129	Methodology 11678 11681	GFP
+R69	Subcellular_methodology Arg1:T128 Arg2:T129	
+T130	Tagged_Protein 11671 11681	PP2-A1:GFP
+T131	Methodology 13027 13030	GFP
+T132	Methodology 12984 12987	CFP
+T133	Methodology 12520 12523	GFP

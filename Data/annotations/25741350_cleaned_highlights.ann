@@ -1,0 +1,63 @@
+T1	Protein 201 205	NPR1
+T2	Methodology 206 209	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 201 209	NPR1-GFP
+T4	Subcellular_Location 282 289	nuclear
+T5	Protein 306 310	NPR1
+R2	Located_In Arg1:T5 Arg2:T4	
+R3	Located_In Arg1:T1 Arg2:T4	
+T6	Protein_variant 433 441	npr1C82A
+T7	Methodology 442 445	GFP
+T8	Protein_variant 457 466	npr1C216A
+T9	Methodology 467 470	GFP
+R4	Subcellular_methodology Arg1:T8 Arg2:T9	
+R5	Subcellular_methodology Arg1:T6 Arg2:T7	
+T10	Tagged_Protein 433 445	npr1C82A-GFP
+T11	Tagged_Protein 457 470	npr1C216A-GFP
+T12	Methodology 521 539	Mass spectrometric
+T13	Protein 419 423	NPR1
+T14	Subcellular_Location 395 402	nuclear
+R6	Located_In Arg1:T13 Arg2:T14	
+R7	Located_In Arg1:T6 Arg2:T14	
+R8	Located_In Arg1:T8 Arg2:T14	
+T15	Protein 903 907	NPR1
+T16	Methodology 908 911	GFP
+R9	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Tagged_Protein 903 911	NPR1-GFP
+T18	Protein 1099 1103	NPR1
+T19	Subcellular_Location 1155 1162	nucleus
+R10	Located_In Arg1:T18 Arg2:T19	
+T20	Protein 1421 1425	NPR1
+T21	Methodology 1426 1429	GFP
+R11	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 1421 1429	NPR1-GFP
+T23	Subcellular_Location 1438 1444	nuclei
+R12	Located_In Arg1:T20 Arg2:T23	
+T24	Protein 1835 1839	NPR1
+T25	Methodology 1840 1843	GFP
+R13	Subcellular_methodology Arg1:T24 Arg2:T25	
+T26	Tagged_Protein 1835 1843	NPR1-GFP
+T27	Subcellular_Location 1851 1857	nuclei
+T28	Protein_variant 2245 2253	npr1C82A
+T29	Methodology 2254 2257	GFP
+T30	Protein_variant 2269 2278	npr1C216A
+T31	Methodology 2279 2282	GFP
+R14	Subcellular_methodology Arg1:T30 Arg2:T31	
+R15	Subcellular_methodology Arg1:T28 Arg2:T29	
+T32	Tagged_Protein 2245 2257	npr1C82A-GFP
+T33	Tagged_Protein 2269 2282	npr1C216A-GFP
+T34	Subcellular_Location 2370 2377	nucleus
+R16	Located_In Arg1:T28 Arg2:T34	
+R17	Located_In Arg1:T30 Arg2:T34	
+T35	Protein 3409 3413	NPR1
+T36	Methodology 3414 3417	GFP
+T37	Protein_variant 3424 3432	npr1C82A
+T38	Methodology 3433 3436	GFP
+T39	Protein_variant 3443 3452	npr1C216A
+T40	Methodology 3453 3456	GFP
+R18	Subcellular_methodology Arg1:T39 Arg2:T40	
+T41	Tagged_Protein 3443 3456	npr1C216A-GFP
+T42	Tagged_Protein 3424 3436	npr1C82A-GFP
+R19	Subcellular_methodology Arg1:T37 Arg2:T38	
+R20	Subcellular_methodology Arg1:T35 Arg2:T36	
+T43	Tagged_Protein 3409 3417	NPR1-GFP

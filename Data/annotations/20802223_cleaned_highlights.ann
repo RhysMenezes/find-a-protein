@@ -1,0 +1,4 @@
+T1	Protein 299 303	MKK6
+T2	Methodology 295 298	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 295 303	GFP-MKK6

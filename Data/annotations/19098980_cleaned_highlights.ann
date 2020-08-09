@@ -1,0 +1,57 @@
+T1	Protein 583 589	U1-70K
+T2	Subcellular_Location 619 626	nucleus
+T3	Protein 635 638	U1A
+T4	Protein 643 646	U1C
+T5	Subcellular_Location 665 672	nucleus
+T6	Subcellular_Location 684 693	cytoplasm
+R1	Located_In Arg1:T1 Arg2:T2	
+R2	Located_In Arg1:T3 Arg2:T5	
+R3	Located_In Arg1:T3 Arg2:T6	
+R4	Located_In Arg1:T4 Arg2:T5	
+R5	Located_In Arg1:T4 Arg2:T6	
+T7	Methodology 721 724	GFP
+R6	Subcellular_methodology Arg1:T3 Arg2:T7	
+R7	Subcellular_methodology Arg1:T4 Arg2:T7	
+R8	Subcellular_methodology Arg1:T1 Arg2:T7	
+T8	Protein 1590 1596	U1-70K
+T9	Protein 1598 1601	U1A
+T10	Protein 1607 1610	U1C
+T11	Methodology 1629 1632	GFP
+R9	Subcellular_methodology Arg1:T8 Arg2:T11	
+R10	Subcellular_methodology Arg1:T9 Arg2:T11	
+R11	Subcellular_methodology Arg1:T10 Arg2:T11	
+T12	Subcellular_Location 3329 3336	nuclear
+T13	Protein 3381 3387	U1-70K
+T14	Protein 3393 3396	U1A
+T15	Protein 3406 3409	U1C
+T16	Methodology 3414 3417	GFP
+R12	Located_In Arg1:T13 Arg2:T12	
+R13	Located_In Arg1:T14 Arg2:T12	
+R14	Located_In Arg1:T15 Arg2:T12	
+R15	Subcellular_methodology Arg1:T13 Arg2:T16	
+R16	Subcellular_methodology Arg1:T14 Arg2:T16	
+R17	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Protein 4112 4118	U1-70K
+T18	Protein 4123 4126	U1A
+T19	Protein 4127 4130	U1C
+T20	Subcellular_Location 4168 4175	nuclear
+R18	Located_In Arg1:T19 Arg2:T20	
+R19	Located_In Arg1:T18 Arg2:T20	
+R20	Located_In Arg1:T17 Arg2:T20	
+T21	Protein 4379 4382	U1C
+T22	Methodology 4383 4387	mRFP
+R21	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Tagged_Protein 4379 4387	U1C-mRFP
+T24	Protein 4392 4395	U1A
+T25	Methodology 4396 4399	GFP
+T26	Tagged_Protein 4392 4399	U1A-GFP
+R22	Subcellular_methodology Arg1:T24 Arg2:T25	
+T27	Subcellular_Location 4446 4448	CB
+T28	Subcellular_Location 4451 4459	nucleoli
+T29	Subcellular_Location 4465 4476	nucleoplasm
+R23	Located_In Arg1:T21 Arg2:T27	
+R24	Located_In Arg1:T21 Arg2:T28	
+R25	Located_In Arg1:T21 Arg2:T29	
+R26	Located_In Arg1:T24 Arg2:T27	
+R27	Located_In Arg1:T24 Arg2:T28	
+R28	Located_In Arg1:T24 Arg2:T29	

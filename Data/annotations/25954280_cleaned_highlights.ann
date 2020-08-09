@@ -1,0 +1,14 @@
+T1	Protein 803 807	ALA6
+T2	Methodology 799 802	GFP
+T3	Subcellular_Location 851 863	endomembrane
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Tagged_Protein 799 807	GFP-ALA6
+R2	Located_In Arg1:T1 Arg2:T3	
+T5	Protein 974 978	ACA9
+T6	Methodology 979 982	YFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Tagged_Protein 974 982	ACA9-YFP
+T8	Subcellular_Location 1015 1030	plasma membrane
+R4	Located_In Arg1:T5 Arg2:T8	
+T9	Methodology 1538 1541	GFP
+T10	Methodology 1575 1578	YFP

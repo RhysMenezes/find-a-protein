@@ -1,0 +1,6 @@
+ABSTRACT:
+a majority of CRM domain proteins in plant growth and development as well as chloroplast RNA metabolism remains largely unknown. Here, we characterized the developmental and stress response roles of a nuclear-encoded chloroplast protein harboring a single CRM domain (At4g39040), designated CFM4, in  Arabidopsis thaliana . Results Analysis of CFM4-GFP fusion proteins revealed that CFM4 is localized to chloroplasts. The loss-of-function T-DNA insertion mutants for CFM4 ( cfm4 ) displayed
+RESULTS:
+MATERIALS AND METHODS:
+& Skoog (MS) medium containing 1% sucrose at 23 ± 2°C under long-day conditions (16 h light/8 h dark cycle). To construct overexpressing transgenic plants and complementation lines, the CFM4 cDNA coding sequence was cloned into the  Nco I/ BstE II of pCambia1301 vector containing
+front of the GFP gene, and CFM4-GFP fusion proteins were expressed under the control of the CaMV 35S promoter in  Arabidopsis . The GFP signals in the leaves and roots of the plants were observed using a Zeiss LSM510 laser scanning confocal microscope (Carl Zeiss Inc. Thornwoold, NY, USA). The excitation and emission wavelengths were 488 and 545 nm, respectively. Mitochondria in the leaves

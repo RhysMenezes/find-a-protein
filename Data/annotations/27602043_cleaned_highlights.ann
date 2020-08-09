@@ -1,0 +1,17 @@
+T1	Protein 21 28	UGT76C2
+T2	Methodology 158 161	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Protein 224 231	UGT76C2
+T4	Methodology 232 235	GFP
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T5	Tagged_Protein 224 235	UGT76C2-GFP
+T6	Subcellular_Location 270 277	cytosol
+T7	Subcellular_Location 302 317	plasma membrane
+T8	Subcellular_Location 325 331	nuclei
+R3	Located_In Arg1:T3 Arg2:T6	
+R4	Located_In Arg1:T3 Arg2:T7	
+R5	Located_In Arg1:T3 Arg2:T8	
+T9	Protein 3485 3492	UGT76C2
+T10	Methodology 3473 3476	GFP
+R6	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Methodology 3204 3207	GFP

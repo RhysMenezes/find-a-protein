@@ -1,0 +1,20 @@
+T1	Protein 274 278	ZHD5
+T2	Methodology 279 282	GFP
+T3	Tagged_Protein 274 282	ZHD5-GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Protein 332 336	ZHD5
+T5	Methodology 337 340	GFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 332 340	ZHD5-GFP
+T7	Subcellular_Location 386 393	nucleus
+R3	Located_In Arg1:T4 Arg2:T7	
+T8	Subcellular_Location 408 415	Nuclear
+T9	Protein 436 440	ZHD5
+T10	Methodology 441 444	GFP
+R4	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Tagged_Protein 436 444	ZHD5-GFP
+R5	Located_In Arg1:T9 Arg2:T8	
+T12	Protein 625 629	MIF1
+T13	Methodology 630 633	RFP
+T14	Tagged_Protein 625 633	MIF1-RFP
+R6	Subcellular_methodology Arg1:T12 Arg2:T13	

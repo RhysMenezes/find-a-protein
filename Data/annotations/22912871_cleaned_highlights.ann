@@ -1,0 +1,42 @@
+T1	Protein 249 253	IAA8
+T2	Methodology 234 237	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Protein 383 387	IAA7
+T4	Protein 392 397	IAA17
+R2	Subcellular_methodology Arg1:T4 Arg2:T2	
+R3	Subcellular_methodology Arg1:T3 Arg2:T2	
+T5	Protein 598 602	IAA7
+T6	Methodology 603 606	GFP
+T7	Protein 611 616	IAA17
+T8	Methodology 617 620	GFP
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+R5	Subcellular_methodology Arg1:T5 Arg2:T6	
+T9	Tagged_Protein 611 620	IAA17-GFP
+T10	Tagged_Protein 598 606	IAA7-GFP
+T11	Subcellular_Location 650 657	nucleus
+R6	Located_In Arg1:T7 Arg2:T11	
+R7	Located_In Arg1:T5 Arg2:T11	
+T12	Protein 698 702	IAA8
+T13	Methodology 703 706	GFP
+T14	Tagged_Protein 698 706	IAA8-GFP
+R8	Subcellular_methodology Arg1:T12 Arg2:T13	
+T15	Subcellular_Location 729 736	nucleus
+T16	Subcellular_Location 745 752	cytosol
+R9	Located_In Arg1:T12 Arg2:T15	
+R10	Located_In Arg1:T12 Arg2:T16	
+T17	Protein 876 880	IAA7
+T18	Protein 882 886	IAA8
+T19	Protein 892 897	IAA17
+T20	Methodology 861 864	GFP
+R11	Subcellular_methodology Arg1:T17 Arg2:T20	
+R12	Subcellular_methodology Arg1:T18 Arg2:T20	
+R13	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Protein 3702 3707	IAA17
+T22	Methodology 3708 3711	GFP
+R14	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Protein 3681 3685	IAA7
+T24	Methodology 3626 3629	GFP
+T25	Protein 3690 3694	IAA8
+R15	Subcellular_methodology Arg1:T23 Arg2:T24	
+R16	Subcellular_methodology Arg1:T25 Arg2:T24	
+T26	Tagged_Protein 3702 3711	IAA17-GFP

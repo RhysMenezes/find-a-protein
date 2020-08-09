@@ -1,0 +1,41 @@
+T1	Protein 235 239	EDR2
+T2	Methodology 243 247	eGFP
+T3	Subcellular_Location 268 289	endoplasmic reticulum
+T4	Subcellular_Location 291 306	plasma membrane
+T5	Subcellular_Location 320 329	endosomes
+R2	Located_In Arg1:T1 Arg2:T3	
+R3	Located_In Arg1:T1 Arg2:T4	
+R4	Located_In Arg1:T1 Arg2:T5	
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T6	Protein 1163 1167	EDR2
+T7	Methodology 1171 1175	eGFP
+T8	Subcellular_Location 1204 1225	endoplasmic reticulum
+R5	Subcellular_methodology Arg1:T6 Arg2:T7	
+R6	Located_In Arg1:T6 Arg2:T8	
+T9	Protein 1295 1299	EDR2
+T10	Methodology 1303 1307	eGFP
+T11	Subcellular_Location 1330 1345	plasma membrane
+T12	Subcellular_Location 1362 1371	endosomes
+R7	Subcellular_methodology Arg1:T9 Arg2:T10	
+R8	Located_In Arg1:T9 Arg2:T11	
+R9	Located_In Arg1:T9 Arg2:T12	
+T13	Protein 2982 2986	EDR2
+T14	Methodology 2990 2993	GFP
+R10	Subcellular_methodology Arg1:T13 Arg2:T14	
+T18	Tagged_Protein 1295 1307	EDR2:HA:eGFP
+T15	Tagged_Protein 235 247	EDR2:HA:eGFP
+T16	Tagged_Protein 1163 1175	EDR2:HA:eGFP
+T17	Tagged_Protein 2982 2993	EDR2:HA:GFP
+T19	Irrelevant 21 176	and GFP fluorescence (Fig.  8A ). The construct complemented both the resistance and the lesion phenotype in five independent transgenic lines (Fig.  8B ).
+T20	Irrelevant 885 965	Note, the eGFP sequence included the sequence for 10 Ala at the N-terminus (pink
+T21	Irrelevant 968 1158	edr2-6  mutant to disease susceptibility and suppresses the chlorosis and necrosis phenotype. For each genotype, two leaves from 3-week-old plants are shown at 7 dpi with  G. cichoracearum .
+T22	Irrelevant 1386 1628	The upper two panels are from cotyledons of 7-day-old seedlings. Young, recently divided cells (asterisk) exhibited reduced EDR2:HA:eGFP fluorescence compared to more mature cells, including stomatal guard cells. The lower two panels are from
+T23	Protein 2520 2524	EDR2
+T24	Methodology 2528 2532	eGFP
+T25	Tagged_Protein 2520 2532	EDR2:HA:eGFP
+R11	Subcellular_methodology Arg1:T23 Arg2:T24	
+T26	Irrelevant 1654 2477	trypan blue [ 37 ]. Callose staining with aniline blue and the visualization of autofluorescent compounds were described in Adam and Somerville [ 44 ]. Hydrogen peroxide was visualized with 3,3'-diamino benzidine-HCl [ 45 ]. T3 transformants of  edr2-6  containing the pCH2 construct encoding the  EDR:HA:GFP  driven by the  EDR2  promoter were germinated on nutrient agar plants containing Musashige and Skoog salts 4.3 g per L, pH 5.7,1.5% agar, and hygromycin (30 μg per mL) (Sigma, St. Louis, MO). At 1 week after germination, plants expressing GFP were observed under a Leica DMIRE2 spinning disk confocal laser scanning microscope (Leica Microsystems, Inc.). The seedlings were mounted in water and excited with an Argon laser (488 nm) for eGFP visualization. Rosette leaves from 7-week-old plants were also observed.
+T27	Irrelevant 2645 2779	Collected image data sets were subsequently analyzed with the digital image analysis programs Image J (v. 1.30, N.I.H., USA) and Adobe
+T28	Irrelevant 2781 2978	complementary to the poly-A tail (5'-GGC CAC GCG TCG ACT AGT ACT TTT TTT TTT TTT TTT T-3') and a region about 50 nucleotides before the predicted  EDR2  start codon (5'-CCG TGG GGA AGT TTT GTG-3').
+T29	Irrelevant 3072 3201	A fragment containing 1.4 kb upstream of the predicted translational start of  EDR2  and 2.1 kb  EDR2 :HA cDNA were PCR amplified
+T30	Irrelevant 3203 3653	TCG GAA C-3' ( EDR2  cDNA with HA tag). The promoter (EDR2):EDR2 cDNA:HA construct was subsequently cloned into the  Kpn I/ Sma I sites of pSK001H to obtain pCH2. The plasmid pSK001H, which contained the gene for eGFP, was derived from pEZR(H)-NL by removing a  Sac I fragment containing the CaMV 35S promoter. Plasmid pZEZR(H)-NL was provided by Dave Ehrhardt (Carnegie Institution, Stanford, CA) [ 54 ]. The plasmid pCH2 was introduced into  edr2-6

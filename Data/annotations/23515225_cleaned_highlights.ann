@@ -1,0 +1,71 @@
+T1	Protein 209 216	VAMP721
+T2	Methodology 268 271	GFP
+T3	Methodology 241 266	green fluorescent protein
+R1	Subcellular_methodology Arg1:T1 Arg2:T3	
+R2	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Subcellular_Location 288 303	plasma membrane
+R3	Located_In Arg1:T1 Arg2:T4	
+T6	Protein 743 749	KNOLLE
+T7	Methodology 739 742	GFP
+T8	Subcellular_Location 757 767	cell plate
+R5	Subcellular_methodology Arg1:T6 Arg2:T7	
+T9	Protein 728 733	SYP71
+R6	Located_In Arg1:T9 Arg2:T8	
+T5	Tagged_Protein 739 749	GFP-KNOLLE
+T10	Methodology 948 951	GFP
+T11	Protein 952 958	KNOLLE
+T12	Tagged_Protein 948 958	GFP-KNOLLE
+T13	Protein 968 974	NPSN11
+T14	Methodology 964 967	YFP
+R4	Subcellular_methodology Arg1:T13 Arg2:T14	
+R7	Subcellular_methodology Arg1:T11 Arg2:T10	
+T15	Tagged_Protein 964 974	YFP-NPSN11
+T16	Protein 1339 1344	SYP71
+T17	Methodology 1354 1357	GFP
+T18	Subcellular_Location 1385 1387	ER
+T19	Subcellular_Location 1392 1407	plasma membrane
+R8	Subcellular_methodology Arg1:T16 Arg2:T17	
+R9	Located_In Arg1:T16 Arg2:T19	
+R10	Located_In Arg1:T16 Arg2:T18	
+T20	Protein 1668 1673	SYP71
+T21	Methodology 1664 1667	GFP
+R11	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 1664 1673	GFP-SYP71
+T23	Subcellular_Location 1677 1679	ER
+T24	Subcellular_Location 1684 1699	plasma membrane
+T25	Methodology 1718 1721	GFP
+T26	Protein 1722 1727	SYP71
+R12	Subcellular_methodology Arg1:T26 Arg2:T25	
+T27	Tagged_Protein 1718 1727	GFP-SYP71
+T28	Subcellular_Location 1735 1745	cell plate
+R13	Located_In Arg1:T26 Arg2:T28	
+R14	Located_In Arg1:T20 Arg2:T23	
+R15	Located_In Arg1:T20 Arg2:T24	
+T29	Protein 1849 1854	SYP71
+T30	Subcellular_Location 1862 1872	cell plate
+T31	Protein 1900 1906	KNOLLE
+R16	Located_In Arg1:T31 Arg2:T30	
+R17	Located_In Arg1:T29 Arg2:T30	
+T32	Protein 2281 2288	vamp721
+T33	Gene_Locus 2291 2300	At1g04750
+T34	Protein 2330 2337	vamp722
+T35	Gene_Locus 2340 2349	At2g33120
+T36	Protein 2366 2372	npsn11
+T37	Gene_Locus 2375 2384	At2g35190
+R18	Locus_link Arg1:T36 Arg2:T37	
+R19	Locus_link Arg1:T34 Arg2:T35	
+R20	Locus_link Arg1:T32 Arg2:T33	
+T38	Protein 2405 2410	syp71
+T39	Gene_Locus 2413 2422	At3g09740
+R21	Locus_link Arg1:T38 Arg2:T39	
+T40	Methodology 2557 2560	YFP
+T41	Protein 2561 2567	NPSN11
+R22	Subcellular_methodology Arg1:T41 Arg2:T40	
+T42	Tagged_Protein 2557 2567	YFP-NPSN11
+T43	Methodology 2623 2626	YFP
+T44	Protein 2627 2634	VAMP722
+R23	Subcellular_methodology Arg1:T44 Arg2:T43	
+T45	Tagged_Protein 2623 2634	YFP-VAMP722
+T46	Methodology 3341 3344	GFP
+T47	Protein 3446 3452	KNOLLE
+R24	Subcellular_methodology Arg1:T47 Arg2:T46	

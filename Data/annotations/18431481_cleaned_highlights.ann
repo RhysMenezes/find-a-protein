@@ -1,0 +1,16 @@
+T1	Methodology 307 324	mass spectrometry
+T2	Methodology 333 338	MS/MS
+T3	Methodology 468 473	MS/MS
+T4	Protein 572 576	WAVE
+T5	Protein 601 606	KELCH
+T6	Gene_Locus 561 570	AT5G39560
+T7	Gene_Locus 590 599	At5G01730
+R1	Locus_link Arg1:T4 Arg2:T6	
+R2	Locus_link Arg1:T5 Arg2:T7	
+R3	Subcellular_methodology Arg1:T4 Arg2:T3	
+R4	Subcellular_methodology Arg1:T5 Arg2:T3	
+T8	Subcellular_Location 751 758	nuclear
+R5	Located_In Arg1:T4 Arg2:T8	
+R6	Located_In Arg1:T5 Arg2:T8	
+T9	Methodology 2341 2343	MS
+T10	Methodology 3543 3548	MS/MS

@@ -1,0 +1,57 @@
+T1	Protein 567 571	PIN1
+T2	Methodology 572 597	green fluorescent protein
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 567 597	PIN1–green fluorescent protein
+T4	Protein 737 744	ARF1A1C
+T5	Subcellular_Location 763 783	trans -Golgi network
+T6	Subcellular_Location 803 818	Golgi apparatus
+R2	Located_In Arg1:T4 Arg2:T5	
+R3	Located_In Arg1:T4 Arg2:T6	
+T7	Protein 1333 1340	ARF1A1C
+T8	Methodology 1341 1344	GFP
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 1333 1344	ARF1A1C–GFP
+T10	Subcellular_Location 1364 1384	trans -Golgi network
+T11	Subcellular_Location 1391 1405	early endosome
+T12	Subcellular_Location 784 798	early endosome
+R5	Located_In Arg1:T4 Arg2:T12	
+T13	Subcellular_Location 1415 1430	Golgi apparatus
+R6	Located_In Arg1:T7 Arg2:T10	
+R7	Located_In Arg1:T7 Arg2:T11	
+R8	Located_In Arg1:T7 Arg2:T13	
+T14	Protein 1631 1635	GNOM
+T15	Methodology 1636 1639	GFP
+R9	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 1631 1639	GNOM–GFP
+T17	Protein 1673 1680	ARF1A1C
+T18	Subcellular_Location 1757 1766	endosomes
+R10	Located_In Arg1:T14 Arg2:T18	
+R11	Located_In Arg1:T17 Arg2:T18	
+T19	Protein 1784 1788	BEN1
+T20	Protein 1793 1797	GNL1
+T21	Subcellular_Location 1821 1824	TGN
+T22	Subcellular_Location 1825 1827	EE
+T23	Subcellular_Location 1855 1870	Golgi apparatus
+R12	Located_In Arg1:T19 Arg2:T21	
+R13	Located_In Arg1:T19 Arg2:T22	
+R14	Located_In Arg1:T19 Arg2:T23	
+R15	Located_In Arg1:T20 Arg2:T21	
+R16	Located_In Arg1:T20 Arg2:T22	
+R17	Located_In Arg1:T20 Arg2:T23	
+T24	Methodology 2364 2367	XFP
+T25	Protein 2374 2378	ARF1
+R18	Subcellular_methodology Arg1:T25 Arg2:T24	
+T26	Methodology 2545 2548	GFP
+T27	Protein 2537 2544	ARF1A1C
+R19	Subcellular_methodology Arg1:T27 Arg2:T26	
+T28	Subcellular_Location 2583 2588	Golgi
+T29	Tagged_Protein 2537 2548	ARF1A1C–GFP
+R20	Located_In Arg1:T27 Arg2:T28	
+T30	Protein 3819 3823	PIN1
+T31	Methodology 3824 3827	GFP
+R21	Subcellular_methodology Arg1:T30 Arg2:T31	
+T32	Tagged_Protein 3819 3827	PIN1-GFP
+T33	Protein 3938 3942	PIN2
+T34	Methodology 3943 3946	GFP
+R22	Subcellular_methodology Arg1:T33 Arg2:T34	
+T35	Tagged_Protein 3938 3946	PIN2-GFP

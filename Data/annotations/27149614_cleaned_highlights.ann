@@ -1,0 +1,4 @@
+T1	Protein 1560 1565	PPMEg
+T2	Methodology 1566 1569	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 1560 1569	PPMEg-GFP

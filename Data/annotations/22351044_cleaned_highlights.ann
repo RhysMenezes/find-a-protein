@@ -1,0 +1,39 @@
+T1	Protein 190 193	AS2
+T2	Subcellular_Location 255 262	nuclear
+R1	Located_In Arg1:T1 Arg2:T2	
+T3	Protein 333 336	AS2
+T4	Subcellular_Location 388 396	nucleoli
+T5	Subcellular_Location 409 420	nucleoplasm
+R2	Located_In Arg1:T3 Arg2:T4	
+R3	Located_In Arg1:T3 Arg2:T5	
+T6	Protein 512 515	AS2
+T7	Methodology 522 548	yellow fluorescent protein
+T8	Subcellular_Location 560 570	subnuclear
+R4	Subcellular_methodology Arg1:T6 Arg2:T7	
+R5	Located_In Arg1:T6 Arg2:T8	
+T9	Protein 1011 1014	AS2
+T10	Methodology 1017 1020	YFP
+T11	Tagged_Protein 1011 1020	AS2 - YFP
+R6	Subcellular_methodology Arg1:T9 Arg2:T10	
+T12	Protein 1104 1107	AS2
+T13	Methodology 1108 1111	YFP
+T14	Tagged_Protein 1104 1111	AS2-YFP
+R7	Subcellular_methodology Arg1:T12 Arg2:T13	
+T15	Protein 1189 1192	AS2
+T16	Methodology 1193 1196	YFP
+R8	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Tagged_Protein 1189 1196	AS2-YFP
+T18	Subcellular_Location 1308 1317	nucleolus
+T19	Subcellular_Location 1337 1348	nucleoplasm
+R9	Located_In Arg1:T15 Arg2:T18	
+R10	Located_In Arg1:T15 Arg2:T19	
+T20	Protein 2358 2361	AS2
+T21	Methodology 2403 2406	YFP
+R11	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Protein 2438 2441	AS2
+T23	Methodology 2597 2600	YFP
+R12	Subcellular_methodology Arg1:T22 Arg2:T23	
+T24	Protein 2730 2733	AS2
+T25	Methodology 2736 2740	EYFP
+T26	Tagged_Protein 2730 2740	AS2 - EYFP
+R13	Subcellular_methodology Arg1:T24 Arg2:T25	

@@ -1,0 +1,8 @@
+T1	Protein 548 552	rps5
+T2	Methodology 553 556	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 548 556	rps5-GFP
+T4	Protein 927 931	RPS5
+T5	Methodology 932 935	GFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 927 935	RPS5-GFP

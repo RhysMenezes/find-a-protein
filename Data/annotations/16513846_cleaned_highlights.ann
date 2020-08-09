@@ -1,0 +1,25 @@
+T1	Methodology 273 298	green fluorescent protein
+T2	Protein 311 314	STM
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+T3	Protein 560 563	STM
+T4	Subcellular_Location 585 592	nuclear
+R2	Located_In Arg1:T3 Arg2:T4	
+T5	Protein 855 858	STM
+T6	Methodology 869 872	GFP
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Methodology 1107 1110	GFP
+T8	Protein 1111 1114	STM
+T9	Protein 1119 1122	STM
+T10	Methodology 1123 1126	GFP
+R4	Subcellular_methodology Arg1:T8 Arg2:T7	
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Subcellular_Location 1143 1152	cytoplasm
+R6	Located_In Arg1:T9 Arg2:T11	
+R7	Located_In Arg1:T8 Arg2:T11	
+T14	Methodology 1941 1944	GFP
+T15	Protein 1945 1948	STM
+T16	Subcellular_Location 1903 1914	cytoplasmic
+R9	Located_In Arg1:T15 Arg2:T16	
+T12	Methodology 5963 5966	GFP
+T13	Protein 5981 5984	STM
+R8	Subcellular_methodology Arg1:T13 Arg2:T12	

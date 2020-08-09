@@ -1,0 +1,5 @@
+ABSTRACT:
+one of PP2Cs clade A in  Arabidopsis thaliana . Transgenic plants containing pHAI-1::GUS (β-glucuronidase) displayed GUS activity existing in the vascular system of leave veins, stems and petioles. Green fluorescent protein fused HAI-1 (HAI-1-GFP) was found in the nucleus through transient
+RESULTS:
+MATERIALS AND METHODS:
+AGAAGTATTCACGCACCAAGG AATCTCAGCCATGTGATCGTC 59220Promoter GGGGACAAGTTTGTACAAAAAAGCAGGCTTCTGAATATCTTATAATTTTTGCCC GGGGACCACTTTGTACAAGAAAGCTGGGTGTCTCTTCTCCTCCGCCTCTGTAA PP2CA2ox ATGGCTGAGATTTGTTACG CTACGTGTCTCGTCGTAGA 59220pEDST17 GGGGACAAGTTTGTACAAAAAAGCAGGCTTC ATGGCTGAGATTTGTTACG GGGGACCACTTTGTACAAGAAAGCTGGGTG CTACGTGTCTCGTCGTAGA Actin2 CACTGTGCCAATCTACGAGGGT CACAAACGAGGGCTGGAACAAG Bombardment experiments Each plate was shot twice. Each shot contains 270 μg gold particles (1.0 μm in diameter), and particles were coated with 2 μl of p35S:HAI-1-GFP recombinant plasmid at 0.5 μg/μl. The gold-coated DNA particles were delivered into onion epidermal cells using the PDS-1000/He biolistic particle delivery system (BioRad Laboratories, Hercules, CA, USA), and the bombarded onion epidermal peels were maintained at 25 °C for at least

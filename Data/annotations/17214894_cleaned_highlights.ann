@@ -1,0 +1,33 @@
+T1	Protein 137 143	WRKY25
+T2	Methodology 224 249	green fluorescent protein
+T3	Subcellular_Location 270 277	nucleus
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+R2	Located_In Arg1:T1 Arg2:T3	
+T4	Methodology 1318 1321	GFP
+T5	Protein 1340 1346	WRKY25
+R3	Subcellular_methodology Arg1:T5 Arg2:T4	
+T6	Protein 1293 1299	WRKY25
+R4	Subcellular_methodology Arg1:T6 Arg2:T4	
+T7	Protein 1550 1556	WRKY25
+T8	Methodology 1557 1560	GFP
+T9	Subcellular_Location 1609 1616	nucleus
+R5	Subcellular_methodology Arg1:T7 Arg2:T8	
+R6	Located_In Arg1:T7 Arg2:T9	
+T10	Protein 3068 3074	WRKY25
+T11	Methodology 3284 3287	GFP
+R7	Subcellular_methodology Arg1:T10 Arg2:T11	
+T12	Subcellular_Location 746 753	nuclear
+T13	Protein 823 829	WRKY25
+R8	Located_In Arg1:T13 Arg2:T12	
+T14	Irrelevant 11 136	of the WRKY25 transcription factor from  Arabidopsis  in plant defense against the bacterial pathogen  Pseudomonas syringae .
+T15	Irrelevant 280 481	WRKY25  expression is responsive to general environmental stress. Analysis of stress-induced  WRKY25  in the defense signaling mutants  npr1 ,  sid2 ,  ein2  and  coi1  further indicated that this gene
+T16	Irrelevant 483 730	and displayed increased disease symptom severity as compared to wild-type plants. These  WRKY25 -overexpressing plants also displayed reduced expression of the SA-regulated  PR1  gene after the pathogen infection, despite normal levels of free SA.
+T17	Irrelevant 867 1049	Based on analysis of both T-DNA insertion mutants and transgenic overexpression lines, stress-induced WRKY25 functions as a negative regulator of SA-mediated defense responses to  P.
+T18	Irrelevant 1061 1251	transcription factor, it is likely to be localized in the nucleus. The presence of putative nuclear localization signal predicted by the PSORT II program is consistent with this possibility.
+T19	Irrelevant 1715 1857	Expression of  WRKY25 A possible role for WRKY25 during defense signaling was further investigated by analyzing its expression in  Arabidopsis
+T20	Irrelevant 1883 2501	indicated. Transcripts for  PR1  were detected using a  PR1  fragment generated from PCR amplification using two  PR1 -specific oligonucleotides as primers (5'-TTCTTCCCTCGAAAGCTCAA-3' and 5'-CGTTCACATAATTCCCACGA-3'). Production of recombinant WRKY25 protein and electrophoresis mobility shift assay (EMSA) To generate the WRKY25 recombinant protein, its full-length cDNA was amplified using two gene-specific primers (5'-ATCGAATTCATGGACAATAGCAGAAC-3' and 5'-ATCCTCGAGTGAGGGCATAAACGAAT-3'). The amplified DNA fragment was digested with EcoR1 and Xho1, cloned into the same sites of pET32a (Novagen) and transformed into
+T21	Irrelevant 2503 2985	with two W boxes separated by 5 nucleotides. Pchn5 and the mutant mPchn5 probes were labeled to specific activities of approximately 10 5  cpm/ng using the Klenow fragment of DNA polymerase I. Sequence-specific DNA binding was assayed with EMSA essentially as described previously [ 12 ]. Binding reactions contained 12 μl nuclear extraction buffer, 5 μg poly(dIdC), 1 μg proteins and 2 ng of labeled double-stranded oligo DNA. DNA and protein complexes were allowed to form at room
+T22	Irrelevant 2987 3029	10% polyacrylamide gel in 0.5× TBE at 4°C.
+T23	Irrelevant 3554 3722	Construction of transgenic lines To generate the  35S:WRKY25  construct, the cDNA fragment that contained the full coding sequence and 3' untranslated region of  WRKY25
+T24	Irrelevant 3725 4064	[ 45 ]. The seeds were collected from the infiltrated plants and selected in MS medium containing 50 μg/ml kanamycin. Kanamycin-resistant plants were transferred to soil nine days later and grown in a growth chamber. Identification of the  wrky25  T-DNA insertion mutants The T-DNA insertion flanking sequences of the Syngenta  Arabidopsis
+T25	Tagged_Protein 1550 1560	WRKY25-GFP

@@ -1,0 +1,4 @@
+ABSTRACT:
+RESULTS:
+MATERIALS AND METHODS:
+Methods Growth conditions, inoculations, and cytology Cultivation of  A. thaliana  wild-type (Columbia) and  PMR4 -overexpression line  35S::PMR4-GFP  from our previous study 8  as well as inoculation of three-week-old plants with the powdery mildew  G. cichoracearum  (strain UCSC1) followed the description in Stein et al. 26 . Rosette leaves were harvested 6 h post-inoculation

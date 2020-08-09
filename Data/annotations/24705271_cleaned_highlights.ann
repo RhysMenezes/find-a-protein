@@ -1,0 +1,38 @@
+T1	Methodology 168 171	GFP
+T2	Protein 163 167	PRN1
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+T3	Tagged_Protein 163 171	PRN1-GFP
+T4	Subcellular_Location 244 251	Nucleus
+R2	Located_In Arg1:T2 Arg2:T4	
+T5	Methodology 980 983	GFP
+T6	Protein 975 979	PRN1
+R3	Subcellular_methodology Arg1:T6 Arg2:T5	
+T7	Tagged_Protein 975 983	PRN1-GFP
+T8	Subcellular_Location 1010 1017	nucleus
+R4	Located_In Arg1:T6 Arg2:T8	
+T9	Protein 854 858	PRN1
+T10	Methodology 859 862	GFP
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Tagged_Protein 854 862	PRN1-GFP
+T12	Subcellular_Location 724 730	nuclei
+T13	Subcellular_Location 795 804	cytoplasm
+R6	Located_In Arg1:T9 Arg2:T13	
+R7	Located_In Arg1:T9 Arg2:T12	
+T14	Protein 1294 1298	PRN1
+T15	Methodology 1299 1302	GFP
+R8	Subcellular_methodology Arg1:T14 Arg2:T15	
+T16	Tagged_Protein 1294 1302	PRN1-GFP
+T17	Subcellular_Location 1389 1396	nucleus
+R9	Located_In Arg1:T14 Arg2:T17	
+T18	Protein 5765 5769	PRN1
+T19	Methodology 5770 5773	GFP
+R10	Subcellular_methodology Arg1:T18 Arg2:T19	
+T20	Tagged_Protein 5765 5773	PRN1-GFP
+T21	Protein 6357 6361	PRN1
+T22	Methodology 6362 6365	GFP
+R11	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Tagged_Protein 6357 6365	PRN1-GFP
+T24	Protein 6440 6444	PRN1
+T25	Methodology 6445 6448	GFP
+R12	Subcellular_methodology Arg1:T24 Arg2:T25	
+T26	Tagged_Protein 6440 6448	PRN1-GFP

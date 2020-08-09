@@ -1,0 +1,50 @@
+T1	Protein 269 275	SUVR1a
+T2	Methodology 276 279	GFP
+T3	Subcellular_Location 329 338	nucleolus
+T4	Subcellular_Location 369 380	nucleoplasm
+R1	Located_In Arg1:T1 Arg2:T3	
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 570 576	SUVR1b
+T6	Methodology 577 580	GFP
+R3	Subcellular_methodology Arg1:T1 Arg2:T2	
+T7	Subcellular_Location 646 657	nucleoplasm
+R4	Subcellular_methodology Arg1:T5 Arg2:T6	
+R5	Located_In Arg1:T5 Arg2:T7	
+T8	Protein 913 919	SUVR2a
+T9	Methodology 920 923	GFP
+R6	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Subcellular_Location 995 1004	nucleolus
+T11	Subcellular_Location 1045 1056	nucleoplasm
+R7	Located_In Arg1:T8 Arg2:T10	
+R8	Located_In Arg1:T8 Arg2:T11	
+T12	Protein 1155 1161	SUVR2a
+T13	Methodology 1162 1165	GFP
+T14	Subcellular_Location 1221 1231	subnuclear
+R9	Subcellular_methodology Arg1:T12 Arg2:T13	
+R10	Located_In Arg1:T12 Arg2:T14	
+T15	Protein 1407 1413	SUVR4a
+T16	Methodology 1414 1417	GFP
+R11	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Subcellular_Location 1495 1504	nucleolus
+T18	Subcellular_Location 1574 1585	nucleoplasm
+R12	Located_In Arg1:T15 Arg2:T17	
+R13	Located_In Arg1:T15 Arg2:T18	
+T19	Protein 2885 2890	SUVR4
+T20	Methodology 2881 2884	GFP
+R14	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Subcellular_Location 2996 3007	nucleoplasm
+R15	Located_In Arg1:T19 Arg2:T21	
+T22	Protein 4068 4074	SUVR1a
+T23	Protein 4088 4094	SUVR1b
+T24	Protein 4108 4114	SUVR4a
+T25	Protein 4131 4137	SUVR2a
+T26	Methodology 4075 4078	GFP
+T27	Methodology 4095 4098	GFP
+T28	Methodology 4138 4141	GFP
+R16	Subcellular_methodology Arg1:T22 Arg2:T26	
+R17	Subcellular_methodology Arg1:T23 Arg2:T27	
+T29	Methodology 4115 4118	GFP
+R18	Subcellular_methodology Arg1:T24 Arg2:T29	
+R19	Subcellular_methodology Arg1:T25 Arg2:T28	
+T30	Tagged_Protein 1155 1165	SUVR2a-GFP
+T31	Irrelevant 21 246	fusion construct the same subnuclear localization was seen in aboveground tissues and in roots. The localization was documented in roots ( Figure 2 ) as visualization of the GFP signal was better in cells without chlorophyll.

@@ -1,0 +1,168 @@
+T1	Protein 1873 1877	Deg9
+T2	Methodology 1914 1916	MS
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Protein 2009 2013	Deg9
+T4	Subcellular_Location 2021 2028	nucleus
+T5	Subcellular_Location 2072 2079	plastid
+R2	Located_In Arg1:T3 Arg2:T4	
+R3	Located_In Arg1:T3 Arg2:T5	
+T6	Protein 2377 2381	Deg9
+T7	Subcellular_Location 2356 2363	nuclear
+R4	Located_In Arg1:T6 Arg2:T7	
+T8	Protein 3338 3342	Deg9
+T9	Protein 3329 3333	Deg1
+T10	Subcellular_Location 3370 3377	plastid
+T11	Subcellular_Location 3382 3389	nucleus
+R5	Located_In Arg1:T8 Arg2:T11	
+R6	Located_In Arg1:T8 Arg2:T10	
+R7	Located_In Arg1:T9 Arg2:T11	
+R8	Located_In Arg1:T9 Arg2:T10	
+T12	Methodology 3396 3413	mass spectrometry
+R9	Subcellular_methodology Arg1:T8 Arg2:T12	
+R10	Subcellular_methodology Arg1:T9 Arg2:T12	
+T13	Protein 3440 3444	Deg7
+T14	Methodology 3471 3478	plastid
+T15	Methodology 3482 3485	GFP
+T16	Subcellular_Location 3505 3512	cytosol
+T17	Methodology 3516 3533	mass spectrometry
+R11	Subcellular_methodology Arg1:T13 Arg2:T15	
+R12	Subcellular_methodology Arg1:T13 Arg2:T14	
+R13	Located_In Arg1:T13 Arg2:T16	
+R14	Subcellular_methodology Arg1:T13 Arg2:T17	
+T18	Protein 4633 4636	SSU
+T19	Methodology 4637 4640	RFP
+R15	Subcellular_methodology Arg1:T18 Arg2:T19	
+T20	Subcellular_Location 4657 4674	plastid targeting
+R16	Located_In Arg1:T18 Arg2:T20	
+T21	Protein 4676 4682	ScCOX4
+T22	Methodology 4683 4690	mCherry
+R17	Subcellular_methodology Arg1:T21 Arg2:T22	
+T23	Tagged_Protein 4676 4690	ScCOX4-mCherry
+T24	Subcellular_Location 4707 4720	mitochondrial
+R18	Located_In Arg1:T21 Arg2:T24	
+T25	Methodology 4736 4743	mCherry
+T26	Protein 4744 4748	PTS1
+R19	Subcellular_methodology Arg1:T26 Arg2:T25	
+T27	Tagged_Protein 4736 4748	mCherry-PTS1
+T28	Subcellular_Location 4765 4775	peroxisome
+R20	Located_In Arg1:T26 Arg2:T28	
+T29	Protein 5088 5092	Deg1
+T30	Protein 5094 5098	Deg2
+T31	Protein 5100 5104	Deg5
+T32	Protein 5110 5114	Deg8
+T33	Subcellular_Location 5068 5075	plastid
+T34	Methodology 5171 5174	GFP
+R21	Located_In Arg1:T29 Arg2:T33	
+R22	Located_In Arg1:T30 Arg2:T33	
+R23	Located_In Arg1:T31 Arg2:T33	
+R24	Located_In Arg1:T32 Arg2:T33	
+R25	Subcellular_methodology Arg1:T29 Arg2:T34	
+R26	Subcellular_methodology Arg1:T30 Arg2:T34	
+R27	Subcellular_methodology Arg1:T31 Arg2:T34	
+R28	Subcellular_methodology Arg1:T32 Arg2:T34	
+T35	Protein 5276 5280	Deg2
+T36	Subcellular_Location 5256 5274	chloroplast stroma
+R29	Located_In Arg1:T35 Arg2:T36	
+T37	Subcellular_Location 5292 5307	thylakoid lumen
+T38	Protein 5309 5313	Deg1
+T39	Protein 5315 5319	Deg5
+T40	Protein 5321 5325	Deg8
+R31	Located_In Arg1:T38 Arg2:T37	
+R30	Located_In Arg1:T39 Arg2:T37	
+R32	Located_In Arg1:T40 Arg2:T37	
+T41	Protein 5621 5625	Deg1
+T42	Subcellular_Location 5601 5608	nuclear
+T43	Methodology 5635 5637	MS
+R33	Located_In Arg1:T41 Arg2:T42	
+R34	Subcellular_methodology Arg1:T41 Arg2:T43	
+T44	Protein 6191 6196	Deg11
+T45	Subcellular_Location 6228 6241	mitochondrion
+R35	Located_In Arg1:T44 Arg2:T45	
+T46	Protein 6521 6525	Deg3
+T47	Protein 6527 6531	Deg6
+T48	Protein 6533 6538	Deg10
+T49	Protein 6540 6545	Deg12
+T50	Protein 6551 6556	Deg14
+T51	Subcellular_Location 6618 6631	mitochondrion
+T52	Methodology 6639 6642	GFP
+R36	Located_In Arg1:T46 Arg2:T51	
+R37	Subcellular_methodology Arg1:T46 Arg2:T52	
+R38	Located_In Arg1:T47 Arg2:T51	
+R39	Subcellular_methodology Arg1:T47 Arg2:T52	
+R40	Located_In Arg1:T48 Arg2:T51	
+R41	Subcellular_methodology Arg1:T48 Arg2:T52	
+R42	Located_In Arg1:T49 Arg2:T51	
+R43	Subcellular_methodology Arg1:T49 Arg2:T52	
+R44	Located_In Arg1:T50 Arg2:T51	
+R45	Subcellular_methodology Arg1:T50 Arg2:T52	
+T53	Subcellular_Location 6736 6743	plastid
+T54	Protein 6762 6767	Deg10
+T55	Protein 6749 6753	Deg3
+T56	Methodology 6754 6757	GFP
+T57	Methodology 6768 6771	GFP
+R46	Subcellular_methodology Arg1:T55 Arg2:T56	
+R47	Subcellular_methodology Arg1:T54 Arg2:T57	
+T58	Tagged_Protein 6762 6771	Deg10-GFP
+T59	Tagged_Protein 6749 6757	Deg3-GFP
+R48	Located_In Arg1:T55 Arg2:T53	
+R49	Located_In Arg1:T54 Arg2:T53	
+T60	Protein 6875 6879	Deg3
+T61	Protein 6884 6889	Deg10
+T62	Subcellular_Location 6915 6928	mitochondrion
+T63	Subcellular_Location 6940 6947	plastid
+R50	Located_In Arg1:T60 Arg2:T62	
+R51	Located_In Arg1:T60 Arg2:T63	
+R52	Located_In Arg1:T61 Arg2:T62	
+R53	Located_In Arg1:T61 Arg2:T63	
+T64	Gene_Locus 7241 7252	At3g27925.1
+T65	Protein 7253 7257	Deg1
+R54	Locus_link Arg1:T65 Arg2:T64	
+T66	Gene_Locus 7291 7302	At2g47940.1
+T67	Protein 7303 7307	Deg2
+R55	Locus_link Arg1:T67 Arg2:T66	
+T68	Protein 7344 7348	Deg3
+T69	Gene_Locus 7332 7343	At1g65630.1
+R56	Locus_link Arg1:T68 Arg2:T69	
+T70	Gene_Locus 7391 7402	At1g65640.1
+T71	Protein 7403 7407	Deg4
+R57	Locus_link Arg1:T71 Arg2:T70	
+T72	Gene_Locus 7434 7445	At4g18370.1
+T73	Protein 7446 7450	Deg5
+R58	Locus_link Arg1:T73 Arg2:T72	
+T74	Gene_Locus 7475 7486	At1g51150.1
+T75	Protein 7487 7491	Deg6
+R59	Locus_link Arg1:T75 Arg2:T74	
+T76	Gene_Locus 7519 7530	At3g03380.1
+T77	Protein 7531 7535	Deg7
+R60	Locus_link Arg1:T77 Arg2:T76	
+T78	Gene_Locus 7559 7570	At1g28320.1
+T79	Protein 7571 7576	Deg15
+R61	Locus_link Arg1:T79 Arg2:T78	
+T80	Gene_Locus 7610 7621	At5g54745.1
+T81	Protein 7622 7627	Deg16
+R62	Locus_link Arg1:T81 Arg2:T80	
+T82	Protein 8011 8016	Deg15
+T83	Subcellular_Location 8020 8031	peroxisomes
+T84	Methodology 8094 8097	GFP
+R63	Located_In Arg1:T82 Arg2:T83	
+R64	Subcellular_methodology Arg1:T82 Arg2:T84	
+T85	Subcellular_Location 8401 8408	nuclear
+T86	Protein 8421 8425	Deg9
+T87	Methodology 8453 8456	GFP
+R65	Located_In Arg1:T86 Arg2:T85	
+R66	Subcellular_methodology Arg1:T86 Arg2:T87	
+T88	Methodology 9029 9032	GFP
+T89	Protein 9064 9068	Deg7
+T90	Subcellular_Location 9090 9097	nucleus
+T91	Subcellular_Location 9106 9119	mitochondrion
+R67	Subcellular_methodology Arg1:T89 Arg2:T88	
+R68	Located_In Arg1:T89 Arg2:T90	
+R69	Located_In Arg1:T89 Arg2:T91	
+T92	Protein 9506 9510	Deg7
+T93	Methodology 9544 9547	GFP
+R70	Subcellular_methodology Arg1:T92 Arg2:T93	
+T94	Methodology 10448 10450	FP
+T95	Methodology 11003 11006	GFP
+T96	Methodology 12232 12235	GFP
+T97	Methodology 12240 12243	RFP
+T98	Methodology 12244 12251	mCherry

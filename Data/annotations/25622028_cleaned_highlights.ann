@@ -1,0 +1,3 @@
+T1	Protein 605 610	CENH3
+T2	Methodology 655 658	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	

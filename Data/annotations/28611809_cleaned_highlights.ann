@@ -1,0 +1,75 @@
+T1	Protein 2211 2216	AtULP
+T2	Methodology 2227 2233	TagRFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Subcellular_Location 2320 2325	lipid
+R2	Located_In Arg1:T1 Arg2:T3	
+T4	Protein 2493 2499	AtSRP1
+T5	Methodology 2500 2503	YFP
+R3	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 2493 2503	AtSRP1-YFP
+T7	Protein 4358 4364	AtSRP1
+T8	Methodology 4365 4371	TagRFP
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T9	Tagged_Protein 4358 4371	AtSRP1-TagRFP
+T10	Subcellular_Location 4442 4447	lipid
+R5	Located_In Arg1:T7 Arg2:T10	
+T11	Protein 4506 4512	AtSRP1
+T12	Subcellular_Location 4526 4531	lipid
+R6	Located_In Arg1:T11 Arg2:T12	
+T13	Protein 4600 4606	AtSRP1
+T14	Methodology 4627 4630	YFP
+R7	Subcellular_methodology Arg1:T13 Arg2:T14	
+R8	Located_In Arg1:T13 Arg2:T12	
+T15	Protein 5555 5561	AtSRP1
+T16	Methodology 5562 5568	TagRFP
+R9	Subcellular_methodology Arg1:T15 Arg2:T16	
+T17	Tagged_Protein 5555 5568	AtSRP1-TagRFP
+T18	Subcellular_Location 5594 5599	lipid
+R10	Located_In Arg1:T15 Arg2:T18	
+T19	Protein 5856 5862	AtSRP1
+T20	Methodology 5863 5866	YFP
+R11	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Tagged_Protein 5856 5866	AtSRP1-YFP
+T22	Protein 5904 5908	HDEL
+T23	Methodology 5909 5916	mCherry
+R12	Subcellular_methodology Arg1:T22 Arg2:T23	
+T24	Tagged_Protein 5904 5916	HDEL-mCherry
+T25	Subcellular_Location 5900 5902	ER
+R13	Located_In Arg1:T22 Arg2:T25	
+T26	Protein 5996 6002	AtSRP1
+T27	Subcellular_Location 6064 6066	LD
+R14	Located_In Arg1:T26 Arg2:T27	
+T28	Protein 6864 6870	AtSRP1
+T29	Methodology 6871 6874	YFP
+T30	Protein 6879 6883	HDEL
+T31	Methodology 6884 6891	mCherry
+R15	Subcellular_methodology Arg1:T30 Arg2:T31	
+T32	Tagged_Protein 6879 6891	HDEL-mCherry
+R16	Subcellular_methodology Arg1:T28 Arg2:T29	
+T33	Tagged_Protein 6864 6874	AtSRP1-YFP
+T34	Subcellular_Location 6912 6914	LD
+R17	Located_In Arg1:T28 Arg2:T34	
+T35	Subcellular_Location 6920 6922	ER
+R18	Located_In Arg1:T30 Arg2:T35	
+T36	Protein 7075 7081	AtSRP1
+T37	Methodology 7082 7085	YFP
+R19	Subcellular_methodology Arg1:T36 Arg2:T37	
+T38	Subcellular_Location 7106 7108	LD
+R20	Located_In Arg1:T36 Arg2:T38	
+T39	Methodology 7980 7983	YFP
+T40	Methodology 8020 8026	TagRFP
+T41	Protein 8027 8033	AtSRP1
+R21	Subcellular_methodology Arg1:T41 Arg2:T40	
+T42	Tagged_Protein 8020 8033	TagRFP-AtSRP1
+T43	Protein 8035 8041	AtSRP1
+T44	Methodology 8042 8048	TagRFP
+R22	Subcellular_methodology Arg1:T43 Arg2:T44	
+T45	Tagged_Protein 8035 8048	AtSRP1-TagRFP
+T46	Protein 8054 8060	AtSRP1
+T47	Methodology 8050 8053	YFP
+R23	Subcellular_methodology Arg1:T46 Arg2:T47	
+T48	Tagged_Protein 8050 8060	YFP-AtSRP1
+T49	Protein 8068 8074	AtSRP1
+T50	Methodology 8075 8078	YFP
+R24	Subcellular_methodology Arg1:T49 Arg2:T50	
+T51	Tagged_Protein 8068 8078	AtSRP1-YFP

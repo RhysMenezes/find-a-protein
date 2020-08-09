@@ -1,0 +1,153 @@
+T1	Protein 403 407	PICC
+T2	Protein 412 416	PICL
+T3	Methodology 417 420	GFP
+T4	Subcellular_Location 484 505	endoplasmic reticulum
+R1	Subcellular_methodology Arg1:T2 Arg2:T3	
+R2	Subcellular_methodology Arg1:T1 Arg2:T3	
+R3	Located_In Arg1:T2 Arg2:T4	
+R4	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 811 815	PICL
+T6	Protein 802 806	PICC
+T7	Subcellular_Location 835 837	ER
+R5	Located_In Arg1:T5 Arg2:T7	
+R6	Located_In Arg1:T6 Arg2:T7	
+T8	Methodology 989 992	GFP
+T9	Protein 993 997	PICC
+T10	Methodology 1002 1005	GFP
+T11	Protein 1006 1010	PICL
+R7	Subcellular_methodology Arg1:T11 Arg2:T10	
+R8	Subcellular_methodology Arg1:T9 Arg2:T8	
+T12	Tagged_Protein 989 997	GFP-PICC
+T13	Tagged_Protein 1002 1010	GFP-PICL
+T14	Methodology 1303 1306	GFP
+T15	Protein 1307 1311	PICC
+T16	Methodology 1316 1319	GFP
+T17	Protein 1320 1324	PICL
+R9	Subcellular_methodology Arg1:T17 Arg2:T16	
+R10	Subcellular_methodology Arg1:T15 Arg2:T14	
+T18	Tagged_Protein 1303 1311	GFP-PICC
+T19	Tagged_Protein 1316 1324	GFP-PICL
+T20	Subcellular_Location 1393 1395	ER
+R11	Located_In Arg1:T17 Arg2:T20	
+R12	Located_In Arg1:T15 Arg2:T20	
+T21	Methodology 1495 1498	RFP
+T22	Protein 1499 1503	MAP4
+R13	Subcellular_methodology Arg1:T22 Arg2:T21	
+T23	Tagged_Protein 1495 1503	RFP-MAP4
+T24	Subcellular_Location 1469 1476	tubulin
+T25	Subcellular_Location 1481 1486	actin
+R14	Located_In Arg1:T22 Arg2:T25	
+R15	Located_In Arg1:T22 Arg2:T24	
+T26	Methodology 1543 1546	RFP
+T27	Protein 1547 1552	fABD2
+R16	Subcellular_methodology Arg1:T27 Arg2:T26	
+T28	Tagged_Protein 1543 1552	RFP-fABD2
+R17	Located_In Arg1:T27 Arg2:T25	
+R18	Located_In Arg1:T27 Arg2:T24	
+T29	Protein_variant 2157 2165	TDF PICC
+T30	Protein_variant 2175 2183	TDF PICL
+T31	Methodology 2171 2174	GFP
+T32	Methodology 2153 2156	GFP
+R19	Subcellular_methodology Arg1:T29 Arg2:T32	
+R20	Subcellular_methodology Arg1:T30 Arg2:T31	
+T33	Tagged_Protein 2171 2183	GFP-TDF PICL
+T34	Tagged_Protein 2153 2165	GFP-TDF PICC
+T35	Subcellular_Location 2206 2208	ER
+R21	Located_In Arg1:T30 Arg2:T35	
+R22	Located_In Arg1:T29 Arg2:T35	
+T36	Protein_variant 2234 2242	PICCΔTDF
+T37	Methodology 2230 2233	GFP
+R23	Subcellular_methodology Arg1:T36 Arg2:T37	
+T38	Tagged_Protein 2230 2242	GFP-PICCΔTDF
+T39	Methodology 2247 2250	GFP
+T40	Protein_variant 2251 2259	PICLΔTDF
+R24	Subcellular_methodology Arg1:T40 Arg2:T39	
+T41	Tagged_Protein 2247 2259	GFP-PICLΔTDF
+T42	Subcellular_Location 2331 2340	cytoplasm
+R25	Located_In Arg1:T40 Arg2:T42	
+R26	Located_In Arg1:T36 Arg2:T42	
+T43	Protein 2465 2469	PICL
+T44	Protein 2474 2478	PICC
+T45	Subcellular_Location 2503 2505	ER
+R27	Located_In Arg1:T44 Arg2:T45	
+R28	Located_In Arg1:T43 Arg2:T45	
+T46	Protein 2991 2995	PICL
+T47	Protein 3004 3008	PICC
+T48	Methodology 3000 3003	GFP
+T49	Methodology 2987 2990	GFP
+R29	Subcellular_methodology Arg1:T46 Arg2:T49	
+R30	Subcellular_methodology Arg1:T47 Arg2:T48	
+T50	Tagged_Protein 3000 3008	GFP-PICC
+T51	Tagged_Protein 2987 2995	GFP-PICL
+T52	Subcellular_Location 3039 3041	ER
+R31	Located_In Arg1:T47 Arg2:T52	
+R32	Located_In Arg1:T46 Arg2:T52	
+T53	Protein 3552 3556	PICC
+T54	Protein 3543 3547	PICL
+T55	Subcellular_Location 3561 3563	ER
+R33	Located_In Arg1:T53 Arg2:T55	
+R34	Located_In Arg1:T54 Arg2:T55	
+T56	Protein 4845 4849	PICC
+T57	Protein 4854 4858	PICL
+T58	Subcellular_Location 4863 4865	ER
+R35	Located_In Arg1:T56 Arg2:T58	
+R36	Located_In Arg1:T57 Arg2:T58	
+T59	Methodology 6056 6059	GFP
+T60	Protein 6060 6064	PICC
+R37	Subcellular_methodology Arg1:T60 Arg2:T59	
+T61	Tagged_Protein 6056 6064	GFP-PICC
+T62	Protein 6073 6077	PICL
+T63	Methodology 6069 6072	GFP
+R38	Subcellular_methodology Arg1:T62 Arg2:T63	
+T64	Tagged_Protein 6069 6077	GFP-PICL
+T65	Subcellular_Location 6099 6101	ER
+R39	Located_In Arg1:T62 Arg2:T65	
+R40	Located_In Arg1:T60 Arg2:T65	
+T66	Protein 7105 7109	PICC
+T67	Methodology 7101 7104	GFP
+T68	Tagged_Protein 7101 7109	GFP-PICC
+R41	Subcellular_methodology Arg1:T66 Arg2:T67	
+T69	Protein 7115 7119	PICL
+T70	Methodology 7111 7114	GFP
+R42	Subcellular_methodology Arg1:T69 Arg2:T70	
+T71	Tagged_Protein 7111 7119	GFP-PICL
+T72	Subcellular_Location 4113 4115	ER
+T73	Protein 4170 4178	Calnexin
+T74	Methodology 4166 4169	GFP
+R43	Subcellular_methodology Arg1:T73 Arg2:T74	
+T75	Protein 4184 4187	CXN
+T76	Methodology 4180 4183	GFP
+R44	Subcellular_methodology Arg1:T75 Arg2:T76	
+T77	Tagged_Protein 4180 4187	GFP-CXN
+T78	Tagged_Protein 4166 4178	GFP-Calnexin
+R45	Located_In Arg1:T73 Arg2:T72	
+R46	Located_In Arg1:T75 Arg2:T72	
+T79	Protein 4249 4252	CXN
+T80	Methodology 4253 4258	PAGFP
+R47	Subcellular_methodology Arg1:T79 Arg2:T80	
+T81	Tagged_Protein 4249 4258	CXN-PAGFP
+R48	Located_In Arg1:T79 Arg2:T72	
+T82	Protein_variant 4694 4702	TDF PICC
+T83	Protein_variant 4707 4715	TDF PICL
+T84	Subcellular_Location 4688 4690	ER
+T85	Methodology 4668 4671	GFP
+R49	Located_In Arg1:T82 Arg2:T84	
+R50	Located_In Arg1:T83 Arg2:T84	
+R51	Subcellular_methodology Arg1:T83 Arg2:T85	
+R52	Subcellular_methodology Arg1:T82 Arg2:T85	
+T86	Protein_variant 7153 7161	TDF PICC
+T87	Methodology 7149 7152	GFP
+R53	Subcellular_methodology Arg1:T86 Arg2:T87	
+T88	Protein_variant 7168 7176	TDF PICL
+T89	Methodology 7164 7167	GFP
+R54	Subcellular_methodology Arg1:T88 Arg2:T89	
+T90	Tagged_Protein 7149 7161	GFP-TDF PICC
+T91	Tagged_Protein 7164 7176	GFP-TDF PICL
+T92	Protein 6621 6624	CXN
+T93	Methodology 6617 6620	GFP
+R55	Subcellular_methodology Arg1:T92 Arg2:T93	
+T94	Tagged_Protein 6617 6624	GFP-CXN
+T95	Protein 6629 6632	CXN
+T96	Methodology 6633 6638	PAGFP
+R56	Subcellular_methodology Arg1:T95 Arg2:T96	
+T97	Tagged_Protein 6629 6638	CXN-PAGFP

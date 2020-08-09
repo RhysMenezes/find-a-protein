@@ -1,0 +1,4 @@
+T1	Protein 186 190	PMR4
+T2	Methodology 191 194	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 186 194	PMR4-GFP

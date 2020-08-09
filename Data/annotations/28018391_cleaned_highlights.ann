@@ -1,0 +1,28 @@
+T1	Protein 489 493	CCD4
+T2	Methodology 503 529	yellow fluorescent protein
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Protein 175 179	CCD4
+T4	Subcellular_Location 288 302	plastoglobules
+T5	Subcellular_Location 304 306	PG
+R2	Located_In Arg1:T3 Arg2:T4	
+R3	Located_In Arg1:T3 Arg2:T5	
+T6	Subcellular_Location 560 562	PG
+R4	Located_In Arg1:T1 Arg2:T6	
+T7	Protein 1494 1499	FBN1a
+T8	Protein 1515 1520	PGL35
+T9	Subcellular_Location 1549 1551	PG
+R5	Located_In Arg1:T8 Arg2:T9	
+R6	Located_In Arg1:T7 Arg2:T9	
+T10	Subcellular_Location 971 973	PG
+T11	Protein 1019 1023	CCD4
+T12	Methodology 1024 1027	YFP
+R7	Subcellular_methodology Arg1:T11 Arg2:T12	
+T13	Tagged_Protein 1019 1027	CCD4-YFP
+R8	Located_In Arg1:T11 Arg2:T10	
+T14	Protein 1741 1745	CCD4
+T15	Gene_Locus 1748 1757	At4g19170
+R9	Locus_link Arg1:T14 Arg2:T15	
+T16	Protein 3262 3266	CCD4
+T17	Methodology 3267 3270	YFP
+R10	Subcellular_methodology Arg1:T16 Arg2:T17	
+T18	Tagged_Protein 3262 3270	CCD4-YFP

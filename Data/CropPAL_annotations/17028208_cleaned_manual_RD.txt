@@ -1,0 +1,10 @@
+ABSTRACT:
+Both immunocytochemical analyses and confocal fluorescence microscopy of rice cells expressing NPP1 fused with green fluorescent protein (GFP) revealed that NPP1-GFP occurs in the plastidial compartment
+Endo-H digestibility studies revealed that both NPP1 and NPP1-GFP in the chloroplast are glycosylated
+RESULTS:
+To investigate the possible localization of NPP1 in the chloroplast, we produced plants transformed with the NPP1-GFP construct and compared the fluorescence distribution pattern of their cells with that of chlorophyll autofluorescence
+Importantly, the NPP1-GFP fluorescence distribution pattern in NPP1-GFP cells was identical to that of chlorophyll autofluoresence, with the overall results strongly indicating that NPP1-GFP occurs in the chloroplast.
+MATERIALS AND METHODS:
+The NPP1 cDNA sequence was ligated to the 5′ end of the GFP gene of the modified pTN1-GFP (5′-35SΩ -sGFP-nos-3′) plant expression vector (CITATION; CITATION) to create pTN1-OsNPP1-GFP
+NPP1 was PCR-amplified using the BamHI-N-ter (5′-TTGGATCCATGGTTAGTAGGAAGAGAGGA-3′) and BamHI-C-ter (5′-GAAGGATCCGGAGGCGAGCGTGGTGGGGA-3′) flanking primers. The PCR product was then digested by BamHI and inserted into the BamHI site of pTN1-GFP 
+For stable expression of GFP and NPP1-GFP fusion proteins in rice green cells, gold particles (1-μm diameter) were coated with 2 μg of plasmid DNA.

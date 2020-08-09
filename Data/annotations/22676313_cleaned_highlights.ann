@@ -1,0 +1,91 @@
+T1	Methodology 99 102	GFP
+T2	Protein 103 111	AtRanBPM
+T3	Tagged_Protein 99 111	GFP-AtRanBPM
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+T4	Protein 172 180	AtRanBPM
+T5	Subcellular_Location 252 263	cytoplasmic
+T6	Subcellular_Location 268 275	nuclear
+R2	Located_In Arg1:T2 Arg2:T5	
+R3	Located_In Arg1:T4 Arg2:T5	
+R4	Located_In Arg1:T2 Arg2:T6	
+R5	Located_In Arg1:T4 Arg2:T6	
+T7	Methodology 809 812	GFP
+T8	Protein 813 821	AtRanBPM
+T9	Tagged_Protein 809 821	GFP-AtRanBPM
+R6	Subcellular_methodology Arg1:T8 Arg2:T7	
+T10	Subcellular_Location 850 859	cytoplasm
+T11	Subcellular_Location 942 948	nuclei
+R7	Located_In Arg1:T8 Arg2:T10	
+R8	Located_In Arg1:T8 Arg2:T11	
+T12	Protein 1116 1124	AtRanBPM
+T13	Methodology 1112 1115	GFP
+T14	Tagged_Protein 1112 1124	GFP-AtRanBPM
+R9	Subcellular_methodology Arg1:T12 Arg2:T13	
+T15	Subcellular_Location 1153 1162	cytoplasm
+T16	Subcellular_Location 1167 1173	nuclei
+R10	Located_In Arg1:T12 Arg2:T15	
+R11	Located_In Arg1:T12 Arg2:T16	
+T17	Methodology 1287 1290	GFP
+T18	Protein 1291 1299	AtRanBPM
+T19	Tagged_Protein 1287 1299	GFP-AtRanBPM
+R12	Subcellular_methodology Arg1:T18 Arg2:T17	
+T20	Subcellular_Location 1304 1315	cytoplasmic
+T21	Subcellular_Location 1327 1338	perinuclear
+R13	Located_In Arg1:T18 Arg2:T20	
+R14	Located_In Arg1:T18 Arg2:T21	
+T22	Methodology 1628 1631	GFP
+T23	Protein 1632 1640	AtRanBPM
+T24	Tagged_Protein 1628 1640	GFP-AtRanBPM
+R15	Subcellular_methodology Arg1:T23 Arg2:T22	
+T25	Subcellular_Location 1710 1719	cytoplasm
+T26	Subcellular_Location 1731 1742	perinuclear
+R16	Located_In Arg1:T23 Arg2:T25	
+R17	Located_In Arg1:T23 Arg2:T26	
+T27	Methodology 1862 1865	GFP
+T28	Protein 1866 1874	AtRanBPM
+T29	Tagged_Protein 1862 1874	GFP-AtRanBPM
+R18	Subcellular_methodology Arg1:T28 Arg2:T27	
+T30	Subcellular_Location 1894 1905	perinuclear
+R19	Located_In Arg1:T28 Arg2:T30	
+T31	Subcellular_Location 1917 1928	Cytoplasmic
+T32	Subcellular_Location 1933 1944	perinuclear
+T33	Methodology 1961 1964	GFP
+T34	Protein 1965 1973	AtRanBPM
+R20	Subcellular_methodology Arg1:T34 Arg2:T33	
+T35	Tagged_Protein 1961 1973	GFP-AtRanBPM
+R21	Located_In Arg1:T34 Arg2:T32	
+R22	Located_In Arg1:T34 Arg2:T31	
+T36	Protein 2065 2073	AtRanBPM
+T37	Subcellular_Location 2114 2123	cytoplasm
+T38	Subcellular_Location 2128 2134	nuclei
+R23	Located_In Arg1:T36 Arg2:T37	
+R24	Located_In Arg1:T36 Arg2:T38	
+T39	Subcellular_Location 2298 2310	phragmoplast
+R25	Located_In Arg1:T36 Arg2:T39	
+T40	Protein 2537 2545	AtRanBPM
+T41	Subcellular_Location 2553 2564	cytoplasmic
+T42	Subcellular_Location 2597 2608	perinuclear
+T43	Subcellular_Location 2627 2634	nuclear
+R26	Located_In Arg1:T40 Arg2:T41	
+R27	Located_In Arg1:T40 Arg2:T42	
+R28	Located_In Arg1:T40 Arg2:T43	
+T44	Protein 2733 2741	AtRanBPM
+T45	Subcellular_Location 2802 2808	nuclei
+T46	Subcellular_Location 2869 2881	phragmoplast
+R29	Located_In Arg1:T44 Arg2:T45	
+R30	Located_In Arg1:T44 Arg2:T46	
+T47	Methodology 2986 2989	GFP
+T48	Protein 2990 2998	AtRanBPM
+T49	Tagged_Protein 2986 2998	GFP-AtRanBPM
+R31	Subcellular_methodology Arg1:T48 Arg2:T47	
+T50	Methodology 3991 3994	GFP
+T51	Protein 3995 4003	AtRanBPM
+T52	Tagged_Protein 3991 4003	GFP-AtRanBPM
+R32	Subcellular_methodology Arg1:T51 Arg2:T50	
+T53	Protein 4030 4038	AtRanBPM
+T54	Methodology 4039 4042	GFP
+T55	Tagged_Protein 4030 4042	AtRanBPM-GFP
+R33	Subcellular_methodology Arg1:T53 Arg2:T54	
+T56	Methodology 5546 5551	MS/MS
+T57	Methodology 5669 5674	MS/MS
+T58	Methodology 6758 6766	MALDI-MS

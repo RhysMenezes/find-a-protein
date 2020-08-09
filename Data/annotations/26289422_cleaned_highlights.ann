@@ -1,0 +1,3 @@
+T1	Protein 467 473	AtWSCP
+T2	Methodology 455 460	Venus
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	

@@ -1,0 +1,48 @@
+T1	Protein 805 809	MYA2
+T2	Subcellular_Location 1008 1019	peroxisomes
+R1	Located_In Arg1:T1 Arg2:T2	
+T3	Protein_variant 2025 2037	MYA2-head6IQ
+T4	Methodology 2021 2024	GFP
+T5	Tagged_Protein 2021 2037	GFP-MYA2-head6IQ
+R2	Subcellular_methodology Arg1:T3 Arg2:T4	
+T6	Subcellular_Location 1997 2004	nuclear
+R3	Located_In Arg1:T3 Arg2:T6	
+T7	Protein_variant 2404 2416	MYA2-head6IQ
+T8	Methodology 2400 2403	GFP
+T9	Tagged_Protein 2400 2416	GFP-MYA2-head6IQ
+R4	Subcellular_methodology Arg1:T7 Arg2:T8	
+T10	Protein 2425 2430	FABD2
+T11	Methodology 2421 2424	RFP
+T12	Tagged_Protein 2421 2430	RFP-FABD2
+R5	Located_In Arg1:T10 Arg2:T11	
+T13	Subcellular_Location 2478 2488	peroxisome
+R6	Located_In Arg1:T10 Arg2:T13	
+T14	Methodology 2890 2893	RFP
+T15	Protein 2894 2899	FABD2
+T16	Tagged_Protein 2890 2899	RFP-FABD2
+R8	Subcellular_methodology Arg1:T15 Arg2:T14	
+T17	Subcellular_Location 2950 2956	nuclei
+R9	Located_In Arg1:T15 Arg2:T17	
+T18	Protein_variant 2966 2978	MYA2-head6IQ
+T19	Methodology 2962 2965	GFP
+T20	Tagged_Protein 2962 2978	GFP-MYA2-head6IQ
+R10	Subcellular_methodology Arg1:T18 Arg2:T19	
+T21	Subcellular_Location 3022 3028	nuclei
+R7	Located_In Arg1:T7 Arg2:T13	
+T22	Methodology 4817 4820	GFP
+T23	Protein 4852 4858	AtMYA2
+T24	Protein_variant 4887 4899	MYA2-head6IQ
+R11	Subcellular_methodology Arg1:T23 Arg2:T22	
+R12	Subcellular_methodology Arg1:T24 Arg2:T22	
+T25	Protein_variant 5520 5532	MYA2-head6IQ
+T26	Methodology 5516 5519	GFP
+T27	Tagged_Protein 5516 5532	GFP-MYA2-head6IQ
+R13	Subcellular_methodology Arg1:T25 Arg2:T26	
+T28	Methodology 4731 4734	GFP
+T29	Protein 4735 4740	FABD2
+R14	Subcellular_methodology Arg1:T29 Arg2:T28	
+T30	Tagged_Protein 4731 4740	GFP-FABD2
+T31	Protein_variant 7529 7541	MYA2-head6IQ
+T32	Methodology 7525 7528	GFP
+T33	Tagged_Protein 7525 7541	GFP-MYA2-head6IQ
+R15	Subcellular_methodology Arg1:T31 Arg2:T32	

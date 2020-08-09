@@ -1,0 +1,8 @@
+T1	Methodology 743 746	YFP
+T2	Protein 762 766	DOG1
+T3	Subcellular_Location 664 671	nucleus
+R1	Subcellular_methodology Arg1:T2 Arg2:T1	
+R2	Located_In Arg1:T2 Arg2:T3	
+T4	Methodology 2514 2517	YFP
+T5	Protein 2421 2425	DOG1
+R3	Subcellular_methodology Arg1:T5 Arg2:T4	

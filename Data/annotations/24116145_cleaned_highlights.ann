@@ -1,0 +1,32 @@
+T1	Protein 677 679	PH
+T2	Methodology 673 676	YFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 673 679	YFP-PH
+T4	Subcellular_Location 750 765	plasma membrane
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 3123 3127	ROP2
+T6	Methodology 3115 3122	mCherry
+R3	Subcellular_methodology Arg1:T5 Arg2:T6	
+T7	Tagged_Protein 3115 3127	mCherry-ROP2
+T8	Subcellular_Location 3088 3097	cytoplasm
+R4	Located_In Arg1:T5 Arg2:T8	
+T9	Protein 3897 3901	ROP2
+T10	Methodology 3889 3896	mCherry
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T11	Tagged_Protein 3889 3901	mCherry-ROP2
+T12	Subcellular_Location 3918 3925	cytosol
+T13	Subcellular_Location 3930 3945	plasma membrane
+R6	Located_In Arg1:T9 Arg2:T13	
+R7	Located_In Arg1:T9 Arg2:T12	
+T14	Protein 6534 6538	ROP2
+T15	Methodology 6526 6533	mCherry
+T16	Methodology 6522 6525	YFP
+T17	Tagged_Protein 6526 6538	mCherry-ROP2
+R8	Subcellular_methodology Arg1:T14 Arg2:T15	
+R9	Subcellular_methodology Arg1:T14 Arg2:T16	
+T18	Protein 6645 6649	RHD4
+T19	Methodology 6641 6644	CFP
+T20	Tagged_Protein 6641 6649	CFP-RHD4
+T21	Methodology 6637 6640	YFP
+R10	Subcellular_methodology Arg1:T18 Arg2:T21	
+R11	Subcellular_methodology Arg1:T18 Arg2:T19	

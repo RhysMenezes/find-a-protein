@@ -1,0 +1,4 @@
+ABSTRACT:
+OsYSL2:green fluorescent protein (GFP) was localized in the plasma membrane of onion epidermal cells.
+RESULTS:
+MATERIALS AND METHODS:

@@ -1,0 +1,181 @@
+T1	Protein 143 149	AtTPX2
+T2	Methodology 150 153	GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T3	Tagged_Protein 143 153	AtTPX2-GFP
+T4	Protein 155 161	AtTPX2
+T5	Methodology 162 165	GFP
+R2	Subcellular_methodology Arg1:T4 Arg2:T5	
+T6	Tagged_Protein 155 165	AtTPX2-GFP
+T7	Subcellular_Location 312 318	nuclei
+R3	Located_In Arg1:T4 Arg2:T7	
+T8	Protein 676 682	AtTPX2
+T9	Methodology 704 707	GFP
+R4	Subcellular_methodology Arg1:T8 Arg2:T9	
+T10	Protein 895 901	AtTPX2
+T11	Methodology 902 905	GFP
+R5	Subcellular_methodology Arg1:T10 Arg2:T11	
+T12	Tagged_Protein 895 905	AtTPX2-GFP
+T13	Protein 956 962	AtTPX2
+T14	Methodology 963 966	GFP
+R6	Subcellular_methodology Arg1:T13 Arg2:T14	
+T15	Tagged_Protein 956 966	AtTPX2-GFP
+T16	Subcellular_Location 983 989	nuclei
+T17	Subcellular_Location 995 1006	perinuclear
+T18	Subcellular_Location 1057 1084	mitotic microtubular arrays
+R7	Located_In Arg1:T13 Arg2:T16	
+R8	Located_In Arg1:T13 Arg2:T17	
+R9	Located_In Arg1:T13 Arg2:T18	
+T19	Protein 1226 1232	AtTPX2
+T20	Methodology 1233 1236	GFP
+R10	Subcellular_methodology Arg1:T19 Arg2:T20	
+T21	Tagged_Protein 1226 1236	AtTPX2-GFP
+T22	Subcellular_Location 1261 1285	perinuclear microtubules
+T23	Subcellular_Location 1319 1338	microtubular fibres
+T24	Subcellular_Location 1381 1393	phragmoplast
+R11	Located_In Arg1:T19 Arg2:T22	
+R12	Located_In Arg1:T19 Arg2:T23	
+R13	Located_In Arg1:T19 Arg2:T24	
+T25	Protein 1829 1835	AtTPX2
+T26	Subcellular_Location 1897 1903	nuclei
+T27	Subcellular_Location 1969 1980	perinuclear
+R14	Located_In Arg1:T25 Arg2:T26	
+R15	Located_In Arg1:T25 Arg2:T27	
+T28	Protein 1646 1652	AtTPX2
+T29	Methodology 1653 1656	GFP
+R16	Subcellular_methodology Arg1:T28 Arg2:T29	
+T30	Tagged_Protein 1646 1656	AtTPX2-GFP
+T31	Protein 2338 2344	AtTPX2
+T32	Methodology 2345 2348	GFP
+R17	Subcellular_methodology Arg1:T31 Arg2:T32	
+T33	Tagged_Protein 2338 2348	AtTPX2-GFP
+T34	Subcellular_Location 2363 2369	nuclei
+R18	Located_In Arg1:T31 Arg2:T34	
+T35	Protein 2556 2562	AtTPX2
+T36	Methodology 2563 2566	GFP
+R19	Subcellular_methodology Arg1:T35 Arg2:T36	
+T37	Tagged_Protein 2556 2566	AtTPX2-GFP
+T38	Subcellular_Location 2628 2640	microtubules
+R20	Located_In Arg1:T35 Arg2:T38	
+T39	Protein 3087 3093	AtTPX2
+T40	Subcellular_Location 3120 3131	perinuclear
+T41	Subcellular_Location 3136 3156	nuclear microtubules
+R21	Located_In Arg1:T39 Arg2:T40	
+R22	Located_In Arg1:T39 Arg2:T41	
+T42	Protein 3195 3201	AtTPX2
+T43	Methodology 3202 3205	GFP
+R23	Subcellular_methodology Arg1:T42 Arg2:T43	
+T44	Tagged_Protein 3195 3205	AtTPX2-GFP
+T45	Protein 3211 3217	AtTPX2
+T46	Methodology 3218 3221	GFP
+R24	Subcellular_methodology Arg1:T45 Arg2:T46	
+T47	Tagged_Protein 3211 3221	AtTPX2-GFP
+T48	Subcellular_Location 3259 3266	nucleus
+R25	Located_In Arg1:T45 Arg2:T48	
+T49	Protein 4137 4143	AtTPX2
+T50	Methodology 4144 4147	GFP
+R26	Subcellular_methodology Arg1:T49 Arg2:T50	
+T51	Tagged_Protein 4137 4147	AtTPX2-GFP
+T52	Subcellular_Location 4097 4121	kinetochore microtubules
+R27	Located_In Arg1:T49 Arg2:T52	
+T53	Protein 4741 4747	AtTPX2
+T54	Methodology 4748 4751	GFP
+R28	Subcellular_methodology Arg1:T53 Arg2:T54	
+T55	Tagged_Protein 4741 4751	AtTPX2-GFP
+T56	Subcellular_Location 4832 4838	nuclei
+T57	Subcellular_Location 4910 4918	nucleoli
+R29	Located_In Arg1:T53 Arg2:T56	
+R30	Located_In Arg1:T53 Arg2:T57	
+T58	Protein 5360 5366	AtTPX2
+T59	Subcellular_Location 5402 5408	nuclei
+R31	Located_In Arg1:T58 Arg2:T59	
+T60	Protein 5926 5932	AtTPX2
+T61	Subcellular_Location 5808 5815	nuclear
+T62	Subcellular_Location 5861 5879	perinuclear fibres
+T63	Subcellular_Location 5884 5901	intranuclear foci
+R32	Located_In Arg1:T60 Arg2:T63	
+R33	Located_In Arg1:T60 Arg2:T62	
+R34	Located_In Arg1:T60 Arg2:T61	
+T64	Protein 5994 6000	AtTPX2
+T65	Methodology 6001 6004	GFP
+R35	Subcellular_methodology Arg1:T64 Arg2:T65	
+T66	Tagged_Protein 5994 6004	AtTPX2-GFP
+T67	Subcellular_Location 6038 6050	nuclear foci
+T68	Subcellular_Location 6075 6104	fibrillar microtubular arrays
+T69	Subcellular_Location 6120 6126	nuclei
+T70	Subcellular_Location 6135 6146	perinuclear
+T71	Subcellular_Location 6165 6184	microtubular fibres
+T72	Protein 6209 6215	AtTPX2
+T73	Methodology 6216 6219	GFP
+R36	Subcellular_methodology Arg1:T72 Arg2:T73	
+T74	Tagged_Protein 6209 6219	AtTPX2-GFP
+R37	Located_In Arg1:T64 Arg2:T67	
+R38	Located_In Arg1:T64 Arg2:T68	
+R39	Located_In Arg1:T64 Arg2:T69	
+R40	Located_In Arg1:T64 Arg2:T70	
+R41	Located_In Arg1:T72 Arg2:T71	
+T75	Protein 7586 7592	AtTPX2
+T76	Subcellular_Location 7603 7622	microtubular fibres
+R42	Located_In Arg1:T75 Arg2:T76	
+T77	Methodology 9258 9261	GFP
+T78	Protein 9251 9257	AtTPX2
+R43	Subcellular_methodology Arg1:T78 Arg2:T77	
+T79	Subcellular_Location 9262 9269	nuclear
+T80	Tagged_Protein 9251 9261	AtTPX2-GFP
+R44	Located_In Arg1:T78 Arg2:T79	
+T81	Protein 10033 10039	AtTPX2
+T82	Methodology 10040 10043	GFP
+R45	Subcellular_methodology Arg1:T81 Arg2:T82	
+T83	Tagged_Protein 10033 10043	AtTPX2-GFP
+T84	Subcellular_Location 10054 10073	microtubular arrays
+R46	Located_In Arg1:T81 Arg2:T84	
+T85	Protein 10270 10276	AtTPX2
+T86	Protein 10281 10290	AtAurora1
+T87	Subcellular_Location 10294 10321	mitotic microtubular arrays
+R47	Located_In Arg1:T86 Arg2:T87	
+R48	Located_In Arg1:T85 Arg2:T87	
+T88	Protein 11966 11970	TPX2
+T89	Subcellular_Location 11974 11994	mitotic microtubules
+R49	Located_In Arg1:T88 Arg2:T89	
+T90	Protein 12249 12255	AtTPX2
+T91	Methodology 12256 12259	GFP
+T92	Protein 12264 12273	AtAurora1
+T93	Methodology 12274 12277	RFP
+R50	Subcellular_methodology Arg1:T92 Arg2:T93	
+T94	Tagged_Protein 12264 12277	AtAurora1-RFP
+R51	Subcellular_methodology Arg1:T90 Arg2:T91	
+T95	Tagged_Protein 12249 12259	AtTPX2-GFP
+T96	Protein 12365 12374	AtAurora1
+T97	Protein 12380 12386	AtTPX2
+T98	Subcellular_Location 12402 12408	nuclei
+R52	Located_In Arg1:T97 Arg2:T98	
+R53	Located_In Arg1:T96 Arg2:T98	
+T99	Protein 12969 12978	AtAurora1
+T100	Gene_Locus 12981 12990	At4g32830
+T101	Protein 12944 12950	AtTPX2
+T102	Gene_Locus 12953 12962	At1g03780
+R54	Locus_link Arg1:T101 Arg2:T102	
+R55	Locus_link Arg1:T99 Arg2:T100	
+T103	Protein 13741 13747	AtTPX2
+T104	Methodology 13748 13751	GFP
+R56	Subcellular_methodology Arg1:T103 Arg2:T104	
+T105	Tagged_Protein 13741 13751	AtTPX2-GFP
+T106	Protein 13759 13768	AtAurora1
+T107	Methodology 13769 13772	RFP
+R57	Subcellular_methodology Arg1:T106 Arg2:T107	
+T108	Tagged_Protein 13759 13772	AtAurora1-RFP
+T109	Protein 13964 13970	AtTPX2
+T110	Methodology 13971 13974	GFP
+R58	Subcellular_methodology Arg1:T109 Arg2:T110	
+T111	Tagged_Protein 13964 13974	AtTPX2-GFP
+T112	Protein 14455 14461	AtTPX2
+T113	Methodology 14462 14465	GFP
+T114	Protein 14483 14492	AtAurora1
+T115	Methodology 14493 14496	RFP
+T116	Protein 14501 14507	AtTPX2
+T117	Methodology 14508 14511	GFP
+R59	Subcellular_methodology Arg1:T116 Arg2:T117	
+R60	Subcellular_methodology Arg1:T114 Arg2:T115	
+R61	Subcellular_methodology Arg1:T112 Arg2:T113	
+T118	Tagged_Protein 14455 14465	AtTPX2-GFP
+T119	Tagged_Protein 14483 14496	AtAurora1-RFP
+T120	Tagged_Protein 14501 14511	AtTPX2-GFP

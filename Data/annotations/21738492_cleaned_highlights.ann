@@ -1,0 +1,35 @@
+T1	Protein 202 207	MOS14
+T2	Methodology 208 211	GFP
+T3	Tagged_Protein 202 211	MOS14-GFP
+R1	Subcellular_methodology Arg1:T1 Arg2:T2	
+T4	Subcellular_Location 282 289	nucleus
+R2	Located_In Arg1:T1 Arg2:T4	
+T5	Protein 320 325	MOS14
+T6	Subcellular_Location 331 338	nuclear
+R3	Located_In Arg1:T5 Arg2:T6	
+T7	Protein 676 681	MOS14
+T8	Subcellular_Location 699 706	nucleus
+R4	Located_In Arg1:T7 Arg2:T8	
+T9	Protein 1364 1369	SARD1
+T10	Methodology 1370 1373	GFP
+T11	Tagged_Protein 1364 1373	SARD1-GFP
+R5	Subcellular_methodology Arg1:T9 Arg2:T10	
+T12	Subcellular_Location 1522 1529	nucleus
+R6	Located_In Arg1:T9 Arg2:T12	
+T13	Protein 1495 1500	SARD1
+R7	Located_In Arg1:T13 Arg2:T12	
+T14	Protein 2687 2692	MOS14
+T15	Methodology 2693 2696	GFP
+T16	Tagged_Protein 2687 2696	MOS14-GFP
+R8	Subcellular_methodology Arg1:T14 Arg2:T15	
+T17	Protein 3978 3983	MOS14
+T18	Methodology 3984 3987	GFP
+R9	Subcellular_methodology Arg1:T17 Arg2:T18	
+T19	Tagged_Protein 3978 3987	MOS14-GFP
+T20	Protein 4050 4055	MOS14
+T21	Methodology 4056 4059	GFP
+R10	Subcellular_methodology Arg1:T20 Arg2:T21	
+T22	Tagged_Protein 4050 4059	MOS14-GFP
+T23	Gene_Locus 5682 5691	At5g62600
+T24	Protein 5693 5698	MOS14
+R13	Locus_link Arg1:T24 Arg2:T23	
