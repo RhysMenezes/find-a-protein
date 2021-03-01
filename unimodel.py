@@ -44,33 +44,16 @@ class RNN(nn.Module):
 
     def forward(self, sentence, training=False):
 
-        #print ("input: " + str(sentence.shape))
-
         embeds = self.word_embeddings(sentence)
 
-        #print ("embeds: " + str(embeds.shape))
-        #print(embeds.view(len(sentence), 1, -1))
-
         lstm_out, self.hidden = self.lstm(embeds,self.hidden)
-	
-        #lstm_out = lstm_out[:, :, :self.hidden_dim] + lstm_out[:, :, self.hidden_dim:]
-
-        #print(lstm_out.shape)
         
         if self.pretrain is False:
-            lstm_out = lstm_out[-1] # get last step of output
-
+            lstm_out = lstm_out[-1] 
 
         hidden_out = self.h2o(lstm_out)
+        tan_out = self.tanh(hidden_out)
+        out = self.softmax(tan_out)
 
-        #print ("lstm_out: " + str(lstm_out.shape))
-        #hidden_out = self.h2o(lstm_out)
-        #print ("hidden_out: " + str(hidden_out.shape))
-
-        relu_out = self.tanh(hidden_out)
-        # print ("relu_out: " + str(relu_out.shape))
-
-        out = self.softmax(relu_out)
-            # print ("out: " + str(out.shape))
         return out
         

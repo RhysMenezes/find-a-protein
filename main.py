@@ -88,7 +88,6 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 
 	loss_function = nn.CrossEntropyLoss()
 	optimizer = optim.Adam(my_model.parameters(), lr=lr_in, weight_decay=wd_in)
-	# optimizer = optim.Adam(my_model.parameters(), lr=lr_in)
 
 	epochs = 150
 	k_folds = 5
@@ -126,17 +125,15 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 			
 			my_model.train()
 			train_scores = my_model(train_in,training=True)
-			# print ("Class Scores:\n" + str(score.data.cpu().numpy()))
 			
 			train_loss = loss_function(train_scores, train_out)
-			# print ("Train Loss:\n" + str(train_loss.data.cpu().numpy()[0]))
 
 			train_loss.backward(retain_graph=True)
 			optimizer.step()
 			
 			optimizer=lr_decay(optimizer,epoch,lr_in,lr_d)			
 
-			# print ("------------------------------")
+			print("------------------------------")
 
 			my_model.hidden = my_model.init_hidden(len(train))
 				
@@ -170,7 +167,7 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 			train_running_rec.append(0 if tp_count <= 0 else tp_count/(tp_count+fn_count))
 			train_running_acc.append(train_acc)
 
-			# print ("------------------------------")
+			print("------------------------------")
 
 			my_model.hidden = my_model.init_hidden(len(val))
 
@@ -182,7 +179,6 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 
 				val_loss = loss_function(val_scores_loss, val_out)
 			val_running_loss.append(val_loss.data.cpu().numpy())
-			# print ("Val Loss:\n" + str(val_loss.data.cpu().numpy()[0]))
 
 			val_pred = np.argmax(val_scores_acc.data.cpu().numpy(), axis=1)
 			val_target = val_out.data.cpu().numpy()
@@ -207,7 +203,7 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 			val_running_rec.append(0 if tp_count <= 0 else tp_count/(tp_count+fn_count))
 			val_running_acc.append(val_acc)
 
-			# print ("------------------------------")
+			print ("------------------------------")
 			my_model.hidden = my_model.init_hidden(len(test_data))
 
 			with torch.no_grad():
@@ -216,7 +212,6 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 
 				test_loss = loss_function(test_scores_loss, test_out)
 			test_running_loss.append(test_loss.data.cpu().numpy())
-			# print ("Test Loss:\n" + str(test_loss.data.cpu().numpy()[0]))
 
 			test_pred = np.argmax(test_scores_acc.data.cpu().numpy(), axis=1)
 			test_target = test_out.data.cpu().numpy()
@@ -240,7 +235,7 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 			test_running_rec.append(0 if tp_count <= 0 else tp_count/(tp_count+fn_count))
 			test_running_acc.append(test_acc)
 
-			# print ("------------------------------")
+			print ("------------------------------")
 			my_model.hidden = my_model.init_hidden(len(cp))
 
 			with torch.no_grad():
@@ -249,7 +244,6 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 
 				crop_loss = loss_function(crop_scores_loss, crop_out)
 			crop_running_loss.append(crop_loss.data.cpu().numpy())
-			# print ("Test Loss:\n" + str(test_loss.data.cpu().numpy()[0]))
 
 			crop_pred = np.argmax(crop_scores_acc.data.cpu().numpy(), axis=1)
 			crop_target = crop_out.data.cpu().numpy()
@@ -292,8 +286,6 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 				#text_file.write("F1: " + str((test_running_pre[-1]*test_running_rec[-1])/(test_running_pre[-1]+test_running_rec[-1])) + "\n")
 				text_file.close()
 
-			# print ("====================================")
-
 	#my_model = loadModel(my_model)
 	my_model.hidden = my_model.init_hidden(len(test_data))
 	
@@ -314,7 +306,6 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 	df = pd.DataFrame(data=output_samples,columns=["Inputs","Predictions","Targets","PMID"])
 	df.to_csv("visual_confirm.csv",index=False)
 
-	#-----------------------------
 	my_model.hidden = my_model.init_hidden(len(cp))
 	
 	with torch.no_grad():
@@ -334,14 +325,10 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 	df = pd.DataFrame(data=output_samples,columns=["Inputs","Predictions","Targets","PMID"])
 	df.to_csv("visual_confirm_crop.csv",index=False)
 
-
 	fig_name = "crop: lr=" + str(lr_in) + ",h_dim=" + str(h_dim) + ",do=" + str(do) + ",acc={:.4f}".format(test_running_acc[-1]) + ",lr_decay=" + str(lr_d) + ",split=" + str(split) + ",wd=" + str(wd_in) + ",pre={:.4f}".format(test_running_pre[-1]) + ",rc={:.4f}".format(test_running_rec[-1]) + ",ls={:.4f}".format(test_running_loss[-1])
 	output_results = {"train_acc":train_running_acc, "train_loss":train_running_loss, "val_acc":val_running_acc, "val_loss":val_running_loss, "test_acc":test_running_acc, "test_precision":test_running_pre, "test_recall":test_running_rec, "crop_acc":crop_running_acc, "crop_precision":crop_running_pre, "crop_recall":crop_running_rec}
 	results_df = pd.DataFrame(data=output_results,columns=["train_acc","train_loss","val_acc","val_loss","test_acc","test_precision","test_recall","crop_acc","crop_precision","crop_recall"])
 	results_df.to_csv("./results2/"+fig_name+".csv",index=False)
-
-	# dft = pd.DataFrame(data=test_running_loss,columns=["loss"])
-	# df.to_csv("loss.csv",index=False)
 
 	fig_1 = plt.figure(fig_name + "_1")
 	plt.subplot(2,1,1)
@@ -384,21 +371,10 @@ def main(lr_in= 0.01, h_dim=150, do=0.60, wd_in=0.0001, lr_d=500,split=0.8, best
 	plt.legend()
 	plt.grid()
 
-	# fig_3 = plt.figure(fig_name + "_3")
-	# plt.plot(train_running_loss, alpha = 0.5, label="Training Loss")
-	# plt.plot(val_running_loss, alpha = 0.5, label="Validation Loss")
-	# plt.ylim(0,0.25)
-
-	# plt.ylabel("Loss")
-	# plt.xlabel("BATCHES (5 batches per epoch)")
-	# plt.legend()
-	# plt.grid()
-
 	plt.show()
 	
 	fig_1.savefig("./results2/" + fig_name + "_1.png")
 	fig_2.savefig("./results2/" + fig_name + "_2.png")
-	# fig_3.savefig("./results2/" + fig_name + "_3.png")
 
 	plt.clf()
 
